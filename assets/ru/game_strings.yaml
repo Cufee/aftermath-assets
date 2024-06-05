@@ -1,71 +1,216 @@
-battleTypes:
-    EncounterBattle: Встречный
-    ScuffleBattle: Реалистичный бой
-    arcade: Mad Games
-    bossmode: Big Boss
-    gravitizing: Гравитайзинг
-    hellgames: Возрождение
-    madGames: Mad Games
-    nanomaps: Столкновение
-    rating: Рейтинговый бой
-    regular: Обычный бой
-    scuffle: Реалистичный бой
-    vampiric: Выживание
-maps:
-    amigosville: Протока
-    amigosville_02: Протока. Мост
-    amigosville_03: Протока. Завод
-    asia: Затерянный храм
-    canal: Канал
-    canal_01: Канал. Завод
-    canyon: Каньон
-    desert_train: Эль-Аламейн
-    desert_train_02: Эль-Аламейн. Город
-    desert_train_03: Эль-Аламейн. Пустыня
-    erlenberg: Миддлбург
-    erlenberg_01: Миддлбург. Город
-    erlenberg_02: Миддлбург. Гора
-    faust: Фауст
-    forgecity: Нью-Бэй
-    fort: Форт
-    grossberg: Жемчужный город
-    himmelsdorf: Химмельсдорф
-    holland: Молендейк
-    holmeisk: Пустошь
-    iceworld: Эверфрост
-    idle: Юкон
-    italy: Виноградники
-    karelia: Балтийский щит
-    karieri: Карьеры
-    lake: Мираж
-    lumber: Хоррорштадт
-    lumber_01: Альпенштадт. Город
-    malinovka: Зимняя Малиновка
-    medvedkovo: Эшелон
-    medvedkovo_02: Эшелон. Поле
-    medvedkovo_03: Эшелон. Станция
-    milbase: Восточная гавань
-    milbase_02: Восточная гавань. Ямато
-    milbase_03: Восточная гавань. Поле
-    milbase_04: Восточная гавань. Центр
-    milbase_05: Восточная гавань. Док
-    moon: Море Спокойствия
-    mountain: Золотая долина
-    neptune: Нормандия
-    neptune_01: Нормандия. Холмы
-    neptune_02: Нормандия. Побережье
-    north: Север
-    ordeal: Испытание огнём
-    plant: Промзона
-    pliego: Кастилья
-    port: Порт
-    rift: Эллада
-    rock: Древние пирамиды
-    rudniki: Рудники
-    rudniki_01: Рудники. Гора
-    rudniki_02: Рудники. Деревня
-    rudniki_03: Рудники. Центр
-    savanna: Горящие пески
-    skit: Морской рубеж
-    test: World of Ducks
-    tutorial: Танковый полигон
+- key: maps_medvedkovo
+  value: Эшелон
+  notes: Generated from game files
+- key: maps_asia
+  value: Затерянный храм
+  notes: Generated from game files
+- key: maps_neptune_01
+  value: Нормандия. Холмы
+  notes: Generated from game files
+- key: maps_malinovka
+  value: Зимняя Малиновка
+  notes: Generated from game files
+- key: maps_rock
+  value: Древние пирамиды
+  notes: Generated from game files
+- key: maps_milbase_04
+  value: Восточная гавань. Центр
+  notes: Generated from game files
+- key: battle_types_nanomaps
+  value: Столкновение
+  notes: Generated from game files
+- key: maps_rudniki
+  value: Рудники
+  notes: Generated from game files
+- key: maps_ordeal
+  value: Испытание огнём
+  notes: Generated from game files
+- key: maps_erlenberg_01
+  value: Миддлбург. Город
+  notes: Generated from game files
+- key: maps_desert_train
+  value: Эль-Аламейн
+  notes: Generated from game files
+- key: maps_karieri
+  value: Карьеры
+  notes: Generated from game files
+- key: maps_fort
+  value: Форт
+  notes: Generated from game files
+- key: battle_types_hellgames
+  value: Возрождение
+  notes: Generated from game files
+- key: maps_forgecity
+  value: Нью-Бэй
+  notes: Generated from game files
+- key: maps_medvedkovo_02
+  value: Эшелон. Поле
+  notes: Generated from game files
+- key: battle_types_arcade
+  value: Mad Games
+  notes: Generated from game files
+- key: maps_moon
+  value: Море Спокойствия
+  notes: Generated from game files
+- key: maps_neptune_02
+  value: Нормандия. Побережье
+  notes: Generated from game files
+- key: maps_port
+  value: Порт
+  notes: Generated from game files
+- key: maps_port
+  value: Порт
+  notes: Generated from game files
+- key: maps_faust
+  value: Фауст
+  notes: Generated from game files
+- key: maps_desert_train_03
+  value: Эль-Аламейн. Пустыня
+  notes: Generated from game files
+- key: maps_neptune
+  value: Нормандия
+  notes: Generated from game files
+- key: maps_milbase_02
+  value: Восточная гавань. Ямато
+  notes: Generated from game files
+- key: maps_erlenberg
+  value: Миддлбург
+  notes: Generated from game files
+- key: maps_test
+  value: World of Ducks
+  notes: Generated from game files
+- key: maps_grossberg
+  value: Жемчужный город
+  notes: Generated from game files
+- key: maps_holmeisk
+  value: Пустошь
+  notes: Generated from game files
+- key: maps_amigosville_03
+  value: Протока. Завод
+  notes: Generated from game files
+- key: maps_skit
+  value: Морской рубеж
+  notes: Generated from game files
+- key: maps_himmelsdorf
+  value: Химмельсдорф
+  notes: Generated from game files
+- key: maps_italy
+  value: Виноградники
+  notes: Generated from game files
+- key: maps_karelia
+  value: Балтийский щит
+  notes: Generated from game files
+- key: maps_milbase_03
+  value: Восточная гавань. Поле
+  notes: Generated from game files
+- key: maps_plant
+  value: Промзона
+  notes: Generated from game files
+- key: battle_types_scuffle
+  value: Реалистичный бой
+  notes: Generated from game files
+- key: maps_canal
+  value: Канал
+  notes: Generated from game files
+- key: maps_milbase
+  value: Восточная гавань
+  notes: Generated from game files
+- key: maps_desert_train_02
+  value: Эль-Аламейн. Город
+  notes: Generated from game files
+- key: battle_types_rating
+  value: Рейтинговый бой
+  notes: Generated from game files
+- key: maps_rudniki_02
+  value: Рудники. Деревня
+  notes: Generated from game files
+- key: maps_lumber
+  value: Хоррорштадт
+  notes: Generated from game files
+- key: maps_rift
+  value: Эллада
+  notes: Generated from game files
+- key: maps_rudniki_01
+  value: Рудники. Гора
+  notes: Generated from game files
+- key: maps_canyon
+  value: Каньон
+  notes: Generated from game files
+- key: maps_savanna
+  value: Горящие пески
+  notes: Generated from game files
+- key: maps_idle
+  value: Юкон
+  notes: Generated from game files
+- key: battle_types_EncounterBattle
+  value: Встречный
+  notes: Generated from game files
+- key: maps_lake
+  value: Мираж
+  notes: Generated from game files
+- key: maps_holland
+  value: Молендейк
+  notes: Generated from game files
+- key: maps_pliego
+  value: Кастилья
+  notes: Generated from game files
+- key: maps_lumber
+  value: Альпенштадт
+  notes: Generated from game files
+- key: battle_types_madGames
+  value: Mad Games
+  notes: Generated from game files
+- key: maps_erlenberg_02
+  value: Миддлбург. Гора
+  notes: Generated from game files
+- key: maps_rudniki_03
+  value: Рудники. Центр
+  notes: Generated from game files
+- key: battle_types_gravitizing
+  value: Гравитайзинг
+  notes: Generated from game files
+- key: maps_amigosville_02
+  value: Протока. Мост
+  notes: Generated from game files
+- key: maps_iceworld
+  value: Эверфрост
+  notes: Generated from game files
+- key: maps_mountain
+  value: Золотая долина
+  notes: Generated from game files
+- key: maps_milbase_05
+  value: Восточная гавань. Док
+  notes: Generated from game files
+- key: maps_north
+  value: Север
+  notes: Generated from game files
+- key: maps_himmelsdorf
+  value: Химмельсдорф
+  notes: Generated from game files
+- key: battle_types_bossmode
+  value: Big Boss
+  notes: Generated from game files
+- key: maps_amigosville
+  value: Протока
+  notes: Generated from game files
+- key: maps_lumber_01
+  value: Альпенштадт. Город
+  notes: Generated from game files
+- key: maps_canal_01
+  value: Канал. Завод
+  notes: Generated from game files
+- key: battle_types_ScuffleBattle
+  value: Реалистичный бой
+  notes: Generated from game files
+- key: maps_medvedkovo_03
+  value: Эшелон. Станция
+  notes: Generated from game files
+- key: battle_types_vampiric
+  value: Выживание
+  notes: Generated from game files
+- key: battle_types_regular
+  value: Обычный бой
+  notes: Generated from game files
+- key: maps_tutorial
+  value: Танковый полигон
+  notes: Generated from game files

@@ -1,71 +1,216 @@
-battleTypes:
-    EncounterBattle: 遭遇戰
-    ScuffleBattle: 擬真戰鬥
-    arcade: Mad Games
-    bossmode: 一代梟雄
-    gravitizing: 重力再生
-    hellgames: 重生
-    madGames: Mad Games
-    nanomaps: 衝突戰
-    rating: 評價戰鬥
-    regular: 一般戰鬥
-    scuffle: 擬真戰鬥
-    vampiric: Burning Games
-maps:
-    amigosville: 陷落之溪
-    amigosville_02: 陷落之溪 - 橋梁
-    amigosville_03: 陷落之溪 - 工廠
-    asia: 失落的神廟
-    canal: 運河
-    canal_01: 運河 - 工廠
-    canyon: 大峽谷
-    desert_train: 沙漠之洲
-    desert_train_02: 沙漠之洲 - 城鎮
-    desert_train_03: 沙漠之洲 - 沙丘
-    erlenberg: 米德爾堡
-    erlenberg_01: 米德爾堡 - 城鎮
-    erlenberg_02: 米德爾堡 - 丘陵
-    faust: 浮士德
-    forgecity: 新灣
-    fort: 絕望之壘
-    grossberg: 王朝明珠
-    himmelsdorf: 希墨爾斯多夫
-    holland: 米爾丹
-    holmeisk: 西部荒野
-    iceworld: 永凍冰原
-    idle: 育空
-    italy: 葡萄園
-    karelia: 石之原
-    karieri: 銅礦區
-    lake: 海市蜃樓
-    lumber: 阿爾彭史塔特
-    lumber_01: 阿爾彭史塔特 - 城鎮
-    malinovka: 冬季馬利諾夫卡
-    medvedkovo: 死亡鐵道
-    medvedkovo_02: 死亡鐵道 - 山谷
-    medvedkovo_03: 死亡鐵道 - 鐵道
-    milbase: 東方港
-    milbase_02: 東方港 - 戰艦
-    milbase_03: 東方港 - 丘陵
-    milbase_04: 東方港 - 中央
-    milbase_05: 東方港 - 港區
-    moon: 寧靜之海
-    mountain: 黑色淘金鎮
-    neptune: 諾曼第
-    neptune_01: 諾曼第 - 丘陵
-    neptune_02: 諾曼第 - 海岸
-    north: 北都
-    ordeal: 試煉
-    plant: 幽靈工廠
-    pliego: 卡斯提亞
-    port: 港口
-    rift: 古希臘
-    rock: 遠古金字塔
-    rudniki: 礦山
-    rudniki_01: 礦山 - 丘陵
-    rudniki_02: 礦山 - 村莊
-    rudniki_03: 礦山 - 中央
-    savanna: 葉之綠洲
-    skit: 海軍前沿
-    test: World of Ducks
-    tutorial: 試車場
+- key: maps_italy
+  value: 葡萄園
+  notes: Generated from game files
+- key: maps_rock
+  value: 遠古金字塔
+  notes: Generated from game files
+- key: maps_canyon
+  value: 大峽谷
+  notes: Generated from game files
+- key: maps_medvedkovo
+  value: 死亡鐵道
+  notes: Generated from game files
+- key: maps_erlenberg_02
+  value: 米德爾堡 - 丘陵
+  notes: Generated from game files
+- key: maps_idle
+  value: 育空
+  notes: Generated from game files
+- key: battle_types_madGames
+  value: Mad Games
+  notes: Generated from game files
+- key: battle_types_nanomaps
+  value: 衝突戰
+  notes: Generated from game files
+- key: maps_malinovka
+  value: 冬季馬利諾夫卡
+  notes: Generated from game files
+- key: battle_types_rating
+  value: 評價戰鬥
+  notes: Generated from game files
+- key: maps_lumber
+  value: 阿爾彭史塔特
+  notes: Generated from game files
+- key: battle_types_regular
+  value: 一般戰鬥
+  notes: Generated from game files
+- key: maps_himmelsdorf
+  value: 希墨爾斯多夫
+  notes: Generated from game files
+- key: maps_holmeisk
+  value: 西部荒野
+  notes: Generated from game files
+- key: maps_erlenberg_01
+  value: 米德爾堡 - 城鎮
+  notes: Generated from game files
+- key: maps_skit
+  value: 海軍前沿
+  notes: Generated from game files
+- key: maps_rudniki_02
+  value: 礦山 - 村莊
+  notes: Generated from game files
+- key: battle_types_EncounterBattle
+  value: 遭遇戰
+  notes: Generated from game files
+- key: maps_desert_train_02
+  value: 沙漠之洲 - 城鎮
+  notes: Generated from game files
+- key: maps_neptune
+  value: 諾曼第
+  notes: Generated from game files
+- key: maps_lake
+  value: 海市蜃樓
+  notes: Generated from game files
+- key: maps_canal
+  value: 運河
+  notes: Generated from game files
+- key: maps_fort
+  value: 絕望之壘
+  notes: Generated from game files
+- key: maps_grossberg
+  value: 王朝明珠
+  notes: Generated from game files
+- key: maps_karelia
+  value: 石之原
+  notes: Generated from game files
+- key: maps_medvedkovo_02
+  value: 死亡鐵道 - 山谷
+  notes: Generated from game files
+- key: maps_test
+  value: World of Ducks
+  notes: Generated from game files
+- key: maps_savanna
+  value: 葉之綠洲
+  notes: Generated from game files
+- key: maps_rudniki_01
+  value: 礦山 - 丘陵
+  notes: Generated from game files
+- key: maps_asia
+  value: 失落的神廟
+  notes: Generated from game files
+- key: maps_milbase_03
+  value: 東方港 - 丘陵
+  notes: Generated from game files
+- key: maps_tutorial
+  value: 試車場
+  notes: Generated from game files
+- key: maps_medvedkovo_03
+  value: 死亡鐵道 - 鐵道
+  notes: Generated from game files
+- key: battle_types_gravitizing
+  value: 重力再生
+  notes: Generated from game files
+- key: maps_amigosville_03
+  value: 陷落之溪 - 工廠
+  notes: Generated from game files
+- key: maps_forgecity
+  value: 新灣
+  notes: Generated from game files
+- key: battle_types_vampiric
+  value: Burning Games
+  notes: Generated from game files
+- key: maps_rudniki
+  value: 礦山
+  notes: Generated from game files
+- key: maps_lumber
+  value: 恐怖城市
+  notes: Generated from game files
+- key: battle_types_arcade
+  value: Mad Games
+  notes: Generated from game files
+- key: maps_faust
+  value: 浮士德
+  notes: Generated from game files
+- key: maps_erlenberg
+  value: 米德爾堡
+  notes: Generated from game files
+- key: maps_north
+  value: 北都
+  notes: Generated from game files
+- key: maps_amigosville
+  value: 陷落之溪
+  notes: Generated from game files
+- key: maps_port
+  value: 港口
+  notes: Generated from game files
+- key: maps_canal_01
+  value: 運河 - 工廠
+  notes: Generated from game files
+- key: maps_ordeal
+  value: 試煉
+  notes: Generated from game files
+- key: maps_mountain
+  value: 黑色淘金鎮
+  notes: Generated from game files
+- key: battle_types_scuffle
+  value: 擬真戰鬥
+  notes: Generated from game files
+- key: maps_milbase
+  value: 東方港
+  notes: Generated from game files
+- key: battle_types_hellgames
+  value: 重生
+  notes: Generated from game files
+- key: maps_neptune_02
+  value: 諾曼第 - 海岸
+  notes: Generated from game files
+- key: maps_holland
+  value: 米爾丹
+  notes: Generated from game files
+- key: maps_port
+  value: 港灣
+  notes: Generated from game files
+- key: maps_milbase_04
+  value: 東方港 - 中央
+  notes: Generated from game files
+- key: battle_types_bossmode
+  value: 一代梟雄
+  notes: Generated from game files
+- key: maps_himmelsdorf
+  value: 希墨爾斯多夫
+  notes: Generated from game files
+- key: maps_moon
+  value: 寧靜之海
+  notes: Generated from game files
+- key: maps_lumber_01
+  value: 阿爾彭史塔特 - 城鎮
+  notes: Generated from game files
+- key: maps_desert_train_03
+  value: 沙漠之洲 - 沙丘
+  notes: Generated from game files
+- key: maps_karieri
+  value: 銅礦區
+  notes: Generated from game files
+- key: maps_amigosville_02
+  value: 陷落之溪 - 橋梁
+  notes: Generated from game files
+- key: maps_rudniki_03
+  value: 礦山 - 中央
+  notes: Generated from game files
+- key: maps_iceworld
+  value: 永凍冰原
+  notes: Generated from game files
+- key: battle_types_ScuffleBattle
+  value: 擬真戰鬥
+  notes: Generated from game files
+- key: maps_pliego
+  value: 卡斯提亞
+  notes: Generated from game files
+- key: maps_milbase_02
+  value: 東方港 - 戰艦
+  notes: Generated from game files
+- key: maps_desert_train
+  value: 沙漠之洲
+  notes: Generated from game files
+- key: maps_rift
+  value: 古希臘
+  notes: Generated from game files
+- key: maps_milbase_05
+  value: 東方港 - 港區
+  notes: Generated from game files
+- key: maps_neptune_01
+  value: 諾曼第 - 丘陵
+  notes: Generated from game files
+- key: maps_plant
+  value: 幽靈工廠
+  notes: Generated from game files

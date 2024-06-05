@@ -1,71 +1,216 @@
-battleTypes:
-    EncounterBattle: Střetnutí
-    ScuffleBattle: Realistická bitva
-    arcade: Mad Games
-    bossmode: Velký šéf
-    gravitizing: Gravitační vzkříšení
-    hellgames: Vzkříšení
-    madGames: Mad Games
-    nanomaps: Šarvátka
-    rating: Hodnocená bitva
-    regular: Běžná bitva
-    scuffle: Realistická bitva
-    vampiric: Burning Games
-maps:
-    amigosville: Horský potok
-    amigosville_02: Horský potok – most
-    amigosville_03: Horský potok – továrna
-    asia: Ztracený chrám
-    canal: Průplav
-    canal_01: Průplav – továrna
-    canyon: Kaňon
-    desert_train: Pouštní písky
-    desert_train_02: Pouštní písky – město
-    desert_train_03: Pouštní písky – duny
-    erlenberg: Middleburg
-    erlenberg_01: Middleburg – město
-    erlenberg_02: Middleburg – kopec
-    faust: Faust
-    forgecity: New Bay
-    fort: Pevnost beznaděje
-    grossberg: Perla dynastie
-    himmelsdorf: Himmelsdorf
-    holland: Molendijk
-    holmeisk: Pustina
-    iceworld: Věčný mráz
-    idle: Yukon
-    italy: Vinice
-    karelia: Rockfield
-    karieri: Naleziště mědi
-    lake: Fata morgána
-    lumber: Alpenstadt
-    lumber_01: Alpenstadt – město
-    malinovka: Zimní Malinovka
-    medvedkovo: Slepá kolej
-    medvedkovo_02: Slepá kolej – údolí
-    medvedkovo_03: Slepá kolej – železnice
-    milbase: Přístav lodi Yamato
-    milbase_02: Přístav lodi Yamato – bitevní loď
-    milbase_03: Přístav lodi Yamato – hory
-    milbase_04: Přístav lodi Yamato – střed
-    milbase_05: Přístav lodi Yamato – dok
-    moon: Moře klidu
-    mountain: Ropné pole
-    neptune: Normandie
-    neptune_01: Normandie – kopce
-    neptune_02: Normandie – pobřeží
-    north: Sever
-    ordeal: Zkouška ohněm
-    plant: Továrna duchů
-    pliego: Kastilie
-    port: Přístav
-    rift: Helada
-    rock: Starobylé pyramidy
-    rudniki: Doly
-    rudniki_01: Doly – kopec
-    rudniki_02: Doly – vesnice
-    rudniki_03: Doly – centrum
-    savanna: Oáza
-    skit: Námořní hranice
-    test: World of Ducks
-    tutorial: Vojenský újezd
+- key: maps_holmeisk
+  value: Pustina
+  notes: Generated from game files
+- key: maps_amigosville
+  value: Horský potok
+  notes: Generated from game files
+- key: maps_desert_train_03
+  value: Pouštní písky – duny
+  notes: Generated from game files
+- key: battle_types_hellgames
+  value: Vzkříšení
+  notes: Generated from game files
+- key: maps_neptune_01
+  value: Normandie – kopce
+  notes: Generated from game files
+- key: maps_amigosville_03
+  value: Horský potok – továrna
+  notes: Generated from game files
+- key: maps_grossberg
+  value: Perla dynastie
+  notes: Generated from game files
+- key: maps_mountain
+  value: Ropné pole
+  notes: Generated from game files
+- key: maps_lumber_01
+  value: Alpenstadt – město
+  notes: Generated from game files
+- key: maps_medvedkovo
+  value: Slepá kolej
+  notes: Generated from game files
+- key: maps_himmelsdorf
+  value: Himmelsdorf
+  notes: Generated from game files
+- key: maps_italy
+  value: Vinice
+  notes: Generated from game files
+- key: maps_lumber
+  value: Alpenstadt
+  notes: Generated from game files
+- key: maps_himmelsdorf
+  value: Himmelsdorf
+  notes: Generated from game files
+- key: maps_amigosville_02
+  value: Horský potok – most
+  notes: Generated from game files
+- key: maps_canyon
+  value: Kaňon
+  notes: Generated from game files
+- key: battle_types_ScuffleBattle
+  value: Realistická bitva
+  notes: Generated from game files
+- key: battle_types_regular
+  value: Běžná bitva
+  notes: Generated from game files
+- key: maps_medvedkovo_02
+  value: Slepá kolej – údolí
+  notes: Generated from game files
+- key: maps_test
+  value: World of Ducks
+  notes: Generated from game files
+- key: maps_skit
+  value: Námořní hranice
+  notes: Generated from game files
+- key: maps_erlenberg
+  value: Middleburg
+  notes: Generated from game files
+- key: maps_rudniki_03
+  value: Doly – centrum
+  notes: Generated from game files
+- key: maps_ordeal
+  value: Zkouška ohněm
+  notes: Generated from game files
+- key: maps_lumber
+  value: Horrorstadt
+  notes: Generated from game files
+- key: maps_desert_train
+  value: Pouštní písky
+  notes: Generated from game files
+- key: maps_malinovka
+  value: Zimní Malinovka
+  notes: Generated from game files
+- key: maps_milbase_05
+  value: Přístav lodi Yamato – dok
+  notes: Generated from game files
+- key: maps_neptune
+  value: Normandie
+  notes: Generated from game files
+- key: maps_karelia
+  value: Rockfield
+  notes: Generated from game files
+- key: maps_neptune_02
+  value: Normandie – pobřeží
+  notes: Generated from game files
+- key: maps_port
+  value: Přístav
+  notes: Generated from game files
+- key: maps_karieri
+  value: Naleziště mědi
+  notes: Generated from game files
+- key: battle_types_vampiric
+  value: Burning Games
+  notes: Generated from game files
+- key: maps_rudniki_02
+  value: Doly – vesnice
+  notes: Generated from game files
+- key: maps_savanna
+  value: Oáza
+  notes: Generated from game files
+- key: battle_types_nanomaps
+  value: Šarvátka
+  notes: Generated from game files
+- key: maps_pliego
+  value: Kastilie
+  notes: Generated from game files
+- key: maps_milbase_02
+  value: Přístav lodi Yamato – bitevní loď
+  notes: Generated from game files
+- key: maps_idle
+  value: Yukon
+  notes: Generated from game files
+- key: maps_canal_01
+  value: Průplav – továrna
+  notes: Generated from game files
+- key: maps_desert_train_02
+  value: Pouštní písky – město
+  notes: Generated from game files
+- key: maps_lake
+  value: Fata morgána
+  notes: Generated from game files
+- key: maps_rift
+  value: Helada
+  notes: Generated from game files
+- key: maps_medvedkovo_03
+  value: Slepá kolej – železnice
+  notes: Generated from game files
+- key: maps_erlenberg_01
+  value: Middleburg – město
+  notes: Generated from game files
+- key: maps_rudniki
+  value: Doly
+  notes: Generated from game files
+- key: battle_types_gravitizing
+  value: Gravitační vzkříšení
+  notes: Generated from game files
+- key: maps_canal
+  value: Průplav
+  notes: Generated from game files
+- key: maps_erlenberg_02
+  value: Middleburg – kopec
+  notes: Generated from game files
+- key: maps_plant
+  value: Továrna duchů
+  notes: Generated from game files
+- key: battle_types_madGames
+  value: Mad Games
+  notes: Generated from game files
+- key: maps_milbase_03
+  value: Přístav lodi Yamato – hory
+  notes: Generated from game files
+- key: maps_faust
+  value: Faust
+  notes: Generated from game files
+- key: maps_asia
+  value: Ztracený chrám
+  notes: Generated from game files
+- key: battle_types_arcade
+  value: Mad Games
+  notes: Generated from game files
+- key: maps_port
+  value: Přístavní zátoka
+  notes: Generated from game files
+- key: maps_rock
+  value: Starobylé pyramidy
+  notes: Generated from game files
+- key: maps_milbase_04
+  value: Přístav lodi Yamato – střed
+  notes: Generated from game files
+- key: maps_milbase
+  value: Přístav lodi Yamato
+  notes: Generated from game files
+- key: maps_iceworld
+  value: Věčný mráz
+  notes: Generated from game files
+- key: maps_rudniki_01
+  value: Doly – kopec
+  notes: Generated from game files
+- key: maps_fort
+  value: Pevnost beznaděje
+  notes: Generated from game files
+- key: battle_types_rating
+  value: Hodnocená bitva
+  notes: Generated from game files
+- key: battle_types_EncounterBattle
+  value: Střetnutí
+  notes: Generated from game files
+- key: battle_types_bossmode
+  value: Velký šéf
+  notes: Generated from game files
+- key: maps_tutorial
+  value: Vojenský újezd
+  notes: Generated from game files
+- key: maps_holland
+  value: Molendijk
+  notes: Generated from game files
+- key: maps_north
+  value: Sever
+  notes: Generated from game files
+- key: maps_moon
+  value: Moře klidu
+  notes: Generated from game files
+- key: battle_types_scuffle
+  value: Realistická bitva
+  notes: Generated from game files
+- key: maps_forgecity
+  value: New Bay
+  notes: Generated from game files

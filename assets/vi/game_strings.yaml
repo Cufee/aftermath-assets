@@ -1,71 +1,216 @@
-battleTypes:
-    EncounterBattle: Đôi công
-    ScuffleBattle: Trận đánh Thực tế
-    arcade: Mad Games
-    bossmode: Trùm Cuối
-    gravitizing: Gravitizing
-    hellgames: Tái sinh
-    madGames: Mad Games
-    nanomaps: Đụng độ
-    rating: Tr.đánh Phân hạng
-    regular: Tr.đánh Chính quy
-    scuffle: Trận đánh Thực tế
-    vampiric: Burning Games
-maps:
-    amigosville: '"Lạch Nước"'
-    amigosville_02: '"Lạch Nước" - Cầu'
-    amigosville_03: '"Lạch Nước" - Nhà máy'
-    asia: '"Ngôi Đền Mất Tích"'
-    canal: '"Kênh Đào"'
-    canal_01: '"Kênh Đào" - Nhà máy'
-    canyon: '"Hẻm Núi"'
-    desert_train: '"Sa Mạc Cát"'
-    desert_train_02: '"Sa Mạc Cát" - Thị trấn'
-    desert_train_03: '"Sa Mạc Cát" - Cồn cát'
-    erlenberg: '"Middleburg"'
-    erlenberg_01: '"Middleburg" - Thị trấn'
-    erlenberg_02: '"Middleburg" - Đồi'
-    faust: '"Faust"'
-    forgecity: '"New Bay"'
-    fort: '"Pháo Đài"'
-    grossberg: '"Hòn Ngọc Đế Chế"'
-    himmelsdorf: '"Himmelsdorf"'
-    holland: Molendijk
-    holmeisk: '"Hoang Mạc"'
-    iceworld: '"Mãi Băng"'
-    idle: '"Yukon"'
-    italy: '"Vườn Nho"'
-    karelia: '"Rockfield"'
-    karieri: '"Mỏ Đồng"'
-    lake: '"Ảo Ảnh"'
-    lumber: '"Horrorstadt"'
-    lumber_01: '"Alpenstadt" - Thị trấn'
-    malinovka: '"Malinovka Mùa Đông"'
-    medvedkovo: '"Đường Ray Chết"'
-    medvedkovo_02: '"Đường Ray Chết" - Thung lũng'
-    medvedkovo_03: '"Đường Ray Chết" - Đường sắt'
-    milbase: '"Cảng Yamato"'
-    milbase_02: '"Cảng Yamato" - Chiến hạm'
-    milbase_03: '"Cảng Yamato" - Đồi'
-    milbase_04: '"Cảng Yamato" - Trung tâm'
-    milbase_05: '"Cảng Yamato" - Cảng'
-    moon: '"Nguyệt Hải"'
-    mountain: '"Thung Lũng Vàng Đen"'
-    neptune: '"Normandy"'
-    neptune_01: '"Normandy" - Đồi'
-    neptune_02: '"Normandy" - Bờ biển'
-    north: '"Phương Bắc"'
-    ordeal: '"Thử Lửa"'
-    plant: '"Ghost Factory"'
-    pliego: '"Castilla"'
-    port: '"Cảng"'
-    rift: '"Hy Lạp"'
-    rock: '"Kim Tự Tháp Cổ Đại"'
-    rudniki: '"Khu Mỏ"'
-    rudniki_01: '"Khu Mỏ" - Đồi'
-    rudniki_02: '"Khu Mỏ" - Làng'
-    rudniki_03: '"Khu Mỏ" - Trung tâm'
-    savanna: '"Ốc Đảo"'
-    skit: '"Biên Giới Biển"'
-    test: World of Ducks
-    tutorial: '"Thao Trường"'
+- key: maps_north
+  value: '"Phương Bắc"'
+  notes: Generated from game files
+- key: maps_karieri
+  value: '"Mỏ Đồng"'
+  notes: Generated from game files
+- key: maps_lake
+  value: '"Ảo Ảnh"'
+  notes: Generated from game files
+- key: maps_italy
+  value: '"Vườn Nho"'
+  notes: Generated from game files
+- key: maps_pliego
+  value: '"Castilla"'
+  notes: Generated from game files
+- key: maps_tutorial
+  value: '"Thao Trường"'
+  notes: Generated from game files
+- key: maps_rudniki
+  value: '"Khu Mỏ"'
+  notes: Generated from game files
+- key: maps_asia
+  value: '"Ngôi Đền Mất Tích"'
+  notes: Generated from game files
+- key: maps_moon
+  value: '"Nguyệt Hải"'
+  notes: Generated from game files
+- key: maps_erlenberg_01
+  value: '"Middleburg" - Thị trấn'
+  notes: Generated from game files
+- key: maps_amigosville_03
+  value: '"Lạch Nước" - Nhà máy'
+  notes: Generated from game files
+- key: battle_types_vampiric
+  value: Burning Games
+  notes: Generated from game files
+- key: maps_medvedkovo
+  value: '"Đường Ray Chết"'
+  notes: Generated from game files
+- key: maps_neptune
+  value: '"Normandy"'
+  notes: Generated from game files
+- key: maps_rudniki_03
+  value: '"Khu Mỏ" - Trung tâm'
+  notes: Generated from game files
+- key: battle_types_ScuffleBattle
+  value: Trận đánh Thực tế
+  notes: Generated from game files
+- key: battle_types_nanomaps
+  value: Đụng độ
+  notes: Generated from game files
+- key: maps_forgecity
+  value: '"New Bay"'
+  notes: Generated from game files
+- key: maps_malinovka
+  value: '"Malinovka Mùa Đông"'
+  notes: Generated from game files
+- key: maps_milbase_03
+  value: '"Cảng Yamato" - Đồi'
+  notes: Generated from game files
+- key: maps_holland
+  value: Molendijk
+  notes: Generated from game files
+- key: battle_types_hellgames
+  value: Tái sinh
+  notes: Generated from game files
+- key: maps_himmelsdorf
+  value: '"Himmelsdorf"'
+  notes: Generated from game files
+- key: maps_canal_01
+  value: '"Kênh Đào" - Nhà máy'
+  notes: Generated from game files
+- key: maps_erlenberg
+  value: '"Middleburg"'
+  notes: Generated from game files
+- key: maps_medvedkovo_02
+  value: '"Đường Ray Chết" - Thung lũng'
+  notes: Generated from game files
+- key: maps_milbase_04
+  value: '"Cảng Yamato" - Trung tâm'
+  notes: Generated from game files
+- key: maps_rudniki_01
+  value: '"Khu Mỏ" - Đồi'
+  notes: Generated from game files
+- key: maps_port
+  value: '"Vịnh Quân Cảng"'
+  notes: Generated from game files
+- key: maps_plant
+  value: '"Ghost Factory"'
+  notes: Generated from game files
+- key: maps_rudniki_02
+  value: '"Khu Mỏ" - Làng'
+  notes: Generated from game files
+- key: battle_types_EncounterBattle
+  value: Đôi công
+  notes: Generated from game files
+- key: maps_canyon
+  value: '"Hẻm Núi"'
+  notes: Generated from game files
+- key: maps_ordeal
+  value: '"Thử Lửa"'
+  notes: Generated from game files
+- key: maps_idle
+  value: '"Yukon"'
+  notes: Generated from game files
+- key: maps_grossberg
+  value: '"Hòn Ngọc Đế Chế"'
+  notes: Generated from game files
+- key: battle_types_madGames
+  value: Mad Games
+  notes: Generated from game files
+- key: maps_skit
+  value: '"Biên Giới Biển"'
+  notes: Generated from game files
+- key: maps_test
+  value: World of Ducks
+  notes: Generated from game files
+- key: maps_rock
+  value: '"Kim Tự Tháp Cổ Đại"'
+  notes: Generated from game files
+- key: battle_types_rating
+  value: Tr.đánh Phân hạng
+  notes: Generated from game files
+- key: battle_types_gravitizing
+  value: Gravitizing
+  notes: Generated from game files
+- key: maps_savanna
+  value: '"Ốc Đảo"'
+  notes: Generated from game files
+- key: battle_types_regular
+  value: Tr.đánh Chính quy
+  notes: Generated from game files
+- key: battle_types_bossmode
+  value: Trùm Cuối
+  notes: Generated from game files
+- key: maps_neptune_01
+  value: '"Normandy" - Đồi'
+  notes: Generated from game files
+- key: maps_karelia
+  value: '"Rockfield"'
+  notes: Generated from game files
+- key: maps_himmelsdorf
+  value: '"Himmelsdorf"'
+  notes: Generated from game files
+- key: maps_canal
+  value: '"Kênh Đào"'
+  notes: Generated from game files
+- key: maps_faust
+  value: '"Faust"'
+  notes: Generated from game files
+- key: maps_milbase_02
+  value: '"Cảng Yamato" - Chiến hạm'
+  notes: Generated from game files
+- key: maps_mountain
+  value: '"Thung Lũng Vàng Đen"'
+  notes: Generated from game files
+- key: maps_desert_train_02
+  value: '"Sa Mạc Cát" - Thị trấn'
+  notes: Generated from game files
+- key: maps_lumber
+  value: '"Alpenstadt"'
+  notes: Generated from game files
+- key: maps_milbase
+  value: '"Cảng Yamato"'
+  notes: Generated from game files
+- key: maps_medvedkovo_03
+  value: '"Đường Ray Chết" - Đường sắt'
+  notes: Generated from game files
+- key: maps_holmeisk
+  value: '"Hoang Mạc"'
+  notes: Generated from game files
+- key: maps_desert_train_03
+  value: '"Sa Mạc Cát" - Cồn cát'
+  notes: Generated from game files
+- key: maps_port
+  value: '"Cảng"'
+  notes: Generated from game files
+- key: maps_milbase_05
+  value: '"Cảng Yamato" - Cảng'
+  notes: Generated from game files
+- key: maps_lumber_01
+  value: '"Alpenstadt" - Thị trấn'
+  notes: Generated from game files
+- key: maps_lumber
+  value: '"Horrorstadt"'
+  notes: Generated from game files
+- key: maps_amigosville_02
+  value: '"Lạch Nước" - Cầu'
+  notes: Generated from game files
+- key: maps_rift
+  value: '"Hy Lạp"'
+  notes: Generated from game files
+- key: battle_types_arcade
+  value: Mad Games
+  notes: Generated from game files
+- key: maps_fort
+  value: '"Pháo Đài"'
+  notes: Generated from game files
+- key: maps_amigosville
+  value: '"Lạch Nước"'
+  notes: Generated from game files
+- key: battle_types_scuffle
+  value: Trận đánh Thực tế
+  notes: Generated from game files
+- key: maps_neptune_02
+  value: '"Normandy" - Bờ biển'
+  notes: Generated from game files
+- key: maps_desert_train
+  value: '"Sa Mạc Cát"'
+  notes: Generated from game files
+- key: maps_iceworld
+  value: '"Mãi Băng"'
+  notes: Generated from game files
+- key: maps_erlenberg_02
+  value: '"Middleburg" - Đồi'
+  notes: Generated from game files

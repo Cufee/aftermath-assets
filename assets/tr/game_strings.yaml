@@ -1,71 +1,216 @@
-battleTypes:
-    EncounterBattle: Karşılaşma
-    ScuffleBattle: Gerçekçi Savaş
-    arcade: Mad Games
-    bossmode: Büyük Boss
-    gravitizing: Çekimsel
-    hellgames: Diriliş
-    madGames: Mad Games
-    nanomaps: Çatışma
-    rating: Reyting Savaşı
-    regular: Normal Savaş
-    scuffle: Gerçekçi Savaş
-    vampiric: Burning Games
-maps:
-    amigosville: Şelale Deresi
-    amigosville_02: Şelale Deresi - Köprü
-    amigosville_03: Şelale Deresi - Fabrika
-    asia: Kayıp Tapınak
-    canal: Kanal
-    canal_01: Kanal - Fabrika
-    canyon: Kanyon
-    desert_train: Çöl Kumları
-    desert_train_02: Çöl Kumları - Şehir
-    desert_train_03: Çöl Kumları - Kum Tepeleri
-    erlenberg: Middleburg
-    erlenberg_01: Middleburg - Şehir
-    erlenberg_02: Middleburg - Tepe
-    faust: Faust
-    forgecity: New Bay
-    fort: Umutsuzluk Hisarı
-    grossberg: Hanedanın İncisi
-    himmelsdorf: Himmelsdorf
-    holland: Molendijk
-    holmeisk: Çorak
-    iceworld: Buzkesen
-    idle: Yukon
-    italy: Üzüm Bağları
-    karelia: Rockfield
-    karieri: Bakırova
-    lake: Serap
-    lumber: Korkuşehir
-    lumber_01: Alpenstadt - Şehir
-    malinovka: Kışın Malinovka
-    medvedkovo: Ölü Ray
-    medvedkovo_02: Ölü Ray - Vadi
-    medvedkovo_03: Ölü Ray - Demiryolu
-    milbase: Yamato Limanı
-    milbase_02: Yamato Limanı - Zırhlı
-    milbase_03: Yamato Limanı - Tepeler
-    milbase_04: Yamato Limanı - Merkez
-    milbase_05: Yamato Limanı - Rıhtım
-    moon: Sessizlik Denizi
-    mountain: Kara Altınköy
-    neptune: Normandiya
-    neptune_01: Normandiya - Tepeler
-    neptune_02: Normandiya - Sahil
-    north: Kuzey
-    ordeal: Ateşle Sınav
-    plant: Hayalet Fabrika
-    pliego: Kastilya
-    port: Liman
-    rift: Helen
-    rock: Kadim Piramitler
-    rudniki: Madenler
-    rudniki_01: Madenler - Tepe
-    rudniki_02: Madenler - Köy
-    rudniki_03: Madenler - Merkez
-    savanna: Vaha Palmiyeleri
-    skit: Deniz Sınırı
-    test: World of Ducks
-    tutorial: Tecrübe Sahası
+- key: maps_mountain
+  value: Kara Altınköy
+  notes: Generated from game files
+- key: maps_moon
+  value: Sessizlik Denizi
+  notes: Generated from game files
+- key: maps_amigosville
+  value: Şelale Deresi
+  notes: Generated from game files
+- key: maps_canal
+  value: Kanal
+  notes: Generated from game files
+- key: maps_amigosville_03
+  value: Şelale Deresi - Fabrika
+  notes: Generated from game files
+- key: maps_amigosville_02
+  value: Şelale Deresi - Köprü
+  notes: Generated from game files
+- key: maps_medvedkovo_02
+  value: Ölü Ray - Vadi
+  notes: Generated from game files
+- key: maps_neptune_02
+  value: Normandiya - Sahil
+  notes: Generated from game files
+- key: maps_ordeal
+  value: Ateşle Sınav
+  notes: Generated from game files
+- key: maps_plant
+  value: Hayalet Fabrika
+  notes: Generated from game files
+- key: maps_iceworld
+  value: Buzkesen
+  notes: Generated from game files
+- key: maps_milbase_03
+  value: Yamato Limanı - Tepeler
+  notes: Generated from game files
+- key: maps_rift
+  value: Helen
+  notes: Generated from game files
+- key: maps_italy
+  value: Üzüm Bağları
+  notes: Generated from game files
+- key: maps_milbase
+  value: Yamato Limanı
+  notes: Generated from game files
+- key: maps_rudniki_02
+  value: Madenler - Köy
+  notes: Generated from game files
+- key: maps_medvedkovo_03
+  value: Ölü Ray - Demiryolu
+  notes: Generated from game files
+- key: maps_pliego
+  value: Kastilya
+  notes: Generated from game files
+- key: maps_holmeisk
+  value: Çorak
+  notes: Generated from game files
+- key: maps_milbase_04
+  value: Yamato Limanı - Merkez
+  notes: Generated from game files
+- key: maps_desert_train_03
+  value: Çöl Kumları - Kum Tepeleri
+  notes: Generated from game files
+- key: maps_asia
+  value: Kayıp Tapınak
+  notes: Generated from game files
+- key: maps_neptune
+  value: Normandiya
+  notes: Generated from game files
+- key: maps_karieri
+  value: Bakırova
+  notes: Generated from game files
+- key: battle_types_arcade
+  value: Mad Games
+  notes: Generated from game files
+- key: maps_faust
+  value: Faust
+  notes: Generated from game files
+- key: maps_canyon
+  value: Kanyon
+  notes: Generated from game files
+- key: maps_neptune_01
+  value: Normandiya - Tepeler
+  notes: Generated from game files
+- key: maps_savanna
+  value: Vaha Palmiyeleri
+  notes: Generated from game files
+- key: battle_types_regular
+  value: Normal Savaş
+  notes: Generated from game files
+- key: maps_rock
+  value: Kadim Piramitler
+  notes: Generated from game files
+- key: maps_lake
+  value: Serap
+  notes: Generated from game files
+- key: maps_lumber
+  value: Korkuşehir
+  notes: Generated from game files
+- key: maps_milbase_05
+  value: Yamato Limanı - Rıhtım
+  notes: Generated from game files
+- key: maps_port
+  value: Liman Koyu
+  notes: Generated from game files
+- key: battle_types_EncounterBattle
+  value: Karşılaşma
+  notes: Generated from game files
+- key: battle_types_rating
+  value: Reyting Savaşı
+  notes: Generated from game files
+- key: maps_grossberg
+  value: Hanedanın İncisi
+  notes: Generated from game files
+- key: maps_milbase_02
+  value: Yamato Limanı - Zırhlı
+  notes: Generated from game files
+- key: maps_lumber
+  value: Alpenstadt
+  notes: Generated from game files
+- key: battle_types_vampiric
+  value: Burning Games
+  notes: Generated from game files
+- key: maps_canal_01
+  value: Kanal - Fabrika
+  notes: Generated from game files
+- key: maps_desert_train_02
+  value: Çöl Kumları - Şehir
+  notes: Generated from game files
+- key: maps_himmelsdorf
+  value: Himmelsdorf
+  notes: Generated from game files
+- key: maps_rudniki
+  value: Madenler
+  notes: Generated from game files
+- key: battle_types_ScuffleBattle
+  value: Gerçekçi Savaş
+  notes: Generated from game files
+- key: maps_medvedkovo
+  value: Ölü Ray
+  notes: Generated from game files
+- key: maps_erlenberg
+  value: Middleburg
+  notes: Generated from game files
+- key: maps_holland
+  value: Molendijk
+  notes: Generated from game files
+- key: maps_desert_train
+  value: Çöl Kumları
+  notes: Generated from game files
+- key: battle_types_madGames
+  value: Mad Games
+  notes: Generated from game files
+- key: maps_skit
+  value: Deniz Sınırı
+  notes: Generated from game files
+- key: maps_karelia
+  value: Rockfield
+  notes: Generated from game files
+- key: battle_types_bossmode
+  value: Büyük Boss
+  notes: Generated from game files
+- key: maps_rudniki_03
+  value: Madenler - Merkez
+  notes: Generated from game files
+- key: maps_forgecity
+  value: New Bay
+  notes: Generated from game files
+- key: maps_malinovka
+  value: Kışın Malinovka
+  notes: Generated from game files
+- key: maps_port
+  value: Liman
+  notes: Generated from game files
+- key: maps_fort
+  value: Umutsuzluk Hisarı
+  notes: Generated from game files
+- key: maps_rudniki_01
+  value: Madenler - Tepe
+  notes: Generated from game files
+- key: battle_types_nanomaps
+  value: Çatışma
+  notes: Generated from game files
+- key: maps_lumber_01
+  value: Alpenstadt - Şehir
+  notes: Generated from game files
+- key: battle_types_scuffle
+  value: Gerçekçi Savaş
+  notes: Generated from game files
+- key: maps_north
+  value: Kuzey
+  notes: Generated from game files
+- key: maps_test
+  value: World of Ducks
+  notes: Generated from game files
+- key: battle_types_hellgames
+  value: Diriliş
+  notes: Generated from game files
+- key: battle_types_gravitizing
+  value: Çekimsel
+  notes: Generated from game files
+- key: maps_idle
+  value: Yukon
+  notes: Generated from game files
+- key: maps_erlenberg_02
+  value: Middleburg - Tepe
+  notes: Generated from game files
+- key: maps_erlenberg_01
+  value: Middleburg - Şehir
+  notes: Generated from game files
+- key: maps_tutorial
+  value: Tecrübe Sahası
+  notes: Generated from game files
+- key: maps_himmelsdorf
+  value: Himmelsdorf
+  notes: Generated from game files

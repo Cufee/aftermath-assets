@@ -1,71 +1,216 @@
-battleTypes:
-    EncounterBattle: การเผชิญหน้า
-    ScuffleBattle: การรบสมจริง
-    arcade: Mad Games
-    bossmode: หัวหน้าใหญ่
-    gravitizing: แรงโน้มถ่วงคืนชีพ
-    hellgames: การคืนชีพ
-    madGames: Mad Games
-    nanomaps: การปะทะ
-    rating: การรบจัดอันดับ
-    regular: การรบปกติ
-    scuffle: การรบสมจริง
-    vampiric: Burning Games
-maps:
-    amigosville: ธารน้ำตก
-    amigosville_02: ธารน้ำตก - สะพาน
-    amigosville_03: ธารน้ำตก - โรงงาน
-    asia: วิหารร้าง
-    canal: คลอง
-    canal_01: คลอง - โรงงาน
-    canyon: หุบผา
-    desert_train: ทะเลทราย
-    desert_train_02: ทะเลทราย - เมือง
-    desert_train_03: ทะเลทราย - สันทราย
-    erlenberg: กลางเมือง
-    erlenberg_01: กลางเมือง - ตัวเมือง
-    erlenberg_02: กลางเมือง - เนิน
-    faust: กำปั้น
-    forgecity: อ่าวใหม่
-    fort: ป้อมสิ้นหวัง
-    grossberg: ไข่มุกแห่งราชวงศ์
-    himmelsdorf: ฮิมเมลสดอร์ฟ
-    holland: เมืองกังหันลม
-    holmeisk: แดนร้าง
-    iceworld: ทุ่งน้ำแข็ง
-    idle: ยูคอน
-    italy: ไร่องุ่น
-    karelia: ทุ่งหิน
-    karieri: ทุ่งทองแดง
-    lake: เงาน้ำ
-    lumber: อัลเพนสตาดท์
-    lumber_01: อัลเพนสตาดท์ - ตัวเมือง
-    malinovka: มาลินอฟกาฤดูหนาว
-    medvedkovo: รางรถไฟมรณะ
-    medvedkovo_02: รางรถไฟมรณะ - หุบเขา
-    medvedkovo_03: รางรถไฟมรณะ - รางรถไฟ
-    milbase: ท่าเรือยามาโต้
-    milbase_02: ท่าเรือยามาโต้ - เรือประจัญบาน
-    milbase_03: ท่าเรือยามาโต้ - เนินเขา
-    milbase_04: ท่าเรือยามาโต้ - ศูนย์กลาง
-    milbase_05: ท่าเรือยามาโต้ - อู่ต่อเรือ
-    moon: ทะเลแห่งความสงบ
-    mountain: เมืองทองดำ
-    neptune: นอร์มังดี
-    neptune_01: นอร์มังดี - เนิน
-    neptune_02: นอร์มังดี - ชายหาด
-    north: เหนือ
-    ordeal: เจิมด้วยไฟ
-    plant: โรงงานร้าง
-    pliego: คาสติล
-    port: ท่าเรือ
-    rift: กรีกโบราณ
-    rock: ปิรามิดโบราณ
-    rudniki: เหมือง
-    rudniki_01: เหมือง - เนิน
-    rudniki_02: เหมือง - หมู่บ้าน
-    rudniki_03: เหมือง - ใจกลาง
-    savanna: ปาล์มโอเอซิส
-    skit: เขตแดนทางทะเล
-    test: World of Ducks
-    tutorial: สนามทดสอบ
+- key: maps_erlenberg_02
+  value: กลางเมือง - เนิน
+  notes: Generated from game files
+- key: maps_north
+  value: เหนือ
+  notes: Generated from game files
+- key: maps_himmelsdorf
+  value: ฮิมเมลสดอร์ฟ
+  notes: Generated from game files
+- key: maps_mountain
+  value: เมืองทองดำ
+  notes: Generated from game files
+- key: maps_lumber_01
+  value: อัลเพนสตาดท์ - ตัวเมือง
+  notes: Generated from game files
+- key: maps_holland
+  value: เมืองกังหันลม
+  notes: Generated from game files
+- key: maps_lumber
+  value: เมืองหลอน
+  notes: Generated from game files
+- key: maps_malinovka
+  value: มาลินอฟกาฤดูหนาว
+  notes: Generated from game files
+- key: battle_types_regular
+  value: การรบปกติ
+  notes: Generated from game files
+- key: maps_milbase_05
+  value: ท่าเรือยามาโต้ - อู่ต่อเรือ
+  notes: Generated from game files
+- key: maps_milbase
+  value: ท่าเรือยามาโต้
+  notes: Generated from game files
+- key: battle_types_EncounterBattle
+  value: การเผชิญหน้า
+  notes: Generated from game files
+- key: maps_amigosville_03
+  value: ธารน้ำตก - โรงงาน
+  notes: Generated from game files
+- key: maps_himmelsdorf
+  value: ฮิมเมลสดอร์ฟ
+  notes: Generated from game files
+- key: maps_desert_train
+  value: ทะเลทราย
+  notes: Generated from game files
+- key: maps_italy
+  value: ไร่องุ่น
+  notes: Generated from game files
+- key: maps_neptune
+  value: นอร์มังดี
+  notes: Generated from game files
+- key: maps_port
+  value: ท่าเรือติดอ่าว
+  notes: Generated from game files
+- key: maps_amigosville
+  value: ธารน้ำตก
+  notes: Generated from game files
+- key: maps_neptune_01
+  value: นอร์มังดี - เนิน
+  notes: Generated from game files
+- key: maps_rudniki_01
+  value: เหมือง - เนิน
+  notes: Generated from game files
+- key: maps_idle
+  value: ยูคอน
+  notes: Generated from game files
+- key: maps_faust
+  value: กำปั้น
+  notes: Generated from game files
+- key: battle_types_scuffle
+  value: การรบสมจริง
+  notes: Generated from game files
+- key: maps_lake
+  value: เงาน้ำ
+  notes: Generated from game files
+- key: maps_asia
+  value: วิหารร้าง
+  notes: Generated from game files
+- key: battle_types_bossmode
+  value: หัวหน้าใหญ่
+  notes: Generated from game files
+- key: maps_port
+  value: ท่าเรือ
+  notes: Generated from game files
+- key: battle_types_madGames
+  value: Mad Games
+  notes: Generated from game files
+- key: maps_moon
+  value: ทะเลแห่งความสงบ
+  notes: Generated from game files
+- key: maps_iceworld
+  value: ทุ่งน้ำแข็ง
+  notes: Generated from game files
+- key: battle_types_ScuffleBattle
+  value: การรบสมจริง
+  notes: Generated from game files
+- key: battle_types_arcade
+  value: Mad Games
+  notes: Generated from game files
+- key: maps_grossberg
+  value: ไข่มุกแห่งราชวงศ์
+  notes: Generated from game files
+- key: maps_forgecity
+  value: อ่าวใหม่
+  notes: Generated from game files
+- key: maps_neptune_02
+  value: นอร์มังดี - ชายหาด
+  notes: Generated from game files
+- key: maps_karelia
+  value: ทุ่งหิน
+  notes: Generated from game files
+- key: maps_rudniki_03
+  value: เหมือง - ใจกลาง
+  notes: Generated from game files
+- key: maps_milbase_04
+  value: ท่าเรือยามาโต้ - ศูนย์กลาง
+  notes: Generated from game files
+- key: maps_tutorial
+  value: สนามทดสอบ
+  notes: Generated from game files
+- key: maps_erlenberg_01
+  value: กลางเมือง - ตัวเมือง
+  notes: Generated from game files
+- key: maps_rudniki_02
+  value: เหมือง - หมู่บ้าน
+  notes: Generated from game files
+- key: maps_milbase_02
+  value: ท่าเรือยามาโต้ - เรือประจัญบาน
+  notes: Generated from game files
+- key: maps_ordeal
+  value: เจิมด้วยไฟ
+  notes: Generated from game files
+- key: battle_types_gravitizing
+  value: แรงโน้มถ่วงคืนชีพ
+  notes: Generated from game files
+- key: maps_medvedkovo_03
+  value: รางรถไฟมรณะ - รางรถไฟ
+  notes: Generated from game files
+- key: maps_erlenberg
+  value: กลางเมือง
+  notes: Generated from game files
+- key: maps_karieri
+  value: ทุ่งทองแดง
+  notes: Generated from game files
+- key: battle_types_nanomaps
+  value: การปะทะ
+  notes: Generated from game files
+- key: maps_rock
+  value: ปิรามิดโบราณ
+  notes: Generated from game files
+- key: maps_pliego
+  value: คาสติล
+  notes: Generated from game files
+- key: maps_desert_train_02
+  value: ทะเลทราย - เมือง
+  notes: Generated from game files
+- key: maps_milbase_03
+  value: ท่าเรือยามาโต้ - เนินเขา
+  notes: Generated from game files
+- key: maps_test
+  value: World of Ducks
+  notes: Generated from game files
+- key: maps_rudniki
+  value: เหมือง
+  notes: Generated from game files
+- key: maps_medvedkovo
+  value: รางรถไฟมรณะ
+  notes: Generated from game files
+- key: maps_amigosville_02
+  value: ธารน้ำตก - สะพาน
+  notes: Generated from game files
+- key: maps_canal_01
+  value: คลอง - โรงงาน
+  notes: Generated from game files
+- key: maps_canyon
+  value: หุบผา
+  notes: Generated from game files
+- key: maps_desert_train_03
+  value: ทะเลทราย - สันทราย
+  notes: Generated from game files
+- key: maps_canal
+  value: คลอง
+  notes: Generated from game files
+- key: battle_types_hellgames
+  value: การคืนชีพ
+  notes: Generated from game files
+- key: maps_rift
+  value: กรีกโบราณ
+  notes: Generated from game files
+- key: maps_plant
+  value: โรงงานร้าง
+  notes: Generated from game files
+- key: maps_savanna
+  value: ปาล์มโอเอซิส
+  notes: Generated from game files
+- key: maps_medvedkovo_02
+  value: รางรถไฟมรณะ - หุบเขา
+  notes: Generated from game files
+- key: maps_fort
+  value: ป้อมสิ้นหวัง
+  notes: Generated from game files
+- key: maps_holmeisk
+  value: แดนร้าง
+  notes: Generated from game files
+- key: maps_lumber
+  value: อัลเพนสตาดท์
+  notes: Generated from game files
+- key: battle_types_rating
+  value: การรบจัดอันดับ
+  notes: Generated from game files
+- key: battle_types_vampiric
+  value: Burning Games
+  notes: Generated from game files
+- key: maps_skit
+  value: เขตแดนทางทะเล
+  notes: Generated from game files

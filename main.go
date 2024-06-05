@@ -23,10 +23,17 @@ import (
 	"github.com/pierrec/lz4/v4"
 )
 
+type localizationString struct {
+	Key   string `yaml:"key"`
+	Value string `yaml:"value"`
+	Notes string `yaml:"notes"`
+}
+
 const baseDir = "./downloaded/Data/Strings"
 
 type parsedData struct {
-	data map[string]map[string]string
+	data         []localizationString
+	existingKeys map[string]struct{}
 }
 
 func (d *parsedData) Encode(w io.Writer) error {
@@ -36,14 +43,14 @@ func (d *parsedData) Encode(w io.Writer) error {
 type parsedKey string
 
 func (d *parsedData) Add(category, key, value string) {
-	if d.data == nil {
-		d.data = make(map[string]map[string]string)
+	if d.existingKeys == nil {
+		d.existingKeys = make(map[string]struct{})
 	}
-	if d.data[category] == nil {
-		d.data[category] = make(map[string]string)
+	if _, ok := d.existingKeys[key]; ok {
+		return
 	}
 
-	d.data[category][key] = value
+	d.data = append(d.data, localizationString{Key: category + "_" + key, Value: value, Notes: "Generated from game files"})
 }
 
 func (k parsedKey) IsMap() bool {
@@ -160,7 +167,7 @@ func parseAndSaveFile(encrypted []byte, outPath string) error {
 			parsed.Add("maps", key.MapName(), value)
 		}
 		if key.IsBattleType() {
-			parsed.Add("battleTypes", key.BattleTypeName(), value)
+			parsed.Add("battle_types", key.BattleTypeName(), value)
 		}
 	}
 
