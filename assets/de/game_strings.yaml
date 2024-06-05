@@ -1,0 +1,71 @@
+battleTypes:
+    EncounterBattle: Begegnung
+    ScuffleBattle: Realistisches Gefecht
+    arcade: Mad Games
+    bossmode: Bosskampf
+    gravitizing: Gravitizing
+    hellgames: Grabesflucht
+    madGames: Mad Games
+    nanomaps: Scharmützel
+    rating: Wertungsgefecht
+    regular: Standardgefecht
+    scuffle: Realistisches Gefecht
+    vampiric: Burning Games
+maps:
+    amigosville: Sturzbach
+    amigosville_02: Sturzbach – Brücke
+    amigosville_03: Sturzbach – Fabrik
+    asia: Verlorener Tempel
+    canal: Kanal
+    canal_01: Kanal – Fabrik
+    canyon: Schlucht
+    desert_train: Wüstenstaub
+    desert_train_02: Wüstenstaub – Stadt
+    desert_train_03: Wüstenstaub – Dünen
+    erlenberg: Mittelburg
+    erlenberg_01: Middleburg – Stadt
+    erlenberg_02: Middleburg – Hügel
+    faust: Faust
+    forgecity: New Bay
+    fort: Festung der Verzweiflung
+    grossberg: Perle der Dynastie
+    himmelsdorf: Himmelsdorf
+    holland: Molendijk
+    holmeisk: Ödland
+    iceworld: Immerfrost
+    idle: Yukon
+    italy: Weinberge
+    karelia: Steinfeld
+    karieri: Kupferfeld
+    lake: Fata Morgana
+    lumber: Horrorstadt
+    lumber_01: Alpenstadt – Stadt
+    malinovka: Malinowka im Winter
+    medvedkovo: Abstellgleis
+    medvedkovo_02: Abstellgleis – Tal
+    medvedkovo_03: Abstellgleis – Eisenbahn
+    milbase: Yamato-Hafen
+    milbase_02: Yamato-Hafen – Schlachtschiff
+    milbase_03: Yamato-Hafen – Hügel
+    milbase_04: Yamato-Hafen – Zentrum
+    milbase_05: Yamato-Hafen – Dock
+    moon: Meer der Ruhe
+    mountain: Schwarzes Gold
+    neptune: Normandie
+    neptune_01: Normandie – Hügel
+    neptune_02: Normandie – Strand
+    north: Norden
+    ordeal: Feuerprobe
+    plant: Geisterfabrik
+    pliego: Kastilien
+    port: Hafen
+    rift: Hellas
+    rock: Antike Pyramiden
+    rudniki: Minen
+    rudniki_01: Minen – Hügel
+    rudniki_02: Minen – Dorf
+    rudniki_03: Minen – Zentrum
+    savanna: Oasenpalmen
+    skit: Marinefront
+    test: World of Ducks
+    tutorial: Übungsgelände

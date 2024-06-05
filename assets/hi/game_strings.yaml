@@ -1,0 +1,71 @@
+battleTypes:
+    EncounterBattle: एनकाउंटर
+    ScuffleBattle: असली दिखने वाला बैटल
+    arcade: Mad Games
+    bossmode: बिग बॉस
+    gravitizing: ग्रैविटाइज़िंग
+    hellgames: बगावत
+    madGames: Mad Games
+    nanomaps: झगड़ा
+    rating: रेटिंग बैटल
+    regular: रेगुलर बैटल
+    scuffle: असली दिखने वाला बैटल
+    vampiric: Burning Games
+maps:
+    amigosville: फ़ॉल्स क्रीक
+    amigosville_02: फ़ॉल क्रीक - ब्रिज
+    amigosville_03: फ़ॉल क्रीक - फ़ैक्टरी
+    asia: लॉस्ट टेम्पल
+    canal: कैनाल
+    canal_01: कैनाल - फ़ैक्टरी
+    canyon: कैनियन
+    desert_train: डेज़र्ट सैंड्स
+    desert_train_02: डेज़र्ट सैंड्स - टाउन
+    desert_train_03: डेज़र्ट सैंड्स - ड्यून्स
+    erlenberg: मिडलबर्ग
+    erlenberg_01: मिडलबर्ग - टाउन
+    erlenberg_02: मिडलबर्ग - हिल
+    faust: फ़ॉस्ट
+    forgecity: न्यू बे
+    fort: फ़ोर्ट डेस्पेयर
+    grossberg: वंश का मोती
+    himmelsdorf: हिमेल्सडोर्फ़
+    holland: Molendijk
+    holmeisk: वेस्टलैंड
+    iceworld: एवरफ़्रॉस्ट
+    idle: युकॉन
+    italy: अंगूर के बाग़
+    karelia: रॉकफ़ील्ड
+    karieri: कॉपरफ़ील्ड
+    lake: मिराज
+    lumber: हॉररस्टैट
+    lumber_01: ऐल्पेनस्टैट - टाउन
+    malinovka: विंटर मैलिनोवका
+    medvedkovo: डेड रेल
+    medvedkovo_02: डेड रेल - वैली
+    medvedkovo_03: डेड रेल - रेलरोड
+    milbase: यामाटो हार्बर
+    milbase_02: यामाटो हार्बर - बैल्टशिप
+    milbase_03: यामाटो हार्बर - हिल्स
+    milbase_04: यामाटो हार्बर - सेंटर
+    milbase_05: यामाटो हार्बर - डॉक
+    moon: शांति का सागर
+    mountain: ब्लैक गोल्डविल
+    neptune: नॉरमेंडी
+    neptune_01: नॉरमेंडी - हिल्स
+    neptune_02: नॉरमेंडी - बीच
+    north: नॉर्थ
+    ordeal: ट्रायल बाय फ़ायर
+    plant: घोस्ट फ़ैक्टरी
+    pliego: कैस्टिला
+    port: पोर्ट
+    rift: हेलास
+    rock: मायान रुइंस
+    rudniki: माइंस
+    rudniki_01: माइंस - हिल
+    rudniki_02: माइंस - विलेज
+    rudniki_03: माइंस - सेंटर
+    savanna: ओआसिस पाम्स
+    skit: नेवल फ़्रन्टियर
+    test: World of Ducks
+    tutorial: प्रूविंग ग्राउंड्स

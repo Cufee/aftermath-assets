@@ -1,0 +1,71 @@
+battleTypes:
+    EncounterBattle: 조우전
+    ScuffleBattle: 사실적 전투
+    arcade: Mad Games
+    bossmode: 빅 보스
+    gravitizing: 중력 부활
+    hellgames: 부활
+    madGames: Mad Games
+    nanomaps: 국지전
+    rating: 랭크 전투
+    regular: 정규 전투
+    scuffle: 사실적 전투
+    vampiric: Burning Games
+maps:
+    amigosville: 폭포 계곡
+    amigosville_02: 폭포 계곡 - 다리
+    amigosville_03: 폭포 계곡 - 공장
+    asia: 잃어버린 사원
+    canal: 수로
+    canal_01: 수로 - 공장
+    canyon: 협곡
+    desert_train: 모래사막
+    desert_train_02: 모래사막 - 마을
+    desert_train_03: 모래사막 - 사구
+    erlenberg: 미들버그
+    erlenberg_01: 미들버그 - 마을
+    erlenberg_02: 미들버그 - 언덕
+    faust: 파우스트
+    forgecity: 뉴 베이
+    fort: 절망의 요새
+    grossberg: 왕가의 진주
+    himmelsdorf: 힘멜스도르프
+    holland: Molendijk
+    holmeisk: 황무지
+    iceworld: 만년 서리
+    idle: 유콘
+    italy: 포도밭
+    karelia: 록필드
+    karieri: 카퍼필드
+    lake: 신기루
+    lumber: 알펜스타드
+    lumber_01: 알펜스타드 - 마을
+    malinovka: 혹한의 말리노프카
+    medvedkovo: 끊긴 철로
+    medvedkovo_02: 끊긴 철로 - 골짜기
+    medvedkovo_03: 끊긴 철로 - 철로
+    milbase: 군함 정박지
+    milbase_02: 군함 정박지 - 군함
+    milbase_03: 군함 정박지 - 언덕
+    milbase_04: 군함 정박지 - 중앙
+    milbase_05: 군함 정박지 - 부두
+    moon: 고요의 바다
+    mountain: 블랙 골드빌
+    neptune: 노르망디
+    neptune_01: 노르망디 - 언덕
+    neptune_02: 노르망디 - 해변
+    north: 북부
+    ordeal: 고난의 길
+    plant: 폐공장
+    pliego: 카스티야
+    port: 항구
+    rift: 헬라스
+    rock: 고대 피라미드
+    rudniki: 광산
+    rudniki_01: 광산 - 언덕
+    rudniki_02: 광산 - 마을
+    rudniki_03: 광산 - 중앙
+    savanna: 오아시스
+    skit: 해군 경계 지역
+    test: World of Ducks
+    tutorial: 훈련 지역

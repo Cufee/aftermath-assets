@@ -1,0 +1,71 @@
+battleTypes:
+    EncounterBattle: การเผชิญหน้า
+    ScuffleBattle: การรบสมจริง
+    arcade: Mad Games
+    bossmode: หัวหน้าใหญ่
+    gravitizing: แรงโน้มถ่วงคืนชีพ
+    hellgames: การคืนชีพ
+    madGames: Mad Games
+    nanomaps: การปะทะ
+    rating: การรบจัดอันดับ
+    regular: การรบปกติ
+    scuffle: การรบสมจริง
+    vampiric: Burning Games
+maps:
+    amigosville: ธารน้ำตก
+    amigosville_02: ธารน้ำตก - สะพาน
+    amigosville_03: ธารน้ำตก - โรงงาน
+    asia: วิหารร้าง
+    canal: คลอง
+    canal_01: คลอง - โรงงาน
+    canyon: หุบผา
+    desert_train: ทะเลทราย
+    desert_train_02: ทะเลทราย - เมือง
+    desert_train_03: ทะเลทราย - สันทราย
+    erlenberg: กลางเมือง
+    erlenberg_01: กลางเมือง - ตัวเมือง
+    erlenberg_02: กลางเมือง - เนิน
+    faust: กำปั้น
+    forgecity: อ่าวใหม่
+    fort: ป้อมสิ้นหวัง
+    grossberg: ไข่มุกแห่งราชวงศ์
+    himmelsdorf: ฮิมเมลสดอร์ฟ
+    holland: เมืองกังหันลม
+    holmeisk: แดนร้าง
+    iceworld: ทุ่งน้ำแข็ง
+    idle: ยูคอน
+    italy: ไร่องุ่น
+    karelia: ทุ่งหิน
+    karieri: ทุ่งทองแดง
+    lake: เงาน้ำ
+    lumber: อัลเพนสตาดท์
+    lumber_01: อัลเพนสตาดท์ - ตัวเมือง
+    malinovka: มาลินอฟกาฤดูหนาว
+    medvedkovo: รางรถไฟมรณะ
+    medvedkovo_02: รางรถไฟมรณะ - หุบเขา
+    medvedkovo_03: รางรถไฟมรณะ - รางรถไฟ
+    milbase: ท่าเรือยามาโต้
+    milbase_02: ท่าเรือยามาโต้ - เรือประจัญบาน
+    milbase_03: ท่าเรือยามาโต้ - เนินเขา
+    milbase_04: ท่าเรือยามาโต้ - ศูนย์กลาง
+    milbase_05: ท่าเรือยามาโต้ - อู่ต่อเรือ
+    moon: ทะเลแห่งความสงบ
+    mountain: เมืองทองดำ
+    neptune: นอร์มังดี
+    neptune_01: นอร์มังดี - เนิน
+    neptune_02: นอร์มังดี - ชายหาด
+    north: เหนือ
+    ordeal: เจิมด้วยไฟ
+    plant: โรงงานร้าง
+    pliego: คาสติล
+    port: ท่าเรือ
+    rift: กรีกโบราณ
+    rock: ปิรามิดโบราณ
+    rudniki: เหมือง
+    rudniki_01: เหมือง - เนิน
+    rudniki_02: เหมือง - หมู่บ้าน
+    rudniki_03: เหมือง - ใจกลาง
+    savanna: ปาล์มโอเอซิส
+    skit: เขตแดนทางทะเล
+    test: World of Ducks
+    tutorial: สนามทดสอบ

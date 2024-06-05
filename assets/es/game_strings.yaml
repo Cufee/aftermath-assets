@@ -1,0 +1,71 @@
+battleTypes:
+    EncounterBattle: Encuentro
+    ScuffleBattle: Batalla realista
+    arcade: Mad Games
+    bossmode: Big Boss
+    gravitizing: Gravitación
+    hellgames: Resurgimiento
+    madGames: Mad Games
+    nanomaps: Escaramuza
+    rating: Batalla de clasificación
+    regular: Batalla estándar
+    scuffle: Batalla realista
+    vampiric: Burning Games
+maps:
+    amigosville: Cascada del arroyo
+    amigosville_02: 'Cascada del arroyo: Puente'
+    amigosville_03: 'Cascada del arroyo: Fábrica'
+    asia: Templo perdido
+    canal: Canal
+    canal_01: 'Canal: Fábrica'
+    canyon: Cañón
+    desert_train: Arenas del desierto
+    desert_train_02: 'Arenas del desierto: Ciudad'
+    desert_train_03: 'Arenas del desierto: Dunas'
+    erlenberg: Middleburg
+    erlenberg_01: 'Middleburg: Pueblo'
+    erlenberg_02: 'Middleburg: Colina'
+    faust: Fausto
+    forgecity: Nueva Bahía
+    fort: Fuerte Desesperación
+    grossberg: Perla de la Dinastía
+    himmelsdorf: Himmelsdorf
+    holland: Molendijk
+    holmeisk: Tierras baldías
+    iceworld: Hielo perpetuo
+    idle: Yukón
+    italy: Viñedos
+    karelia: Rockfield
+    karieri: Campo de cobre
+    lake: Espejismo
+    lumber: Alpenstadt
+    lumber_01: 'Alpenstadt: Pueblo'
+    malinovka: Malinovka en invierno
+    medvedkovo: Vía muerta
+    medvedkovo_02: 'Vía muerta: Valle'
+    medvedkovo_03: 'Vía muerta: Ferrocarril'
+    milbase: Puerto Yamato
+    milbase_02: 'Puerto Yamato: Acorazado'
+    milbase_03: 'Puerto Yamato: Colinas'
+    milbase_04: 'Puerto Yamato: Centro'
+    milbase_05: 'Puerto Yamato: Muelle'
+    moon: Mar de la Tranquilidad
+    mountain: Villa del oro negro
+    neptune: Normandía
+    neptune_01: 'Normandía: Colinas'
+    neptune_02: 'Normandía: Playa'
+    north: Norte
+    ordeal: Prueba de fuego
+    plant: Fábrica fantasma
+    pliego: Castilla
+    port: Puerto
+    rift: Hélade
+    rock: Ruinas Mayas
+    rudniki: Minas
+    rudniki_01: 'Minas: Colina'
+    rudniki_02: 'Minas: Aldea'
+    rudniki_03: 'Minas: Centro'
+    savanna: Oasis de palmeras
+    skit: Frontera naval
+    test: World of Ducks
+    tutorial: Terrenos de prueba

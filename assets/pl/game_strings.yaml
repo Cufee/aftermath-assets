@@ -1,0 +1,71 @@
+battleTypes:
+    EncounterBattle: Spotkanie
+    ScuffleBattle: Bitwa realistyczna
+    arcade: Mad Games
+    bossmode: Big Boss
+    gravitizing: Grawidzenie
+    hellgames: Odrodzenie
+    madGames: Mad Games
+    nanomaps: Potyczka
+    rating: Bitwa punktowana
+    regular: Bitwa standardowa
+    scuffle: Bitwa realistyczna
+    vampiric: Burning Games
+maps:
+    amigosville: Nadrzecze
+    amigosville_02: Nadrzecze – Most
+    amigosville_03: Nadrzecze – Fabryka
+    asia: Zaginiona świątynia
+    canal: Kanał
+    canal_01: Kanał – Fabryka
+    canyon: Kanion
+    desert_train: Pustynne piaski
+    desert_train_02: Pustynne piaski – Miasto
+    desert_train_03: Pustynne piaski – Wydmy
+    erlenberg: Middleburg
+    erlenberg_01: Middleburg – Miasto
+    erlenberg_02: Middleburg – Wzgórze
+    faust: Faust
+    forgecity: Nowa Przystań
+    fort: Fort Rozpacz
+    grossberg: Perła Dynastii
+    himmelsdorf: Himmelsdorf
+    holland: Molendijk
+    holmeisk: Kataklizm
+    iceworld: Wieczna zmarzlina
+    idle: Jukon
+    italy: Winnice
+    karelia: Kamieniec
+    karieri: Miedziane Pole
+    lake: Miraż
+    lumber: Alpenstadt
+    lumber_01: Alpenstadt – Miasto
+    malinovka: Malinowka zimą
+    medvedkovo: Martwy tor
+    medvedkovo_02: Martwy tor – Dolina
+    medvedkovo_03: Martwy tor – Torowisko
+    milbase: Port Yamato
+    milbase_02: Zatoka Yamato – Pancernik
+    milbase_03: Zatoka Yamato – Wzgórza
+    milbase_04: Zatoka Yamato – Centrum
+    milbase_05: Zatoka Yamato – Doki
+    moon: Morze Spokoju
+    mountain: Czarne złoto
+    neptune: Normandia
+    neptune_01: Normandia – Wzgórza
+    neptune_02: Normandia – Plaża
+    north: Północ
+    ordeal: Próba ognia
+    plant: Fabryka duchów
+    pliego: Kastylia
+    port: Przystań
+    rift: Hellada
+    rock: Starożytne piramidy
+    rudniki: Kopalnie
+    rudniki_01: Kopalnie – Wzgórze
+    rudniki_02: Kopalnie – Wioska
+    rudniki_03: Kopalnie – Centrum
+    savanna: Oaza
+    skit: Morskie rubieże
+    test: World of Ducks
+    tutorial: Poligon

@@ -1,0 +1,71 @@
+battleTypes:
+    EncounterBattle: المواجهة
+    ScuffleBattle: معركة واقعية
+    arcade: Mad Games
+    bossmode: Big Boss
+    gravitizing: Gravitizing
+    hellgames: النهوض
+    madGames: Mad Games
+    nanomaps: المناوشة
+    rating: معركة تصنيف
+    regular: معركة عادية
+    scuffle: معركة واقعية
+    vampiric: Burning Games
+maps:
+    amigosville: فولز كريك
+    amigosville_02: فولز كريك - الجسر
+    amigosville_03: فولز كريك - المصنع
+    asia: معبد التيه
+    canal: القناة
+    canal_01: القناة - المصنع
+    canyon: الوادي
+    desert_train: رمال الصحراء
+    desert_train_02: رمال الصحراء - البلدة
+    desert_train_03: رمال الصحراء - الكثبان
+    erlenberg: ميدلبورغ
+    erlenberg_01: ميدلبورغ - البلدة
+    erlenberg_02: ميدلبورغ - التل
+    faust: فاوست
+    forgecity: المرفأ الجديد
+    fort: قلعة البؤس
+    grossberg: سلسلة اللؤلؤة
+    himmelsdorf: هيميلسدورف
+    holland: سدّ الطاحونة
+    holmeisk: الأرض القاحلة
+    iceworld: الصقيع الأبدي
+    idle: يوكون
+    italy: حقول الكروم
+    karelia: روكفيلد
+    karieri: كوبرفيلد
+    lake: سراب
+    lumber: هورورستاد
+    lumber_01: ألبينشتاد - البلدة
+    malinovka: شتاء مالينوفكا
+    medvedkovo: ديد ريل
+    medvedkovo_02: ديد ريل - الوادي
+    medvedkovo_03: ديد ريل - السكك الحديدية
+    milbase: ميناء ياماتو
+    milbase_02: ميناء ياماتو - السفينة الحربية
+    milbase_03: ميناء ياماتو - التلال
+    milbase_04: ميناء ياماتو - المركز
+    milbase_05: ميناء ياماتو - الرصيف
+    moon: بحر السكينة
+    mountain: الذهب الأسود
+    neptune: نورماندي
+    neptune_01: نورماندي - التلال
+    neptune_02: نورماندي - الساحل
+    north: الشمال
+    ordeal: اختبار صعب
+    plant: مصنع الأشباح
+    pliego: القلعة
+    port: الميناء
+    rift: هيلاس
+    rock: الأهرام القديمة
+    rudniki: المناجم
+    rudniki_01: المناجم - التل
+    rudniki_02: المناجم - القرية
+    rudniki_03: المناجم - المركز
+    savanna: واحة النخيل
+    skit: الحدود البحرية
+    test: World of Ducks
+    tutorial: ساحة التدريب

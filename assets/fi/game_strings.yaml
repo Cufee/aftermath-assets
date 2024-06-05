@@ -1,0 +1,71 @@
+battleTypes:
+    EncounterBattle: Kohtaaminen
+    ScuffleBattle: Realistinen taistelu
+    arcade: Mad Games
+    bossmode: Iso pomo
+    gravitizing: Painovoimaannuttavaa
+    hellgames: Kuolleiden marssi
+    madGames: Mad Games
+    nanomaps: Kahakka
+    rating: Luokitustaistelu
+    regular: Tavallinen taistelu
+    scuffle: Realistinen taistelu
+    vampiric: Burning Games
+maps:
+    amigosville: Falls Creek
+    amigosville_02: Falls Creek - Silta
+    amigosville_03: Falls Creek - Tehdas
+    asia: Lost Temple
+    canal: Canal
+    canal_01: Canal - Tehdas
+    canyon: Canyon
+    desert_train: Desert Sands
+    desert_train_02: Desert Sands - Kaupunki
+    desert_train_03: Desert Sands - Dyynit
+    erlenberg: Middleburg
+    erlenberg_01: Middleburg - Kaupunki
+    erlenberg_02: Middleburg - Kukkula
+    faust: Faust
+    forgecity: New Bay
+    fort: Fort Despair
+    grossberg: Dynasty's Pearl
+    himmelsdorf: Himmelsdorf
+    holland: Molendijk
+    holmeisk: Wasteland
+    iceworld: Everfrost
+    idle: Yukon
+    italy: Vineyards
+    karelia: Rockfield
+    karieri: Copperfield
+    lake: Mirage
+    lumber: Alpenstadt
+    lumber_01: Alpenstadt - Kaupunki
+    malinovka: Winter Malinovka
+    medvedkovo: Dead Rail
+    medvedkovo_02: Dead Rail - Laakso
+    medvedkovo_03: Dead Rail - Rautatie
+    milbase: Yamato Harbor
+    milbase_02: Yamato Harbor - Taistelulaiva
+    milbase_03: Yamato Harbor - Kukkulat
+    milbase_04: Yamato Harbor - Keskusta
+    milbase_05: Yamato Harbor - Telakka
+    moon: Sea of Tranquility
+    mountain: Black Goldville
+    neptune: Normandy
+    neptune_01: Normandy - Kukkulat
+    neptune_02: Normandy - Ranta
+    north: North
+    ordeal: Trial by Fire
+    plant: Ghost Factory
+    pliego: Castilla
+    port: Port
+    rift: Hellas
+    rock: Mayan Ruins
+    rudniki: Mines
+    rudniki_01: Mines - Kukkula
+    rudniki_02: Mines - Kylä
+    rudniki_03: Mines - Keskusta
+    savanna: Oasis Palms
+    skit: Naval Frontier
+    test: World of Ducks
+    tutorial: Harjoitusalue

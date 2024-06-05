@@ -1,0 +1,71 @@
+battleTypes:
+    EncounterBattle: Impromptue
+    ScuffleBattle: Bataille réaliste
+    arcade: Mad Games
+    bossmode: Big boss
+    gravitizing: Gravitation
+    hellgames: Résurrection
+    madGames: Mad Games
+    nanomaps: Escarmouche
+    rating: Bataille cotée
+    regular: Bataille standard
+    scuffle: Batailles réalistes
+    vampiric: Burning Games
+maps:
+    amigosville: Crique automnale
+    amigosville_02: Crique automnale - Pont
+    amigosville_03: Crique automnale - Usine
+    asia: Temple perdu
+    canal: Canal
+    canal_01: Canal - Usine
+    canyon: Canyon
+    desert_train: Sables du désert
+    desert_train_02: Sables du désert - Ville
+    desert_train_03: Sables du désert - Dunes
+    erlenberg: Middleburg
+    erlenberg_01: Middleburg - Ville
+    erlenberg_02: Middleburg - Colline
+    faust: Faust
+    forgecity: New Bay
+    fort: Fort Désespoir
+    grossberg: Perle de la Dynastie
+    himmelsdorf: Himmelsdorf
+    holland: Molendijk
+    holmeisk: Terrain vague
+    iceworld: Permagivre
+    idle: Yukon
+    italy: Vignobles
+    karelia: Rockfield
+    karieri: Carrière
+    lake: Mirage
+    lumber: Alpenstadt
+    lumber_01: Alpenstadt - Ville
+    malinovka: Malinovka en hiver
+    medvedkovo: Rails mortels
+    medvedkovo_02: Rails mortels - Vallée
+    medvedkovo_03: Rails mortel - Voie ferrée
+    milbase: Port du Yamato
+    milbase_02: Port du Yamato - Cuirassé
+    milbase_03: Port du Yamato - Collines
+    milbase_04: Port du Yamato - Centre
+    milbase_05: Port du Yamato - Quai
+    moon: Mer de la Tranquillité
+    mountain: Goldville noire
+    neptune: Normandie
+    neptune_01: Normandie - Collines
+    neptune_02: Normandie - Plage
+    north: Nord
+    ordeal: Baptême du feu
+    plant: Usine fantôme
+    pliego: Castille
+    port: Baie du port
+    rift: Hellas
+    rock: Pyramides antiques
+    rudniki: Mines
+    rudniki_01: Mines - Colline
+    rudniki_02: Mines - Village
+    rudniki_03: Mines - Centre
+    savanna: Palmiers de l'oasis
+    skit: Frontière maritime
+    test: World of Ducks
+    tutorial: Terrain d'essai

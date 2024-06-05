@@ -1,0 +1,71 @@
+battleTypes:
+    EncounterBattle: 遭遇戰
+    ScuffleBattle: 擬真戰鬥
+    arcade: Mad Games
+    bossmode: 一代梟雄
+    gravitizing: 重力再生
+    hellgames: 重生
+    madGames: Mad Games
+    nanomaps: 衝突戰
+    rating: 評價戰鬥
+    regular: 一般戰鬥
+    scuffle: 擬真戰鬥
+    vampiric: Burning Games
+maps:
+    amigosville: 陷落之溪
+    amigosville_02: 陷落之溪 - 橋梁
+    amigosville_03: 陷落之溪 - 工廠
+    asia: 失落的神廟
+    canal: 運河
+    canal_01: 運河 - 工廠
+    canyon: 大峽谷
+    desert_train: 沙漠之洲
+    desert_train_02: 沙漠之洲 - 城鎮
+    desert_train_03: 沙漠之洲 - 沙丘
+    erlenberg: 米德爾堡
+    erlenberg_01: 米德爾堡 - 城鎮
+    erlenberg_02: 米德爾堡 - 丘陵
+    faust: 浮士德
+    forgecity: 新灣
+    fort: 絕望之壘
+    grossberg: 王朝明珠
+    himmelsdorf: 希墨爾斯多夫
+    holland: 米爾丹
+    holmeisk: 西部荒野
+    iceworld: 永凍冰原
+    idle: 育空
+    italy: 葡萄園
+    karelia: 石之原
+    karieri: 銅礦區
+    lake: 海市蜃樓
+    lumber: 阿爾彭史塔特
+    lumber_01: 阿爾彭史塔特 - 城鎮
+    malinovka: 冬季馬利諾夫卡
+    medvedkovo: 死亡鐵道
+    medvedkovo_02: 死亡鐵道 - 山谷
+    medvedkovo_03: 死亡鐵道 - 鐵道
+    milbase: 東方港
+    milbase_02: 東方港 - 戰艦
+    milbase_03: 東方港 - 丘陵
+    milbase_04: 東方港 - 中央
+    milbase_05: 東方港 - 港區
+    moon: 寧靜之海
+    mountain: 黑色淘金鎮
+    neptune: 諾曼第
+    neptune_01: 諾曼第 - 丘陵
+    neptune_02: 諾曼第 - 海岸
+    north: 北都
+    ordeal: 試煉
+    plant: 幽靈工廠
+    pliego: 卡斯提亞
+    port: 港口
+    rift: 古希臘
+    rock: 遠古金字塔
+    rudniki: 礦山
+    rudniki_01: 礦山 - 丘陵
+    rudniki_02: 礦山 - 村莊
+    rudniki_03: 礦山 - 中央
+    savanna: 葉之綠洲
+    skit: 海軍前沿
+    test: World of Ducks
+    tutorial: 試車場

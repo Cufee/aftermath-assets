@@ -1,0 +1,71 @@
+battleTypes:
+    EncounterBattle: Karşılaşma
+    ScuffleBattle: Gerçekçi Savaş
+    arcade: Mad Games
+    bossmode: Büyük Boss
+    gravitizing: Çekimsel
+    hellgames: Diriliş
+    madGames: Mad Games
+    nanomaps: Çatışma
+    rating: Reyting Savaşı
+    regular: Normal Savaş
+    scuffle: Gerçekçi Savaş
+    vampiric: Burning Games
+maps:
+    amigosville: Şelale Deresi
+    amigosville_02: Şelale Deresi - Köprü
+    amigosville_03: Şelale Deresi - Fabrika
+    asia: Kayıp Tapınak
+    canal: Kanal
+    canal_01: Kanal - Fabrika
+    canyon: Kanyon
+    desert_train: Çöl Kumları
+    desert_train_02: Çöl Kumları - Şehir
+    desert_train_03: Çöl Kumları - Kum Tepeleri
+    erlenberg: Middleburg
+    erlenberg_01: Middleburg - Şehir
+    erlenberg_02: Middleburg - Tepe
+    faust: Faust
+    forgecity: New Bay
+    fort: Umutsuzluk Hisarı
+    grossberg: Hanedanın İncisi
+    himmelsdorf: Himmelsdorf
+    holland: Molendijk
+    holmeisk: Çorak
+    iceworld: Buzkesen
+    idle: Yukon
+    italy: Üzüm Bağları
+    karelia: Rockfield
+    karieri: Bakırova
+    lake: Serap
+    lumber: Korkuşehir
+    lumber_01: Alpenstadt - Şehir
+    malinovka: Kışın Malinovka
+    medvedkovo: Ölü Ray
+    medvedkovo_02: Ölü Ray - Vadi
+    medvedkovo_03: Ölü Ray - Demiryolu
+    milbase: Yamato Limanı
+    milbase_02: Yamato Limanı - Zırhlı
+    milbase_03: Yamato Limanı - Tepeler
+    milbase_04: Yamato Limanı - Merkez
+    milbase_05: Yamato Limanı - Rıhtım
+    moon: Sessizlik Denizi
+    mountain: Kara Altınköy
+    neptune: Normandiya
+    neptune_01: Normandiya - Tepeler
+    neptune_02: Normandiya - Sahil
+    north: Kuzey
+    ordeal: Ateşle Sınav
+    plant: Hayalet Fabrika
+    pliego: Kastilya
+    port: Liman
+    rift: Helen
+    rock: Kadim Piramitler
+    rudniki: Madenler
+    rudniki_01: Madenler - Tepe
+    rudniki_02: Madenler - Köy
+    rudniki_03: Madenler - Merkez
+    savanna: Vaha Palmiyeleri
+    skit: Deniz Sınırı
+    test: World of Ducks
+    tutorial: Tecrübe Sahası

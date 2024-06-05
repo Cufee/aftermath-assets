@@ -1,0 +1,71 @@
+battleTypes:
+    EncounterBattle: Đôi công
+    ScuffleBattle: Trận đánh Thực tế
+    arcade: Mad Games
+    bossmode: Trùm Cuối
+    gravitizing: Gravitizing
+    hellgames: Tái sinh
+    madGames: Mad Games
+    nanomaps: Đụng độ
+    rating: Tr.đánh Phân hạng
+    regular: Tr.đánh Chính quy
+    scuffle: Trận đánh Thực tế
+    vampiric: Burning Games
+maps:
+    amigosville: '"Lạch Nước"'
+    amigosville_02: '"Lạch Nước" - Cầu'
+    amigosville_03: '"Lạch Nước" - Nhà máy'
+    asia: '"Ngôi Đền Mất Tích"'
+    canal: '"Kênh Đào"'
+    canal_01: '"Kênh Đào" - Nhà máy'
+    canyon: '"Hẻm Núi"'
+    desert_train: '"Sa Mạc Cát"'
+    desert_train_02: '"Sa Mạc Cát" - Thị trấn'
+    desert_train_03: '"Sa Mạc Cát" - Cồn cát'
+    erlenberg: '"Middleburg"'
+    erlenberg_01: '"Middleburg" - Thị trấn'
+    erlenberg_02: '"Middleburg" - Đồi'
+    faust: '"Faust"'
+    forgecity: '"New Bay"'
+    fort: '"Pháo Đài"'
+    grossberg: '"Hòn Ngọc Đế Chế"'
+    himmelsdorf: '"Himmelsdorf"'
+    holland: Molendijk
+    holmeisk: '"Hoang Mạc"'
+    iceworld: '"Mãi Băng"'
+    idle: '"Yukon"'
+    italy: '"Vườn Nho"'
+    karelia: '"Rockfield"'
+    karieri: '"Mỏ Đồng"'
+    lake: '"Ảo Ảnh"'
+    lumber: '"Horrorstadt"'
+    lumber_01: '"Alpenstadt" - Thị trấn'
+    malinovka: '"Malinovka Mùa Đông"'
+    medvedkovo: '"Đường Ray Chết"'
+    medvedkovo_02: '"Đường Ray Chết" - Thung lũng'
+    medvedkovo_03: '"Đường Ray Chết" - Đường sắt'
+    milbase: '"Cảng Yamato"'
+    milbase_02: '"Cảng Yamato" - Chiến hạm'
+    milbase_03: '"Cảng Yamato" - Đồi'
+    milbase_04: '"Cảng Yamato" - Trung tâm'
+    milbase_05: '"Cảng Yamato" - Cảng'
+    moon: '"Nguyệt Hải"'
+    mountain: '"Thung Lũng Vàng Đen"'
+    neptune: '"Normandy"'
+    neptune_01: '"Normandy" - Đồi'
+    neptune_02: '"Normandy" - Bờ biển'
+    north: '"Phương Bắc"'
+    ordeal: '"Thử Lửa"'
+    plant: '"Ghost Factory"'
+    pliego: '"Castilla"'
+    port: '"Cảng"'
+    rift: '"Hy Lạp"'
+    rock: '"Kim Tự Tháp Cổ Đại"'
+    rudniki: '"Khu Mỏ"'
+    rudniki_01: '"Khu Mỏ" - Đồi'
+    rudniki_02: '"Khu Mỏ" - Làng'
+    rudniki_03: '"Khu Mỏ" - Trung tâm'
+    savanna: '"Ốc Đảo"'
+    skit: '"Biên Giới Biển"'
+    test: World of Ducks
+    tutorial: '"Thao Trường"'

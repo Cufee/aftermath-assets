@@ -1,0 +1,71 @@
+battleTypes:
+    EncounterBattle: Predominio
+    ScuffleBattle: Battaglia realistica
+    arcade: Mad Games
+    bossmode: Scontro tra Boss
+    gravitizing: Gravitamento
+    hellgames: Rischieramento
+    madGames: Mad Games
+    nanomaps: Schermaglia
+    rating: Battaglia con punteggio
+    regular: Battaglia regolare
+    scuffle: Battaglia realistica
+    vampiric: Burning Games
+maps:
+    amigosville: Riva del Fiume
+    amigosville_02: Riva del Fiume - Ponte
+    amigosville_03: Riva del Fiume - Fabbrica
+    asia: Tempio Perduto
+    canal: Canale
+    canal_01: Canale - Fabbrica
+    canyon: Canyon
+    desert_train: Sabbie del Deserto
+    desert_train_02: Sabbie del Deserto - Città
+    desert_train_03: Sabbie del Deserto - Dune
+    erlenberg: Middleburg
+    erlenberg_01: Middleburg - Città
+    erlenberg_02: Middleburg - Collina
+    faust: Faust
+    forgecity: New Bay
+    fort: Forte Pauroso
+    grossberg: Perla della Dinastia
+    himmelsdorf: Himmelsdorf
+    holland: Molendijk
+    holmeisk: Landa Desolata
+    iceworld: Ghiacciaio perenne
+    idle: Yukon
+    italy: Vigneti
+    karelia: Rockfield
+    karieri: Miniera di Rame
+    lake: Miraggio
+    lumber: Horrorstadt
+    lumber_01: Alpenstadt - Città
+    malinovka: Malinovka d'inverno
+    medvedkovo: Binario Morto
+    medvedkovo_02: Binario Morto - Valle
+    medvedkovo_03: Binario Morto - Ferrovia
+    milbase: Porto Yamato
+    milbase_02: Porto Yamato - Corazzata
+    milbase_03: Porto Yamato -  Colline
+    milbase_04: Porto Yamato - Centro
+    milbase_05: Porto Yamato - Banchina
+    moon: Mare della tranquillità
+    mountain: Oro Nero
+    neptune: Normandia
+    neptune_01: Normandia - Colline
+    neptune_02: Normandia - Spiaggia
+    north: Nord
+    ordeal: Prova del Fuoco
+    plant: Fabbrica spettrale
+    pliego: Castiglia
+    port: Porto
+    rift: Hellas
+    rock: Antiche Piramidi
+    rudniki: Miniere
+    rudniki_01: Miniere - Collina
+    rudniki_02: Miniere - Villaggio
+    rudniki_03: Miniere - Centro
+    savanna: Oasi di Palme
+    skit: Frontiera Navale
+    test: World of Ducks
+    tutorial: Terreno di prova

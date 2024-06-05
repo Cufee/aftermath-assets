@@ -1,0 +1,71 @@
+battleTypes:
+    EncounterBattle: Зустрічний
+    ScuffleBattle: Реалістичний бій
+    arcade: Mad Games
+    bossmode: Big Boss
+    gravitizing: Гравіродження
+    hellgames: Відродження
+    madGames: Mad Games
+    nanomaps: Конфлікт
+    rating: Рейтинговий бій
+    regular: Звичайний бій
+    scuffle: Реалістичний бій
+    vampiric: Виживання
+maps:
+    amigosville: Протока
+    amigosville_02: Протока. Міст
+    amigosville_03: Протока. Завод
+    asia: Загублений храм
+    canal: Канал
+    canal_01: Канал. Завод
+    canyon: Каньйон
+    desert_train: Ель-Аламейн
+    desert_train_02: Ель-Аламейн. Місто
+    desert_train_03: Ель-Аламейн. Пустеля
+    erlenberg: Міддлбург
+    erlenberg_01: Міддлбург. Місто
+    erlenberg_02: Міддлбург. Гора
+    faust: Фауст
+    forgecity: Нью-Бей
+    fort: Форт
+    grossberg: Перлинне місто
+    himmelsdorf: Хіммельсдорф
+    holland: Молендейк
+    holmeisk: Пустище
+    iceworld: Еверфрост
+    idle: Юкон
+    italy: Виноградники
+    karelia: Балтійський щит
+    karieri: Кар'єри
+    lake: Міраж
+    lumber: Альпенштадт
+    lumber_01: Альпенштадт. Місто
+    malinovka: Зимова Малинівка
+    medvedkovo: Ешелон
+    medvedkovo_02: Ешелон. Поле
+    medvedkovo_03: Ешелон. Станція
+    milbase: Східна гавань
+    milbase_02: Східна гавань. Ямато
+    milbase_03: Східна гавань. Поле
+    milbase_04: Східна гавань. Центр
+    milbase_05: Східна гавань. Док
+    moon: Море Спокою
+    mountain: Золота долина
+    neptune: Нормандія
+    neptune_01: Нормандія. Пагорби
+    neptune_02: Нормандія. Узбережжя
+    north: Північ
+    ordeal: Випробування вогнем
+    plant: Промзона
+    pliego: Кастилія
+    port: Порт
+    rift: Еллада
+    rock: Стародавні піраміди
+    rudniki: Копальні
+    rudniki_01: Копальні. Гора
+    rudniki_02: Копальні. Село
+    rudniki_03: Копальні. Центр
+    savanna: Палаючі піски
+    skit: Морський рубіж
+    test: World of Ducks
+    tutorial: Танковий полігон

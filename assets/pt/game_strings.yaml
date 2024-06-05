@@ -1,0 +1,71 @@
+battleTypes:
+    EncounterBattle: Encontro
+    ScuffleBattle: Batalha Realista
+    arcade: Mad Games
+    bossmode: Chefão
+    gravitizing: Gravitizante
+    hellgames: Renascimento
+    madGames: Mad Games
+    nanomaps: Conflito
+    rating: Batalha de Classificação
+    regular: Batalha Regular
+    scuffle: Batalha Realista
+    vampiric: Burning Games
+maps:
+    amigosville: Enseada da Cachoeira
+    amigosville_02: Enseada da Cachoeira - Ponte
+    amigosville_03: Enseada da Cachoeira - Fábrica
+    asia: Templo Perdido
+    canal: Canal
+    canal_01: Canal - Fábrica
+    canyon: Desfiladeiro
+    desert_train: Areias do Deserto
+    desert_train_02: Areias do Deserto - Cidade
+    desert_train_03: Areias do Deserto - Dunas
+    erlenberg: Middleburg
+    erlenberg_01: Middleburg - Cidade
+    erlenberg_02: Middleburg - Colina
+    faust: Faust
+    forgecity: Nova Baía
+    fort: Forte do Desespero
+    grossberg: Dinastia da Pérola
+    himmelsdorf: Himmelsdorf
+    holland: Molendijk
+    holmeisk: Terra de Ninguém
+    iceworld: Geada Eterna
+    idle: Yukon
+    italy: Videiras
+    karelia: Rockfield
+    karieri: Campo de Cobre
+    lake: Miragem
+    lumber: Horrorstadt
+    lumber_01: Alpenstadt - Cidade
+    malinovka: Malinovka Gelada
+    medvedkovo: Trilho Fantasma
+    medvedkovo_02: Trilho Fantasma - Vale
+    medvedkovo_03: Trilho Fantasma - Ferrovia
+    milbase: Porto do Yamato
+    milbase_02: Porto do Yamato - Encouraçado
+    milbase_03: Porto do Yamato - Montanhas
+    milbase_04: Porto do Yamato - Centro
+    milbase_05: Porto do Yamato - Doca
+    moon: Mar da Tranquilidade
+    mountain: Ouro Negro
+    neptune: Normandia
+    neptune_01: Normandia - Colinas
+    neptune_02: Normandia - Praia
+    north: Norte
+    ordeal: Testado pelo Fogo
+    plant: Fábrica Fantasma
+    pliego: Castilla
+    port: Baía do Porto
+    rift: Hélade
+    rock: Pirâmides Antigas
+    rudniki: Minas
+    rudniki_01: Minas - Colina
+    rudniki_02: Minas - Vila
+    rudniki_03: Minas - Centro
+    savanna: Palmeiras do Oásis
+    skit: Fronteira Naval
+    test: World of Ducks
+    tutorial: Campo de Prova

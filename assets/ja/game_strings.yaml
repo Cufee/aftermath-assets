@@ -1,0 +1,71 @@
+battleTypes:
+    EncounterBattle: 遭遇戦
+    ScuffleBattle: リアリスティック戦
+    arcade: Mad Games
+    bossmode: BIG BOSS
+    gravitizing: 重力転生
+    hellgames: 転生​
+    madGames: Mad Games
+    nanomaps: 乱闘
+    rating: レーティング戦
+    regular: 通常戦
+    scuffle: リアリスティック戦
+    vampiric: Burning Games
+maps:
+    amigosville: フォールズクリーク
+    amigosville_02: フォールズクリーク - 橋
+    amigosville_03: フォールズクリーク - 工場
+    asia: 失われた寺院
+    canal: 運河
+    canal_01: 運河 - 工場
+    canyon: 渓谷
+    desert_train: 砂漠の砂
+    desert_train_02: 砂漠の砂 - 町
+    desert_train_03: 砂漠の砂 - 砂丘
+    erlenberg: ミデルブルフ
+    erlenberg_01: ミデルブルフ - 町
+    erlenberg_02: ミデルブルフ - 丘
+    faust: ファウスト
+    forgecity: ニューベイ
+    fort: ディスペア砦
+    grossberg: 王朝の真珠
+    himmelsdorf: ヒメルズドルフ
+    holland: モレンダイク
+    holmeisk: 廃墟
+    iceworld: 解けない霜
+    idle: ユーコン
+    italy: ヴィニヤード
+    karelia: ロックフィールド
+    karieri: カッパーフィールド
+    lake: 蜃気楼
+    lumber: ホラーシュタット
+    lumber_01: アルペンシュタット - 町
+    malinovka: 冬のマリノフカ
+    medvedkovo: 廃線
+    medvedkovo_02: 廃線 - 渓谷
+    medvedkovo_03: 廃線 - 線路
+    milbase: 大和港
+    milbase_02: 大和港 - 戦艦
+    milbase_03: 大和港 - 丘
+    milbase_04: 大和港 - 中央部
+    milbase_05: 大和港 - 波止場
+    moon: 平穏の海
+    mountain: 黒き黄金の村
+    neptune: ノルマンディー
+    neptune_01: ノルマンディー - 丘
+    neptune_02: ノルマンディー - 浜辺
+    north: 北の地
+    ordeal: 炎の試練
+    plant: 廃工場
+    pliego: カスティーリャ
+    port: 港
+    rift: ヘラス
+    rock: マヤ遺跡
+    rudniki: 鉱山
+    rudniki_01: 鉱山 - 丘
+    rudniki_02: 鉱山 - 村
+    rudniki_03: 鉱山 - 中央部
+    savanna: オアシスの椰子
+    skit: 沿岸要塞
+    test: World of Ducks
+    tutorial: 試験場

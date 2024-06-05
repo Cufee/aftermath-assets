@@ -1,0 +1,71 @@
+battleTypes:
+    EncounterBattle: Střetnutí
+    ScuffleBattle: Realistická bitva
+    arcade: Mad Games
+    bossmode: Velký šéf
+    gravitizing: Gravitační vzkříšení
+    hellgames: Vzkříšení
+    madGames: Mad Games
+    nanomaps: Šarvátka
+    rating: Hodnocená bitva
+    regular: Běžná bitva
+    scuffle: Realistická bitva
+    vampiric: Burning Games
+maps:
+    amigosville: Horský potok
+    amigosville_02: Horský potok – most
+    amigosville_03: Horský potok – továrna
+    asia: Ztracený chrám
+    canal: Průplav
+    canal_01: Průplav – továrna
+    canyon: Kaňon
+    desert_train: Pouštní písky
+    desert_train_02: Pouštní písky – město
+    desert_train_03: Pouštní písky – duny
+    erlenberg: Middleburg
+    erlenberg_01: Middleburg – město
+    erlenberg_02: Middleburg – kopec
+    faust: Faust
+    forgecity: New Bay
+    fort: Pevnost beznaděje
+    grossberg: Perla dynastie
+    himmelsdorf: Himmelsdorf
+    holland: Molendijk
+    holmeisk: Pustina
+    iceworld: Věčný mráz
+    idle: Yukon
+    italy: Vinice
+    karelia: Rockfield
+    karieri: Naleziště mědi
+    lake: Fata morgána
+    lumber: Alpenstadt
+    lumber_01: Alpenstadt – město
+    malinovka: Zimní Malinovka
+    medvedkovo: Slepá kolej
+    medvedkovo_02: Slepá kolej – údolí
+    medvedkovo_03: Slepá kolej – železnice
+    milbase: Přístav lodi Yamato
+    milbase_02: Přístav lodi Yamato – bitevní loď
+    milbase_03: Přístav lodi Yamato – hory
+    milbase_04: Přístav lodi Yamato – střed
+    milbase_05: Přístav lodi Yamato – dok
+    moon: Moře klidu
+    mountain: Ropné pole
+    neptune: Normandie
+    neptune_01: Normandie – kopce
+    neptune_02: Normandie – pobřeží
+    north: Sever
+    ordeal: Zkouška ohněm
+    plant: Továrna duchů
+    pliego: Kastilie
+    port: Přístav
+    rift: Helada
+    rock: Starobylé pyramidy
+    rudniki: Doly
+    rudniki_01: Doly – kopec
+    rudniki_02: Doly – vesnice
+    rudniki_03: Doly – centrum
+    savanna: Oáza
+    skit: Námořní hranice
+    test: World of Ducks
+    tutorial: Vojenský újezd
