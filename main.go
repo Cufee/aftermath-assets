@@ -29,7 +29,42 @@ type parsedData struct {
 	data map[string]map[string]string
 }
 
+func (d *parsedData) Encode(w io.Writer) error {
+	return yaml.NewEncoder(w).Encode(d.data)
+}
+
 type parsedKey string
+
+func (d *parsedData) Add(category, key, value string) {
+	if d.data == nil {
+		d.data = make(map[string]map[string]string)
+	}
+	if d.data[category] == nil {
+		d.data[category] = make(map[string]string)
+	}
+
+	d.data[category][key] = value
+}
+
+func (k parsedKey) IsMap() bool {
+	return strings.HasPrefix(string(k), "#maps:") && strings.HasSuffix(string(k), ".sc2")
+}
+
+func (k parsedKey) MapName() string {
+	split := strings.Split(string(k), ":")
+	if len(split) < 2 {
+		return ""
+	}
+	return split[1]
+}
+
+func (k parsedKey) IsBattleType() bool {
+	return strings.HasPrefix(string(k), "battleType/") && len(strings.Split(string(k), "/")) == 2
+}
+
+func (k parsedKey) BattleTypeName() string {
+	return strings.Split(string(k), "/")[1]
+}
 
 func main() {
 	err := downloadAssetsFromSteam(os.Getenv("DOWNLOADER_CMD_PATH"))
@@ -107,21 +142,6 @@ func downloadAssetsFromSteam(cmdPath string) error {
 	return nil
 }
 
-func (d *parsedData) Add(category, key, value string) {
-	if d.data == nil {
-		d.data = make(map[string]map[string]string)
-	}
-	if d.data[category] == nil {
-		d.data[category] = make(map[string]string)
-	}
-
-	d.data[category][key] = value
-}
-
-func (d *parsedData) Encode(w io.Writer) error {
-	return yaml.NewEncoder(w).Encode(d.data)
-}
-
 func parseAndSaveFile(encrypted []byte, outPath string) error {
 	raw, err := decryptDVPL(encrypted)
 	if err != nil {
@@ -160,26 +180,6 @@ func parseAndSaveFile(encrypted []byte, outPath string) error {
 		return err
 	}
 	return nil
-}
-
-func (k parsedKey) IsMap() bool {
-	return strings.HasPrefix(string(k), "#maps:") && strings.HasSuffix(string(k), ".sc2")
-}
-
-func (k parsedKey) MapName() string {
-	split := strings.Split(string(k), ":")
-	if len(split) < 2 {
-		return ""
-	}
-	return split[1]
-}
-
-func (k parsedKey) IsBattleType() bool {
-	return strings.HasPrefix(string(k), "battleType/") && len(strings.Split(string(k), "/")) == 2
-}
-
-func (k parsedKey) BattleTypeName() string {
-	return strings.Split(string(k), "/")[1]
 }
 
 func decryptDVPL(inputBuf []byte) ([]byte, error) {
