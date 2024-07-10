@@ -16,7 +16,6 @@ import (
 
 	"github.com/pkg/errors"
 	"golang.org/x/text/language"
-	"gopkg.in/yaml.v3"
 )
 
 type Vehicle struct {
@@ -168,17 +167,19 @@ func (p *vehicleStringsParser) Parse(path string, r io.Reader) error {
 
 	p.lock.Lock()
 	defer p.lock.Unlock()
-	var vehicles []LocalizationString
+	// var vehicles []LocalizationString
 	for key, vehicle := range p.vehicles {
 		v := p.vehicles[key]
-		v.Name = data[vehicle.Key]
+		if n, ok := data[vehicle.Key]; ok {
+			v.Name = n
+		}
 		p.vehicles[key] = v
 
-		vehicles = append(vehicles, LocalizationString{
-			Key:   "vehicle_" + v.ID,
-			Value: v.Name,
-			Notes: v.Key,
-		})
+		// vehicles = append(vehicles, LocalizationString{
+		// 	Key:   "vehicle_" + v.ID,
+		// 	Value: v.Name,
+		// 	Notes: v.Key,
+		// })
 	}
 
 	// Save data as JSON
@@ -195,18 +196,18 @@ func (p *vehicleStringsParser) Parse(path string, r io.Reader) error {
 		return err
 	}
 
-	// Save data as yaml
-	yf, err := os.Create(filepath.Join(p.assetsDir, locale.String(), "vehicles.yaml"))
-	if err != nil {
-		return err
-	}
-	defer yf.Close()
+	// // Save data as yaml
+	// yf, err := os.Create(filepath.Join(p.assetsDir, locale.String(), "vehicles.yaml"))
+	// if err != nil {
+	// 	return err
+	// }
+	// defer yf.Close()
 
-	ye := yaml.NewEncoder(yf)
-	err = ye.Encode(vehicles)
-	if err != nil {
-		return nil
-	}
+	// ye := yaml.NewEncoder(yf)
+	// err = ye.Encode(vehicles)
+	// if err != nil {
+	// 	return nil
+	// }
 
 	return nil
 }

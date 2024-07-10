@@ -6,12 +6,12 @@ import (
 	"io"
 	"os"
 	"path/filepath"
+	"slices"
 	"strings"
 	"sync"
 
 	"github.com/pkg/errors"
 	"golang.org/x/text/language"
-	"gopkg.in/yaml.v3"
 )
 
 type Map struct {
@@ -94,6 +94,10 @@ func (p *mapStringsParser) Parse(path string, r io.Reader) error {
 		}
 	}
 
+	slices.SortFunc(mapsData, func(a, b Map) int {
+		return strings.Compare(a.ID, b.ID)
+	})
+
 	// Save data as JSON
 	jf, err := os.Create(filepath.Join(p.assetsDir, locale.String(), "maps.json"))
 	if err != nil {
@@ -108,30 +112,30 @@ func (p *mapStringsParser) Parse(path string, r io.Reader) error {
 		return err
 	}
 
-	// Save data as YAML
-	var yamlData []LocalizationString
-	for _, data := range mapsData {
-		yamlData = append(yamlData, LocalizationString{
-			Key:   "maps_" + data.ID,
-			Value: data.Name,
-		})
-		yamlData = append(yamlData, LocalizationString{
-			Key:   "maps_" + data.Key,
-			Value: data.Name,
-		})
-	}
+	// // Save data as YAML
+	// var yamlData []LocalizationString
+	// for _, data := range mapsData {
+	// 	yamlData = append(yamlData, LocalizationString{
+	// 		Key:   "maps_" + data.ID,
+	// 		Value: data.Name,
+	// 	})
+	// 	yamlData = append(yamlData, LocalizationString{
+	// 		Key:   "maps_" + data.Key,
+	// 		Value: data.Name,
+	// 	})
+	// }
 
-	yf, err := os.Create(filepath.Join(p.assetsDir, locale.String(), "maps.yaml"))
-	if err != nil {
-		return err
-	}
-	defer yf.Close()
+	// yf, err := os.Create(filepath.Join(p.assetsDir, locale.String(), "maps.yaml"))
+	// if err != nil {
+	// 	return err
+	// }
+	// defer yf.Close()
 
-	ye := yaml.NewEncoder(yf)
-	err = ye.Encode(yamlData)
-	if err != nil {
-		return nil
-	}
+	// ye := yaml.NewEncoder(yf)
+	// err = ye.Encode(yamlData)
+	// if err != nil {
+	// 	return nil
+	// }
 
 	return nil
 }

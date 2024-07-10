@@ -233,7 +233,7 @@
   "10609": {
     "id": "10609",
     "key": "#other_vehicles:Oth36_Indien_Panzer_S1_short",
-    "name": "",
+    "name": "Secret Tank 41",
     "tier": 7,
     "class": "mediumTank",
     "nation": "other",
@@ -299,7 +299,7 @@
   "10801": {
     "id": "10801",
     "key": "#china_vehicles:Ch34_WZ-131G_FT_BP_short",
-    "name": "",
+    "name": "Secret Tank 42",
     "tier": 6,
     "class": "AT-SPG",
     "nation": "china",
@@ -321,7 +321,7 @@
   "10865": {
     "id": "10865",
     "key": "#other_vehicles:Oth37_T26_E4_SuperPershing_S1_short",
-    "name": "",
+    "name": "Secret Tank 42",
     "tier": 8,
     "class": "mediumTank",
     "nation": "other",
@@ -420,7 +420,7 @@
   "11121": {
     "id": "11121",
     "key": "#other_vehicles:Oth38_50TP_Tyszkiewicza_S1_short",
-    "name": "",
+    "name": "Secret Tank 43",
     "tier": 9,
     "class": "heavyTank",
     "nation": "other",
@@ -1674,7 +1674,7 @@
   "16513": {
     "id": "16513",
     "key": "#european_vehicles:Cz20_ShPTK_TVP_100_short",
-    "name": "",
+    "name": "Secret Tank 64",
     "tier": 8,
     "class": "AT-SPG",
     "nation": "european",
@@ -1817,7 +1817,7 @@
   "17217": {
     "id": "17217",
     "key": "#france_vehicles:ARL_44BP_short",
-    "name": "",
+    "name": "Secret Tank 67",
     "tier": 6,
     "class": "heavyTank",
     "nation": "france",
@@ -1861,7 +1861,7 @@
   "17473": {
     "id": "17473",
     "key": "#france_vehicles:F69_AMX_13D_short",
-    "name": "",
+    "name": "Secret Tank 68",
     "tier": 8,
     "class": "lightTank",
     "nation": "france",
@@ -2488,7 +2488,7 @@
   "20305": {
     "id": "20305",
     "key": "#uk_vehicles:GB94_Centurion_Mk5-1_RAAC_short",
-    "name": "",
+    "name": "Secret Tank 79",
     "tier": 8,
     "class": "mediumTank",
     "nation": "uk",
@@ -2664,7 +2664,7 @@
   "21025": {
     "id": "21025",
     "key": "#usa_vehicles:A121_T26E3_short",
-    "name": "",
+    "name": "Secret Tank 82",
     "tier": 7,
     "class": "mediumTank",
     "nation": "usa",
@@ -3247,7 +3247,7 @@
   "23841": {
     "id": "23841",
     "key": "#usa_vehicles:A130_Super_Hellcat_short",
-    "name": "",
+    "name": "Secret Tank 93",
     "tier": 7,
     "class": "AT-SPG",
     "nation": "usa",
@@ -3445,7 +3445,7 @@
   "25361": {
     "id": "25361",
     "key": "#germany_vehicles:Waffentrager_IV_CL_short",
-    "name": "",
+    "name": "Secret Tank 99",
     "tier": 9,
     "class": "AT-SPG",
     "nation": "germany",
@@ -3467,7 +3467,7 @@
   "25601": {
     "id": "25601",
     "key": "#ussr_vehicles:R175_IS_2E_short",
-    "name": "",
+    "name": "Secret Tank 100",
     "tier": 7,
     "class": "heavyTank",
     "nation": "ussr",
@@ -3654,7 +3654,7 @@
   "26401": {
     "id": "26401",
     "key": "#usa_vehicles:M36_BP_short",
-    "name": "",
+    "name": "Secret Tank 103",
     "tier": 6,
     "class": "AT-SPG",
     "nation": "usa",
@@ -5898,7 +5898,7 @@
   "63585": {
     "id": "63585",
     "key": "#japan_vehicles:PzVI_GuP_short",
-    "name": "",
+    "name": "Secret Tank 248",
     "tier": 6,
     "class": "heavyTank",
     "nation": "japan",
@@ -6459,7 +6459,7 @@
   "7041": {
     "id": "7041",
     "key": "#european_vehicles:S07_Strv74BP_short",
-    "name": "",
+    "name": "Secret Tank 27",
     "tier": 6,
     "class": "mediumTank",
     "nation": "european",
@@ -7031,7 +7031,7 @@
   "8753": {
     "id": "8753",
     "key": "#china_vehicles:Ch42_M41D_short",
-    "name": "",
+    "name": "Secret Tank 34",
     "tier": 7,
     "class": "lightTank",
     "nation": "china",
@@ -7075,7 +7075,7 @@
   "8833": {
     "id": "8833",
     "key": "#european_vehicles:Cz08_T-25BP_short",
-    "name": "",
+    "name": "Secret Tank 34",
     "tier": 6,
     "class": "mediumTank",
     "nation": "european",
