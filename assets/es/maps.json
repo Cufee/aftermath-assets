@@ -1,58 +1,8 @@
 [
   {
-    "id": "15",
-    "key": "port",
-    "name": "Bahía del puerto"
-  },
-  {
-    "id": "47",
-    "key": "medvedkovo_03",
-    "name": "Vía muerta: Ferrocarril"
-  },
-  {
-    "id": "4",
-    "key": "karieri",
-    "name": "Campo de cobre"
-  },
-  {
-    "id": "45",
-    "key": "desert_train_03",
-    "name": "Arenas del desierto: Dunas"
-  },
-  {
-    "id": "56",
-    "key": "canal_01",
-    "name": "Canal: Fábrica"
-  },
-  {
-    "id": "43",
-    "key": "rift",
-    "name": "Hélade"
-  },
-  {
-    "id": "25",
-    "key": "milbase",
-    "name": "Puerto Yamato"
-  },
-  {
-    "id": "55",
-    "key": "erlenberg_02",
-    "name": "Middleburg: Colina"
-  },
-  {
-    "id": "52",
-    "key": "milbase_04",
-    "name": "Puerto Yamato: Centro"
-  },
-  {
-    "id": "27",
-    "key": "canyon",
-    "name": "Cañón"
-  },
-  {
-    "id": "53",
-    "key": "milbase_05",
-    "name": "Puerto Yamato: Muelle"
+    "id": "61",
+    "key": "rudniki_02",
+    "name": "Minas: Aldea"
   },
   {
     "id": "51",
@@ -60,89 +10,9 @@
     "name": "Puerto Yamato: Colinas"
   },
   {
-    "id": "30",
-    "key": "rock",
-    "name": "Ruinas Mayas"
-  },
-  {
-    "id": "10",
-    "key": "mountain",
-    "name": "Villa del oro negro"
-  },
-  {
-    "id": "1",
-    "key": "karelia",
-    "name": "Rockfield"
-  },
-  {
-    "id": "13",
-    "key": "idle",
-    "name": "Yukón"
-  },
-  {
-    "id": "70",
-    "key": "moon",
-    "name": "Mar de la Tranquilidad"
-  },
-  {
-    "id": "20",
-    "key": "pliego",
-    "name": "Castilla"
-  },
-  {
-    "id": "38",
-    "key": "lumber",
-    "name": "Alpenstadt"
-  },
-  {
-    "id": "44",
-    "key": "desert_train_02",
-    "name": "Arenas del desierto: Ciudad"
-  },
-  {
-    "id": "39",
-    "key": "faust",
-    "name": "Fausto"
-  },
-  {
-    "id": "31",
-    "key": "grossberg",
-    "name": "Perla de la Dinastía"
-  },
-  {
-    "id": "11",
-    "key": "savanna",
-    "name": "Oasis de palmeras"
-  },
-  {
-    "id": "5",
-    "key": "amigosville",
-    "name": "Cascada del arroyo"
-  },
-  {
-    "id": "71",
-    "key": "holmeisk",
-    "name": "Tierras baldías"
-  },
-  {
-    "id": "62",
-    "key": "rudniki_03",
-    "name": "Minas: Centro"
-  },
-  {
-    "id": "61",
-    "key": "rudniki_02",
-    "name": "Minas: Aldea"
-  },
-  {
-    "id": "9",
-    "key": "himmelsdorf",
-    "name": "Himmelsdorf"
-  },
-  {
-    "id": "6",
-    "key": "rudniki",
-    "name": "Minas"
+    "id": "55",
+    "key": "erlenberg_02",
+    "name": "Middleburg: Colina"
   },
   {
     "id": "21",
@@ -150,9 +20,99 @@
     "name": "Canal"
   },
   {
-    "id": "57",
-    "key": "lumber_01",
-    "name": "Alpenstadt: Pueblo"
+    "id": "59",
+    "key": "neptune_02",
+    "name": "Normandía: Playa"
+  },
+  {
+    "id": "10",
+    "key": "mountain",
+    "name": "Villa del oro negro"
+  },
+  {
+    "id": "46",
+    "key": "medvedkovo_02",
+    "name": "Vía muerta: Valle"
+  },
+  {
+    "id": "62",
+    "key": "rudniki_03",
+    "name": "Minas: Centro"
+  },
+  {
+    "id": "13",
+    "key": "idle",
+    "name": "Yukón"
+  },
+  {
+    "id": "20",
+    "key": "pliego",
+    "name": "Castilla"
+  },
+  {
+    "id": "44",
+    "key": "desert_train_02",
+    "name": "Arenas del desierto: Ciudad"
+  },
+  {
+    "id": "15",
+    "key": "port",
+    "name": "Bahía del puerto"
+  },
+  {
+    "id": "54",
+    "key": "erlenberg_01",
+    "name": "Middleburg: Pueblo"
+  },
+  {
+    "id": "9",
+    "key": "himmelsdorf",
+    "name": "Himmelsdorf"
+  },
+  {
+    "id": "47",
+    "key": "medvedkovo_03",
+    "name": "Vía muerta: Ferrocarril"
+  },
+  {
+    "id": "35",
+    "key": "skit",
+    "name": "Frontera naval"
+  },
+  {
+    "id": "70",
+    "key": "moon",
+    "name": "Mar de la Tranquilidad"
+  },
+  {
+    "id": "7",
+    "key": "medvedkovo",
+    "name": "Vía muerta"
+  },
+  {
+    "id": "4",
+    "key": "karieri",
+    "name": "Campo de cobre"
+  },
+  {
+    "id": "38",
+    "key": "lumber",
+    "name": "Alpenstadt"
+  },
+  {
+    "id": "31",
+    "key": "grossberg",
+    "name": "Perla de la Dinastía"
+  },
+  {
+    "id": "5",
+    "key": "amigosville",
+    "name": "Cascada del arroyo"
+  },
+  {
+    "id": "45",
+    "key": "desert_train_03",
+    "name": "Arenas del desierto: Dunas"
   },
   {
     "id": "14",
@@ -165,44 +125,24 @@
     "name": "Middleburg"
   },
   {
+    "id": "71",
+    "key": "holmeisk",
+    "name": "Tierras baldías"
+  },
+  {
+    "id": "6",
+    "key": "rudniki",
+    "name": "Minas"
+  },
+  {
+    "id": "27",
+    "key": "canyon",
+    "name": "Cañón"
+  },
+  {
     "id": "72",
     "key": "iceworld",
     "name": "Hielo perpetuo"
-  },
-  {
-    "id": "40",
-    "key": "forgecity",
-    "name": "Nueva Bahía"
-  },
-  {
-    "id": "48",
-    "key": "amigosville_02",
-    "name": "Cascada del arroyo: Puente"
-  },
-  {
-    "id": "54",
-    "key": "erlenberg_01",
-    "name": "Middleburg: Pueblo"
-  },
-  {
-    "id": "2",
-    "key": "desert_train",
-    "name": "Arenas del desierto"
-  },
-  {
-    "id": "58",
-    "key": "neptune_01",
-    "name": "Normandía: Colinas"
-  },
-  {
-    "id": "35",
-    "key": "skit",
-    "name": "Frontera naval"
-  },
-  {
-    "id": "49",
-    "key": "amigosville_03",
-    "name": "Cascada del arroyo: Fábrica"
   },
   {
     "id": "42",
@@ -210,9 +150,9 @@
     "name": "Normandía"
   },
   {
-    "id": "59",
-    "key": "neptune_02",
-    "name": "Normandía: Playa"
+    "id": "25",
+    "key": "milbase",
+    "name": "Puerto Yamato"
   },
   {
     "id": "19",
@@ -220,9 +160,49 @@
     "name": "Malinovka en invierno"
   },
   {
-    "id": "23",
-    "key": "italy",
-    "name": "Viñedos"
+    "id": "12",
+    "key": "plant",
+    "name": "Fábrica fantasma"
+  },
+  {
+    "id": "48",
+    "key": "amigosville_02",
+    "name": "Cascada del arroyo: Puente"
+  },
+  {
+    "id": "11",
+    "key": "savanna",
+    "name": "Oasis de palmeras"
+  },
+  {
+    "id": "52",
+    "key": "milbase_04",
+    "name": "Puerto Yamato: Centro"
+  },
+  {
+    "id": "56",
+    "key": "canal_01",
+    "name": "Canal: Fábrica"
+  },
+  {
+    "id": "40",
+    "key": "forgecity",
+    "name": "Nueva Bahía"
+  },
+  {
+    "id": "43",
+    "key": "rift",
+    "name": "Hélade"
+  },
+  {
+    "id": "53",
+    "key": "milbase_05",
+    "name": "Puerto Yamato: Muelle"
+  },
+  {
+    "id": "1",
+    "key": "karelia",
+    "name": "Rockfield"
   },
   {
     "id": "60",
@@ -230,19 +210,24 @@
     "name": "Minas: Colina"
   },
   {
-    "id": "8",
-    "key": "fort",
-    "name": "Fuerte Desesperación"
+    "id": "30",
+    "key": "rock",
+    "name": "Ruinas Mayas"
   },
   {
-    "id": "7",
-    "key": "medvedkovo",
-    "name": "Vía muerta"
+    "id": "49",
+    "key": "amigosville_03",
+    "name": "Cascada del arroyo: Fábrica"
   },
   {
-    "id": "46",
-    "key": "medvedkovo_02",
-    "name": "Vía muerta: Valle"
+    "id": "58",
+    "key": "neptune_01",
+    "name": "Normandía: Colinas"
+  },
+  {
+    "id": "2",
+    "key": "desert_train",
+    "name": "Arenas del desierto"
   },
   {
     "id": "50",
@@ -250,8 +235,23 @@
     "name": "Puerto Yamato: Acorazado"
   },
   {
-    "id": "12",
-    "key": "plant",
-    "name": "Fábrica fantasma"
+    "id": "57",
+    "key": "lumber_01",
+    "name": "Alpenstadt: Pueblo"
+  },
+  {
+    "id": "8",
+    "key": "fort",
+    "name": "Fuerte Desesperación"
+  },
+  {
+    "id": "39",
+    "key": "faust",
+    "name": "Fausto"
+  },
+  {
+    "id": "23",
+    "key": "italy",
+    "name": "Viñedos"
   }
 ]

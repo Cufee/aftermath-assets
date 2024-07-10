@@ -1,3 +1,123 @@
+- key: maps_53
+  value: Porto do Yamato - Doca
+  notes: ""
+- key: maps_milbase_05
+  value: Porto do Yamato - Doca
+  notes: ""
+- key: maps_51
+  value: Porto do Yamato - Montanhas
+  notes: ""
+- key: maps_milbase_03
+  value: Porto do Yamato - Montanhas
+  notes: ""
+- key: maps_48
+  value: Enseada da Cachoeira - Ponte
+  notes: ""
+- key: maps_amigosville_02
+  value: Enseada da Cachoeira - Ponte
+  notes: ""
+- key: maps_70
+  value: Mar da Tranquilidade
+  notes: ""
+- key: maps_moon
+  value: Mar da Tranquilidade
+  notes: ""
+- key: maps_45
+  value: Areias do Deserto - Dunas
+  notes: ""
+- key: maps_desert_train_03
+  value: Areias do Deserto - Dunas
+  notes: ""
+- key: maps_2
+  value: Areias do Deserto
+  notes: ""
+- key: maps_desert_train
+  value: Areias do Deserto
+  notes: ""
+- key: maps_50
+  value: Porto do Yamato - Encouraçado
+  notes: ""
+- key: maps_milbase_02
+  value: Porto do Yamato - Encouraçado
+  notes: ""
+- key: maps_57
+  value: Alpenstadt - Cidade
+  notes: ""
+- key: maps_lumber_01
+  value: Alpenstadt - Cidade
+  notes: ""
+- key: maps_62
+  value: Minas - Centro
+  notes: ""
+- key: maps_rudniki_03
+  value: Minas - Centro
+  notes: ""
+- key: maps_12
+  value: Fábrica Fantasma
+  notes: ""
+- key: maps_plant
+  value: Fábrica Fantasma
+  notes: ""
+- key: maps_7
+  value: Trilho Fantasma
+  notes: ""
+- key: maps_medvedkovo
+  value: Trilho Fantasma
+  notes: ""
+- key: maps_58
+  value: Normandia - Colinas
+  notes: ""
+- key: maps_neptune_01
+  value: Normandia - Colinas
+  notes: ""
+- key: maps_6
+  value: Minas
+  notes: ""
+- key: maps_rudniki
+  value: Minas
+  notes: ""
+- key: maps_59
+  value: Normandia - Praia
+  notes: ""
+- key: maps_neptune_02
+  value: Normandia - Praia
+  notes: ""
+- key: maps_38
+  value: Alpenstadt
+  notes: ""
+- key: maps_lumber
+  value: Alpenstadt
+  notes: ""
+- key: maps_55
+  value: Middleburg - Colina
+  notes: ""
+- key: maps_erlenberg_02
+  value: Middleburg - Colina
+  notes: ""
+- key: maps_46
+  value: Trilho Fantasma - Vale
+  notes: ""
+- key: maps_medvedkovo_02
+  value: Trilho Fantasma - Vale
+  notes: ""
+- key: maps_42
+  value: Normandia
+  notes: ""
+- key: maps_neptune
+  value: Normandia
+  notes: ""
+- key: maps_30
+  value: Pirâmides Antigas
+  notes: ""
+- key: maps_rock
+  value: Pirâmides Antigas
+  notes: ""
+- key: maps_20
+  value: Castilla
+  notes: ""
+- key: maps_pliego
+  value: Castilla
+  notes: ""
 - key: maps_25
   value: Porto do Yamato
   notes: ""
@@ -10,59 +130,35 @@
 - key: maps_canal
   value: Canal
   notes: ""
-- key: maps_38
-  value: Alpenstadt
+- key: maps_49
+  value: Enseada da Cachoeira - Fábrica
   notes: ""
-- key: maps_lumber
-  value: Alpenstadt
+- key: maps_amigosville_03
+  value: Enseada da Cachoeira - Fábrica
   notes: ""
-- key: maps_19
-  value: Malinovka Gelada
+- key: maps_39
+  value: Faust
   notes: ""
-- key: maps_malinovka
-  value: Malinovka Gelada
+- key: maps_faust
+  value: Faust
   notes: ""
-- key: maps_59
-  value: Normandia - Praia
+- key: maps_61
+  value: Minas - Vila
   notes: ""
-- key: maps_neptune_02
-  value: Normandia - Praia
+- key: maps_rudniki_02
+  value: Minas - Vila
   notes: ""
-- key: maps_43
-  value: Hélade
+- key: maps_9
+  value: Himmelsdorf
   notes: ""
-- key: maps_rift
-  value: Hélade
+- key: maps_himmelsdorf
+  value: Himmelsdorf
   notes: ""
-- key: maps_11
-  value: Palmeiras do Oásis
+- key: maps_60
+  value: Minas - Colina
   notes: ""
-- key: maps_savanna
-  value: Palmeiras do Oásis
-  notes: ""
-- key: maps_51
-  value: Porto do Yamato - Montanhas
-  notes: ""
-- key: maps_milbase_03
-  value: Porto do Yamato - Montanhas
-  notes: ""
-- key: maps_10
-  value: Ouro Negro
-  notes: ""
-- key: maps_mountain
-  value: Ouro Negro
-  notes: ""
-- key: maps_7
-  value: Trilho Fantasma
-  notes: ""
-- key: maps_medvedkovo
-  value: Trilho Fantasma
-  notes: ""
-- key: maps_70
-  value: Mar da Tranquilidade
-  notes: ""
-- key: maps_moon
-  value: Mar da Tranquilidade
+- key: maps_rudniki_01
+  value: Minas - Colina
   notes: ""
 - key: maps_3
   value: Middleburg
@@ -70,11 +166,17 @@
 - key: maps_erlenberg
   value: Middleburg
   notes: ""
-- key: maps_40
-  value: Nova Baía
+- key: maps_43
+  value: Hélade
   notes: ""
-- key: maps_forgecity
-  value: Nova Baía
+- key: maps_rift
+  value: Hélade
+  notes: ""
+- key: maps_1
+  value: Rockfield
+  notes: ""
+- key: maps_karelia
+  value: Rockfield
   notes: ""
 - key: maps_44
   value: Areias do Deserto - Cidade
@@ -82,11 +184,35 @@
 - key: maps_desert_train_02
   value: Areias do Deserto - Cidade
   notes: ""
-- key: maps_57
-  value: Alpenstadt - Cidade
+- key: maps_54
+  value: Middleburg - Cidade
   notes: ""
-- key: maps_lumber_01
-  value: Alpenstadt - Cidade
+- key: maps_erlenberg_01
+  value: Middleburg - Cidade
+  notes: ""
+- key: maps_14
+  value: Molendijk
+  notes: ""
+- key: maps_holland
+  value: Molendijk
+  notes: ""
+- key: maps_19
+  value: Malinovka Gelada
+  notes: ""
+- key: maps_malinovka
+  value: Malinovka Gelada
+  notes: ""
+- key: maps_5
+  value: Enseada da Cachoeira
+  notes: ""
+- key: maps_amigosville
+  value: Enseada da Cachoeira
+  notes: ""
+- key: maps_4
+  value: Campo de Cobre
+  notes: ""
+- key: maps_karieri
+  value: Campo de Cobre
   notes: ""
 - key: maps_35
   value: Fronteira Naval
@@ -94,11 +220,23 @@
 - key: maps_skit
   value: Fronteira Naval
   notes: ""
-- key: maps_30
-  value: Pirâmides Antigas
+- key: maps_31
+  value: Dinastia da Pérola
   notes: ""
-- key: maps_rock
-  value: Pirâmides Antigas
+- key: maps_grossberg
+  value: Dinastia da Pérola
+  notes: ""
+- key: maps_11
+  value: Palmeiras do Oásis
+  notes: ""
+- key: maps_savanna
+  value: Palmeiras do Oásis
+  notes: ""
+- key: maps_8
+  value: Forte do Desespero
+  notes: ""
+- key: maps_fort
+  value: Forte do Desespero
   notes: ""
 - key: maps_71
   value: Terra de Ninguém
@@ -112,29 +250,11 @@
 - key: maps_milbase_04
   value: Porto do Yamato - Centro
   notes: ""
-- key: maps_47
-  value: Trilho Fantasma - Ferrovia
+- key: maps_56
+  value: Canal - Fábrica
   notes: ""
-- key: maps_medvedkovo_03
-  value: Trilho Fantasma - Ferrovia
-  notes: ""
-- key: maps_12
-  value: Fábrica Fantasma
-  notes: ""
-- key: maps_plant
-  value: Fábrica Fantasma
-  notes: ""
-- key: maps_5
-  value: Enseada da Cachoeira
-  notes: ""
-- key: maps_amigosville
-  value: Enseada da Cachoeira
-  notes: ""
-- key: maps_2
-  value: Areias do Deserto
-  notes: ""
-- key: maps_desert_train
-  value: Areias do Deserto
+- key: maps_canal_01
+  value: Canal - Fábrica
   notes: ""
 - key: maps_27
   value: Desfiladeiro
@@ -142,11 +262,11 @@
 - key: maps_canyon
   value: Desfiladeiro
   notes: ""
-- key: maps_60
-  value: Minas - Colina
+- key: maps_40
+  value: Nova Baía
   notes: ""
-- key: maps_rudniki_01
-  value: Minas - Colina
+- key: maps_forgecity
+  value: Nova Baía
   notes: ""
 - key: maps_23
   value: Videiras
@@ -154,143 +274,17 @@
 - key: maps_italy
   value: Videiras
   notes: ""
-- key: maps_4
-  value: Campo de Cobre
-  notes: ""
-- key: maps_karieri
-  value: Campo de Cobre
-  notes: ""
 - key: maps_72
   value: Geada Eterna
   notes: ""
 - key: maps_iceworld
   value: Geada Eterna
   notes: ""
-- key: maps_55
-  value: Middleburg - Colina
+- key: maps_47
+  value: Trilho Fantasma - Ferrovia
   notes: ""
-- key: maps_erlenberg_02
-  value: Middleburg - Colina
-  notes: ""
-- key: maps_56
-  value: Canal - Fábrica
-  notes: ""
-- key: maps_canal_01
-  value: Canal - Fábrica
-  notes: ""
-- key: maps_58
-  value: Normandia - Colinas
-  notes: ""
-- key: maps_neptune_01
-  value: Normandia - Colinas
-  notes: ""
-- key: maps_45
-  value: Areias do Deserto - Dunas
-  notes: ""
-- key: maps_desert_train_03
-  value: Areias do Deserto - Dunas
-  notes: ""
-- key: maps_62
-  value: Minas - Centro
-  notes: ""
-- key: maps_rudniki_03
-  value: Minas - Centro
-  notes: ""
-- key: maps_61
-  value: Minas - Vila
-  notes: ""
-- key: maps_rudniki_02
-  value: Minas - Vila
-  notes: ""
-- key: maps_46
-  value: Trilho Fantasma - Vale
-  notes: ""
-- key: maps_medvedkovo_02
-  value: Trilho Fantasma - Vale
-  notes: ""
-- key: maps_1
-  value: Rockfield
-  notes: ""
-- key: maps_karelia
-  value: Rockfield
-  notes: ""
-- key: maps_15
-  value: Baía do Porto
-  notes: ""
-- key: maps_port
-  value: Baía do Porto
-  notes: ""
-- key: maps_9
-  value: Himmelsdorf
-  notes: ""
-- key: maps_himmelsdorf
-  value: Himmelsdorf
-  notes: ""
-- key: maps_39
-  value: Faust
-  notes: ""
-- key: maps_faust
-  value: Faust
-  notes: ""
-- key: maps_53
-  value: Porto do Yamato - Doca
-  notes: ""
-- key: maps_milbase_05
-  value: Porto do Yamato - Doca
-  notes: ""
-- key: maps_6
-  value: Minas
-  notes: ""
-- key: maps_rudniki
-  value: Minas
-  notes: ""
-- key: maps_31
-  value: Dinastia da Pérola
-  notes: ""
-- key: maps_grossberg
-  value: Dinastia da Pérola
-  notes: ""
-- key: maps_49
-  value: Enseada da Cachoeira - Fábrica
-  notes: ""
-- key: maps_amigosville_03
-  value: Enseada da Cachoeira - Fábrica
-  notes: ""
-- key: maps_48
-  value: Enseada da Cachoeira - Ponte
-  notes: ""
-- key: maps_amigosville_02
-  value: Enseada da Cachoeira - Ponte
-  notes: ""
-- key: maps_8
-  value: Forte do Desespero
-  notes: ""
-- key: maps_fort
-  value: Forte do Desespero
-  notes: ""
-- key: maps_20
-  value: Castilla
-  notes: ""
-- key: maps_pliego
-  value: Castilla
-  notes: ""
-- key: maps_54
-  value: Middleburg - Cidade
-  notes: ""
-- key: maps_erlenberg_01
-  value: Middleburg - Cidade
-  notes: ""
-- key: maps_50
-  value: Porto do Yamato - Encouraçado
-  notes: ""
-- key: maps_milbase_02
-  value: Porto do Yamato - Encouraçado
-  notes: ""
-- key: maps_42
-  value: Normandia
-  notes: ""
-- key: maps_neptune
-  value: Normandia
+- key: maps_medvedkovo_03
+  value: Trilho Fantasma - Ferrovia
   notes: ""
 - key: maps_13
   value: Yukon
@@ -298,9 +292,15 @@
 - key: maps_idle
   value: Yukon
   notes: ""
-- key: maps_14
-  value: Molendijk
+- key: maps_15
+  value: Baía do Porto
   notes: ""
-- key: maps_holland
-  value: Molendijk
+- key: maps_port
+  value: Baía do Porto
+  notes: ""
+- key: maps_10
+  value: Ouro Negro
+  notes: ""
+- key: maps_mountain
+  value: Ouro Negro
   notes: ""

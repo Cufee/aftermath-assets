@@ -1,7 +1,7 @@
 {
   "1": {
     "id": "1",
-    "key": "#ussr_vehicles:R146_STG_short",
+    "key": "#ussr_vehicles:BT-7",
     "name": "Secret Tank 0",
     "tier": 0,
     "class": "unknown",
@@ -12,7 +12,7 @@
   },
   "113": {
     "id": "113",
-    "key": "#other_vehicles:Oth50_STT_short",
+    "key": "#other_vehicles:Oth24_StuH_42HW_short",
     "name": "Secret Tank 0",
     "tier": 0,
     "class": "unknown",
@@ -23,7 +23,7 @@
   },
   "129": {
     "id": "129",
-    "key": "#european_vehicles:It10_P43_bis_short",
+    "key": "#european_vehicles:S18_EMIL_1951E1_short",
     "name": "Secret Tank 0",
     "tier": 0,
     "class": "unknown",
@@ -34,7 +34,7 @@
   },
   "17": {
     "id": "17",
-    "key": "#germany_vehicles:PzVI_AusfBP_short",
+    "key": "#germany_vehicles:Pz35t_short",
     "name": "Secret Tank 0",
     "tier": 0,
     "class": "unknown",
@@ -45,7 +45,7 @@
   },
   "33": {
     "id": "33",
-    "key": "#usa_vehicles:T95",
+    "key": "#usa_vehicles:M-3-Y-Midas_short",
     "name": "Secret Tank 0",
     "tier": 0,
     "class": "unknown",
@@ -56,7 +56,7 @@
   },
   "49": {
     "id": "49",
-    "key": "#china_vehicles:Ch24_Type64_short",
+    "key": "#china_vehicles:Type_58BP_short",
     "name": "Secret Tank 0",
     "tier": 0,
     "class": "unknown",
@@ -67,7 +67,7 @@
   },
   "65": {
     "id": "65",
-    "key": "#france_vehicles:F19_Lorraine40t_short",
+    "key": "#france_vehicles:F119_Projet_Murat_short",
     "name": "Secret Tank 0",
     "tier": 0,
     "class": "unknown",
@@ -78,7 +78,7 @@
   },
   "81": {
     "id": "81",
-    "key": "#uk_vehicles:GB_Vickers_Cruiser_short",
+    "key": "#uk_vehicles:GB93_Caernarvon_AX_short",
     "name": "Secret Tank 0",
     "tier": 0,
     "class": "unknown",
@@ -89,7 +89,7 @@
   },
   "97": {
     "id": "97",
-    "key": "#japan_vehicles:Type_61_short",
+    "key": "#japan_vehicles:Ke_Ho_short",
     "name": "Secret Tank 0",
     "tier": 0,
     "class": "unknown",

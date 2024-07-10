@@ -1,20 +1,8 @@
-- key: maps_46
-  value: รางรถไฟมรณะ - หุบเขา
+- key: maps_39
+  value: กำปั้น
   notes: ""
-- key: maps_medvedkovo_02
-  value: รางรถไฟมรณะ - หุบเขา
-  notes: ""
-- key: maps_62
-  value: เหมือง - ใจกลาง
-  notes: ""
-- key: maps_rudniki_03
-  value: เหมือง - ใจกลาง
-  notes: ""
-- key: maps_7
-  value: รางรถไฟมรณะ
-  notes: ""
-- key: maps_medvedkovo
-  value: รางรถไฟมรณะ
+- key: maps_faust
+  value: กำปั้น
   notes: ""
 - key: maps_4
   value: ทุ่งทองแดง
@@ -22,149 +10,11 @@
 - key: maps_karieri
   value: ทุ่งทองแดง
   notes: ""
-- key: maps_25
-  value: ท่าเรือยามาโต้
-  notes: ""
-- key: maps_milbase
-  value: ท่าเรือยามาโต้
-  notes: ""
-- key: maps_72
-  value: ทุ่งน้ำแข็ง
-  notes: ""
-- key: maps_iceworld
-  value: ทุ่งน้ำแข็ง
-  notes: ""
-- key: maps_60
-  value: เหมือง - เนิน
-  notes: ""
-- key: maps_rudniki_01
-  value: เหมือง - เนิน
-  notes: ""
 - key: maps_2
   value: ทะเลทราย
   notes: ""
 - key: maps_desert_train
   value: ทะเลทราย
-  notes: ""
-- key: maps_5
-  value: ธารน้ำตก
-  notes: ""
-- key: maps_amigosville
-  value: ธารน้ำตก
-  notes: ""
-- key: maps_45
-  value: ทะเลทราย - สันทราย
-  notes: ""
-- key: maps_desert_train_03
-  value: ทะเลทราย - สันทราย
-  notes: ""
-- key: maps_35
-  value: เขตแดนทางทะเล
-  notes: ""
-- key: maps_skit
-  value: เขตแดนทางทะเล
-  notes: ""
-- key: maps_13
-  value: ยูคอน
-  notes: ""
-- key: maps_idle
-  value: ยูคอน
-  notes: ""
-- key: maps_9
-  value: ฮิมเมลสดอร์ฟ
-  notes: ""
-- key: maps_himmelsdorf
-  value: ฮิมเมลสดอร์ฟ
-  notes: ""
-- key: maps_51
-  value: ท่าเรือยามาโต้ - เนินเขา
-  notes: ""
-- key: maps_milbase_03
-  value: ท่าเรือยามาโต้ - เนินเขา
-  notes: ""
-- key: maps_38
-  value: อัลเพนสตาดท์
-  notes: ""
-- key: maps_lumber
-  value: อัลเพนสตาดท์
-  notes: ""
-- key: maps_55
-  value: กลางเมือง - เนิน
-  notes: ""
-- key: maps_erlenberg_02
-  value: กลางเมือง - เนิน
-  notes: ""
-- key: maps_42
-  value: นอร์มังดี
-  notes: ""
-- key: maps_neptune
-  value: นอร์มังดี
-  notes: ""
-- key: maps_6
-  value: เหมือง
-  notes: ""
-- key: maps_rudniki
-  value: เหมือง
-  notes: ""
-- key: maps_53
-  value: ท่าเรือยามาโต้ - อู่ต่อเรือ
-  notes: ""
-- key: maps_milbase_05
-  value: ท่าเรือยามาโต้ - อู่ต่อเรือ
-  notes: ""
-- key: maps_1
-  value: ทุ่งหิน
-  notes: ""
-- key: maps_karelia
-  value: ทุ่งหิน
-  notes: ""
-- key: maps_11
-  value: ปาล์มโอเอซิส
-  notes: ""
-- key: maps_savanna
-  value: ปาล์มโอเอซิส
-  notes: ""
-- key: maps_59
-  value: นอร์มังดี - ชายหาด
-  notes: ""
-- key: maps_neptune_02
-  value: นอร์มังดี - ชายหาด
-  notes: ""
-- key: maps_71
-  value: แดนร้าง
-  notes: ""
-- key: maps_holmeisk
-  value: แดนร้าง
-  notes: ""
-- key: maps_3
-  value: กลางเมือง
-  notes: ""
-- key: maps_erlenberg
-  value: กลางเมือง
-  notes: ""
-- key: maps_15
-  value: ท่าเรือติดอ่าว
-  notes: ""
-- key: maps_port
-  value: ท่าเรือติดอ่าว
-  notes: ""
-- key: maps_57
-  value: อัลเพนสตาดท์ - ตัวเมือง
-  notes: ""
-- key: maps_lumber_01
-  value: อัลเพนสตาดท์ - ตัวเมือง
-  notes: ""
-- key: maps_30
-  value: ปิรามิดโบราณ
-  notes: ""
-- key: maps_rock
-  value: ปิรามิดโบราณ
-  notes: ""
-- key: maps_54
-  value: กลางเมือง - ตัวเมือง
-  notes: ""
-- key: maps_erlenberg_01
-  value: กลางเมือง - ตัวเมือง
   notes: ""
 - key: maps_56
   value: คลอง - โรงงาน
@@ -172,11 +22,11 @@
 - key: maps_canal_01
   value: คลอง - โรงงาน
   notes: ""
-- key: maps_50
-  value: ท่าเรือยามาโต้ - เรือประจัญบาน
+- key: maps_44
+  value: ทะเลทราย - เมือง
   notes: ""
-- key: maps_milbase_02
-  value: ท่าเรือยามาโต้ - เรือประจัญบาน
+- key: maps_desert_train_02
+  value: ทะเลทราย - เมือง
   notes: ""
 - key: maps_19
   value: มาลินอฟกาฤดูหนาว
@@ -184,29 +34,29 @@
 - key: maps_malinovka
   value: มาลินอฟกาฤดูหนาว
   notes: ""
-- key: maps_14
-  value: เมืองกังหันลม
-  notes: ""
-- key: maps_holland
-  value: เมืองกังหันลม
-  notes: ""
 - key: maps_48
   value: ธารน้ำตก - สะพาน
   notes: ""
 - key: maps_amigosville_02
   value: ธารน้ำตก - สะพาน
   notes: ""
-- key: maps_21
-  value: คลอง
+- key: maps_53
+  value: ท่าเรือยามาโต้ - อู่ต่อเรือ
   notes: ""
-- key: maps_canal
-  value: คลอง
+- key: maps_milbase_05
+  value: ท่าเรือยามาโต้ - อู่ต่อเรือ
   notes: ""
-- key: maps_27
-  value: หุบผา
+- key: maps_6
+  value: เหมือง
   notes: ""
-- key: maps_canyon
-  value: หุบผา
+- key: maps_rudniki
+  value: เหมือง
+  notes: ""
+- key: maps_62
+  value: เหมือง - ใจกลาง
+  notes: ""
+- key: maps_rudniki_03
+  value: เหมือง - ใจกลาง
   notes: ""
 - key: maps_43
   value: กรีกโบราณ
@@ -214,17 +64,23 @@
 - key: maps_rift
   value: กรีกโบราณ
   notes: ""
-- key: maps_40
-  value: อ่าวใหม่
+- key: maps_50
+  value: ท่าเรือยามาโต้ - เรือประจัญบาน
   notes: ""
-- key: maps_forgecity
-  value: อ่าวใหม่
+- key: maps_milbase_02
+  value: ท่าเรือยามาโต้ - เรือประจัญบาน
   notes: ""
-- key: maps_52
-  value: ท่าเรือยามาโต้ - ศูนย์กลาง
+- key: maps_25
+  value: ท่าเรือยามาโต้
   notes: ""
-- key: maps_milbase_04
-  value: ท่าเรือยามาโต้ - ศูนย์กลาง
+- key: maps_milbase
+  value: ท่าเรือยามาโต้
+  notes: ""
+- key: maps_8
+  value: ป้อมสิ้นหวัง
+  notes: ""
+- key: maps_fort
+  value: ป้อมสิ้นหวัง
   notes: ""
 - key: maps_49
   value: ธารน้ำตก - โรงงาน
@@ -232,65 +88,11 @@
 - key: maps_amigosville_03
   value: ธารน้ำตก - โรงงาน
   notes: ""
-- key: maps_39
-  value: กำปั้น
+- key: maps_51
+  value: ท่าเรือยามาโต้ - เนินเขา
   notes: ""
-- key: maps_faust
-  value: กำปั้น
-  notes: ""
-- key: maps_12
-  value: โรงงานร้าง
-  notes: ""
-- key: maps_plant
-  value: โรงงานร้าง
-  notes: ""
-- key: maps_58
-  value: นอร์มังดี - เนิน
-  notes: ""
-- key: maps_neptune_01
-  value: นอร์มังดี - เนิน
-  notes: ""
-- key: maps_20
-  value: คาสติล
-  notes: ""
-- key: maps_pliego
-  value: คาสติล
-  notes: ""
-- key: maps_61
-  value: เหมือง - หมู่บ้าน
-  notes: ""
-- key: maps_rudniki_02
-  value: เหมือง - หมู่บ้าน
-  notes: ""
-- key: maps_23
-  value: ไร่องุ่น
-  notes: ""
-- key: maps_italy
-  value: ไร่องุ่น
-  notes: ""
-- key: maps_44
-  value: ทะเลทราย - เมือง
-  notes: ""
-- key: maps_desert_train_02
-  value: ทะเลทราย - เมือง
-  notes: ""
-- key: maps_31
-  value: ไข่มุกแห่งราชวงศ์
-  notes: ""
-- key: maps_grossberg
-  value: ไข่มุกแห่งราชวงศ์
-  notes: ""
-- key: maps_10
-  value: เมืองทองดำ
-  notes: ""
-- key: maps_mountain
-  value: เมืองทองดำ
-  notes: ""
-- key: maps_70
-  value: ทะเลแห่งความสงบ
-  notes: ""
-- key: maps_moon
-  value: ทะเลแห่งความสงบ
+- key: maps_milbase_03
+  value: ท่าเรือยามาโต้ - เนินเขา
   notes: ""
 - key: maps_47
   value: รางรถไฟมรณะ - รางรถไฟ
@@ -298,9 +100,207 @@
 - key: maps_medvedkovo_03
   value: รางรถไฟมรณะ - รางรถไฟ
   notes: ""
-- key: maps_8
-  value: ป้อมสิ้นหวัง
+- key: maps_71
+  value: แดนร้าง
   notes: ""
-- key: maps_fort
-  value: ป้อมสิ้นหวัง
+- key: maps_holmeisk
+  value: แดนร้าง
+  notes: ""
+- key: maps_20
+  value: คาสติล
+  notes: ""
+- key: maps_pliego
+  value: คาสติล
+  notes: ""
+- key: maps_14
+  value: เมืองกังหันลม
+  notes: ""
+- key: maps_holland
+  value: เมืองกังหันลม
+  notes: ""
+- key: maps_59
+  value: นอร์มังดี - ชายหาด
+  notes: ""
+- key: maps_neptune_02
+  value: นอร์มังดี - ชายหาด
+  notes: ""
+- key: maps_21
+  value: คลอง
+  notes: ""
+- key: maps_canal
+  value: คลอง
+  notes: ""
+- key: maps_70
+  value: ทะเลแห่งความสงบ
+  notes: ""
+- key: maps_moon
+  value: ทะเลแห่งความสงบ
+  notes: ""
+- key: maps_38
+  value: อัลเพนสตาดท์
+  notes: ""
+- key: maps_lumber
+  value: อัลเพนสตาดท์
+  notes: ""
+- key: maps_9
+  value: ฮิมเมลสดอร์ฟ
+  notes: ""
+- key: maps_himmelsdorf
+  value: ฮิมเมลสดอร์ฟ
+  notes: ""
+- key: maps_12
+  value: โรงงานร้าง
+  notes: ""
+- key: maps_plant
+  value: โรงงานร้าง
+  notes: ""
+- key: maps_42
+  value: นอร์มังดี
+  notes: ""
+- key: maps_neptune
+  value: นอร์มังดี
+  notes: ""
+- key: maps_31
+  value: ไข่มุกแห่งราชวงศ์
+  notes: ""
+- key: maps_grossberg
+  value: ไข่มุกแห่งราชวงศ์
+  notes: ""
+- key: maps_52
+  value: ท่าเรือยามาโต้ - ศูนย์กลาง
+  notes: ""
+- key: maps_milbase_04
+  value: ท่าเรือยามาโต้ - ศูนย์กลาง
+  notes: ""
+- key: maps_11
+  value: ปาล์มโอเอซิส
+  notes: ""
+- key: maps_savanna
+  value: ปาล์มโอเอซิส
+  notes: ""
+- key: maps_23
+  value: ไร่องุ่น
+  notes: ""
+- key: maps_italy
+  value: ไร่องุ่น
+  notes: ""
+- key: maps_5
+  value: ธารน้ำตก
+  notes: ""
+- key: maps_amigosville
+  value: ธารน้ำตก
+  notes: ""
+- key: maps_10
+  value: เมืองทองดำ
+  notes: ""
+- key: maps_mountain
+  value: เมืองทองดำ
+  notes: ""
+- key: maps_3
+  value: กลางเมือง
+  notes: ""
+- key: maps_erlenberg
+  value: กลางเมือง
+  notes: ""
+- key: maps_58
+  value: นอร์มังดี - เนิน
+  notes: ""
+- key: maps_neptune_01
+  value: นอร์มังดี - เนิน
+  notes: ""
+- key: maps_55
+  value: กลางเมือง - เนิน
+  notes: ""
+- key: maps_erlenberg_02
+  value: กลางเมือง - เนิน
+  notes: ""
+- key: maps_27
+  value: หุบผา
+  notes: ""
+- key: maps_canyon
+  value: หุบผา
+  notes: ""
+- key: maps_61
+  value: เหมือง - หมู่บ้าน
+  notes: ""
+- key: maps_rudniki_02
+  value: เหมือง - หมู่บ้าน
+  notes: ""
+- key: maps_45
+  value: ทะเลทราย - สันทราย
+  notes: ""
+- key: maps_desert_train_03
+  value: ทะเลทราย - สันทราย
+  notes: ""
+- key: maps_60
+  value: เหมือง - เนิน
+  notes: ""
+- key: maps_rudniki_01
+  value: เหมือง - เนิน
+  notes: ""
+- key: maps_30
+  value: ปิรามิดโบราณ
+  notes: ""
+- key: maps_rock
+  value: ปิรามิดโบราณ
+  notes: ""
+- key: maps_1
+  value: ทุ่งหิน
+  notes: ""
+- key: maps_karelia
+  value: ทุ่งหิน
+  notes: ""
+- key: maps_40
+  value: อ่าวใหม่
+  notes: ""
+- key: maps_forgecity
+  value: อ่าวใหม่
+  notes: ""
+- key: maps_54
+  value: กลางเมือง - ตัวเมือง
+  notes: ""
+- key: maps_erlenberg_01
+  value: กลางเมือง - ตัวเมือง
+  notes: ""
+- key: maps_7
+  value: รางรถไฟมรณะ
+  notes: ""
+- key: maps_medvedkovo
+  value: รางรถไฟมรณะ
+  notes: ""
+- key: maps_35
+  value: เขตแดนทางทะเล
+  notes: ""
+- key: maps_skit
+  value: เขตแดนทางทะเล
+  notes: ""
+- key: maps_46
+  value: รางรถไฟมรณะ - หุบเขา
+  notes: ""
+- key: maps_medvedkovo_02
+  value: รางรถไฟมรณะ - หุบเขา
+  notes: ""
+- key: maps_15
+  value: ท่าเรือติดอ่าว
+  notes: ""
+- key: maps_port
+  value: ท่าเรือติดอ่าว
+  notes: ""
+- key: maps_13
+  value: ยูคอน
+  notes: ""
+- key: maps_idle
+  value: ยูคอน
+  notes: ""
+- key: maps_72
+  value: ทุ่งน้ำแข็ง
+  notes: ""
+- key: maps_iceworld
+  value: ทุ่งน้ำแข็ง
+  notes: ""
+- key: maps_57
+  value: อัลเพนสตาดท์ - ตัวเมือง
+  notes: ""
+- key: maps_lumber_01
+  value: อัลเพนสตาดท์ - ตัวเมือง
   notes: ""

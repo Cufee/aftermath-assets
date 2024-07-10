@@ -1,68 +1,8 @@
-- key: maps_15
-  value: Bahía del puerto
+- key: maps_61
+  value: 'Minas: Aldea'
   notes: ""
-- key: maps_port
-  value: Bahía del puerto
-  notes: ""
-- key: maps_47
-  value: 'Vía muerta: Ferrocarril'
-  notes: ""
-- key: maps_medvedkovo_03
-  value: 'Vía muerta: Ferrocarril'
-  notes: ""
-- key: maps_4
-  value: Campo de cobre
-  notes: ""
-- key: maps_karieri
-  value: Campo de cobre
-  notes: ""
-- key: maps_45
-  value: 'Arenas del desierto: Dunas'
-  notes: ""
-- key: maps_desert_train_03
-  value: 'Arenas del desierto: Dunas'
-  notes: ""
-- key: maps_56
-  value: 'Canal: Fábrica'
-  notes: ""
-- key: maps_canal_01
-  value: 'Canal: Fábrica'
-  notes: ""
-- key: maps_43
-  value: Hélade
-  notes: ""
-- key: maps_rift
-  value: Hélade
-  notes: ""
-- key: maps_25
-  value: Puerto Yamato
-  notes: ""
-- key: maps_milbase
-  value: Puerto Yamato
-  notes: ""
-- key: maps_55
-  value: 'Middleburg: Colina'
-  notes: ""
-- key: maps_erlenberg_02
-  value: 'Middleburg: Colina'
-  notes: ""
-- key: maps_52
-  value: 'Puerto Yamato: Centro'
-  notes: ""
-- key: maps_milbase_04
-  value: 'Puerto Yamato: Centro'
-  notes: ""
-- key: maps_27
-  value: Cañón
-  notes: ""
-- key: maps_canyon
-  value: Cañón
-  notes: ""
-- key: maps_53
-  value: 'Puerto Yamato: Muelle'
-  notes: ""
-- key: maps_milbase_05
-  value: 'Puerto Yamato: Muelle'
+- key: maps_rudniki_02
+  value: 'Minas: Aldea'
   notes: ""
 - key: maps_51
   value: 'Puerto Yamato: Colinas'
@@ -70,107 +10,11 @@
 - key: maps_milbase_03
   value: 'Puerto Yamato: Colinas'
   notes: ""
-- key: maps_30
-  value: Ruinas Mayas
+- key: maps_55
+  value: 'Middleburg: Colina'
   notes: ""
-- key: maps_rock
-  value: Ruinas Mayas
-  notes: ""
-- key: maps_10
-  value: Villa del oro negro
-  notes: ""
-- key: maps_mountain
-  value: Villa del oro negro
-  notes: ""
-- key: maps_1
-  value: Rockfield
-  notes: ""
-- key: maps_karelia
-  value: Rockfield
-  notes: ""
-- key: maps_13
-  value: Yukón
-  notes: ""
-- key: maps_idle
-  value: Yukón
-  notes: ""
-- key: maps_70
-  value: Mar de la Tranquilidad
-  notes: ""
-- key: maps_moon
-  value: Mar de la Tranquilidad
-  notes: ""
-- key: maps_20
-  value: Castilla
-  notes: ""
-- key: maps_pliego
-  value: Castilla
-  notes: ""
-- key: maps_38
-  value: Alpenstadt
-  notes: ""
-- key: maps_lumber
-  value: Alpenstadt
-  notes: ""
-- key: maps_44
-  value: 'Arenas del desierto: Ciudad'
-  notes: ""
-- key: maps_desert_train_02
-  value: 'Arenas del desierto: Ciudad'
-  notes: ""
-- key: maps_39
-  value: Fausto
-  notes: ""
-- key: maps_faust
-  value: Fausto
-  notes: ""
-- key: maps_31
-  value: Perla de la Dinastía
-  notes: ""
-- key: maps_grossberg
-  value: Perla de la Dinastía
-  notes: ""
-- key: maps_11
-  value: Oasis de palmeras
-  notes: ""
-- key: maps_savanna
-  value: Oasis de palmeras
-  notes: ""
-- key: maps_5
-  value: Cascada del arroyo
-  notes: ""
-- key: maps_amigosville
-  value: Cascada del arroyo
-  notes: ""
-- key: maps_71
-  value: Tierras baldías
-  notes: ""
-- key: maps_holmeisk
-  value: Tierras baldías
-  notes: ""
-- key: maps_62
-  value: 'Minas: Centro'
-  notes: ""
-- key: maps_rudniki_03
-  value: 'Minas: Centro'
-  notes: ""
-- key: maps_61
-  value: 'Minas: Aldea'
-  notes: ""
-- key: maps_rudniki_02
-  value: 'Minas: Aldea'
-  notes: ""
-- key: maps_9
-  value: Himmelsdorf
-  notes: ""
-- key: maps_himmelsdorf
-  value: Himmelsdorf
-  notes: ""
-- key: maps_6
-  value: Minas
-  notes: ""
-- key: maps_rudniki
-  value: Minas
+- key: maps_erlenberg_02
+  value: 'Middleburg: Colina'
   notes: ""
 - key: maps_21
   value: Canal
@@ -178,11 +22,119 @@
 - key: maps_canal
   value: Canal
   notes: ""
-- key: maps_57
-  value: 'Alpenstadt: Pueblo'
+- key: maps_59
+  value: 'Normandía: Playa'
   notes: ""
-- key: maps_lumber_01
-  value: 'Alpenstadt: Pueblo'
+- key: maps_neptune_02
+  value: 'Normandía: Playa'
+  notes: ""
+- key: maps_10
+  value: Villa del oro negro
+  notes: ""
+- key: maps_mountain
+  value: Villa del oro negro
+  notes: ""
+- key: maps_46
+  value: 'Vía muerta: Valle'
+  notes: ""
+- key: maps_medvedkovo_02
+  value: 'Vía muerta: Valle'
+  notes: ""
+- key: maps_62
+  value: 'Minas: Centro'
+  notes: ""
+- key: maps_rudniki_03
+  value: 'Minas: Centro'
+  notes: ""
+- key: maps_13
+  value: Yukón
+  notes: ""
+- key: maps_idle
+  value: Yukón
+  notes: ""
+- key: maps_20
+  value: Castilla
+  notes: ""
+- key: maps_pliego
+  value: Castilla
+  notes: ""
+- key: maps_44
+  value: 'Arenas del desierto: Ciudad'
+  notes: ""
+- key: maps_desert_train_02
+  value: 'Arenas del desierto: Ciudad'
+  notes: ""
+- key: maps_15
+  value: Bahía del puerto
+  notes: ""
+- key: maps_port
+  value: Bahía del puerto
+  notes: ""
+- key: maps_54
+  value: 'Middleburg: Pueblo'
+  notes: ""
+- key: maps_erlenberg_01
+  value: 'Middleburg: Pueblo'
+  notes: ""
+- key: maps_9
+  value: Himmelsdorf
+  notes: ""
+- key: maps_himmelsdorf
+  value: Himmelsdorf
+  notes: ""
+- key: maps_47
+  value: 'Vía muerta: Ferrocarril'
+  notes: ""
+- key: maps_medvedkovo_03
+  value: 'Vía muerta: Ferrocarril'
+  notes: ""
+- key: maps_35
+  value: Frontera naval
+  notes: ""
+- key: maps_skit
+  value: Frontera naval
+  notes: ""
+- key: maps_70
+  value: Mar de la Tranquilidad
+  notes: ""
+- key: maps_moon
+  value: Mar de la Tranquilidad
+  notes: ""
+- key: maps_7
+  value: Vía muerta
+  notes: ""
+- key: maps_medvedkovo
+  value: Vía muerta
+  notes: ""
+- key: maps_4
+  value: Campo de cobre
+  notes: ""
+- key: maps_karieri
+  value: Campo de cobre
+  notes: ""
+- key: maps_38
+  value: Alpenstadt
+  notes: ""
+- key: maps_lumber
+  value: Alpenstadt
+  notes: ""
+- key: maps_31
+  value: Perla de la Dinastía
+  notes: ""
+- key: maps_grossberg
+  value: Perla de la Dinastía
+  notes: ""
+- key: maps_5
+  value: Cascada del arroyo
+  notes: ""
+- key: maps_amigosville
+  value: Cascada del arroyo
+  notes: ""
+- key: maps_45
+  value: 'Arenas del desierto: Dunas'
+  notes: ""
+- key: maps_desert_train_03
+  value: 'Arenas del desierto: Dunas'
   notes: ""
 - key: maps_14
   value: Molendijk
@@ -196,53 +148,29 @@
 - key: maps_erlenberg
   value: Middleburg
   notes: ""
+- key: maps_71
+  value: Tierras baldías
+  notes: ""
+- key: maps_holmeisk
+  value: Tierras baldías
+  notes: ""
+- key: maps_6
+  value: Minas
+  notes: ""
+- key: maps_rudniki
+  value: Minas
+  notes: ""
+- key: maps_27
+  value: Cañón
+  notes: ""
+- key: maps_canyon
+  value: Cañón
+  notes: ""
 - key: maps_72
   value: Hielo perpetuo
   notes: ""
 - key: maps_iceworld
   value: Hielo perpetuo
-  notes: ""
-- key: maps_40
-  value: Nueva Bahía
-  notes: ""
-- key: maps_forgecity
-  value: Nueva Bahía
-  notes: ""
-- key: maps_48
-  value: 'Cascada del arroyo: Puente'
-  notes: ""
-- key: maps_amigosville_02
-  value: 'Cascada del arroyo: Puente'
-  notes: ""
-- key: maps_54
-  value: 'Middleburg: Pueblo'
-  notes: ""
-- key: maps_erlenberg_01
-  value: 'Middleburg: Pueblo'
-  notes: ""
-- key: maps_2
-  value: Arenas del desierto
-  notes: ""
-- key: maps_desert_train
-  value: Arenas del desierto
-  notes: ""
-- key: maps_58
-  value: 'Normandía: Colinas'
-  notes: ""
-- key: maps_neptune_01
-  value: 'Normandía: Colinas'
-  notes: ""
-- key: maps_35
-  value: Frontera naval
-  notes: ""
-- key: maps_skit
-  value: Frontera naval
-  notes: ""
-- key: maps_49
-  value: 'Cascada del arroyo: Fábrica'
-  notes: ""
-- key: maps_amigosville_03
-  value: 'Cascada del arroyo: Fábrica'
   notes: ""
 - key: maps_42
   value: Normandía
@@ -250,11 +178,11 @@
 - key: maps_neptune
   value: Normandía
   notes: ""
-- key: maps_59
-  value: 'Normandía: Playa'
+- key: maps_25
+  value: Puerto Yamato
   notes: ""
-- key: maps_neptune_02
-  value: 'Normandía: Playa'
+- key: maps_milbase
+  value: Puerto Yamato
   notes: ""
 - key: maps_19
   value: Malinovka en invierno
@@ -262,11 +190,59 @@
 - key: maps_malinovka
   value: Malinovka en invierno
   notes: ""
-- key: maps_23
-  value: Viñedos
+- key: maps_12
+  value: Fábrica fantasma
   notes: ""
-- key: maps_italy
-  value: Viñedos
+- key: maps_plant
+  value: Fábrica fantasma
+  notes: ""
+- key: maps_48
+  value: 'Cascada del arroyo: Puente'
+  notes: ""
+- key: maps_amigosville_02
+  value: 'Cascada del arroyo: Puente'
+  notes: ""
+- key: maps_11
+  value: Oasis de palmeras
+  notes: ""
+- key: maps_savanna
+  value: Oasis de palmeras
+  notes: ""
+- key: maps_52
+  value: 'Puerto Yamato: Centro'
+  notes: ""
+- key: maps_milbase_04
+  value: 'Puerto Yamato: Centro'
+  notes: ""
+- key: maps_56
+  value: 'Canal: Fábrica'
+  notes: ""
+- key: maps_canal_01
+  value: 'Canal: Fábrica'
+  notes: ""
+- key: maps_40
+  value: Nueva Bahía
+  notes: ""
+- key: maps_forgecity
+  value: Nueva Bahía
+  notes: ""
+- key: maps_43
+  value: Hélade
+  notes: ""
+- key: maps_rift
+  value: Hélade
+  notes: ""
+- key: maps_53
+  value: 'Puerto Yamato: Muelle'
+  notes: ""
+- key: maps_milbase_05
+  value: 'Puerto Yamato: Muelle'
+  notes: ""
+- key: maps_1
+  value: Rockfield
+  notes: ""
+- key: maps_karelia
+  value: Rockfield
   notes: ""
 - key: maps_60
   value: 'Minas: Colina'
@@ -274,23 +250,29 @@
 - key: maps_rudniki_01
   value: 'Minas: Colina'
   notes: ""
-- key: maps_8
-  value: Fuerte Desesperación
+- key: maps_30
+  value: Ruinas Mayas
   notes: ""
-- key: maps_fort
-  value: Fuerte Desesperación
+- key: maps_rock
+  value: Ruinas Mayas
   notes: ""
-- key: maps_7
-  value: Vía muerta
+- key: maps_49
+  value: 'Cascada del arroyo: Fábrica'
   notes: ""
-- key: maps_medvedkovo
-  value: Vía muerta
+- key: maps_amigosville_03
+  value: 'Cascada del arroyo: Fábrica'
   notes: ""
-- key: maps_46
-  value: 'Vía muerta: Valle'
+- key: maps_58
+  value: 'Normandía: Colinas'
   notes: ""
-- key: maps_medvedkovo_02
-  value: 'Vía muerta: Valle'
+- key: maps_neptune_01
+  value: 'Normandía: Colinas'
+  notes: ""
+- key: maps_2
+  value: Arenas del desierto
+  notes: ""
+- key: maps_desert_train
+  value: Arenas del desierto
   notes: ""
 - key: maps_50
   value: 'Puerto Yamato: Acorazado'
@@ -298,9 +280,27 @@
 - key: maps_milbase_02
   value: 'Puerto Yamato: Acorazado'
   notes: ""
-- key: maps_12
-  value: Fábrica fantasma
+- key: maps_57
+  value: 'Alpenstadt: Pueblo'
   notes: ""
-- key: maps_plant
-  value: Fábrica fantasma
+- key: maps_lumber_01
+  value: 'Alpenstadt: Pueblo'
+  notes: ""
+- key: maps_8
+  value: Fuerte Desesperación
+  notes: ""
+- key: maps_fort
+  value: Fuerte Desesperación
+  notes: ""
+- key: maps_39
+  value: Fausto
+  notes: ""
+- key: maps_faust
+  value: Fausto
+  notes: ""
+- key: maps_23
+  value: Viñedos
+  notes: ""
+- key: maps_italy
+  value: Viñedos
   notes: ""

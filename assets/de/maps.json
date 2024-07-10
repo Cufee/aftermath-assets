@@ -1,8 +1,18 @@
 [
   {
+    "id": "51",
+    "key": "milbase_03",
+    "name": "Yamato-Hafen – Hügel"
+  },
+  {
     "id": "55",
     "key": "erlenberg_02",
     "name": "Middleburg – Hügel"
+  },
+  {
+    "id": "62",
+    "key": "rudniki_03",
+    "name": "Minen – Zentrum"
   },
   {
     "id": "58",
@@ -10,49 +20,44 @@
     "name": "Normandie – Hügel"
   },
   {
-    "id": "52",
-    "key": "milbase_04",
-    "name": "Yamato-Hafen – Zentrum"
+    "id": "53",
+    "key": "milbase_05",
+    "name": "Yamato-Hafen – Dock"
   },
   {
-    "id": "54",
-    "key": "erlenberg_01",
-    "name": "Middleburg – Stadt"
+    "id": "27",
+    "key": "canyon",
+    "name": "Schlucht"
   },
   {
-    "id": "60",
-    "key": "rudniki_01",
-    "name": "Minen – Hügel"
+    "id": "8",
+    "key": "fort",
+    "name": "Festung der Verzweiflung"
   },
   {
-    "id": "44",
-    "key": "desert_train_02",
-    "name": "Wüstenstaub – Stadt"
+    "id": "56",
+    "key": "canal_01",
+    "name": "Kanal – Fabrik"
   },
   {
-    "id": "30",
-    "key": "rock",
-    "name": "Antike Pyramiden"
+    "id": "70",
+    "key": "moon",
+    "name": "Meer der Ruhe"
   },
   {
-    "id": "2",
-    "key": "desert_train",
-    "name": "Wüstenstaub"
+    "id": "72",
+    "key": "iceworld",
+    "name": "Immerfrost"
   },
   {
-    "id": "19",
-    "key": "malinovka",
-    "name": "Malinowka im Winter"
+    "id": "61",
+    "key": "rudniki_02",
+    "name": "Minen – Dorf"
   },
   {
-    "id": "45",
-    "key": "desert_train_03",
-    "name": "Wüstenstaub – Dünen"
-  },
-  {
-    "id": "40",
-    "key": "forgecity",
-    "name": "New Bay"
+    "id": "46",
+    "key": "medvedkovo_02",
+    "name": "Abstellgleis – Tal"
   },
   {
     "id": "10",
@@ -60,9 +65,34 @@
     "name": "Schwarzes Gold"
   },
   {
-    "id": "50",
-    "key": "milbase_02",
-    "name": "Yamato-Hafen – Schlachtschiff"
+    "id": "44",
+    "key": "desert_train_02",
+    "name": "Wüstenstaub – Stadt"
+  },
+  {
+    "id": "60",
+    "key": "rudniki_01",
+    "name": "Minen – Hügel"
+  },
+  {
+    "id": "19",
+    "key": "malinovka",
+    "name": "Malinowka im Winter"
+  },
+  {
+    "id": "52",
+    "key": "milbase_04",
+    "name": "Yamato-Hafen – Zentrum"
+  },
+  {
+    "id": "38",
+    "key": "lumber",
+    "name": "Alpenstadt"
+  },
+  {
+    "id": "42",
+    "key": "neptune",
+    "name": "Normandie"
   },
   {
     "id": "59",
@@ -75,129 +105,9 @@
     "name": "Yukon"
   },
   {
-    "id": "21",
-    "key": "canal",
-    "name": "Kanal"
-  },
-  {
-    "id": "70",
-    "key": "moon",
-    "name": "Meer der Ruhe"
-  },
-  {
-    "id": "9",
-    "key": "himmelsdorf",
-    "name": "Himmelsdorf"
-  },
-  {
-    "id": "53",
-    "key": "milbase_05",
-    "name": "Yamato-Hafen – Dock"
-  },
-  {
-    "id": "46",
-    "key": "medvedkovo_02",
-    "name": "Abstellgleis – Tal"
-  },
-  {
-    "id": "56",
-    "key": "canal_01",
-    "name": "Kanal – Fabrik"
-  },
-  {
-    "id": "35",
-    "key": "skit",
-    "name": "Marinefront"
-  },
-  {
-    "id": "71",
-    "key": "holmeisk",
-    "name": "Ödland"
-  },
-  {
-    "id": "20",
-    "key": "pliego",
-    "name": "Kastilien"
-  },
-  {
-    "id": "5",
-    "key": "amigosville",
-    "name": "Sturzbach"
-  },
-  {
-    "id": "42",
-    "key": "neptune",
-    "name": "Normandie"
-  },
-  {
-    "id": "12",
-    "key": "plant",
-    "name": "Geisterfabrik"
-  },
-  {
-    "id": "1",
-    "key": "karelia",
-    "name": "Steinfeld"
-  },
-  {
-    "id": "7",
-    "key": "medvedkovo",
-    "name": "Abstellgleis"
-  },
-  {
-    "id": "62",
-    "key": "rudniki_03",
-    "name": "Minen – Zentrum"
-  },
-  {
-    "id": "38",
-    "key": "lumber",
-    "name": "Alpenstadt"
-  },
-  {
-    "id": "49",
-    "key": "amigosville_03",
-    "name": "Sturzbach – Fabrik"
-  },
-  {
-    "id": "39",
-    "key": "faust",
-    "name": "Faust"
-  },
-  {
-    "id": "14",
-    "key": "holland",
-    "name": "Molendijk"
-  },
-  {
-    "id": "51",
-    "key": "milbase_03",
-    "name": "Yamato-Hafen – Hügel"
-  },
-  {
-    "id": "25",
-    "key": "milbase",
-    "name": "Yamato-Hafen"
-  },
-  {
-    "id": "43",
-    "key": "rift",
-    "name": "Hellas"
-  },
-  {
-    "id": "57",
-    "key": "lumber_01",
-    "name": "Alpenstadt – Stadt"
-  },
-  {
-    "id": "4",
-    "key": "karieri",
-    "name": "Kupferfeld"
-  },
-  {
-    "id": "15",
-    "key": "port",
-    "name": "Hafenbucht"
+    "id": "11",
+    "key": "savanna",
+    "name": "Oasenpalmen"
   },
   {
     "id": "23",
@@ -205,44 +115,74 @@
     "name": "Weinberge"
   },
   {
+    "id": "54",
+    "key": "erlenberg_01",
+    "name": "Middleburg – Stadt"
+  },
+  {
+    "id": "57",
+    "key": "lumber_01",
+    "name": "Alpenstadt – Stadt"
+  },
+  {
+    "id": "50",
+    "key": "milbase_02",
+    "name": "Yamato-Hafen – Schlachtschiff"
+  },
+  {
     "id": "3",
     "key": "erlenberg",
     "name": "Mittelburg"
   },
   {
-    "id": "48",
-    "key": "amigosville_02",
-    "name": "Sturzbach – Brücke"
+    "id": "14",
+    "key": "holland",
+    "name": "Molendijk"
   },
   {
-    "id": "61",
-    "key": "rudniki_02",
-    "name": "Minen – Dorf"
+    "id": "6",
+    "key": "rudniki",
+    "name": "Minen"
   },
   {
-    "id": "8",
-    "key": "fort",
-    "name": "Festung der Verzweiflung"
+    "id": "30",
+    "key": "rock",
+    "name": "Antike Pyramiden"
   },
   {
-    "id": "72",
-    "key": "iceworld",
-    "name": "Immerfrost"
+    "id": "43",
+    "key": "rift",
+    "name": "Hellas"
   },
   {
-    "id": "47",
-    "key": "medvedkovo_03",
-    "name": "Abstellgleis – Eisenbahn"
+    "id": "39",
+    "key": "faust",
+    "name": "Faust"
   },
   {
-    "id": "11",
-    "key": "savanna",
-    "name": "Oasenpalmen"
+    "id": "4",
+    "key": "karieri",
+    "name": "Kupferfeld"
   },
   {
-    "id": "27",
-    "key": "canyon",
-    "name": "Schlucht"
+    "id": "1",
+    "key": "karelia",
+    "name": "Steinfeld"
+  },
+  {
+    "id": "5",
+    "key": "amigosville",
+    "name": "Sturzbach"
+  },
+  {
+    "id": "21",
+    "key": "canal",
+    "name": "Kanal"
+  },
+  {
+    "id": "25",
+    "key": "milbase",
+    "name": "Yamato-Hafen"
   },
   {
     "id": "31",
@@ -250,8 +190,68 @@
     "name": "Perle der Dynastie"
   },
   {
-    "id": "6",
-    "key": "rudniki",
-    "name": "Minen"
+    "id": "9",
+    "key": "himmelsdorf",
+    "name": "Himmelsdorf"
+  },
+  {
+    "id": "45",
+    "key": "desert_train_03",
+    "name": "Wüstenstaub – Dünen"
+  },
+  {
+    "id": "48",
+    "key": "amigosville_02",
+    "name": "Sturzbach – Brücke"
+  },
+  {
+    "id": "20",
+    "key": "pliego",
+    "name": "Kastilien"
+  },
+  {
+    "id": "15",
+    "key": "port",
+    "name": "Hafenbucht"
+  },
+  {
+    "id": "40",
+    "key": "forgecity",
+    "name": "New Bay"
+  },
+  {
+    "id": "7",
+    "key": "medvedkovo",
+    "name": "Abstellgleis"
+  },
+  {
+    "id": "47",
+    "key": "medvedkovo_03",
+    "name": "Abstellgleis – Eisenbahn"
+  },
+  {
+    "id": "2",
+    "key": "desert_train",
+    "name": "Wüstenstaub"
+  },
+  {
+    "id": "71",
+    "key": "holmeisk",
+    "name": "Ödland"
+  },
+  {
+    "id": "35",
+    "key": "skit",
+    "name": "Marinefront"
+  },
+  {
+    "id": "12",
+    "key": "plant",
+    "name": "Geisterfabrik"
+  },
+  {
+    "id": "49",
+    "key": "amigosville_03",
+    "name": "Sturzbach – Fabrik"
   }
 ]

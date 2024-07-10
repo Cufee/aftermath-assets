@@ -1,32 +1,26 @@
-- key: maps_42
-  value: Normandy
+- key: maps_25
+  value: Yamato Harbor
   notes: ""
-- key: maps_neptune
-  value: Normandy
+- key: maps_milbase
+  value: Yamato Harbor
   notes: ""
-- key: maps_48
-  value: Falls Creek - Silta
+- key: maps_54
+  value: Middleburg - Kaupunki
   notes: ""
-- key: maps_amigosville_02
-  value: Falls Creek - Silta
+- key: maps_erlenberg_01
+  value: Middleburg - Kaupunki
   notes: ""
-- key: maps_72
-  value: Everfrost
+- key: maps_11
+  value: Oasis Palms
   notes: ""
-- key: maps_iceworld
-  value: Everfrost
+- key: maps_savanna
+  value: Oasis Palms
   notes: ""
-- key: maps_56
-  value: Canal - Tehdas
+- key: maps_40
+  value: New Bay
   notes: ""
-- key: maps_canal_01
-  value: Canal - Tehdas
-  notes: ""
-- key: maps_3
-  value: Middleburg
-  notes: ""
-- key: maps_erlenberg
-  value: Middleburg
+- key: maps_forgecity
+  value: New Bay
   notes: ""
 - key: maps_14
   value: Molendijk
@@ -34,11 +28,35 @@
 - key: maps_holland
   value: Molendijk
   notes: ""
-- key: maps_51
-  value: Yamato Harbor - Kukkulat
+- key: maps_2
+  value: Desert Sands
   notes: ""
-- key: maps_milbase_03
-  value: Yamato Harbor - Kukkulat
+- key: maps_desert_train
+  value: Desert Sands
+  notes: ""
+- key: maps_72
+  value: Everfrost
+  notes: ""
+- key: maps_iceworld
+  value: Everfrost
+  notes: ""
+- key: maps_7
+  value: Dead Rail
+  notes: ""
+- key: maps_medvedkovo
+  value: Dead Rail
+  notes: ""
+- key: maps_56
+  value: Canal - Tehdas
+  notes: ""
+- key: maps_canal_01
+  value: Canal - Tehdas
+  notes: ""
+- key: maps_12
+  value: Ghost Factory
+  notes: ""
+- key: maps_plant
+  value: Ghost Factory
   notes: ""
 - key: maps_60
   value: Mines - Kukkula
@@ -46,17 +64,83 @@
 - key: maps_rudniki_01
   value: Mines - Kukkula
   notes: ""
+- key: maps_1
+  value: Rockfield
+  notes: ""
+- key: maps_karelia
+  value: Rockfield
+  notes: ""
+- key: maps_48
+  value: Falls Creek - Silta
+  notes: ""
+- key: maps_amigosville_02
+  value: Falls Creek - Silta
+  notes: ""
+- key: maps_46
+  value: Dead Rail - Laakso
+  notes: ""
+- key: maps_medvedkovo_02
+  value: Dead Rail - Laakso
+  notes: ""
 - key: maps_59
   value: Normandy - Ranta
   notes: ""
 - key: maps_neptune_02
   value: Normandy - Ranta
   notes: ""
-- key: maps_55
-  value: Middleburg - Kukkula
+- key: maps_23
+  value: Vineyards
   notes: ""
-- key: maps_erlenberg_02
-  value: Middleburg - Kukkula
+- key: maps_italy
+  value: Vineyards
+  notes: ""
+- key: maps_5
+  value: Falls Creek
+  notes: ""
+- key: maps_amigosville
+  value: Falls Creek
+  notes: ""
+- key: maps_49
+  value: Falls Creek - Tehdas
+  notes: ""
+- key: maps_amigosville_03
+  value: Falls Creek - Tehdas
+  notes: ""
+- key: maps_15
+  value: Port Bay
+  notes: ""
+- key: maps_port
+  value: Port Bay
+  notes: ""
+- key: maps_70
+  value: Sea of Tranquility
+  notes: ""
+- key: maps_moon
+  value: Sea of Tranquility
+  notes: ""
+- key: maps_58
+  value: Normandy - Kukkulat
+  notes: ""
+- key: maps_neptune_01
+  value: Normandy - Kukkulat
+  notes: ""
+- key: maps_39
+  value: Faust
+  notes: ""
+- key: maps_faust
+  value: Faust
+  notes: ""
+- key: maps_3
+  value: Middleburg
+  notes: ""
+- key: maps_erlenberg
+  value: Middleburg
+  notes: ""
+- key: maps_52
+  value: Yamato Harbor - Keskusta
+  notes: ""
+- key: maps_milbase_04
+  value: Yamato Harbor - Keskusta
   notes: ""
 - key: maps_47
   value: Dead Rail - Rautatie
@@ -70,23 +154,11 @@
 - key: maps_rift
   value: Hellas
   notes: ""
-- key: maps_1
-  value: Rockfield
+- key: maps_55
+  value: Middleburg - Kukkula
   notes: ""
-- key: maps_karelia
-  value: Rockfield
-  notes: ""
-- key: maps_9
-  value: Himmelsdorf
-  notes: ""
-- key: maps_himmelsdorf
-  value: Himmelsdorf
-  notes: ""
-- key: maps_21
-  value: Canal
-  notes: ""
-- key: maps_canal
-  value: Canal
+- key: maps_erlenberg_02
+  value: Middleburg - Kukkula
   notes: ""
 - key: maps_30
   value: Mayan Ruins
@@ -94,167 +166,41 @@
 - key: maps_rock
   value: Mayan Ruins
   notes: ""
-- key: maps_6
-  value: Mines
+- key: maps_21
+  value: Canal
   notes: ""
-- key: maps_rudniki
-  value: Mines
-  notes: ""
-- key: maps_52
-  value: Yamato Harbor - Keskusta
-  notes: ""
-- key: maps_milbase_04
-  value: Yamato Harbor - Keskusta
-  notes: ""
-- key: maps_25
-  value: Yamato Harbor
-  notes: ""
-- key: maps_milbase
-  value: Yamato Harbor
-  notes: ""
-- key: maps_54
-  value: Middleburg - Kaupunki
-  notes: ""
-- key: maps_erlenberg_01
-  value: Middleburg - Kaupunki
-  notes: ""
-- key: maps_62
-  value: Mines - Keskusta
-  notes: ""
-- key: maps_rudniki_03
-  value: Mines - Keskusta
-  notes: ""
-- key: maps_45
-  value: Desert Sands - Dyynit
-  notes: ""
-- key: maps_desert_train_03
-  value: Desert Sands - Dyynit
-  notes: ""
-- key: maps_58
-  value: Normandy - Kukkulat
-  notes: ""
-- key: maps_neptune_01
-  value: Normandy - Kukkulat
-  notes: ""
-- key: maps_61
-  value: Mines - Kylä
-  notes: ""
-- key: maps_rudniki_02
-  value: Mines - Kylä
-  notes: ""
-- key: maps_19
-  value: Winter Malinovka
-  notes: ""
-- key: maps_malinovka
-  value: Winter Malinovka
-  notes: ""
-- key: maps_70
-  value: Sea of Tranquility
-  notes: ""
-- key: maps_moon
-  value: Sea of Tranquility
-  notes: ""
-- key: maps_53
-  value: Yamato Harbor - Telakka
-  notes: ""
-- key: maps_milbase_05
-  value: Yamato Harbor - Telakka
-  notes: ""
-- key: maps_23
-  value: Vineyards
-  notes: ""
-- key: maps_italy
-  value: Vineyards
-  notes: ""
-- key: maps_57
-  value: Alpenstadt - Kaupunki
-  notes: ""
-- key: maps_lumber_01
-  value: Alpenstadt - Kaupunki
-  notes: ""
-- key: maps_49
-  value: Falls Creek - Tehdas
-  notes: ""
-- key: maps_amigosville_03
-  value: Falls Creek - Tehdas
-  notes: ""
-- key: maps_39
-  value: Faust
-  notes: ""
-- key: maps_faust
-  value: Faust
-  notes: ""
-- key: maps_11
-  value: Oasis Palms
-  notes: ""
-- key: maps_savanna
-  value: Oasis Palms
-  notes: ""
-- key: maps_7
-  value: Dead Rail
-  notes: ""
-- key: maps_medvedkovo
-  value: Dead Rail
-  notes: ""
-- key: maps_12
-  value: Ghost Factory
-  notes: ""
-- key: maps_plant
-  value: Ghost Factory
-  notes: ""
-- key: maps_46
-  value: Dead Rail - Laakso
-  notes: ""
-- key: maps_medvedkovo_02
-  value: Dead Rail - Laakso
-  notes: ""
-- key: maps_40
-  value: New Bay
-  notes: ""
-- key: maps_forgecity
-  value: New Bay
-  notes: ""
-- key: maps_2
-  value: Desert Sands
-  notes: ""
-- key: maps_desert_train
-  value: Desert Sands
-  notes: ""
-- key: maps_38
-  value: Alpenstadt
-  notes: ""
-- key: maps_lumber
-  value: Alpenstadt
-  notes: ""
-- key: maps_15
-  value: Port Bay
-  notes: ""
-- key: maps_port
-  value: Port Bay
-  notes: ""
-- key: maps_10
-  value: Black Goldville
-  notes: ""
-- key: maps_mountain
-  value: Black Goldville
-  notes: ""
-- key: maps_35
-  value: Naval Frontier
-  notes: ""
-- key: maps_skit
-  value: Naval Frontier
-  notes: ""
-- key: maps_5
-  value: Falls Creek
-  notes: ""
-- key: maps_amigosville
-  value: Falls Creek
+- key: maps_canal
+  value: Canal
   notes: ""
 - key: maps_31
   value: Dynasty's Pearl
   notes: ""
 - key: maps_grossberg
   value: Dynasty's Pearl
+  notes: ""
+- key: maps_6
+  value: Mines
+  notes: ""
+- key: maps_rudniki
+  value: Mines
+  notes: ""
+- key: maps_13
+  value: Yukon
+  notes: ""
+- key: maps_idle
+  value: Yukon
+  notes: ""
+- key: maps_42
+  value: Normandy
+  notes: ""
+- key: maps_neptune
+  value: Normandy
+  notes: ""
+- key: maps_53
+  value: Yamato Harbor - Telakka
+  notes: ""
+- key: maps_milbase_05
+  value: Yamato Harbor - Telakka
   notes: ""
 - key: maps_4
   value: Copperfield
@@ -268,24 +214,6 @@
 - key: maps_canyon
   value: Canyon
   notes: ""
-- key: maps_8
-  value: Fort Despair
-  notes: ""
-- key: maps_fort
-  value: Fort Despair
-  notes: ""
-- key: maps_13
-  value: Yukon
-  notes: ""
-- key: maps_idle
-  value: Yukon
-  notes: ""
-- key: maps_50
-  value: Yamato Harbor - Taistelulaiva
-  notes: ""
-- key: maps_milbase_02
-  value: Yamato Harbor - Taistelulaiva
-  notes: ""
 - key: maps_20
   value: Castilla
   notes: ""
@@ -298,9 +226,81 @@
 - key: maps_desert_train_02
   value: Desert Sands - Kaupunki
   notes: ""
+- key: maps_38
+  value: Alpenstadt
+  notes: ""
+- key: maps_lumber
+  value: Alpenstadt
+  notes: ""
 - key: maps_71
   value: Wasteland
   notes: ""
 - key: maps_holmeisk
   value: Wasteland
+  notes: ""
+- key: maps_57
+  value: Alpenstadt - Kaupunki
+  notes: ""
+- key: maps_lumber_01
+  value: Alpenstadt - Kaupunki
+  notes: ""
+- key: maps_45
+  value: Desert Sands - Dyynit
+  notes: ""
+- key: maps_desert_train_03
+  value: Desert Sands - Dyynit
+  notes: ""
+- key: maps_62
+  value: Mines - Keskusta
+  notes: ""
+- key: maps_rudniki_03
+  value: Mines - Keskusta
+  notes: ""
+- key: maps_51
+  value: Yamato Harbor - Kukkulat
+  notes: ""
+- key: maps_milbase_03
+  value: Yamato Harbor - Kukkulat
+  notes: ""
+- key: maps_50
+  value: Yamato Harbor - Taistelulaiva
+  notes: ""
+- key: maps_milbase_02
+  value: Yamato Harbor - Taistelulaiva
+  notes: ""
+- key: maps_10
+  value: Black Goldville
+  notes: ""
+- key: maps_mountain
+  value: Black Goldville
+  notes: ""
+- key: maps_19
+  value: Winter Malinovka
+  notes: ""
+- key: maps_malinovka
+  value: Winter Malinovka
+  notes: ""
+- key: maps_8
+  value: Fort Despair
+  notes: ""
+- key: maps_fort
+  value: Fort Despair
+  notes: ""
+- key: maps_61
+  value: Mines - Kylä
+  notes: ""
+- key: maps_rudniki_02
+  value: Mines - Kylä
+  notes: ""
+- key: maps_9
+  value: Himmelsdorf
+  notes: ""
+- key: maps_himmelsdorf
+  value: Himmelsdorf
+  notes: ""
+- key: maps_35
+  value: Naval Frontier
+  notes: ""
+- key: maps_skit
+  value: Naval Frontier
   notes: ""

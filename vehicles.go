@@ -70,7 +70,7 @@ type vehicleItem struct {
 	environments []string
 }
 
-var vehicleClasses = []string{"AT-SPG"}
+var vehicleClasses = []string{"AT-SPG", "lightTank", "mediumTank", "heavyTank"}
 
 func (item vehicleItem) class() string {
 	for _, tag := range item.tags {
