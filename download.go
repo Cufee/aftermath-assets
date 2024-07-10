@@ -5,6 +5,8 @@ import (
 	"io"
 	"os"
 	"os/exec"
+
+	"github.com/pkg/errors"
 )
 
 func downloadAssetsFromSteam() error {
@@ -18,8 +20,10 @@ func downloadAssetsFromSteam() error {
 	dargs = append(dargs, "-password")
 	dargs = append(dargs, args.SteamPassword)
 	dargs = append(dargs, "-remember-password")
-	dargs = append(dargs, "-filelist")
-	dargs = append(dargs, "filelist.txt")
+	if args.DownloaderFileList != "" {
+		dargs = append(dargs, "-filelist")
+		dargs = append(dargs, args.DownloaderFileList)
+	}
 	dargs = append(dargs, "-dir")
 	dargs = append(dargs, args.DumpPath)
 
@@ -40,7 +44,7 @@ func downloadAssetsFromSteam() error {
 
 	err := cmd.Run()
 	if err != nil {
-		return err
+		return errors.Wrap(err, "cmd#Run")
 	}
 
 	if cmd.ProcessState.ExitCode() != 0 {

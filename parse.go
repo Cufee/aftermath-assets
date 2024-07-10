@@ -74,6 +74,8 @@ func (p *parser) parseFile(path string) error {
 
 	for _, parser := range p.parsers {
 		if parser.Match(path) {
+			log.Println("parsing", path)
+
 			err = parser.Parse(path, bytes.NewBuffer(data))
 			if parser.Exclusive() {
 				return errors.Wrap(err, "failed to parse a file")

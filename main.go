@@ -20,10 +20,10 @@ var args struct {
 	SteamUsername      string `arg:"--username,env:DOWNLOADER_STEAM_USERNAME" help:"steam account username" placeholder:"<username>"`
 	SteamPassword      string `arg:"--password,env:DOWNLOADER_STEAM_PASSWORD" help:"steam account password" placeholder:"<password>"`
 	SteamAuthCode      string `arg:"--auth-code,env:DOWNLOADER_STEAM_AUTH_CODE" help:"steam one time auth code" placeholder:"<code>"`
-	DownloaderFileList string `arg:"--file-list" default:"./filelist.txt" help:"path to filelist.txt" placeholder:"<path>"`
+	DownloaderFileList string `arg:"--file-list,env:DOWNLOADER_FILE_LIST" help:"path to filelist.txt" placeholder:"<path>"`
 
 	Decrypt     bool   `help:"decrypt downloaded files"`
-	DecryptPath string `arg:"--decrypt-path,env:DECRYPT_DIR_PATH" default:"./tmp/decrypted" help:"path to a directory where decrypted files will be stored" placeholder:"<decrypted_path>"`
+	DecryptPath string `arg:"--decrypt-path,env:DECRYPT_DIR_PATH" help:"path to a directory where decrypted files will be stored" placeholder:"<decrypted_path>"`
 
 	Parse bool `help:"parse decrypted files into asset strings"`
 }
@@ -45,40 +45,42 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
-		err = os.MkdirAll(filepath.Dir(args.AssetsPath), os.ModePerm)
-		if err != nil {
-			panic(err)
-		}
 		err = decryptDir(stringsPath, dir, args.DecryptPath)
 		if err != nil {
 			panic(err)
 		}
 	}
 
-	// Init parsing functions
-	maps := newMapParser()
-	vehicles := newVehiclesParser()
-
-	// Due to how the parsing code is written, we will need to loop over the files twice
-	// first loop parses yaml/xml files to extract identifier
-	// second loop will parse strings yaml files to create localized dicts
-	{
-		parser, err := newParser(args.DecryptPath, maps.Maps(), vehicles.Items())
+	if args.Parse {
+		err := os.MkdirAll(args.DecryptPath, os.ModeDir)
 		if err != nil {
 			panic(err)
 		}
-		if err := parser.Parse(); err != nil {
-			panic(err)
-		}
-	}
-	{
-		parser, err := newParser(args.DecryptPath, maps.Strings(args.AssetsPath), vehicles.Strings(args.AssetsPath))
-		if err != nil {
-			panic(err)
-		}
-		if err := parser.Parse(); err != nil {
-			panic(err)
-		}
-	}
 
+		// Init parsing functions
+		maps := newMapParser()
+		vehicles := newVehiclesParser()
+
+		// Due to how the parsing code is written, we will need to loop over the files twice
+		// first loop parses yaml/xml files to extract identifier
+		// second loop will parse strings yaml files to create localized dicts
+		{
+			parser, err := newParser(args.DecryptPath, maps.Maps(), vehicles.Items())
+			if err != nil {
+				panic(err)
+			}
+			if err := parser.Parse(); err != nil {
+				panic(err)
+			}
+		}
+		{
+			parser, err := newParser(args.DecryptPath, maps.Strings(args.AssetsPath), vehicles.Strings(args.AssetsPath))
+			if err != nil {
+				panic(err)
+			}
+			if err := parser.Parse(); err != nil {
+				panic(err)
+			}
+		}
+	}
 }

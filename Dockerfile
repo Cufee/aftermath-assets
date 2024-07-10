@@ -1,15 +1,3 @@
-# Download required assets/binaries
-FROM debian:stable-slim as downloader
-
-WORKDIR /tmp
-
-RUN apt-get update
-RUN apt-get install unzip wget -y
-
-RUN wget https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_2.6.0/DepotDownloader-linux-x64.zip -O downloader.zip
-RUN unzip downloader.zip -d /downloader
-RUN chmod +x /downloader/DepotDownloader
-
 # Build the application
 FROM golang:1.22.3-bookworm as builder
 
@@ -24,17 +12,15 @@ COPY ./ ./
 RUN --mount=type=cache,target=$GOPATH/pkg/mod CGO_ENABLED=0 GOOS=linux go build -o /bin/app .
 
 # Run
-FROM --platform=linux/amd64 debian:stable-slim
+FROM ghcr.io/sonroyaalmerol/steam-depot-downloader:latest
 
-RUN apt-get update
-RUN apt-get install libicu-dev -y
-
-COPY --from=downloader /downloader /downloader
 COPY --from=builder /bin/app /usr/bin/app
-COPY --from=builder /workspace/filelist.txt .
-COPY --from=builder /usr/local/go/lib/time/zoneinfo.zip /
-COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
+COPY --from=builder /workspace/filelist.txt /downloader/filelist.txt
 
-ENV DOWNLOADER_CMD_PATH=/downloader/DepotDownloader
+ENV DECRYPT_DIR_PATH=/downloader/decrypted
+ENV DOWNLOADER_FILE_LIST=/downloader/filelist.txt
+ENV DOWNLOADER_CMD_PATH=DepotDownloader
+
+RUN mkdir -p $DECRYPT_DIR_PATH
 
 ENTRYPOINT [ "app" ]

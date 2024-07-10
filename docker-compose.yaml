@@ -5,6 +5,16 @@ services:
       dockerfile: Dockerfile
     env_file:
       - ".env"
-    command: "app --help"
+    command: "--download --decrypt --parse /static-data/downloaded /static-data/assets"
     environment:
-      DOWNLOADER_CMD_PATH: /downloader/DepotDownloader
+      XDG_DATA_HOME: /downloader/data
+      DOWNLOADER_CMD_PATH: DepotDownloader
+      DOWNLOADER_FILE_LIST: /downloader/filelist.txt
+      DECRYPT_DIR_PATH: /static-data/decrypted
+    volumes:
+      - credentials:/downloader/data
+      - static:/static-data
+
+volumes:
+  credentials:
+  static:
