@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"io"
 	"os"
 	"os/exec"
 )
@@ -16,6 +17,7 @@ func downloadAssetsFromSteam() error {
 	dargs = append(dargs, args.SteamUsername)
 	dargs = append(dargs, "-password")
 	dargs = append(dargs, args.SteamPassword)
+	dargs = append(dargs, "-remember-password")
 	dargs = append(dargs, "-filelist")
 	dargs = append(dargs, "filelist.txt")
 	dargs = append(dargs, "-dir")
@@ -24,6 +26,17 @@ func downloadAssetsFromSteam() error {
 	cmd := exec.Command(args.DownloaderPath, dargs...)
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
+
+	if args.SteamAuthCode != "" {
+		stdin, err := cmd.StdinPipe()
+		if err != nil {
+			return err
+		}
+		go func() {
+			defer stdin.Close()
+			io.WriteString(stdin, args.SteamAuthCode)
+		}()
+	}
 
 	err := cmd.Run()
 	if err != nil {

@@ -14,12 +14,13 @@ var args struct {
 	AssetsPath string `arg:"positional,required" help:"output directory for parsed assets" placeholder:"<assets_path>"`
 
 	Download           bool   `help:"download the steam app depot"`
-	DownloaderPath     string `arg:"--binary,env:DOWNLOADER_CMD_PATH" default:"./downloader/bin" help:"path to steam depot downloader binary" placeholder:"<path>"`
+	DownloaderPath     string `arg:"--binary,env:DOWNLOADER_CMD_PATH" help:"path to steam depot downloader binary" placeholder:"<path>"`
 	AppID              string `arg:"--app,env:DOWNLOADER_APP_ID" help:"steam app id for depot" placeholder:"<app_id>"`
 	DepotID            string `arg:"--depot,env:DOWNLOADER_DEPOT_ID" help:"steam depot if to download" placeholder:"<depot_id>"`
 	SteamUsername      string `arg:"--username,env:DOWNLOADER_STEAM_USERNAME" help:"steam account username" placeholder:"<username>"`
 	SteamPassword      string `arg:"--password,env:DOWNLOADER_STEAM_PASSWORD" help:"steam account password" placeholder:"<password>"`
-	DownloaderFileList string `arg:"--file-list" default:"./filelist.txt" placeholder:"<path>"`
+	SteamAuthCode      string `arg:"--auth-code,env:DOWNLOADER_STEAM_AUTH_CODE" help:"steam one time auth code" placeholder:"<code>"`
+	DownloaderFileList string `arg:"--file-list" default:"./filelist.txt" help:"path to filelist.txt" placeholder:"<path>"`
 
 	Decrypt     bool   `help:"decrypt downloaded files"`
 	DecryptPath string `arg:"--decrypt-path,env:DECRYPT_DIR_PATH" default:"./tmp/decrypted" help:"path to a directory where decrypted files will be stored" placeholder:"<decrypted_path>"`

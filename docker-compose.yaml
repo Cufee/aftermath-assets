@@ -6,3 +6,5 @@ services:
     env_file:
       - ".env"
     command: "app --help"
+    environment:
+      DOWNLOADER_CMD_PATH: /downloader/DepotDownloader
