@@ -1,86 +1,8 @@
-- key: maps_50
-  value: '"Cảng Yamato" - Chiến hạm'
+- key: maps_31
+  value: '"Hòn Ngọc Đế Chế"'
   notes: ""
-- key: maps_milbase_02
-  value: '"Cảng Yamato" - Chiến hạm'
-  notes: ""
-- key: maps_61
-  value: '"Khu Mỏ" - Làng'
-  notes: ""
-- key: maps_rudniki_02
-  value: '"Khu Mỏ" - Làng'
-  notes: ""
-- key: maps_1
-  value: '"Rockfield"'
-  notes: ""
-- key: maps_karelia
-  value: '"Rockfield"'
-  notes: ""
-- key: maps_59
-  value: '"Normandy" - Bờ biển'
-  notes: ""
-- key: maps_neptune_02
-  value: '"Normandy" - Bờ biển'
-  notes: ""
-- key: maps_11
-  value: '"Ốc Đảo"'
-  notes: ""
-- key: maps_savanna
-  value: '"Ốc Đảo"'
-  notes: ""
-- key: maps_52
-  value: '"Cảng Yamato" - Trung tâm'
-  notes: ""
-- key: maps_milbase_04
-  value: '"Cảng Yamato" - Trung tâm'
-  notes: ""
-- key: maps_7
-  value: '"Đường Ray Chết"'
-  notes: ""
-- key: maps_medvedkovo
-  value: '"Đường Ray Chết"'
-  notes: ""
-- key: maps_8
-  value: '"Pháo Đài"'
-  notes: ""
-- key: maps_fort
-  value: '"Pháo Đài"'
-  notes: ""
-- key: maps_57
-  value: '"Alpenstadt" - Thị trấn'
-  notes: ""
-- key: maps_lumber_01
-  value: '"Alpenstadt" - Thị trấn'
-  notes: ""
-- key: maps_5
-  value: '"Lạch Nước"'
-  notes: ""
-- key: maps_amigosville
-  value: '"Lạch Nước"'
-  notes: ""
-- key: maps_42
-  value: '"Normandy"'
-  notes: ""
-- key: maps_neptune
-  value: '"Normandy"'
-  notes: ""
-- key: maps_62
-  value: '"Khu Mỏ" - Trung tâm'
-  notes: ""
-- key: maps_rudniki_03
-  value: '"Khu Mỏ" - Trung tâm'
-  notes: ""
-- key: maps_70
-  value: '"Nguyệt Hải"'
-  notes: ""
-- key: maps_moon
-  value: '"Nguyệt Hải"'
-  notes: ""
-- key: maps_48
-  value: '"Lạch Nước" - Cầu'
-  notes: ""
-- key: maps_amigosville_02
-  value: '"Lạch Nước" - Cầu'
+- key: maps_grossberg
+  value: '"Hòn Ngọc Đế Chế"'
   notes: ""
 - key: maps_20
   value: '"Castilla"'
@@ -88,65 +10,11 @@
 - key: maps_pliego
   value: '"Castilla"'
   notes: ""
-- key: maps_3
-  value: '"Middleburg"'
+- key: maps_48
+  value: '"Lạch Nước" - Cầu'
   notes: ""
-- key: maps_erlenberg
-  value: '"Middleburg"'
-  notes: ""
-- key: maps_31
-  value: '"Hòn Ngọc Đế Chế"'
-  notes: ""
-- key: maps_grossberg
-  value: '"Hòn Ngọc Đế Chế"'
-  notes: ""
-- key: maps_56
-  value: '"Kênh Đào" - Nhà máy'
-  notes: ""
-- key: maps_canal_01
-  value: '"Kênh Đào" - Nhà máy'
-  notes: ""
-- key: maps_30
-  value: '"Kim Tự Tháp Cổ Đại"'
-  notes: ""
-- key: maps_rock
-  value: '"Kim Tự Tháp Cổ Đại"'
-  notes: ""
-- key: maps_15
-  value: '"Vịnh Quân Cảng"'
-  notes: ""
-- key: maps_port
-  value: '"Vịnh Quân Cảng"'
-  notes: ""
-- key: maps_43
-  value: '"Hy Lạp"'
-  notes: ""
-- key: maps_rift
-  value: '"Hy Lạp"'
-  notes: ""
-- key: maps_2
-  value: '"Sa Mạc Cát"'
-  notes: ""
-- key: maps_desert_train
-  value: '"Sa Mạc Cát"'
-  notes: ""
-- key: maps_49
-  value: '"Lạch Nước" - Nhà máy'
-  notes: ""
-- key: maps_amigosville_03
-  value: '"Lạch Nước" - Nhà máy'
-  notes: ""
-- key: maps_55
-  value: '"Middleburg" - Đồi'
-  notes: ""
-- key: maps_erlenberg_02
-  value: '"Middleburg" - Đồi'
-  notes: ""
-- key: maps_25
-  value: '"Cảng Yamato"'
-  notes: ""
-- key: maps_milbase
-  value: '"Cảng Yamato"'
+- key: maps_amigosville_02
+  value: '"Lạch Nước" - Cầu'
   notes: ""
 - key: maps_38
   value: '"Alpenstadt"'
@@ -154,17 +22,35 @@
 - key: maps_lumber
   value: '"Alpenstadt"'
   notes: ""
-- key: maps_40
-  value: '"New Bay"'
+- key: maps_25
+  value: '"Cảng Yamato"'
   notes: ""
-- key: maps_forgecity
-  value: '"New Bay"'
+- key: maps_milbase
+  value: '"Cảng Yamato"'
   notes: ""
-- key: maps_23
-  value: '"Vườn Nho"'
+- key: maps_61
+  value: '"Khu Mỏ" - Làng'
   notes: ""
-- key: maps_italy
-  value: '"Vườn Nho"'
+- key: maps_rudniki_02
+  value: '"Khu Mỏ" - Làng'
+  notes: ""
+- key: maps_30
+  value: '"Kim Tự Tháp Cổ Đại"'
+  notes: ""
+- key: maps_rock
+  value: '"Kim Tự Tháp Cổ Đại"'
+  notes: ""
+- key: maps_42
+  value: '"Normandy"'
+  notes: ""
+- key: maps_neptune
+  value: '"Normandy"'
+  notes: ""
+- key: maps_56
+  value: '"Kênh Đào" - Nhà máy'
+  notes: ""
+- key: maps_canal_01
+  value: '"Kênh Đào" - Nhà máy'
   notes: ""
 - key: maps_6
   value: '"Khu Mỏ"'
@@ -178,95 +64,35 @@
 - key: maps_neptune_01
   value: '"Normandy" - Đồi'
   notes: ""
-- key: maps_47
-  value: '"Đường Ray Chết" - Đường sắt'
+- key: maps_40
+  value: '"New Bay"'
   notes: ""
-- key: maps_medvedkovo_03
-  value: '"Đường Ray Chết" - Đường sắt'
+- key: maps_forgecity
+  value: '"New Bay"'
   notes: ""
-- key: maps_60
-  value: '"Khu Mỏ" - Đồi'
+- key: maps_15
+  value: '"Vịnh Quân Cảng"'
   notes: ""
-- key: maps_rudniki_01
-  value: '"Khu Mỏ" - Đồi'
+- key: maps_port
+  value: '"Vịnh Quân Cảng"'
   notes: ""
-- key: maps_46
-  value: '"Đường Ray Chết" - Thung lũng'
+- key: maps_12
+  value: '"Ghost Factory"'
   notes: ""
-- key: maps_medvedkovo_02
-  value: '"Đường Ray Chết" - Thung lũng'
+- key: maps_plant
+  value: '"Ghost Factory"'
   notes: ""
-- key: maps_35
-  value: '"Biên Giới Biển"'
+- key: maps_1
+  value: '"Rockfield"'
   notes: ""
-- key: maps_skit
-  value: '"Biên Giới Biển"'
+- key: maps_karelia
+  value: '"Rockfield"'
   notes: ""
-- key: maps_27
-  value: '"Hẻm Núi"'
+- key: maps_59
+  value: '"Normandy" - Bờ biển'
   notes: ""
-- key: maps_canyon
-  value: '"Hẻm Núi"'
-  notes: ""
-- key: maps_51
-  value: '"Cảng Yamato" - Đồi'
-  notes: ""
-- key: maps_milbase_03
-  value: '"Cảng Yamato" - Đồi'
-  notes: ""
-- key: maps_53
-  value: '"Cảng Yamato" - Cảng'
-  notes: ""
-- key: maps_milbase_05
-  value: '"Cảng Yamato" - Cảng'
-  notes: ""
-- key: maps_54
-  value: '"Middleburg" - Thị trấn'
-  notes: ""
-- key: maps_erlenberg_01
-  value: '"Middleburg" - Thị trấn'
-  notes: ""
-- key: maps_45
-  value: '"Sa Mạc Cát" - Cồn cát'
-  notes: ""
-- key: maps_desert_train_03
-  value: '"Sa Mạc Cát" - Cồn cát'
-  notes: ""
-- key: maps_4
-  value: '"Mỏ Đồng"'
-  notes: ""
-- key: maps_karieri
-  value: '"Mỏ Đồng"'
-  notes: ""
-- key: maps_9
-  value: '"Himmelsdorf"'
-  notes: ""
-- key: maps_himmelsdorf
-  value: '"Himmelsdorf"'
-  notes: ""
-- key: maps_19
-  value: '"Malinovka Mùa Đông"'
-  notes: ""
-- key: maps_malinovka
-  value: '"Malinovka Mùa Đông"'
-  notes: ""
-- key: maps_21
-  value: '"Kênh Đào"'
-  notes: ""
-- key: maps_canal
-  value: '"Kênh Đào"'
-  notes: ""
-- key: maps_39
-  value: '"Faust"'
-  notes: ""
-- key: maps_faust
-  value: '"Faust"'
-  notes: ""
-- key: maps_44
-  value: '"Sa Mạc Cát" - Thị trấn'
-  notes: ""
-- key: maps_desert_train_02
-  value: '"Sa Mạc Cát" - Thị trấn'
+- key: maps_neptune_02
+  value: '"Normandy" - Bờ biển'
   notes: ""
 - key: maps_71
   value: '"Hoang Mạc"'
@@ -274,11 +100,47 @@
 - key: maps_holmeisk
   value: '"Hoang Mạc"'
   notes: ""
-- key: maps_72
-  value: '"Mãi Băng"'
+- key: maps_60
+  value: '"Khu Mỏ" - Đồi'
   notes: ""
-- key: maps_iceworld
-  value: '"Mãi Băng"'
+- key: maps_rudniki_01
+  value: '"Khu Mỏ" - Đồi'
+  notes: ""
+- key: maps_4
+  value: '"Mỏ Đồng"'
+  notes: ""
+- key: maps_karieri
+  value: '"Mỏ Đồng"'
+  notes: ""
+- key: maps_54
+  value: '"Middleburg" - Thị trấn'
+  notes: ""
+- key: maps_erlenberg_01
+  value: '"Middleburg" - Thị trấn'
+  notes: ""
+- key: maps_5
+  value: '"Lạch Nước"'
+  notes: ""
+- key: maps_amigosville
+  value: '"Lạch Nước"'
+  notes: ""
+- key: maps_39
+  value: '"Faust"'
+  notes: ""
+- key: maps_faust
+  value: '"Faust"'
+  notes: ""
+- key: maps_47
+  value: '"Đường Ray Chết" - Đường sắt'
+  notes: ""
+- key: maps_medvedkovo_03
+  value: '"Đường Ray Chết" - Đường sắt'
+  notes: ""
+- key: maps_44
+  value: '"Sa Mạc Cát" - Thị trấn'
+  notes: ""
+- key: maps_desert_train_02
+  value: '"Sa Mạc Cát" - Thị trấn'
   notes: ""
 - key: maps_14
   value: Molendijk
@@ -286,11 +148,71 @@
 - key: maps_holland
   value: Molendijk
   notes: ""
-- key: maps_13
-  value: '"Yukon"'
+- key: maps_55
+  value: '"Middleburg" - Đồi'
   notes: ""
-- key: maps_idle
-  value: '"Yukon"'
+- key: maps_erlenberg_02
+  value: '"Middleburg" - Đồi'
+  notes: ""
+- key: maps_46
+  value: '"Đường Ray Chết" - Thung lũng'
+  notes: ""
+- key: maps_medvedkovo_02
+  value: '"Đường Ray Chết" - Thung lũng'
+  notes: ""
+- key: maps_62
+  value: '"Khu Mỏ" - Trung tâm'
+  notes: ""
+- key: maps_rudniki_03
+  value: '"Khu Mỏ" - Trung tâm'
+  notes: ""
+- key: maps_11
+  value: '"Ốc Đảo"'
+  notes: ""
+- key: maps_savanna
+  value: '"Ốc Đảo"'
+  notes: ""
+- key: maps_21
+  value: '"Kênh Đào"'
+  notes: ""
+- key: maps_canal
+  value: '"Kênh Đào"'
+  notes: ""
+- key: maps_23
+  value: '"Vườn Nho"'
+  notes: ""
+- key: maps_italy
+  value: '"Vườn Nho"'
+  notes: ""
+- key: maps_50
+  value: '"Cảng Yamato" - Chiến hạm'
+  notes: ""
+- key: maps_milbase_02
+  value: '"Cảng Yamato" - Chiến hạm'
+  notes: ""
+- key: maps_7
+  value: '"Đường Ray Chết"'
+  notes: ""
+- key: maps_medvedkovo
+  value: '"Đường Ray Chết"'
+  notes: ""
+- key: maps_53
+  value: '"Cảng Yamato" - Cảng'
+  notes: ""
+- key: maps_milbase_05
+  value: '"Cảng Yamato" - Cảng'
+  notes: ""
+- key: maps_52
+  value: '"Cảng Yamato" - Trung tâm'
+  notes: ""
+- key: maps_milbase_04
+  value: '"Cảng Yamato" - Trung tâm'
+  notes: ""
+- key: maps_3
+  value: '"Middleburg"'
+  notes: ""
+- key: maps_erlenberg
+  value: '"Middleburg"'
   notes: ""
 - key: maps_10
   value: '"Thung Lũng Vàng Đen"'
@@ -298,9 +220,87 @@
 - key: maps_mountain
   value: '"Thung Lũng Vàng Đen"'
   notes: ""
-- key: maps_12
-  value: '"Ghost Factory"'
+- key: maps_2
+  value: '"Sa Mạc Cát"'
   notes: ""
-- key: maps_plant
-  value: '"Ghost Factory"'
+- key: maps_desert_train
+  value: '"Sa Mạc Cát"'
+  notes: ""
+- key: maps_9
+  value: '"Himmelsdorf"'
+  notes: ""
+- key: maps_himmelsdorf
+  value: '"Himmelsdorf"'
+  notes: ""
+- key: maps_57
+  value: '"Alpenstadt" - Thị trấn'
+  notes: ""
+- key: maps_lumber_01
+  value: '"Alpenstadt" - Thị trấn'
+  notes: ""
+- key: maps_27
+  value: '"Hẻm Núi"'
+  notes: ""
+- key: maps_canyon
+  value: '"Hẻm Núi"'
+  notes: ""
+- key: maps_8
+  value: '"Pháo Đài"'
+  notes: ""
+- key: maps_fort
+  value: '"Pháo Đài"'
+  notes: ""
+- key: maps_70
+  value: '"Nguyệt Hải"'
+  notes: ""
+- key: maps_moon
+  value: '"Nguyệt Hải"'
+  notes: ""
+- key: maps_19
+  value: '"Malinovka Mùa Đông"'
+  notes: ""
+- key: maps_malinovka
+  value: '"Malinovka Mùa Đông"'
+  notes: ""
+- key: maps_43
+  value: '"Hy Lạp"'
+  notes: ""
+- key: maps_rift
+  value: '"Hy Lạp"'
+  notes: ""
+- key: maps_72
+  value: '"Mãi Băng"'
+  notes: ""
+- key: maps_iceworld
+  value: '"Mãi Băng"'
+  notes: ""
+- key: maps_13
+  value: '"Yukon"'
+  notes: ""
+- key: maps_idle
+  value: '"Yukon"'
+  notes: ""
+- key: maps_49
+  value: '"Lạch Nước" - Nhà máy'
+  notes: ""
+- key: maps_amigosville_03
+  value: '"Lạch Nước" - Nhà máy'
+  notes: ""
+- key: maps_35
+  value: '"Biên Giới Biển"'
+  notes: ""
+- key: maps_skit
+  value: '"Biên Giới Biển"'
+  notes: ""
+- key: maps_51
+  value: '"Cảng Yamato" - Đồi'
+  notes: ""
+- key: maps_milbase_03
+  value: '"Cảng Yamato" - Đồi'
+  notes: ""
+- key: maps_45
+  value: '"Sa Mạc Cát" - Cồn cát'
+  notes: ""
+- key: maps_desert_train_03
+  value: '"Sa Mạc Cát" - Cồn cát'
   notes: ""

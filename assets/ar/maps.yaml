@@ -1,38 +1,8 @@
-- key: maps_62
-  value: المناجم - المركز
+- key: maps_8
+  value: قلعة البؤس
   notes: ""
-- key: maps_rudniki_03
-  value: المناجم - المركز
-  notes: ""
-- key: maps_25
-  value: ميناء ياماتو
-  notes: ""
-- key: maps_milbase
-  value: ميناء ياماتو
-  notes: ""
-- key: maps_15
-  value: خليج الميناء
-  notes: ""
-- key: maps_port
-  value: خليج الميناء
-  notes: ""
-- key: maps_70
-  value: بحر السكينة
-  notes: ""
-- key: maps_moon
-  value: بحر السكينة
-  notes: ""
-- key: maps_30
-  value: الأهرام القديمة
-  notes: ""
-- key: maps_rock
-  value: الأهرام القديمة
-  notes: ""
-- key: maps_7
-  value: ديد ريل
-  notes: ""
-- key: maps_medvedkovo
-  value: ديد ريل
+- key: maps_fort
+  value: قلعة البؤس
   notes: ""
 - key: maps_60
   value: المناجم - التل
@@ -40,257 +10,11 @@
 - key: maps_rudniki_01
   value: المناجم - التل
   notes: ""
-- key: maps_8
-  value: قلعة البؤس
-  notes: ""
-- key: maps_fort
-  value: قلعة البؤس
-  notes: ""
-- key: maps_23
-  value: حقول الكروم
-  notes: ""
-- key: maps_italy
-  value: حقول الكروم
-  notes: ""
-- key: maps_51
-  value: ميناء ياماتو - التلال
-  notes: ""
-- key: maps_milbase_03
-  value: ميناء ياماتو - التلال
-  notes: ""
-- key: maps_56
-  value: القناة - المصنع
-  notes: ""
-- key: maps_canal_01
-  value: القناة - المصنع
-  notes: ""
-- key: maps_55
-  value: ميدلبورغ - التل
-  notes: ""
-- key: maps_erlenberg_02
-  value: ميدلبورغ - التل
-  notes: ""
 - key: maps_14
   value: سدّ الطاحونة
   notes: ""
 - key: maps_holland
   value: سدّ الطاحونة
-  notes: ""
-- key: maps_71
-  value: الأرض القاحلة
-  notes: ""
-- key: maps_holmeisk
-  value: الأرض القاحلة
-  notes: ""
-- key: maps_43
-  value: هيلاس
-  notes: ""
-- key: maps_rift
-  value: هيلاس
-  notes: ""
-- key: maps_5
-  value: فولز كريك
-  notes: ""
-- key: maps_amigosville
-  value: فولز كريك
-  notes: ""
-- key: maps_54
-  value: ميدلبورغ - البلدة
-  notes: ""
-- key: maps_erlenberg_01
-  value: ميدلبورغ - البلدة
-  notes: ""
-- key: maps_50
-  value: ميناء ياماتو - السفينة الحربية
-  notes: ""
-- key: maps_milbase_02
-  value: ميناء ياماتو - السفينة الحربية
-  notes: ""
-- key: maps_44
-  value: رمال الصحراء - البلدة
-  notes: ""
-- key: maps_desert_train_02
-  value: رمال الصحراء - البلدة
-  notes: ""
-- key: maps_4
-  value: كوبرفيلد
-  notes: ""
-- key: maps_karieri
-  value: كوبرفيلد
-  notes: ""
-- key: maps_42
-  value: نورماندي
-  notes: ""
-- key: maps_neptune
-  value: نورماندي
-  notes: ""
-- key: maps_21
-  value: القناة
-  notes: ""
-- key: maps_canal
-  value: القناة
-  notes: ""
-- key: maps_57
-  value: ألبينشتاد - البلدة
-  notes: ""
-- key: maps_lumber_01
-  value: ألبينشتاد - البلدة
-  notes: ""
-- key: maps_11
-  value: واحة النخيل
-  notes: ""
-- key: maps_savanna
-  value: واحة النخيل
-  notes: ""
-- key: maps_49
-  value: فولز كريك - المصنع
-  notes: ""
-- key: maps_amigosville_03
-  value: فولز كريك - المصنع
-  notes: ""
-- key: maps_40
-  value: المرفأ الجديد
-  notes: ""
-- key: maps_forgecity
-  value: المرفأ الجديد
-  notes: ""
-- key: maps_10
-  value: الذهب الأسود
-  notes: ""
-- key: maps_mountain
-  value: الذهب الأسود
-  notes: ""
-- key: maps_39
-  value: فاوست
-  notes: ""
-- key: maps_faust
-  value: فاوست
-  notes: ""
-- key: maps_59
-  value: نورماندي - الساحل
-  notes: ""
-- key: maps_neptune_02
-  value: نورماندي - الساحل
-  notes: ""
-- key: maps_27
-  value: الوادي
-  notes: ""
-- key: maps_canyon
-  value: الوادي
-  notes: ""
-- key: maps_52
-  value: ميناء ياماتو - المركز
-  notes: ""
-- key: maps_milbase_04
-  value: ميناء ياماتو - المركز
-  notes: ""
-- key: maps_3
-  value: ميدلبورغ
-  notes: ""
-- key: maps_erlenberg
-  value: ميدلبورغ
-  notes: ""
-- key: maps_53
-  value: ميناء ياماتو - الرصيف
-  notes: ""
-- key: maps_milbase_05
-  value: ميناء ياماتو - الرصيف
-  notes: ""
-- key: maps_35
-  value: الحدود البحرية
-  notes: ""
-- key: maps_skit
-  value: الحدود البحرية
-  notes: ""
-- key: maps_31
-  value: سلسلة اللؤلؤة
-  notes: ""
-- key: maps_grossberg
-  value: سلسلة اللؤلؤة
-  notes: ""
-- key: maps_38
-  value: ألبينشتاد
-  notes: ""
-- key: maps_lumber
-  value: ألبينشتاد
-  notes: ""
-- key: maps_46
-  value: ديد ريل - الوادي
-  notes: ""
-- key: maps_medvedkovo_02
-  value: ديد ريل - الوادي
-  notes: ""
-- key: maps_45
-  value: رمال الصحراء - الكثبان
-  notes: ""
-- key: maps_desert_train_03
-  value: رمال الصحراء - الكثبان
-  notes: ""
-- key: maps_47
-  value: ديد ريل - السكك الحديدية
-  notes: ""
-- key: maps_medvedkovo_03
-  value: ديد ريل - السكك الحديدية
-  notes: ""
-- key: maps_2
-  value: رمال الصحراء
-  notes: ""
-- key: maps_desert_train
-  value: رمال الصحراء
-  notes: ""
-- key: maps_58
-  value: نورماندي - التلال
-  notes: ""
-- key: maps_neptune_01
-  value: نورماندي - التلال
-  notes: ""
-- key: maps_13
-  value: يوكون
-  notes: ""
-- key: maps_idle
-  value: يوكون
-  notes: ""
-- key: maps_1
-  value: روكفيلد
-  notes: ""
-- key: maps_karelia
-  value: روكفيلد
-  notes: ""
-- key: maps_12
-  value: مصنع الأشباح
-  notes: ""
-- key: maps_plant
-  value: مصنع الأشباح
-  notes: ""
-- key: maps_6
-  value: المناجم
-  notes: ""
-- key: maps_rudniki
-  value: المناجم
-  notes: ""
-- key: maps_19
-  value: شتاء مالينوفكا
-  notes: ""
-- key: maps_malinovka
-  value: شتاء مالينوفكا
-  notes: ""
-- key: maps_20
-  value: القلعة
-  notes: ""
-- key: maps_pliego
-  value: القلعة
-  notes: ""
-- key: maps_72
-  value: الصقيع الأبدي
-  notes: ""
-- key: maps_iceworld
-  value: الصقيع الأبدي
-  notes: ""
-- key: maps_9
-  value: هيميلسدورف
-  notes: ""
-- key: maps_himmelsdorf
-  value: هيميلسدورف
   notes: ""
 - key: maps_61
   value: المناجم - القرية
@@ -298,9 +22,285 @@
 - key: maps_rudniki_02
   value: المناجم - القرية
   notes: ""
+- key: maps_3
+  value: ميدلبورغ
+  notes: ""
+- key: maps_erlenberg
+  value: ميدلبورغ
+  notes: ""
+- key: maps_25
+  value: ميناء ياماتو
+  notes: ""
+- key: maps_milbase
+  value: ميناء ياماتو
+  notes: ""
+- key: maps_11
+  value: واحة النخيل
+  notes: ""
+- key: maps_savanna
+  value: واحة النخيل
+  notes: ""
+- key: maps_71
+  value: الأرض القاحلة
+  notes: ""
+- key: maps_holmeisk
+  value: الأرض القاحلة
+  notes: ""
+- key: maps_52
+  value: ميناء ياماتو - المركز
+  notes: ""
+- key: maps_milbase_04
+  value: ميناء ياماتو - المركز
+  notes: ""
+- key: maps_55
+  value: ميدلبورغ - التل
+  notes: ""
+- key: maps_erlenberg_02
+  value: ميدلبورغ - التل
+  notes: ""
+- key: maps_56
+  value: القناة - المصنع
+  notes: ""
+- key: maps_canal_01
+  value: القناة - المصنع
+  notes: ""
 - key: maps_48
   value: فولز كريك - الجسر
   notes: ""
 - key: maps_amigosville_02
   value: فولز كريك - الجسر
+  notes: ""
+- key: maps_27
+  value: الوادي
+  notes: ""
+- key: maps_canyon
+  value: الوادي
+  notes: ""
+- key: maps_2
+  value: رمال الصحراء
+  notes: ""
+- key: maps_desert_train
+  value: رمال الصحراء
+  notes: ""
+- key: maps_54
+  value: ميدلبورغ - البلدة
+  notes: ""
+- key: maps_erlenberg_01
+  value: ميدلبورغ - البلدة
+  notes: ""
+- key: maps_23
+  value: حقول الكروم
+  notes: ""
+- key: maps_italy
+  value: حقول الكروم
+  notes: ""
+- key: maps_42
+  value: نورماندي
+  notes: ""
+- key: maps_neptune
+  value: نورماندي
+  notes: ""
+- key: maps_40
+  value: المرفأ الجديد
+  notes: ""
+- key: maps_forgecity
+  value: المرفأ الجديد
+  notes: ""
+- key: maps_45
+  value: رمال الصحراء - الكثبان
+  notes: ""
+- key: maps_desert_train_03
+  value: رمال الصحراء - الكثبان
+  notes: ""
+- key: maps_35
+  value: الحدود البحرية
+  notes: ""
+- key: maps_skit
+  value: الحدود البحرية
+  notes: ""
+- key: maps_5
+  value: فولز كريك
+  notes: ""
+- key: maps_amigosville
+  value: فولز كريك
+  notes: ""
+- key: maps_44
+  value: رمال الصحراء - البلدة
+  notes: ""
+- key: maps_desert_train_02
+  value: رمال الصحراء - البلدة
+  notes: ""
+- key: maps_49
+  value: فولز كريك - المصنع
+  notes: ""
+- key: maps_amigosville_03
+  value: فولز كريك - المصنع
+  notes: ""
+- key: maps_4
+  value: كوبرفيلد
+  notes: ""
+- key: maps_karieri
+  value: كوبرفيلد
+  notes: ""
+- key: maps_46
+  value: ديد ريل - الوادي
+  notes: ""
+- key: maps_medvedkovo_02
+  value: ديد ريل - الوادي
+  notes: ""
+- key: maps_15
+  value: خليج الميناء
+  notes: ""
+- key: maps_port
+  value: خليج الميناء
+  notes: ""
+- key: maps_19
+  value: شتاء مالينوفكا
+  notes: ""
+- key: maps_malinovka
+  value: شتاء مالينوفكا
+  notes: ""
+- key: maps_43
+  value: هيلاس
+  notes: ""
+- key: maps_rift
+  value: هيلاس
+  notes: ""
+- key: maps_20
+  value: القلعة
+  notes: ""
+- key: maps_pliego
+  value: القلعة
+  notes: ""
+- key: maps_50
+  value: ميناء ياماتو - السفينة الحربية
+  notes: ""
+- key: maps_milbase_02
+  value: ميناء ياماتو - السفينة الحربية
+  notes: ""
+- key: maps_58
+  value: نورماندي - التلال
+  notes: ""
+- key: maps_neptune_01
+  value: نورماندي - التلال
+  notes: ""
+- key: maps_12
+  value: مصنع الأشباح
+  notes: ""
+- key: maps_plant
+  value: مصنع الأشباح
+  notes: ""
+- key: maps_9
+  value: هيميلسدورف
+  notes: ""
+- key: maps_himmelsdorf
+  value: هيميلسدورف
+  notes: ""
+- key: maps_62
+  value: المناجم - المركز
+  notes: ""
+- key: maps_rudniki_03
+  value: المناجم - المركز
+  notes: ""
+- key: maps_57
+  value: ألبينشتاد - البلدة
+  notes: ""
+- key: maps_lumber_01
+  value: ألبينشتاد - البلدة
+  notes: ""
+- key: maps_21
+  value: القناة
+  notes: ""
+- key: maps_canal
+  value: القناة
+  notes: ""
+- key: maps_31
+  value: سلسلة اللؤلؤة
+  notes: ""
+- key: maps_grossberg
+  value: سلسلة اللؤلؤة
+  notes: ""
+- key: maps_30
+  value: الأهرام القديمة
+  notes: ""
+- key: maps_rock
+  value: الأهرام القديمة
+  notes: ""
+- key: maps_10
+  value: الذهب الأسود
+  notes: ""
+- key: maps_mountain
+  value: الذهب الأسود
+  notes: ""
+- key: maps_51
+  value: ميناء ياماتو - التلال
+  notes: ""
+- key: maps_milbase_03
+  value: ميناء ياماتو - التلال
+  notes: ""
+- key: maps_6
+  value: المناجم
+  notes: ""
+- key: maps_rudniki
+  value: المناجم
+  notes: ""
+- key: maps_39
+  value: فاوست
+  notes: ""
+- key: maps_faust
+  value: فاوست
+  notes: ""
+- key: maps_13
+  value: يوكون
+  notes: ""
+- key: maps_idle
+  value: يوكون
+  notes: ""
+- key: maps_72
+  value: الصقيع الأبدي
+  notes: ""
+- key: maps_iceworld
+  value: الصقيع الأبدي
+  notes: ""
+- key: maps_59
+  value: نورماندي - الساحل
+  notes: ""
+- key: maps_neptune_02
+  value: نورماندي - الساحل
+  notes: ""
+- key: maps_7
+  value: ديد ريل
+  notes: ""
+- key: maps_medvedkovo
+  value: ديد ريل
+  notes: ""
+- key: maps_70
+  value: بحر السكينة
+  notes: ""
+- key: maps_moon
+  value: بحر السكينة
+  notes: ""
+- key: maps_1
+  value: روكفيلد
+  notes: ""
+- key: maps_karelia
+  value: روكفيلد
+  notes: ""
+- key: maps_53
+  value: ميناء ياماتو - الرصيف
+  notes: ""
+- key: maps_milbase_05
+  value: ميناء ياماتو - الرصيف
+  notes: ""
+- key: maps_38
+  value: ألبينشتاد
+  notes: ""
+- key: maps_lumber
+  value: ألبينشتاد
+  notes: ""
+- key: maps_47
+  value: ديد ريل - السكك الحديدية
+  notes: ""
+- key: maps_medvedkovo_03
+  value: ديد ريل - السكك الحديدية
   notes: ""

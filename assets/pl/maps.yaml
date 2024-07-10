@@ -1,152 +1,8 @@
-- key: maps_15
-  value: Przystań
+- key: maps_48
+  value: Nadrzecze – Most
   notes: ""
-- key: maps_port
-  value: Przystań
-  notes: ""
-- key: maps_49
-  value: Nadrzecze – Fabryka
-  notes: ""
-- key: maps_amigosville_03
-  value: Nadrzecze – Fabryka
-  notes: ""
-- key: maps_1
-  value: Kamieniec
-  notes: ""
-- key: maps_karelia
-  value: Kamieniec
-  notes: ""
-- key: maps_45
-  value: Pustynne piaski – Wydmy
-  notes: ""
-- key: maps_desert_train_03
-  value: Pustynne piaski – Wydmy
-  notes: ""
-- key: maps_31
-  value: Perła Dynastii
-  notes: ""
-- key: maps_grossberg
-  value: Perła Dynastii
-  notes: ""
-- key: maps_3
-  value: Middleburg
-  notes: ""
-- key: maps_erlenberg
-  value: Middleburg
-  notes: ""
-- key: maps_10
-  value: Czarne złoto
-  notes: ""
-- key: maps_mountain
-  value: Czarne złoto
-  notes: ""
-- key: maps_11
-  value: Oaza
-  notes: ""
-- key: maps_savanna
-  value: Oaza
-  notes: ""
-- key: maps_55
-  value: Middleburg – Wzgórze
-  notes: ""
-- key: maps_erlenberg_02
-  value: Middleburg – Wzgórze
-  notes: ""
-- key: maps_58
-  value: Normandia – Wzgórza
-  notes: ""
-- key: maps_neptune_01
-  value: Normandia – Wzgórza
-  notes: ""
-- key: maps_21
-  value: Kanał
-  notes: ""
-- key: maps_canal
-  value: Kanał
-  notes: ""
-- key: maps_40
-  value: Nowa Przystań
-  notes: ""
-- key: maps_forgecity
-  value: Nowa Przystań
-  notes: ""
-- key: maps_9
-  value: Himmelsdorf
-  notes: ""
-- key: maps_himmelsdorf
-  value: Himmelsdorf
-  notes: ""
-- key: maps_38
-  value: Alpenstadt
-  notes: ""
-- key: maps_lumber
-  value: Alpenstadt
-  notes: ""
-- key: maps_71
-  value: Kataklizm
-  notes: ""
-- key: maps_holmeisk
-  value: Kataklizm
-  notes: ""
-- key: maps_5
-  value: Nadrzecze
-  notes: ""
-- key: maps_amigosville
-  value: Nadrzecze
-  notes: ""
-- key: maps_30
-  value: Starożytne piramidy
-  notes: ""
-- key: maps_rock
-  value: Starożytne piramidy
-  notes: ""
-- key: maps_13
-  value: Jukon
-  notes: ""
-- key: maps_idle
-  value: Jukon
-  notes: ""
-- key: maps_72
-  value: Wieczna zmarzlina
-  notes: ""
-- key: maps_iceworld
-  value: Wieczna zmarzlina
-  notes: ""
-- key: maps_60
-  value: Kopalnie – Wzgórze
-  notes: ""
-- key: maps_rudniki_01
-  value: Kopalnie – Wzgórze
-  notes: ""
-- key: maps_6
-  value: Kopalnie
-  notes: ""
-- key: maps_rudniki
-  value: Kopalnie
-  notes: ""
-- key: maps_57
-  value: Alpenstadt – Miasto
-  notes: ""
-- key: maps_lumber_01
-  value: Alpenstadt – Miasto
-  notes: ""
-- key: maps_52
-  value: Zatoka Yamato – Centrum
-  notes: ""
-- key: maps_milbase_04
-  value: Zatoka Yamato – Centrum
-  notes: ""
-- key: maps_25
-  value: Port Yamato
-  notes: ""
-- key: maps_milbase
-  value: Port Yamato
-  notes: ""
-- key: maps_2
-  value: Pustynne piaski
-  notes: ""
-- key: maps_desert_train
-  value: Pustynne piaski
+- key: maps_amigosville_02
+  value: Nadrzecze – Most
   notes: ""
 - key: maps_8
   value: Fort Rozpacz
@@ -154,143 +10,11 @@
 - key: maps_fort
   value: Fort Rozpacz
   notes: ""
-- key: maps_46
-  value: Martwy tor – Dolina
+- key: maps_3
+  value: Middleburg
   notes: ""
-- key: maps_medvedkovo_02
-  value: Martwy tor – Dolina
-  notes: ""
-- key: maps_20
-  value: Kastylia
-  notes: ""
-- key: maps_pliego
-  value: Kastylia
-  notes: ""
-- key: maps_7
-  value: Martwy tor
-  notes: ""
-- key: maps_medvedkovo
-  value: Martwy tor
-  notes: ""
-- key: maps_27
-  value: Kanion
-  notes: ""
-- key: maps_canyon
-  value: Kanion
-  notes: ""
-- key: maps_59
-  value: Normandia – Plaża
-  notes: ""
-- key: maps_neptune_02
-  value: Normandia – Plaża
-  notes: ""
-- key: maps_44
-  value: Pustynne piaski – Miasto
-  notes: ""
-- key: maps_desert_train_02
-  value: Pustynne piaski – Miasto
-  notes: ""
-- key: maps_56
-  value: Kanał – Fabryka
-  notes: ""
-- key: maps_canal_01
-  value: Kanał – Fabryka
-  notes: ""
-- key: maps_23
-  value: Winnice
-  notes: ""
-- key: maps_italy
-  value: Winnice
-  notes: ""
-- key: maps_61
-  value: Kopalnie – Wioska
-  notes: ""
-- key: maps_rudniki_02
-  value: Kopalnie – Wioska
-  notes: ""
-- key: maps_47
-  value: Martwy tor – Torowisko
-  notes: ""
-- key: maps_medvedkovo_03
-  value: Martwy tor – Torowisko
-  notes: ""
-- key: maps_54
-  value: Middleburg – Miasto
-  notes: ""
-- key: maps_erlenberg_01
-  value: Middleburg – Miasto
-  notes: ""
-- key: maps_14
-  value: Molendijk
-  notes: ""
-- key: maps_holland
-  value: Molendijk
-  notes: ""
-- key: maps_53
-  value: Zatoka Yamato – Doki
-  notes: ""
-- key: maps_milbase_05
-  value: Zatoka Yamato – Doki
-  notes: ""
-- key: maps_43
-  value: Hellada
-  notes: ""
-- key: maps_rift
-  value: Hellada
-  notes: ""
-- key: maps_12
-  value: Fabryka duchów
-  notes: ""
-- key: maps_plant
-  value: Fabryka duchów
-  notes: ""
-- key: maps_39
-  value: Faust
-  notes: ""
-- key: maps_faust
-  value: Faust
-  notes: ""
-- key: maps_51
-  value: Zatoka Yamato – Wzgórza
-  notes: ""
-- key: maps_milbase_03
-  value: Zatoka Yamato – Wzgórza
-  notes: ""
-- key: maps_4
-  value: Miedziane Pole
-  notes: ""
-- key: maps_karieri
-  value: Miedziane Pole
-  notes: ""
-- key: maps_70
-  value: Morze Spokoju
-  notes: ""
-- key: maps_moon
-  value: Morze Spokoju
-  notes: ""
-- key: maps_35
-  value: Morskie rubieże
-  notes: ""
-- key: maps_skit
-  value: Morskie rubieże
-  notes: ""
-- key: maps_50
-  value: Zatoka Yamato – Pancernik
-  notes: ""
-- key: maps_milbase_02
-  value: Zatoka Yamato – Pancernik
-  notes: ""
-- key: maps_48
-  value: Nadrzecze – Most
-  notes: ""
-- key: maps_amigosville_02
-  value: Nadrzecze – Most
-  notes: ""
-- key: maps_62
-  value: Kopalnie – Centrum
-  notes: ""
-- key: maps_rudniki_03
-  value: Kopalnie – Centrum
+- key: maps_erlenberg
+  value: Middleburg
   notes: ""
 - key: maps_42
   value: Normandia
@@ -298,9 +22,285 @@
 - key: maps_neptune
   value: Normandia
   notes: ""
+- key: maps_14
+  value: Molendijk
+  notes: ""
+- key: maps_holland
+  value: Molendijk
+  notes: ""
+- key: maps_70
+  value: Morze Spokoju
+  notes: ""
+- key: maps_moon
+  value: Morze Spokoju
+  notes: ""
+- key: maps_2
+  value: Pustynne piaski
+  notes: ""
+- key: maps_desert_train
+  value: Pustynne piaski
+  notes: ""
+- key: maps_62
+  value: Kopalnie – Centrum
+  notes: ""
+- key: maps_rudniki_03
+  value: Kopalnie – Centrum
+  notes: ""
+- key: maps_54
+  value: Middleburg – Miasto
+  notes: ""
+- key: maps_erlenberg_01
+  value: Middleburg – Miasto
+  notes: ""
+- key: maps_52
+  value: Zatoka Yamato – Centrum
+  notes: ""
+- key: maps_milbase_04
+  value: Zatoka Yamato – Centrum
+  notes: ""
+- key: maps_57
+  value: Alpenstadt – Miasto
+  notes: ""
+- key: maps_lumber_01
+  value: Alpenstadt – Miasto
+  notes: ""
+- key: maps_71
+  value: Kataklizm
+  notes: ""
+- key: maps_holmeisk
+  value: Kataklizm
+  notes: ""
+- key: maps_11
+  value: Oaza
+  notes: ""
+- key: maps_savanna
+  value: Oaza
+  notes: ""
+- key: maps_39
+  value: Faust
+  notes: ""
+- key: maps_faust
+  value: Faust
+  notes: ""
+- key: maps_58
+  value: Normandia – Wzgórza
+  notes: ""
+- key: maps_neptune_01
+  value: Normandia – Wzgórza
+  notes: ""
+- key: maps_43
+  value: Hellada
+  notes: ""
+- key: maps_rift
+  value: Hellada
+  notes: ""
+- key: maps_9
+  value: Himmelsdorf
+  notes: ""
+- key: maps_himmelsdorf
+  value: Himmelsdorf
+  notes: ""
+- key: maps_51
+  value: Zatoka Yamato – Wzgórza
+  notes: ""
+- key: maps_milbase_03
+  value: Zatoka Yamato – Wzgórza
+  notes: ""
+- key: maps_27
+  value: Kanion
+  notes: ""
+- key: maps_canyon
+  value: Kanion
+  notes: ""
+- key: maps_23
+  value: Winnice
+  notes: ""
+- key: maps_italy
+  value: Winnice
+  notes: ""
+- key: maps_21
+  value: Kanał
+  notes: ""
+- key: maps_canal
+  value: Kanał
+  notes: ""
+- key: maps_10
+  value: Czarne złoto
+  notes: ""
+- key: maps_mountain
+  value: Czarne złoto
+  notes: ""
+- key: maps_4
+  value: Miedziane Pole
+  notes: ""
+- key: maps_karieri
+  value: Miedziane Pole
+  notes: ""
+- key: maps_61
+  value: Kopalnie – Wioska
+  notes: ""
+- key: maps_rudniki_02
+  value: Kopalnie – Wioska
+  notes: ""
+- key: maps_13
+  value: Jukon
+  notes: ""
+- key: maps_idle
+  value: Jukon
+  notes: ""
+- key: maps_31
+  value: Perła Dynastii
+  notes: ""
+- key: maps_grossberg
+  value: Perła Dynastii
+  notes: ""
+- key: maps_20
+  value: Kastylia
+  notes: ""
+- key: maps_pliego
+  value: Kastylia
+  notes: ""
+- key: maps_72
+  value: Wieczna zmarzlina
+  notes: ""
+- key: maps_iceworld
+  value: Wieczna zmarzlina
+  notes: ""
+- key: maps_40
+  value: Nowa Przystań
+  notes: ""
+- key: maps_forgecity
+  value: Nowa Przystań
+  notes: ""
+- key: maps_55
+  value: Middleburg – Wzgórze
+  notes: ""
+- key: maps_erlenberg_02
+  value: Middleburg – Wzgórze
+  notes: ""
+- key: maps_56
+  value: Kanał – Fabryka
+  notes: ""
+- key: maps_canal_01
+  value: Kanał – Fabryka
+  notes: ""
+- key: maps_59
+  value: Normandia – Plaża
+  notes: ""
+- key: maps_neptune_02
+  value: Normandia – Plaża
+  notes: ""
+- key: maps_1
+  value: Kamieniec
+  notes: ""
+- key: maps_karelia
+  value: Kamieniec
+  notes: ""
+- key: maps_46
+  value: Martwy tor – Dolina
+  notes: ""
+- key: maps_medvedkovo_02
+  value: Martwy tor – Dolina
+  notes: ""
+- key: maps_49
+  value: Nadrzecze – Fabryka
+  notes: ""
+- key: maps_amigosville_03
+  value: Nadrzecze – Fabryka
+  notes: ""
+- key: maps_15
+  value: Przystań
+  notes: ""
+- key: maps_port
+  value: Przystań
+  notes: ""
+- key: maps_30
+  value: Starożytne piramidy
+  notes: ""
+- key: maps_rock
+  value: Starożytne piramidy
+  notes: ""
+- key: maps_50
+  value: Zatoka Yamato – Pancernik
+  notes: ""
+- key: maps_milbase_02
+  value: Zatoka Yamato – Pancernik
+  notes: ""
+- key: maps_45
+  value: Pustynne piaski – Wydmy
+  notes: ""
+- key: maps_desert_train_03
+  value: Pustynne piaski – Wydmy
+  notes: ""
+- key: maps_6
+  value: Kopalnie
+  notes: ""
+- key: maps_rudniki
+  value: Kopalnie
+  notes: ""
+- key: maps_38
+  value: Alpenstadt
+  notes: ""
+- key: maps_lumber
+  value: Alpenstadt
+  notes: ""
 - key: maps_19
   value: Malinowka zimą
   notes: ""
 - key: maps_malinovka
   value: Malinowka zimą
+  notes: ""
+- key: maps_5
+  value: Nadrzecze
+  notes: ""
+- key: maps_amigosville
+  value: Nadrzecze
+  notes: ""
+- key: maps_25
+  value: Port Yamato
+  notes: ""
+- key: maps_milbase
+  value: Port Yamato
+  notes: ""
+- key: maps_44
+  value: Pustynne piaski – Miasto
+  notes: ""
+- key: maps_desert_train_02
+  value: Pustynne piaski – Miasto
+  notes: ""
+- key: maps_47
+  value: Martwy tor – Torowisko
+  notes: ""
+- key: maps_medvedkovo_03
+  value: Martwy tor – Torowisko
+  notes: ""
+- key: maps_7
+  value: Martwy tor
+  notes: ""
+- key: maps_medvedkovo
+  value: Martwy tor
+  notes: ""
+- key: maps_60
+  value: Kopalnie – Wzgórze
+  notes: ""
+- key: maps_rudniki_01
+  value: Kopalnie – Wzgórze
+  notes: ""
+- key: maps_53
+  value: Zatoka Yamato – Doki
+  notes: ""
+- key: maps_milbase_05
+  value: Zatoka Yamato – Doki
+  notes: ""
+- key: maps_35
+  value: Morskie rubieże
+  notes: ""
+- key: maps_skit
+  value: Morskie rubieże
+  notes: ""
+- key: maps_12
+  value: Fabryka duchów
+  notes: ""
+- key: maps_plant
+  value: Fabryka duchów
   notes: ""

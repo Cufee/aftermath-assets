@@ -1,7 +1,9 @@
 package main
 
 import (
+	"bytes"
 	"encoding/json"
+	"strconv"
 
 	"fmt"
 	"io"
@@ -14,6 +16,7 @@ import (
 
 	"github.com/pkg/errors"
 	"golang.org/x/text/language"
+	"gopkg.in/yaml.v3"
 )
 
 type Vehicle struct {
@@ -45,7 +48,7 @@ func (p *vehiclesParser) Items() *vehicleItemsParser {
 	return &vehicleItemsParser{p.vehicles, p.lock}
 }
 func (p *vehiclesParser) Strings(out string) *vehicleStringsParser {
-	return &vehicleStringsParser{p.vehicles, out}
+	return &vehicleStringsParser{out, p.vehicles, p.lock}
 }
 
 var vehicleItemsRegex = regexp.MustCompile(".*/XML/item_defs/vehicles/.*list.xml")
@@ -62,7 +65,6 @@ type vehicleItem struct {
 	Tags         string `xml:"tags" json:"tags"`
 	Level        string `xml:"level" json:"level"`
 	Environments string `xml:"configurationModes" json:"configurationModes"`
-	Price        string `xml:"price" json:"price"`
 
 	id           int
 	level        int
@@ -95,8 +97,7 @@ func (item vehicleItem) toVehicle(nation string) Vehicle {
 		Tier:        item.level,
 		Class:       item.class(),
 		Nation:      nation,
-		Premium:     strings.Contains(item.Price, "<gold/>"),
-		SuperTest:   slices.Contains(item.environments, "supertest"),
+		SuperTest:   slices.Contains(item.environments, "supertest") && !slices.Contains(item.environments, "production"),
 		Collectible: slices.Contains(item.tags, "collectible"),
 	}
 }
@@ -105,18 +106,16 @@ func (p *vehicleItemsParser) Exclusive() bool {
 	return true
 }
 func (p *vehicleItemsParser) Match(path string) bool {
-	return vehicleItemsRegex.MatchString(path)
+	return vehicleItemsRegex.MatchString(path) && !strings.HasSuffix(path, "provisions/list.xml") && !strings.HasSuffix(path, "consumables/list.xml")
 }
 func (p *vehicleItemsParser) Parse(path string, r io.Reader) error {
-	data, err := decodeXML[map[string]vehicleItem](r)
+	raw, _ := io.ReadAll(r)
+	data, err := decodeXML[map[string]vehicleItem](bytes.NewReader(raw))
 	if err != nil {
 		return err
 	}
 
 	nation := filepath.Base(filepath.Dir(path))
-	if slices.Contains([]string{"provisions", "consumables"}, nation) {
-		return nil
-	}
 	if _, ok := nationIDs[nation]; !ok {
 		return errors.New("invalid nation " + nation)
 	}
@@ -125,9 +124,11 @@ func (p *vehicleItemsParser) Parse(path string, r io.Reader) error {
 	defer p.lock.Unlock()
 
 	for _, item := range data {
-		if item.ID == "" {
-			continue
-		}
+		item.id, _ = strconv.Atoi(item.ID)
+		item.level, _ = strconv.Atoi(item.Level)
+		item.tags = strings.Split(item.Tags, " ")
+		item.environments = strings.Split(item.Environments, " ")
+
 		vehicle := item.toVehicle(nation)
 		p.vehicles[vehicle.ID] = vehicle
 	}
@@ -136,8 +137,9 @@ func (p *vehicleItemsParser) Parse(path string, r io.Reader) error {
 }
 
 type vehicleStringsParser struct {
-	vehicles  map[string]Vehicle
 	assetsDir string
+	vehicles  map[string]Vehicle
+	lock      *sync.Mutex
 }
 
 func (p *vehicleStringsParser) Exclusive() bool {
@@ -164,11 +166,20 @@ func (p *vehicleStringsParser) Parse(path string, r io.Reader) error {
 		return err
 	}
 
-	// for _, vehicle := range data {
+	p.lock.Lock()
+	defer p.lock.Unlock()
+	var vehicles []LocalizationString
+	for key, vehicle := range p.vehicles {
+		v := p.vehicles[key]
+		v.Name = data[vehicle.Key]
+		p.vehicles[key] = v
 
-	// }
-
-	_ = data
+		vehicles = append(vehicles, LocalizationString{
+			Key:   "vehicle_" + v.ID,
+			Value: v.Name,
+			Notes: v.Key,
+		})
+	}
 
 	// Save data as JSON
 	jf, err := os.Create(filepath.Join(p.assetsDir, locale.String(), "vehicles.json"))
@@ -182,6 +193,19 @@ func (p *vehicleStringsParser) Parse(path string, r io.Reader) error {
 	err = je.Encode(p.vehicles)
 	if err != nil {
 		return err
+	}
+
+	// Save data as yaml
+	yf, err := os.Create(filepath.Join(p.assetsDir, locale.String(), "vehicles.yaml"))
+	if err != nil {
+		return err
+	}
+	defer yf.Close()
+
+	ye := yaml.NewEncoder(yf)
+	err = ye.Encode(vehicles)
+	if err != nil {
+		return nil
 	}
 
 	return nil

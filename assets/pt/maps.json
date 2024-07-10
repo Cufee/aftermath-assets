@@ -1,18 +1,8 @@
 [
   {
-    "id": "53",
-    "key": "milbase_05",
-    "name": "Porto do Yamato - Doca"
-  },
-  {
-    "id": "51",
-    "key": "milbase_03",
-    "name": "Porto do Yamato - Montanhas"
-  },
-  {
-    "id": "48",
-    "key": "amigosville_02",
-    "name": "Enseada da Cachoeira - Ponte"
+    "id": "56",
+    "key": "canal_01",
+    "name": "Canal - Fábrica"
   },
   {
     "id": "70",
@@ -20,34 +10,14 @@
     "name": "Mar da Tranquilidade"
   },
   {
-    "id": "45",
-    "key": "desert_train_03",
-    "name": "Areias do Deserto - Dunas"
+    "id": "48",
+    "key": "amigosville_02",
+    "name": "Enseada da Cachoeira - Ponte"
   },
   {
-    "id": "2",
-    "key": "desert_train",
-    "name": "Areias do Deserto"
-  },
-  {
-    "id": "50",
-    "key": "milbase_02",
-    "name": "Porto do Yamato - Encouraçado"
-  },
-  {
-    "id": "57",
-    "key": "lumber_01",
-    "name": "Alpenstadt - Cidade"
-  },
-  {
-    "id": "62",
-    "key": "rudniki_03",
-    "name": "Minas - Centro"
-  },
-  {
-    "id": "12",
-    "key": "plant",
-    "name": "Fábrica Fantasma"
+    "id": "5",
+    "key": "amigosville",
+    "name": "Enseada da Cachoeira"
   },
   {
     "id": "7",
@@ -55,14 +25,149 @@
     "name": "Trilho Fantasma"
   },
   {
+    "id": "39",
+    "key": "faust",
+    "name": "Faust"
+  },
+  {
+    "id": "49",
+    "key": "amigosville_03",
+    "name": "Enseada da Cachoeira - Fábrica"
+  },
+  {
     "id": "58",
     "key": "neptune_01",
     "name": "Normandia - Colinas"
   },
   {
+    "id": "11",
+    "key": "savanna",
+    "name": "Palmeiras do Oásis"
+  },
+  {
+    "id": "31",
+    "key": "grossberg",
+    "name": "Dinastia da Pérola"
+  },
+  {
+    "id": "72",
+    "key": "iceworld",
+    "name": "Geada Eterna"
+  },
+  {
+    "id": "51",
+    "key": "milbase_03",
+    "name": "Porto do Yamato - Montanhas"
+  },
+  {
+    "id": "15",
+    "key": "port",
+    "name": "Baía do Porto"
+  },
+  {
+    "id": "12",
+    "key": "plant",
+    "name": "Fábrica Fantasma"
+  },
+  {
     "id": "6",
     "key": "rudniki",
     "name": "Minas"
+  },
+  {
+    "id": "46",
+    "key": "medvedkovo_02",
+    "name": "Trilho Fantasma - Vale"
+  },
+  {
+    "id": "13",
+    "key": "idle",
+    "name": "Yukon"
+  },
+  {
+    "id": "23",
+    "key": "italy",
+    "name": "Videiras"
+  },
+  {
+    "id": "30",
+    "key": "rock",
+    "name": "Pirâmides Antigas"
+  },
+  {
+    "id": "43",
+    "key": "rift",
+    "name": "Hélade"
+  },
+  {
+    "id": "1",
+    "key": "karelia",
+    "name": "Rockfield"
+  },
+  {
+    "id": "35",
+    "key": "skit",
+    "name": "Fronteira Naval"
+  },
+  {
+    "id": "4",
+    "key": "karieri",
+    "name": "Campo de Cobre"
+  },
+  {
+    "id": "44",
+    "key": "desert_train_02",
+    "name": "Areias do Deserto - Cidade"
+  },
+  {
+    "id": "2",
+    "key": "desert_train",
+    "name": "Areias do Deserto"
+  },
+  {
+    "id": "60",
+    "key": "rudniki_01",
+    "name": "Minas - Colina"
+  },
+  {
+    "id": "21",
+    "key": "canal",
+    "name": "Canal"
+  },
+  {
+    "id": "9",
+    "key": "himmelsdorf",
+    "name": "Himmelsdorf"
+  },
+  {
+    "id": "47",
+    "key": "medvedkovo_03",
+    "name": "Trilho Fantasma - Ferrovia"
+  },
+  {
+    "id": "25",
+    "key": "milbase",
+    "name": "Porto do Yamato"
+  },
+  {
+    "id": "45",
+    "key": "desert_train_03",
+    "name": "Areias do Deserto - Dunas"
+  },
+  {
+    "id": "53",
+    "key": "milbase_05",
+    "name": "Porto do Yamato - Doca"
+  },
+  {
+    "id": "50",
+    "key": "milbase_02",
+    "name": "Porto do Yamato - Encouraçado"
+  },
+  {
+    "id": "42",
+    "key": "neptune",
+    "name": "Normandia"
   },
   {
     "id": "59",
@@ -80,84 +185,9 @@
     "name": "Middleburg - Colina"
   },
   {
-    "id": "46",
-    "key": "medvedkovo_02",
-    "name": "Trilho Fantasma - Vale"
-  },
-  {
-    "id": "42",
-    "key": "neptune",
-    "name": "Normandia"
-  },
-  {
-    "id": "30",
-    "key": "rock",
-    "name": "Pirâmides Antigas"
-  },
-  {
-    "id": "20",
-    "key": "pliego",
-    "name": "Castilla"
-  },
-  {
-    "id": "25",
-    "key": "milbase",
-    "name": "Porto do Yamato"
-  },
-  {
-    "id": "21",
-    "key": "canal",
-    "name": "Canal"
-  },
-  {
-    "id": "49",
-    "key": "amigosville_03",
-    "name": "Enseada da Cachoeira - Fábrica"
-  },
-  {
-    "id": "39",
-    "key": "faust",
-    "name": "Faust"
-  },
-  {
-    "id": "61",
-    "key": "rudniki_02",
-    "name": "Minas - Vila"
-  },
-  {
-    "id": "9",
-    "key": "himmelsdorf",
-    "name": "Himmelsdorf"
-  },
-  {
-    "id": "60",
-    "key": "rudniki_01",
-    "name": "Minas - Colina"
-  },
-  {
-    "id": "3",
-    "key": "erlenberg",
-    "name": "Middleburg"
-  },
-  {
-    "id": "43",
-    "key": "rift",
-    "name": "Hélade"
-  },
-  {
-    "id": "1",
-    "key": "karelia",
-    "name": "Rockfield"
-  },
-  {
-    "id": "44",
-    "key": "desert_train_02",
-    "name": "Areias do Deserto - Cidade"
-  },
-  {
-    "id": "54",
-    "key": "erlenberg_01",
-    "name": "Middleburg - Cidade"
+    "id": "10",
+    "key": "mountain",
+    "name": "Ouro Negro"
   },
   {
     "id": "14",
@@ -165,54 +195,14 @@
     "name": "Molendijk"
   },
   {
-    "id": "19",
-    "key": "malinovka",
-    "name": "Malinovka Gelada"
-  },
-  {
-    "id": "5",
-    "key": "amigosville",
-    "name": "Enseada da Cachoeira"
-  },
-  {
-    "id": "4",
-    "key": "karieri",
-    "name": "Campo de Cobre"
-  },
-  {
-    "id": "35",
-    "key": "skit",
-    "name": "Fronteira Naval"
-  },
-  {
-    "id": "31",
-    "key": "grossberg",
-    "name": "Dinastia da Pérola"
-  },
-  {
-    "id": "11",
-    "key": "savanna",
-    "name": "Palmeiras do Oásis"
-  },
-  {
-    "id": "8",
-    "key": "fort",
-    "name": "Forte do Desespero"
-  },
-  {
     "id": "71",
     "key": "holmeisk",
     "name": "Terra de Ninguém"
   },
   {
-    "id": "52",
-    "key": "milbase_04",
-    "name": "Porto do Yamato - Centro"
-  },
-  {
-    "id": "56",
-    "key": "canal_01",
-    "name": "Canal - Fábrica"
+    "id": "20",
+    "key": "pliego",
+    "name": "Castilla"
   },
   {
     "id": "27",
@@ -220,38 +210,48 @@
     "name": "Desfiladeiro"
   },
   {
+    "id": "61",
+    "key": "rudniki_02",
+    "name": "Minas - Vila"
+  },
+  {
     "id": "40",
     "key": "forgecity",
     "name": "Nova Baía"
   },
   {
-    "id": "23",
-    "key": "italy",
-    "name": "Videiras"
+    "id": "57",
+    "key": "lumber_01",
+    "name": "Alpenstadt - Cidade"
   },
   {
-    "id": "72",
-    "key": "iceworld",
-    "name": "Geada Eterna"
+    "id": "62",
+    "key": "rudniki_03",
+    "name": "Minas - Centro"
   },
   {
-    "id": "47",
-    "key": "medvedkovo_03",
-    "name": "Trilho Fantasma - Ferrovia"
+    "id": "8",
+    "key": "fort",
+    "name": "Forte do Desespero"
   },
   {
-    "id": "13",
-    "key": "idle",
-    "name": "Yukon"
+    "id": "19",
+    "key": "malinovka",
+    "name": "Malinovka Gelada"
   },
   {
-    "id": "15",
-    "key": "port",
-    "name": "Baía do Porto"
+    "id": "54",
+    "key": "erlenberg_01",
+    "name": "Middleburg - Cidade"
   },
   {
-    "id": "10",
-    "key": "mountain",
-    "name": "Ouro Negro"
+    "id": "52",
+    "key": "milbase_04",
+    "name": "Porto do Yamato - Centro"
+  },
+  {
+    "id": "3",
+    "key": "erlenberg",
+    "name": "Middleburg"
   }
 ]

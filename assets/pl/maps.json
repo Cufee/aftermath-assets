@@ -1,128 +1,8 @@
 [
   {
-    "id": "15",
-    "key": "port",
-    "name": "Przystań"
-  },
-  {
-    "id": "49",
-    "key": "amigosville_03",
-    "name": "Nadrzecze – Fabryka"
-  },
-  {
-    "id": "1",
-    "key": "karelia",
-    "name": "Kamieniec"
-  },
-  {
-    "id": "45",
-    "key": "desert_train_03",
-    "name": "Pustynne piaski – Wydmy"
-  },
-  {
-    "id": "31",
-    "key": "grossberg",
-    "name": "Perła Dynastii"
-  },
-  {
-    "id": "3",
-    "key": "erlenberg",
-    "name": "Middleburg"
-  },
-  {
-    "id": "10",
-    "key": "mountain",
-    "name": "Czarne złoto"
-  },
-  {
-    "id": "11",
-    "key": "savanna",
-    "name": "Oaza"
-  },
-  {
-    "id": "55",
-    "key": "erlenberg_02",
-    "name": "Middleburg – Wzgórze"
-  },
-  {
-    "id": "58",
-    "key": "neptune_01",
-    "name": "Normandia – Wzgórza"
-  },
-  {
-    "id": "21",
-    "key": "canal",
-    "name": "Kanał"
-  },
-  {
-    "id": "40",
-    "key": "forgecity",
-    "name": "Nowa Przystań"
-  },
-  {
-    "id": "9",
-    "key": "himmelsdorf",
-    "name": "Himmelsdorf"
-  },
-  {
-    "id": "38",
-    "key": "lumber",
-    "name": "Alpenstadt"
-  },
-  {
-    "id": "71",
-    "key": "holmeisk",
-    "name": "Kataklizm"
-  },
-  {
-    "id": "5",
-    "key": "amigosville",
-    "name": "Nadrzecze"
-  },
-  {
-    "id": "30",
-    "key": "rock",
-    "name": "Starożytne piramidy"
-  },
-  {
-    "id": "13",
-    "key": "idle",
-    "name": "Jukon"
-  },
-  {
-    "id": "72",
-    "key": "iceworld",
-    "name": "Wieczna zmarzlina"
-  },
-  {
-    "id": "60",
-    "key": "rudniki_01",
-    "name": "Kopalnie – Wzgórze"
-  },
-  {
-    "id": "6",
-    "key": "rudniki",
-    "name": "Kopalnie"
-  },
-  {
-    "id": "57",
-    "key": "lumber_01",
-    "name": "Alpenstadt – Miasto"
-  },
-  {
-    "id": "52",
-    "key": "milbase_04",
-    "name": "Zatoka Yamato – Centrum"
-  },
-  {
-    "id": "25",
-    "key": "milbase",
-    "name": "Port Yamato"
-  },
-  {
-    "id": "2",
-    "key": "desert_train",
-    "name": "Pustynne piaski"
+    "id": "48",
+    "key": "amigosville_02",
+    "name": "Nadrzecze – Most"
   },
   {
     "id": "8",
@@ -130,119 +10,9 @@
     "name": "Fort Rozpacz"
   },
   {
-    "id": "46",
-    "key": "medvedkovo_02",
-    "name": "Martwy tor – Dolina"
-  },
-  {
-    "id": "20",
-    "key": "pliego",
-    "name": "Kastylia"
-  },
-  {
-    "id": "7",
-    "key": "medvedkovo",
-    "name": "Martwy tor"
-  },
-  {
-    "id": "27",
-    "key": "canyon",
-    "name": "Kanion"
-  },
-  {
-    "id": "59",
-    "key": "neptune_02",
-    "name": "Normandia – Plaża"
-  },
-  {
-    "id": "44",
-    "key": "desert_train_02",
-    "name": "Pustynne piaski – Miasto"
-  },
-  {
-    "id": "56",
-    "key": "canal_01",
-    "name": "Kanał – Fabryka"
-  },
-  {
-    "id": "23",
-    "key": "italy",
-    "name": "Winnice"
-  },
-  {
-    "id": "61",
-    "key": "rudniki_02",
-    "name": "Kopalnie – Wioska"
-  },
-  {
-    "id": "47",
-    "key": "medvedkovo_03",
-    "name": "Martwy tor – Torowisko"
-  },
-  {
-    "id": "54",
-    "key": "erlenberg_01",
-    "name": "Middleburg – Miasto"
-  },
-  {
-    "id": "14",
-    "key": "holland",
-    "name": "Molendijk"
-  },
-  {
-    "id": "53",
-    "key": "milbase_05",
-    "name": "Zatoka Yamato – Doki"
-  },
-  {
-    "id": "43",
-    "key": "rift",
-    "name": "Hellada"
-  },
-  {
-    "id": "12",
-    "key": "plant",
-    "name": "Fabryka duchów"
-  },
-  {
-    "id": "39",
-    "key": "faust",
-    "name": "Faust"
-  },
-  {
-    "id": "51",
-    "key": "milbase_03",
-    "name": "Zatoka Yamato – Wzgórza"
-  },
-  {
-    "id": "4",
-    "key": "karieri",
-    "name": "Miedziane Pole"
-  },
-  {
-    "id": "70",
-    "key": "moon",
-    "name": "Morze Spokoju"
-  },
-  {
-    "id": "35",
-    "key": "skit",
-    "name": "Morskie rubieże"
-  },
-  {
-    "id": "50",
-    "key": "milbase_02",
-    "name": "Zatoka Yamato – Pancernik"
-  },
-  {
-    "id": "48",
-    "key": "amigosville_02",
-    "name": "Nadrzecze – Most"
-  },
-  {
-    "id": "62",
-    "key": "rudniki_03",
-    "name": "Kopalnie – Centrum"
+    "id": "3",
+    "key": "erlenberg",
+    "name": "Middleburg"
   },
   {
     "id": "42",
@@ -250,8 +20,238 @@
     "name": "Normandia"
   },
   {
+    "id": "14",
+    "key": "holland",
+    "name": "Molendijk"
+  },
+  {
+    "id": "70",
+    "key": "moon",
+    "name": "Morze Spokoju"
+  },
+  {
+    "id": "2",
+    "key": "desert_train",
+    "name": "Pustynne piaski"
+  },
+  {
+    "id": "62",
+    "key": "rudniki_03",
+    "name": "Kopalnie – Centrum"
+  },
+  {
+    "id": "54",
+    "key": "erlenberg_01",
+    "name": "Middleburg – Miasto"
+  },
+  {
+    "id": "52",
+    "key": "milbase_04",
+    "name": "Zatoka Yamato – Centrum"
+  },
+  {
+    "id": "57",
+    "key": "lumber_01",
+    "name": "Alpenstadt – Miasto"
+  },
+  {
+    "id": "71",
+    "key": "holmeisk",
+    "name": "Kataklizm"
+  },
+  {
+    "id": "11",
+    "key": "savanna",
+    "name": "Oaza"
+  },
+  {
+    "id": "39",
+    "key": "faust",
+    "name": "Faust"
+  },
+  {
+    "id": "58",
+    "key": "neptune_01",
+    "name": "Normandia – Wzgórza"
+  },
+  {
+    "id": "43",
+    "key": "rift",
+    "name": "Hellada"
+  },
+  {
+    "id": "9",
+    "key": "himmelsdorf",
+    "name": "Himmelsdorf"
+  },
+  {
+    "id": "51",
+    "key": "milbase_03",
+    "name": "Zatoka Yamato – Wzgórza"
+  },
+  {
+    "id": "27",
+    "key": "canyon",
+    "name": "Kanion"
+  },
+  {
+    "id": "23",
+    "key": "italy",
+    "name": "Winnice"
+  },
+  {
+    "id": "21",
+    "key": "canal",
+    "name": "Kanał"
+  },
+  {
+    "id": "10",
+    "key": "mountain",
+    "name": "Czarne złoto"
+  },
+  {
+    "id": "4",
+    "key": "karieri",
+    "name": "Miedziane Pole"
+  },
+  {
+    "id": "61",
+    "key": "rudniki_02",
+    "name": "Kopalnie – Wioska"
+  },
+  {
+    "id": "13",
+    "key": "idle",
+    "name": "Jukon"
+  },
+  {
+    "id": "31",
+    "key": "grossberg",
+    "name": "Perła Dynastii"
+  },
+  {
+    "id": "20",
+    "key": "pliego",
+    "name": "Kastylia"
+  },
+  {
+    "id": "72",
+    "key": "iceworld",
+    "name": "Wieczna zmarzlina"
+  },
+  {
+    "id": "40",
+    "key": "forgecity",
+    "name": "Nowa Przystań"
+  },
+  {
+    "id": "55",
+    "key": "erlenberg_02",
+    "name": "Middleburg – Wzgórze"
+  },
+  {
+    "id": "56",
+    "key": "canal_01",
+    "name": "Kanał – Fabryka"
+  },
+  {
+    "id": "59",
+    "key": "neptune_02",
+    "name": "Normandia – Plaża"
+  },
+  {
+    "id": "1",
+    "key": "karelia",
+    "name": "Kamieniec"
+  },
+  {
+    "id": "46",
+    "key": "medvedkovo_02",
+    "name": "Martwy tor – Dolina"
+  },
+  {
+    "id": "49",
+    "key": "amigosville_03",
+    "name": "Nadrzecze – Fabryka"
+  },
+  {
+    "id": "15",
+    "key": "port",
+    "name": "Przystań"
+  },
+  {
+    "id": "30",
+    "key": "rock",
+    "name": "Starożytne piramidy"
+  },
+  {
+    "id": "50",
+    "key": "milbase_02",
+    "name": "Zatoka Yamato – Pancernik"
+  },
+  {
+    "id": "45",
+    "key": "desert_train_03",
+    "name": "Pustynne piaski – Wydmy"
+  },
+  {
+    "id": "6",
+    "key": "rudniki",
+    "name": "Kopalnie"
+  },
+  {
+    "id": "38",
+    "key": "lumber",
+    "name": "Alpenstadt"
+  },
+  {
     "id": "19",
     "key": "malinovka",
     "name": "Malinowka zimą"
+  },
+  {
+    "id": "5",
+    "key": "amigosville",
+    "name": "Nadrzecze"
+  },
+  {
+    "id": "25",
+    "key": "milbase",
+    "name": "Port Yamato"
+  },
+  {
+    "id": "44",
+    "key": "desert_train_02",
+    "name": "Pustynne piaski – Miasto"
+  },
+  {
+    "id": "47",
+    "key": "medvedkovo_03",
+    "name": "Martwy tor – Torowisko"
+  },
+  {
+    "id": "7",
+    "key": "medvedkovo",
+    "name": "Martwy tor"
+  },
+  {
+    "id": "60",
+    "key": "rudniki_01",
+    "name": "Kopalnie – Wzgórze"
+  },
+  {
+    "id": "53",
+    "key": "milbase_05",
+    "name": "Zatoka Yamato – Doki"
+  },
+  {
+    "id": "35",
+    "key": "skit",
+    "name": "Morskie rubieże"
+  },
+  {
+    "id": "12",
+    "key": "plant",
+    "name": "Fabryka duchów"
   }
 ]
