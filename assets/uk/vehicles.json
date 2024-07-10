@@ -1,0 +1,101 @@
+{
+  "1": {
+    "id": "1",
+    "key": "#ussr_vehicles:R146_STG_short",
+    "name": "Secret Tank 0",
+    "tier": 0,
+    "class": "unknown",
+    "nation": "ussr",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
+  "113": {
+    "id": "113",
+    "key": "#other_vehicles:Oth50_STT_short",
+    "name": "Secret Tank 0",
+    "tier": 0,
+    "class": "unknown",
+    "nation": "other",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
+  "129": {
+    "id": "129",
+    "key": "#european_vehicles:It10_P43_bis_short",
+    "name": "Secret Tank 0",
+    "tier": 0,
+    "class": "unknown",
+    "nation": "european",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
+  "17": {
+    "id": "17",
+    "key": "#germany_vehicles:PzVI_AusfBP_short",
+    "name": "Secret Tank 0",
+    "tier": 0,
+    "class": "unknown",
+    "nation": "germany",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
+  "33": {
+    "id": "33",
+    "key": "#usa_vehicles:T95",
+    "name": "Secret Tank 0",
+    "tier": 0,
+    "class": "unknown",
+    "nation": "usa",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
+  "49": {
+    "id": "49",
+    "key": "#china_vehicles:Ch24_Type64_short",
+    "name": "Secret Tank 0",
+    "tier": 0,
+    "class": "unknown",
+    "nation": "china",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
+  "65": {
+    "id": "65",
+    "key": "#france_vehicles:F19_Lorraine40t_short",
+    "name": "Secret Tank 0",
+    "tier": 0,
+    "class": "unknown",
+    "nation": "france",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
+  "81": {
+    "id": "81",
+    "key": "#uk_vehicles:GB_Vickers_Cruiser_short",
+    "name": "Secret Tank 0",
+    "tier": 0,
+    "class": "unknown",
+    "nation": "uk",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
+  "97": {
+    "id": "97",
+    "key": "#japan_vehicles:Type_61_short",
+    "name": "Secret Tank 0",
+    "tier": 0,
+    "class": "unknown",
+    "nation": "japan",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  }
+}

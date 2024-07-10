@@ -1,224 +1,83 @@
 package main
 
 import (
-	"bytes"
-	"fmt"
-	"io"
-	"io/fs"
-	"log"
 	"os"
-	"os/exec"
 	"path/filepath"
-	"strings"
-	"sync"
 
-	"golang.org/x/text/language"
-	"gopkg.in/yaml.v3"
-
-	"encoding/binary"
-	"errors"
-	"hash/crc32"
+	"github.com/alexflint/go-arg"
 
 	_ "github.com/joho/godotenv/autoload"
-	"github.com/pierrec/lz4/v4"
 )
 
-type localizationString struct {
-	Key   string `yaml:"key"`
-	Value string `yaml:"value"`
-	Notes string `yaml:"notes"`
-}
+var args struct {
+	DumpPath   string `arg:"positional,required" help:"path to the depot dump directory" placeholder:"<dump_path>"`
+	AssetsPath string `arg:"positional,required" help:"output directory for parsed assets" placeholder:"<assets_path>"`
 
-const baseDir = "./downloaded/Data/Strings"
+	Download           bool   `help:"download the steam app depot"`
+	DownloaderPath     string `arg:"--binary,env:DOWNLOADER_CMD_PATH" default:"./downloader/bin" help:"path to steam depot downloader binary" placeholder:"<path>"`
+	AppID              string `arg:"--app,env:DOWNLOADER_APP_ID" help:"steam app id for depot" placeholder:"<app_id>"`
+	DepotID            string `arg:"--depot,env:DOWNLOADER_DEPOT_ID" help:"steam depot if to download" placeholder:"<depot_id>"`
+	SteamUsername      string `arg:"--username,env:DOWNLOADER_STEAM_USERNAME" help:"steam account username" placeholder:"<username>"`
+	SteamPassword      string `arg:"--password,env:DOWNLOADER_STEAM_PASSWORD" help:"steam account password" placeholder:"<password>"`
+	DownloaderFileList string `arg:"--file-list" default:"./filelist.txt" placeholder:"<path>"`
 
-type parsedData struct {
-	data         []localizationString
-	existingKeys map[string]struct{}
-}
+	Decrypt     bool   `help:"decrypt downloaded files"`
+	DecryptPath string `arg:"--decrypt-path,env:DECRYPT_DIR_PATH" default:"./tmp/decrypted" help:"path to a directory where decrypted files will be stored" placeholder:"<decrypted_path>"`
 
-func (d *parsedData) Encode(w io.Writer) error {
-	return yaml.NewEncoder(w).Encode(d.data)
-}
-
-type parsedKey string
-
-func (d *parsedData) Add(category, key, value string) {
-	if d.existingKeys == nil {
-		d.existingKeys = make(map[string]struct{})
-	}
-	if _, ok := d.existingKeys[key]; ok {
-		return
-	}
-
-	d.data = append(d.data, localizationString{Key: category + "_" + key, Value: value, Notes: "Generated from game files"})
-}
-
-func (k parsedKey) IsMap() bool {
-	return strings.HasPrefix(string(k), "#maps:") && strings.HasSuffix(string(k), ".sc2")
-}
-
-func (k parsedKey) MapName() string {
-	split := strings.Split(string(k), ":")
-	if len(split) < 2 {
-		return ""
-	}
-	return split[1]
-}
-
-func (k parsedKey) IsBattleType() bool {
-	return strings.HasPrefix(string(k), "battleType/") && len(strings.Split(string(k), "/")) == 2
-}
-
-func (k parsedKey) BattleTypeName() string {
-	return strings.Split(string(k), "/")[1]
+	Parse bool `help:"parse decrypted files into asset strings"`
 }
 
 func main() {
-	err := downloadAssetsFromSteam(os.Getenv("DOWNLOADER_CMD_PATH"))
-	if err != nil {
-		panic(err)
-	}
+	arg.MustParse(&args)
 
-	dir, err := os.ReadDir(baseDir)
-	if err != nil {
-		panic(err)
-	}
-
-	var wg sync.WaitGroup
-
-	for _, entry := range dir {
-		wg.Add(1)
-		go func(entry fs.DirEntry) {
-			defer wg.Done()
-			if entry.IsDir() || !strings.Contains(entry.Name(), ".yaml") {
-				return
-			}
-			log.Println("decrypting and parsing", entry.Name())
-
-			raw, err := os.ReadFile(filepath.Join(baseDir, entry.Name()))
-			if err != nil {
-				panic(err)
-			}
-
-			lang := strings.Split(entry.Name(), ".")[0]
-			locale, err := language.Parse(lang)
-			if err != nil {
-				panic(err)
-			}
-
-			path := filepath.Join("./assets/", locale.String(), "game_strings.yaml")
-			err = parseAndSaveFile(raw, path)
-			if err != nil {
-				panic(err)
-			}
-
-			log.Println("saved assets to", path)
-		}(entry)
-	}
-
-	wg.Wait()
-}
-
-func downloadAssetsFromSteam(cmdPath string) error {
-	var args []string
-	args = append(args, "-app")
-	args = append(args, os.Getenv("DOWNLOADER_APP_ID"))
-	args = append(args, "-depot")
-	args = append(args, os.Getenv("DOWNLOADER_DEPOT_ID"))
-	args = append(args, "-username")
-	args = append(args, os.Getenv("DOWNLOADER_STEAM_USERNAME"))
-	args = append(args, "-password")
-	args = append(args, os.Getenv("DOWNLOADER_STEAM_PASSWORD"))
-	args = append(args, "-filelist")
-	args = append(args, "filelist.txt")
-	args = append(args, "-dir")
-	args = append(args, "./downloaded")
-
-	cmd := exec.Command(cmdPath, args...)
-	cmd.Stdout = os.Stdout
-	cmd.Stderr = os.Stderr
-
-	err := cmd.Run()
-	if err != nil {
-		return err
-	}
-
-	if cmd.ProcessState.ExitCode() != 0 {
-		return fmt.Errorf("bad exit code from downloader: %d", cmd.ProcessState.ExitCode())
-	}
-	return nil
-}
-
-func parseAndSaveFile(encrypted []byte, outPath string) error {
-	raw, err := decryptDVPL(encrypted)
-	if err != nil {
-		return err
-	}
-
-	data, err := decodeYAML(bytes.NewBuffer(raw))
-	if err != nil {
-		return err
-	}
-
-	var parsed parsedData
-
-	for key, value := range data {
-		if key.IsMap() {
-			parsed.Add("maps", key.MapName(), value)
-		}
-		if key.IsBattleType() {
-			parsed.Add("battle_types", key.BattleTypeName(), value)
-		}
-	}
-
-	err = os.MkdirAll(filepath.Dir(outPath), os.ModePerm)
-	if err != nil {
-		return err
-	}
-
-	f, err := os.Create(outPath)
-	if err != nil {
-		return err
-	}
-	defer f.Close()
-
-	err = parsed.Encode(f)
-	if err != nil {
-		return err
-	}
-	return nil
-}
-
-func decryptDVPL(inputBuf []byte) ([]byte, error) {
-	dataBuf := inputBuf[:len(inputBuf)-20]
-	footerBuf := inputBuf[len(inputBuf)-20:]
-
-	originalSize := binary.LittleEndian.Uint32(footerBuf[:4])
-	compressedSize := binary.LittleEndian.Uint32(footerBuf[4:8])
-	if int(compressedSize) != len(dataBuf) {
-		return nil, errors.New("invalid compressed data length")
-	}
-
-	crc32DataSum := binary.LittleEndian.Uint32(footerBuf[8:12])
-	if crc32DataSum != crc32.ChecksumIEEE(dataBuf) {
-		return nil, errors.New("invalid crc32 sum")
-	}
-
-	compressType := binary.LittleEndian.Uint32(footerBuf[12:16])
-	outputBuf := make([]byte, originalSize)
-	if compressType == 0 {
-		outputBuf = dataBuf
-	} else {
-		actualOutputSize, err := lz4.UncompressBlock(dataBuf, outputBuf)
+	if args.Download {
+		err := downloadAssetsFromSteam()
 		if err != nil {
-			return nil, errors.New("failed to uncompressed lz4")
+			panic(err)
 		}
-		outputBuf = outputBuf[:actualOutputSize]
 	}
-	return outputBuf, nil
-}
 
-func decodeYAML(r io.Reader) (map[parsedKey]string, error) {
-	decoded := make(map[parsedKey]string)
-	return decoded, yaml.NewDecoder(r).Decode(&decoded)
+	if args.Decrypt {
+		// Decrypt downloaded files
+		stringsPath := filepath.Join(args.DumpPath, "Data")
+		dir, err := os.ReadDir(stringsPath)
+		if err != nil {
+			panic(err)
+		}
+		err = os.MkdirAll(filepath.Dir(args.AssetsPath), os.ModePerm)
+		if err != nil {
+			panic(err)
+		}
+		err = decryptDir(stringsPath, dir, args.DecryptPath)
+		if err != nil {
+			panic(err)
+		}
+	}
+
+	// Init parsing functions
+	maps := newMapParser()
+	vehicles := newVehiclesParser()
+
+	// Due to how the parsing code is written, we will need to loop over the files twice
+	// first loop parses yaml/xml files to extract identifier
+	// second loop will parse strings yaml files to create localized dicts
+	{
+		parser, err := newParser(args.DecryptPath, maps.Maps(), vehicles.Items())
+		if err != nil {
+			panic(err)
+		}
+		if err := parser.Parse(); err != nil {
+			panic(err)
+		}
+	}
+	{
+		parser, err := newParser(args.DecryptPath, maps.Strings(args.AssetsPath), vehicles.Strings(args.AssetsPath))
+		if err != nil {
+			panic(err)
+		}
+		if err := parser.Parse(); err != nil {
+			panic(err)
+		}
+	}
+
 }

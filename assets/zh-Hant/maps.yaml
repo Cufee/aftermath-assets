@@ -1,0 +1,306 @@
+- key: maps_4
+  value: 銅礦區
+  notes: ""
+- key: maps_karieri
+  value: 銅礦區
+  notes: ""
+- key: maps_3
+  value: 米德爾堡
+  notes: ""
+- key: maps_erlenberg
+  value: 米德爾堡
+  notes: ""
+- key: maps_19
+  value: 冬季馬利諾夫卡
+  notes: ""
+- key: maps_malinovka
+  value: 冬季馬利諾夫卡
+  notes: ""
+- key: maps_43
+  value: 古希臘
+  notes: ""
+- key: maps_rift
+  value: 古希臘
+  notes: ""
+- key: maps_35
+  value: 海軍前沿
+  notes: ""
+- key: maps_skit
+  value: 海軍前沿
+  notes: ""
+- key: maps_71
+  value: 西部荒野
+  notes: ""
+- key: maps_holmeisk
+  value: 西部荒野
+  notes: ""
+- key: maps_9
+  value: 希墨爾斯多夫
+  notes: ""
+- key: maps_himmelsdorf
+  value: 希墨爾斯多夫
+  notes: ""
+- key: maps_1
+  value: 石之原
+  notes: ""
+- key: maps_karelia
+  value: 石之原
+  notes: ""
+- key: maps_2
+  value: 沙漠之洲
+  notes: ""
+- key: maps_desert_train
+  value: 沙漠之洲
+  notes: ""
+- key: maps_23
+  value: 葡萄園
+  notes: ""
+- key: maps_italy
+  value: 葡萄園
+  notes: ""
+- key: maps_57
+  value: 阿爾彭史塔特 - 城鎮
+  notes: ""
+- key: maps_lumber_01
+  value: 阿爾彭史塔特 - 城鎮
+  notes: ""
+- key: maps_48
+  value: 陷落之溪 - 橋梁
+  notes: ""
+- key: maps_amigosville_02
+  value: 陷落之溪 - 橋梁
+  notes: ""
+- key: maps_61
+  value: 礦山 - 村莊
+  notes: ""
+- key: maps_rudniki_02
+  value: 礦山 - 村莊
+  notes: ""
+- key: maps_11
+  value: 葉之綠洲
+  notes: ""
+- key: maps_savanna
+  value: 葉之綠洲
+  notes: ""
+- key: maps_44
+  value: 沙漠之洲 - 城鎮
+  notes: ""
+- key: maps_desert_train_02
+  value: 沙漠之洲 - 城鎮
+  notes: ""
+- key: maps_70
+  value: 寧靜之海
+  notes: ""
+- key: maps_moon
+  value: 寧靜之海
+  notes: ""
+- key: maps_15
+  value: 港灣
+  notes: ""
+- key: maps_port
+  value: 港灣
+  notes: ""
+- key: maps_12
+  value: 幽靈工廠
+  notes: ""
+- key: maps_plant
+  value: 幽靈工廠
+  notes: ""
+- key: maps_39
+  value: 浮士德
+  notes: ""
+- key: maps_faust
+  value: 浮士德
+  notes: ""
+- key: maps_25
+  value: 東方港
+  notes: ""
+- key: maps_milbase
+  value: 東方港
+  notes: ""
+- key: maps_5
+  value: 陷落之溪
+  notes: ""
+- key: maps_amigosville
+  value: 陷落之溪
+  notes: ""
+- key: maps_21
+  value: 運河
+  notes: ""
+- key: maps_canal
+  value: 運河
+  notes: ""
+- key: maps_7
+  value: 死亡鐵道
+  notes: ""
+- key: maps_medvedkovo
+  value: 死亡鐵道
+  notes: ""
+- key: maps_47
+  value: 死亡鐵道 - 鐵道
+  notes: ""
+- key: maps_medvedkovo_03
+  value: 死亡鐵道 - 鐵道
+  notes: ""
+- key: maps_60
+  value: 礦山 - 丘陵
+  notes: ""
+- key: maps_rudniki_01
+  value: 礦山 - 丘陵
+  notes: ""
+- key: maps_52
+  value: 東方港 - 中央
+  notes: ""
+- key: maps_milbase_04
+  value: 東方港 - 中央
+  notes: ""
+- key: maps_13
+  value: 育空
+  notes: ""
+- key: maps_idle
+  value: 育空
+  notes: ""
+- key: maps_59
+  value: 諾曼第 - 海岸
+  notes: ""
+- key: maps_neptune_02
+  value: 諾曼第 - 海岸
+  notes: ""
+- key: maps_49
+  value: 陷落之溪 - 工廠
+  notes: ""
+- key: maps_amigosville_03
+  value: 陷落之溪 - 工廠
+  notes: ""
+- key: maps_6
+  value: 礦山
+  notes: ""
+- key: maps_rudniki
+  value: 礦山
+  notes: ""
+- key: maps_40
+  value: 新灣
+  notes: ""
+- key: maps_forgecity
+  value: 新灣
+  notes: ""
+- key: maps_45
+  value: 沙漠之洲 - 沙丘
+  notes: ""
+- key: maps_desert_train_03
+  value: 沙漠之洲 - 沙丘
+  notes: ""
+- key: maps_62
+  value: 礦山 - 中央
+  notes: ""
+- key: maps_rudniki_03
+  value: 礦山 - 中央
+  notes: ""
+- key: maps_72
+  value: 永凍冰原
+  notes: ""
+- key: maps_iceworld
+  value: 永凍冰原
+  notes: ""
+- key: maps_54
+  value: 米德爾堡 - 城鎮
+  notes: ""
+- key: maps_erlenberg_01
+  value: 米德爾堡 - 城鎮
+  notes: ""
+- key: maps_51
+  value: 東方港 - 丘陵
+  notes: ""
+- key: maps_milbase_03
+  value: 東方港 - 丘陵
+  notes: ""
+- key: maps_46
+  value: 死亡鐵道 - 山谷
+  notes: ""
+- key: maps_medvedkovo_02
+  value: 死亡鐵道 - 山谷
+  notes: ""
+- key: maps_27
+  value: 大峽谷
+  notes: ""
+- key: maps_canyon
+  value: 大峽谷
+  notes: ""
+- key: maps_56
+  value: 運河 - 工廠
+  notes: ""
+- key: maps_canal_01
+  value: 運河 - 工廠
+  notes: ""
+- key: maps_58
+  value: 諾曼第 - 丘陵
+  notes: ""
+- key: maps_neptune_01
+  value: 諾曼第 - 丘陵
+  notes: ""
+- key: maps_38
+  value: 阿爾彭史塔特
+  notes: ""
+- key: maps_lumber
+  value: 阿爾彭史塔特
+  notes: ""
+- key: maps_8
+  value: 絕望之壘
+  notes: ""
+- key: maps_fort
+  value: 絕望之壘
+  notes: ""
+- key: maps_55
+  value: 米德爾堡 - 丘陵
+  notes: ""
+- key: maps_erlenberg_02
+  value: 米德爾堡 - 丘陵
+  notes: ""
+- key: maps_30
+  value: 遠古金字塔
+  notes: ""
+- key: maps_rock
+  value: 遠古金字塔
+  notes: ""
+- key: maps_20
+  value: 卡斯提亞
+  notes: ""
+- key: maps_pliego
+  value: 卡斯提亞
+  notes: ""
+- key: maps_50
+  value: 東方港 - 戰艦
+  notes: ""
+- key: maps_milbase_02
+  value: 東方港 - 戰艦
+  notes: ""
+- key: maps_42
+  value: 諾曼第
+  notes: ""
+- key: maps_neptune
+  value: 諾曼第
+  notes: ""
+- key: maps_10
+  value: 黑色淘金鎮
+  notes: ""
+- key: maps_mountain
+  value: 黑色淘金鎮
+  notes: ""
+- key: maps_31
+  value: 王朝明珠
+  notes: ""
+- key: maps_grossberg
+  value: 王朝明珠
+  notes: ""
+- key: maps_53
+  value: 東方港 - 港區
+  notes: ""
+- key: maps_milbase_05
+  value: 東方港 - 港區
+  notes: ""
+- key: maps_14
+  value: 米爾丹
+  notes: ""
+- key: maps_holland
+  value: 米爾丹
+  notes: ""

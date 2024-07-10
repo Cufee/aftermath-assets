@@ -1,0 +1,306 @@
+- key: maps_1
+  value: Балтийский щит
+  notes: ""
+- key: maps_karelia
+  value: Балтийский щит
+  notes: ""
+- key: maps_59
+  value: Нормандия. Побережье
+  notes: ""
+- key: maps_neptune_02
+  value: Нормандия. Побережье
+  notes: ""
+- key: maps_20
+  value: Кастилья
+  notes: ""
+- key: maps_pliego
+  value: Кастилья
+  notes: ""
+- key: maps_50
+  value: Восточная гавань. Ямато
+  notes: ""
+- key: maps_milbase_02
+  value: Восточная гавань. Ямато
+  notes: ""
+- key: maps_72
+  value: Эверфрост
+  notes: ""
+- key: maps_iceworld
+  value: Эверфрост
+  notes: ""
+- key: maps_8
+  value: Форт
+  notes: ""
+- key: maps_fort
+  value: Форт
+  notes: ""
+- key: maps_46
+  value: Эшелон. Поле
+  notes: ""
+- key: maps_medvedkovo_02
+  value: Эшелон. Поле
+  notes: ""
+- key: maps_52
+  value: Восточная гавань. Центр
+  notes: ""
+- key: maps_milbase_04
+  value: Восточная гавань. Центр
+  notes: ""
+- key: maps_31
+  value: Жемчужный город
+  notes: ""
+- key: maps_grossberg
+  value: Жемчужный город
+  notes: ""
+- key: maps_23
+  value: Виноградники
+  notes: ""
+- key: maps_italy
+  value: Виноградники
+  notes: ""
+- key: maps_19
+  value: Зимняя Малиновка
+  notes: ""
+- key: maps_malinovka
+  value: Зимняя Малиновка
+  notes: ""
+- key: maps_62
+  value: Рудники. Центр
+  notes: ""
+- key: maps_rudniki_03
+  value: Рудники. Центр
+  notes: ""
+- key: maps_44
+  value: Эль-Аламейн. Город
+  notes: ""
+- key: maps_desert_train_02
+  value: Эль-Аламейн. Город
+  notes: ""
+- key: maps_51
+  value: Восточная гавань. Поле
+  notes: ""
+- key: maps_milbase_03
+  value: Восточная гавань. Поле
+  notes: ""
+- key: maps_7
+  value: Эшелон
+  notes: ""
+- key: maps_medvedkovo
+  value: Эшелон
+  notes: ""
+- key: maps_35
+  value: Морской рубеж
+  notes: ""
+- key: maps_skit
+  value: Морской рубеж
+  notes: ""
+- key: maps_30
+  value: Древние пирамиды
+  notes: ""
+- key: maps_rock
+  value: Древние пирамиды
+  notes: ""
+- key: maps_4
+  value: Карьеры
+  notes: ""
+- key: maps_karieri
+  value: Карьеры
+  notes: ""
+- key: maps_71
+  value: Пустошь
+  notes: ""
+- key: maps_holmeisk
+  value: Пустошь
+  notes: ""
+- key: maps_48
+  value: Протока. Мост
+  notes: ""
+- key: maps_amigosville_02
+  value: Протока. Мост
+  notes: ""
+- key: maps_47
+  value: Эшелон. Станция
+  notes: ""
+- key: maps_medvedkovo_03
+  value: Эшелон. Станция
+  notes: ""
+- key: maps_49
+  value: Протока. Завод
+  notes: ""
+- key: maps_amigosville_03
+  value: Протока. Завод
+  notes: ""
+- key: maps_58
+  value: Нормандия. Холмы
+  notes: ""
+- key: maps_neptune_01
+  value: Нормандия. Холмы
+  notes: ""
+- key: maps_10
+  value: Золотая долина
+  notes: ""
+- key: maps_mountain
+  value: Золотая долина
+  notes: ""
+- key: maps_60
+  value: Рудники. Гора
+  notes: ""
+- key: maps_rudniki_01
+  value: Рудники. Гора
+  notes: ""
+- key: maps_15
+  value: Порт
+  notes: ""
+- key: maps_port
+  value: Порт
+  notes: ""
+- key: maps_6
+  value: Рудники
+  notes: ""
+- key: maps_rudniki
+  value: Рудники
+  notes: ""
+- key: maps_53
+  value: Восточная гавань. Док
+  notes: ""
+- key: maps_milbase_05
+  value: Восточная гавань. Док
+  notes: ""
+- key: maps_61
+  value: Рудники. Деревня
+  notes: ""
+- key: maps_rudniki_02
+  value: Рудники. Деревня
+  notes: ""
+- key: maps_70
+  value: Море Спокойствия
+  notes: ""
+- key: maps_moon
+  value: Море Спокойствия
+  notes: ""
+- key: maps_55
+  value: Миддлбург. Гора
+  notes: ""
+- key: maps_erlenberg_02
+  value: Миддлбург. Гора
+  notes: ""
+- key: maps_56
+  value: Канал. Завод
+  notes: ""
+- key: maps_canal_01
+  value: Канал. Завод
+  notes: ""
+- key: maps_3
+  value: Миддлбург
+  notes: ""
+- key: maps_erlenberg
+  value: Миддлбург
+  notes: ""
+- key: maps_42
+  value: Нормандия
+  notes: ""
+- key: maps_neptune
+  value: Нормандия
+  notes: ""
+- key: maps_14
+  value: Молендейк
+  notes: ""
+- key: maps_holland
+  value: Молендейк
+  notes: ""
+- key: maps_12
+  value: Промзона
+  notes: ""
+- key: maps_plant
+  value: Промзона
+  notes: ""
+- key: maps_27
+  value: Каньон
+  notes: ""
+- key: maps_canyon
+  value: Каньон
+  notes: ""
+- key: maps_11
+  value: Горящие пески
+  notes: ""
+- key: maps_savanna
+  value: Горящие пески
+  notes: ""
+- key: maps_21
+  value: Канал
+  notes: ""
+- key: maps_canal
+  value: Канал
+  notes: ""
+- key: maps_43
+  value: Эллада
+  notes: ""
+- key: maps_rift
+  value: Эллада
+  notes: ""
+- key: maps_38
+  value: Альпенштадт
+  notes: ""
+- key: maps_lumber
+  value: Альпенштадт
+  notes: ""
+- key: maps_45
+  value: Эль-Аламейн. Пустыня
+  notes: ""
+- key: maps_desert_train_03
+  value: Эль-Аламейн. Пустыня
+  notes: ""
+- key: maps_5
+  value: Протока
+  notes: ""
+- key: maps_amigosville
+  value: Протока
+  notes: ""
+- key: maps_9
+  value: Химмельсдорф
+  notes: ""
+- key: maps_himmelsdorf
+  value: Химмельсдорф
+  notes: ""
+- key: maps_54
+  value: Миддлбург. Город
+  notes: ""
+- key: maps_erlenberg_01
+  value: Миддлбург. Город
+  notes: ""
+- key: maps_40
+  value: Нью-Бэй
+  notes: ""
+- key: maps_forgecity
+  value: Нью-Бэй
+  notes: ""
+- key: maps_13
+  value: Юкон
+  notes: ""
+- key: maps_idle
+  value: Юкон
+  notes: ""
+- key: maps_39
+  value: Фауст
+  notes: ""
+- key: maps_faust
+  value: Фауст
+  notes: ""
+- key: maps_57
+  value: Альпенштадт. Город
+  notes: ""
+- key: maps_lumber_01
+  value: Альпенштадт. Город
+  notes: ""
+- key: maps_2
+  value: Эль-Аламейн
+  notes: ""
+- key: maps_desert_train
+  value: Эль-Аламейн
+  notes: ""
+- key: maps_25
+  value: Восточная гавань
+  notes: ""
+- key: maps_milbase
+  value: Восточная гавань
+  notes: ""

@@ -1,0 +1,257 @@
+[
+  {
+    "id": "70",
+    "key": "moon",
+    "name": "Moře klidu"
+  },
+  {
+    "id": "71",
+    "key": "holmeisk",
+    "name": "Pustina"
+  },
+  {
+    "id": "42",
+    "key": "neptune",
+    "name": "Normandie"
+  },
+  {
+    "id": "58",
+    "key": "neptune_01",
+    "name": "Normandie – kopce"
+  },
+  {
+    "id": "39",
+    "key": "faust",
+    "name": "Faust"
+  },
+  {
+    "id": "57",
+    "key": "lumber_01",
+    "name": "Alpenstadt – město"
+  },
+  {
+    "id": "12",
+    "key": "plant",
+    "name": "Továrna duchů"
+  },
+  {
+    "id": "25",
+    "key": "milbase",
+    "name": "Přístav lodi Yamato"
+  },
+  {
+    "id": "46",
+    "key": "medvedkovo_02",
+    "name": "Slepá kolej – údolí"
+  },
+  {
+    "id": "3",
+    "key": "erlenberg",
+    "name": "Middleburg"
+  },
+  {
+    "id": "7",
+    "key": "medvedkovo",
+    "name": "Slepá kolej"
+  },
+  {
+    "id": "6",
+    "key": "rudniki",
+    "name": "Doly"
+  },
+  {
+    "id": "43",
+    "key": "rift",
+    "name": "Helada"
+  },
+  {
+    "id": "5",
+    "key": "amigosville",
+    "name": "Horský potok"
+  },
+  {
+    "id": "38",
+    "key": "lumber",
+    "name": "Alpenstadt"
+  },
+  {
+    "id": "50",
+    "key": "milbase_02",
+    "name": "Přístav lodi Yamato – bitevní loď"
+  },
+  {
+    "id": "44",
+    "key": "desert_train_02",
+    "name": "Pouštní písky – město"
+  },
+  {
+    "id": "9",
+    "key": "himmelsdorf",
+    "name": "Himmelsdorf"
+  },
+  {
+    "id": "2",
+    "key": "desert_train",
+    "name": "Pouštní písky"
+  },
+  {
+    "id": "1",
+    "key": "karelia",
+    "name": "Rockfield"
+  },
+  {
+    "id": "20",
+    "key": "pliego",
+    "name": "Kastilie"
+  },
+  {
+    "id": "60",
+    "key": "rudniki_01",
+    "name": "Doly – kopec"
+  },
+  {
+    "id": "15",
+    "key": "port",
+    "name": "Přístavní zátoka"
+  },
+  {
+    "id": "40",
+    "key": "forgecity",
+    "name": "New Bay"
+  },
+  {
+    "id": "72",
+    "key": "iceworld",
+    "name": "Věčný mráz"
+  },
+  {
+    "id": "61",
+    "key": "rudniki_02",
+    "name": "Doly – vesnice"
+  },
+  {
+    "id": "21",
+    "key": "canal",
+    "name": "Průplav"
+  },
+  {
+    "id": "10",
+    "key": "mountain",
+    "name": "Ropné pole"
+  },
+  {
+    "id": "54",
+    "key": "erlenberg_01",
+    "name": "Middleburg – město"
+  },
+  {
+    "id": "8",
+    "key": "fort",
+    "name": "Pevnost beznaděje"
+  },
+  {
+    "id": "59",
+    "key": "neptune_02",
+    "name": "Normandie – pobřeží"
+  },
+  {
+    "id": "27",
+    "key": "canyon",
+    "name": "Kaňon"
+  },
+  {
+    "id": "13",
+    "key": "idle",
+    "name": "Yukon"
+  },
+  {
+    "id": "19",
+    "key": "malinovka",
+    "name": "Zimní Malinovka"
+  },
+  {
+    "id": "53",
+    "key": "milbase_05",
+    "name": "Přístav lodi Yamato – dok"
+  },
+  {
+    "id": "49",
+    "key": "amigosville_03",
+    "name": "Horský potok – továrna"
+  },
+  {
+    "id": "51",
+    "key": "milbase_03",
+    "name": "Přístav lodi Yamato – hory"
+  },
+  {
+    "id": "23",
+    "key": "italy",
+    "name": "Vinice"
+  },
+  {
+    "id": "31",
+    "key": "grossberg",
+    "name": "Perla dynastie"
+  },
+  {
+    "id": "55",
+    "key": "erlenberg_02",
+    "name": "Middleburg – kopec"
+  },
+  {
+    "id": "30",
+    "key": "rock",
+    "name": "Starobylé pyramidy"
+  },
+  {
+    "id": "62",
+    "key": "rudniki_03",
+    "name": "Doly – centrum"
+  },
+  {
+    "id": "56",
+    "key": "canal_01",
+    "name": "Průplav – továrna"
+  },
+  {
+    "id": "14",
+    "key": "holland",
+    "name": "Molendijk"
+  },
+  {
+    "id": "52",
+    "key": "milbase_04",
+    "name": "Přístav lodi Yamato – střed"
+  },
+  {
+    "id": "11",
+    "key": "savanna",
+    "name": "Oáza"
+  },
+  {
+    "id": "48",
+    "key": "amigosville_02",
+    "name": "Horský potok – most"
+  },
+  {
+    "id": "45",
+    "key": "desert_train_03",
+    "name": "Pouštní písky – duny"
+  },
+  {
+    "id": "35",
+    "key": "skit",
+    "name": "Námořní hranice"
+  },
+  {
+    "id": "47",
+    "key": "medvedkovo_03",
+    "name": "Slepá kolej – železnice"
+  },
+  {
+    "id": "4",
+    "key": "karieri",
+    "name": "Naleziště mědi"
+  }
+]

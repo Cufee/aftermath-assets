@@ -1,0 +1,306 @@
+- key: maps_3
+  value: Middleburg
+  notes: ""
+- key: maps_erlenberg
+  value: Middleburg
+  notes: ""
+- key: maps_15
+  value: Baia di Porto
+  notes: ""
+- key: maps_port
+  value: Baia di Porto
+  notes: ""
+- key: maps_9
+  value: Himmelsdorf
+  notes: ""
+- key: maps_himmelsdorf
+  value: Himmelsdorf
+  notes: ""
+- key: maps_50
+  value: Porto Yamato - Corazzata
+  notes: ""
+- key: maps_milbase_02
+  value: Porto Yamato - Corazzata
+  notes: ""
+- key: maps_43
+  value: Hellas
+  notes: ""
+- key: maps_rift
+  value: Hellas
+  notes: ""
+- key: maps_19
+  value: Malinovka d'inverno
+  notes: ""
+- key: maps_malinovka
+  value: Malinovka d'inverno
+  notes: ""
+- key: maps_8
+  value: Forte Pauroso
+  notes: ""
+- key: maps_fort
+  value: Forte Pauroso
+  notes: ""
+- key: maps_71
+  value: Landa Desolata
+  notes: ""
+- key: maps_holmeisk
+  value: Landa Desolata
+  notes: ""
+- key: maps_23
+  value: Vigneti
+  notes: ""
+- key: maps_italy
+  value: Vigneti
+  notes: ""
+- key: maps_13
+  value: Yukon
+  notes: ""
+- key: maps_idle
+  value: Yukon
+  notes: ""
+- key: maps_60
+  value: Miniere - Collina
+  notes: ""
+- key: maps_rudniki_01
+  value: Miniere - Collina
+  notes: ""
+- key: maps_21
+  value: Canale
+  notes: ""
+- key: maps_canal
+  value: Canale
+  notes: ""
+- key: maps_12
+  value: Fabbrica spettrale
+  notes: ""
+- key: maps_plant
+  value: Fabbrica spettrale
+  notes: ""
+- key: maps_49
+  value: Riva del Fiume - Fabbrica
+  notes: ""
+- key: maps_amigosville_03
+  value: Riva del Fiume - Fabbrica
+  notes: ""
+- key: maps_70
+  value: Mare della tranquillità
+  notes: ""
+- key: maps_moon
+  value: Mare della tranquillità
+  notes: ""
+- key: maps_57
+  value: Alpenstadt - Città
+  notes: ""
+- key: maps_lumber_01
+  value: Alpenstadt - Città
+  notes: ""
+- key: maps_30
+  value: Antiche Piramidi
+  notes: ""
+- key: maps_rock
+  value: Antiche Piramidi
+  notes: ""
+- key: maps_47
+  value: Binario Morto - Ferrovia
+  notes: ""
+- key: maps_medvedkovo_03
+  value: Binario Morto - Ferrovia
+  notes: ""
+- key: maps_53
+  value: Porto Yamato - Banchina
+  notes: ""
+- key: maps_milbase_05
+  value: Porto Yamato - Banchina
+  notes: ""
+- key: maps_4
+  value: Miniera di Rame
+  notes: ""
+- key: maps_karieri
+  value: Miniera di Rame
+  notes: ""
+- key: maps_72
+  value: Ghiacciaio perenne
+  notes: ""
+- key: maps_iceworld
+  value: Ghiacciaio perenne
+  notes: ""
+- key: maps_44
+  value: Sabbie del Deserto - Città
+  notes: ""
+- key: maps_desert_train_02
+  value: Sabbie del Deserto - Città
+  notes: ""
+- key: maps_14
+  value: Molendijk
+  notes: ""
+- key: maps_holland
+  value: Molendijk
+  notes: ""
+- key: maps_39
+  value: Faust
+  notes: ""
+- key: maps_faust
+  value: Faust
+  notes: ""
+- key: maps_5
+  value: Riva del Fiume
+  notes: ""
+- key: maps_amigosville
+  value: Riva del Fiume
+  notes: ""
+- key: maps_20
+  value: Castiglia
+  notes: ""
+- key: maps_pliego
+  value: Castiglia
+  notes: ""
+- key: maps_61
+  value: Miniere - Villaggio
+  notes: ""
+- key: maps_rudniki_02
+  value: Miniere - Villaggio
+  notes: ""
+- key: maps_48
+  value: Riva del Fiume - Ponte
+  notes: ""
+- key: maps_amigosville_02
+  value: Riva del Fiume - Ponte
+  notes: ""
+- key: maps_10
+  value: Oro Nero
+  notes: ""
+- key: maps_mountain
+  value: Oro Nero
+  notes: ""
+- key: maps_46
+  value: Binario Morto - Valle
+  notes: ""
+- key: maps_medvedkovo_02
+  value: Binario Morto - Valle
+  notes: ""
+- key: maps_42
+  value: Normandia
+  notes: ""
+- key: maps_neptune
+  value: Normandia
+  notes: ""
+- key: maps_54
+  value: Middleburg - Città
+  notes: ""
+- key: maps_erlenberg_01
+  value: Middleburg - Città
+  notes: ""
+- key: maps_52
+  value: Porto Yamato - Centro
+  notes: ""
+- key: maps_milbase_04
+  value: Porto Yamato - Centro
+  notes: ""
+- key: maps_7
+  value: Binario Morto
+  notes: ""
+- key: maps_medvedkovo
+  value: Binario Morto
+  notes: ""
+- key: maps_2
+  value: Sabbie del Deserto
+  notes: ""
+- key: maps_desert_train
+  value: Sabbie del Deserto
+  notes: ""
+- key: maps_1
+  value: Rockfield
+  notes: ""
+- key: maps_karelia
+  value: Rockfield
+  notes: ""
+- key: maps_25
+  value: Porto Yamato
+  notes: ""
+- key: maps_milbase
+  value: Porto Yamato
+  notes: ""
+- key: maps_56
+  value: Canale - Fabbrica
+  notes: ""
+- key: maps_canal_01
+  value: Canale - Fabbrica
+  notes: ""
+- key: maps_45
+  value: Sabbie del Deserto - Dune
+  notes: ""
+- key: maps_desert_train_03
+  value: Sabbie del Deserto - Dune
+  notes: ""
+- key: maps_51
+  value: Porto Yamato -  Colline
+  notes: ""
+- key: maps_milbase_03
+  value: Porto Yamato -  Colline
+  notes: ""
+- key: maps_27
+  value: Canyon
+  notes: ""
+- key: maps_canyon
+  value: Canyon
+  notes: ""
+- key: maps_35
+  value: Frontiera Navale
+  notes: ""
+- key: maps_skit
+  value: Frontiera Navale
+  notes: ""
+- key: maps_62
+  value: Miniere - Centro
+  notes: ""
+- key: maps_rudniki_03
+  value: Miniere - Centro
+  notes: ""
+- key: maps_58
+  value: Normandia - Colline
+  notes: ""
+- key: maps_neptune_01
+  value: Normandia - Colline
+  notes: ""
+- key: maps_59
+  value: Normandia - Spiaggia
+  notes: ""
+- key: maps_neptune_02
+  value: Normandia - Spiaggia
+  notes: ""
+- key: maps_6
+  value: Miniere
+  notes: ""
+- key: maps_rudniki
+  value: Miniere
+  notes: ""
+- key: maps_11
+  value: Oasi di Palme
+  notes: ""
+- key: maps_savanna
+  value: Oasi di Palme
+  notes: ""
+- key: maps_38
+  value: Alpenstadt
+  notes: ""
+- key: maps_lumber
+  value: Alpenstadt
+  notes: ""
+- key: maps_55
+  value: Middleburg - Collina
+  notes: ""
+- key: maps_erlenberg_02
+  value: Middleburg - Collina
+  notes: ""
+- key: maps_40
+  value: New Bay
+  notes: ""
+- key: maps_forgecity
+  value: New Bay
+  notes: ""
+- key: maps_31
+  value: Perla della Dinastia
+  notes: ""
+- key: maps_grossberg
+  value: Perla della Dinastia
+  notes: ""

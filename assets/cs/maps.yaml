@@ -1,0 +1,306 @@
+- key: maps_70
+  value: Moře klidu
+  notes: ""
+- key: maps_moon
+  value: Moře klidu
+  notes: ""
+- key: maps_71
+  value: Pustina
+  notes: ""
+- key: maps_holmeisk
+  value: Pustina
+  notes: ""
+- key: maps_42
+  value: Normandie
+  notes: ""
+- key: maps_neptune
+  value: Normandie
+  notes: ""
+- key: maps_58
+  value: Normandie – kopce
+  notes: ""
+- key: maps_neptune_01
+  value: Normandie – kopce
+  notes: ""
+- key: maps_39
+  value: Faust
+  notes: ""
+- key: maps_faust
+  value: Faust
+  notes: ""
+- key: maps_57
+  value: Alpenstadt – město
+  notes: ""
+- key: maps_lumber_01
+  value: Alpenstadt – město
+  notes: ""
+- key: maps_12
+  value: Továrna duchů
+  notes: ""
+- key: maps_plant
+  value: Továrna duchů
+  notes: ""
+- key: maps_25
+  value: Přístav lodi Yamato
+  notes: ""
+- key: maps_milbase
+  value: Přístav lodi Yamato
+  notes: ""
+- key: maps_46
+  value: Slepá kolej – údolí
+  notes: ""
+- key: maps_medvedkovo_02
+  value: Slepá kolej – údolí
+  notes: ""
+- key: maps_3
+  value: Middleburg
+  notes: ""
+- key: maps_erlenberg
+  value: Middleburg
+  notes: ""
+- key: maps_7
+  value: Slepá kolej
+  notes: ""
+- key: maps_medvedkovo
+  value: Slepá kolej
+  notes: ""
+- key: maps_6
+  value: Doly
+  notes: ""
+- key: maps_rudniki
+  value: Doly
+  notes: ""
+- key: maps_43
+  value: Helada
+  notes: ""
+- key: maps_rift
+  value: Helada
+  notes: ""
+- key: maps_5
+  value: Horský potok
+  notes: ""
+- key: maps_amigosville
+  value: Horský potok
+  notes: ""
+- key: maps_38
+  value: Alpenstadt
+  notes: ""
+- key: maps_lumber
+  value: Alpenstadt
+  notes: ""
+- key: maps_50
+  value: Přístav lodi Yamato – bitevní loď
+  notes: ""
+- key: maps_milbase_02
+  value: Přístav lodi Yamato – bitevní loď
+  notes: ""
+- key: maps_44
+  value: Pouštní písky – město
+  notes: ""
+- key: maps_desert_train_02
+  value: Pouštní písky – město
+  notes: ""
+- key: maps_9
+  value: Himmelsdorf
+  notes: ""
+- key: maps_himmelsdorf
+  value: Himmelsdorf
+  notes: ""
+- key: maps_2
+  value: Pouštní písky
+  notes: ""
+- key: maps_desert_train
+  value: Pouštní písky
+  notes: ""
+- key: maps_1
+  value: Rockfield
+  notes: ""
+- key: maps_karelia
+  value: Rockfield
+  notes: ""
+- key: maps_20
+  value: Kastilie
+  notes: ""
+- key: maps_pliego
+  value: Kastilie
+  notes: ""
+- key: maps_60
+  value: Doly – kopec
+  notes: ""
+- key: maps_rudniki_01
+  value: Doly – kopec
+  notes: ""
+- key: maps_15
+  value: Přístavní zátoka
+  notes: ""
+- key: maps_port
+  value: Přístavní zátoka
+  notes: ""
+- key: maps_40
+  value: New Bay
+  notes: ""
+- key: maps_forgecity
+  value: New Bay
+  notes: ""
+- key: maps_72
+  value: Věčný mráz
+  notes: ""
+- key: maps_iceworld
+  value: Věčný mráz
+  notes: ""
+- key: maps_61
+  value: Doly – vesnice
+  notes: ""
+- key: maps_rudniki_02
+  value: Doly – vesnice
+  notes: ""
+- key: maps_21
+  value: Průplav
+  notes: ""
+- key: maps_canal
+  value: Průplav
+  notes: ""
+- key: maps_10
+  value: Ropné pole
+  notes: ""
+- key: maps_mountain
+  value: Ropné pole
+  notes: ""
+- key: maps_54
+  value: Middleburg – město
+  notes: ""
+- key: maps_erlenberg_01
+  value: Middleburg – město
+  notes: ""
+- key: maps_8
+  value: Pevnost beznaděje
+  notes: ""
+- key: maps_fort
+  value: Pevnost beznaděje
+  notes: ""
+- key: maps_59
+  value: Normandie – pobřeží
+  notes: ""
+- key: maps_neptune_02
+  value: Normandie – pobřeží
+  notes: ""
+- key: maps_27
+  value: Kaňon
+  notes: ""
+- key: maps_canyon
+  value: Kaňon
+  notes: ""
+- key: maps_13
+  value: Yukon
+  notes: ""
+- key: maps_idle
+  value: Yukon
+  notes: ""
+- key: maps_19
+  value: Zimní Malinovka
+  notes: ""
+- key: maps_malinovka
+  value: Zimní Malinovka
+  notes: ""
+- key: maps_53
+  value: Přístav lodi Yamato – dok
+  notes: ""
+- key: maps_milbase_05
+  value: Přístav lodi Yamato – dok
+  notes: ""
+- key: maps_49
+  value: Horský potok – továrna
+  notes: ""
+- key: maps_amigosville_03
+  value: Horský potok – továrna
+  notes: ""
+- key: maps_51
+  value: Přístav lodi Yamato – hory
+  notes: ""
+- key: maps_milbase_03
+  value: Přístav lodi Yamato – hory
+  notes: ""
+- key: maps_23
+  value: Vinice
+  notes: ""
+- key: maps_italy
+  value: Vinice
+  notes: ""
+- key: maps_31
+  value: Perla dynastie
+  notes: ""
+- key: maps_grossberg
+  value: Perla dynastie
+  notes: ""
+- key: maps_55
+  value: Middleburg – kopec
+  notes: ""
+- key: maps_erlenberg_02
+  value: Middleburg – kopec
+  notes: ""
+- key: maps_30
+  value: Starobylé pyramidy
+  notes: ""
+- key: maps_rock
+  value: Starobylé pyramidy
+  notes: ""
+- key: maps_62
+  value: Doly – centrum
+  notes: ""
+- key: maps_rudniki_03
+  value: Doly – centrum
+  notes: ""
+- key: maps_56
+  value: Průplav – továrna
+  notes: ""
+- key: maps_canal_01
+  value: Průplav – továrna
+  notes: ""
+- key: maps_14
+  value: Molendijk
+  notes: ""
+- key: maps_holland
+  value: Molendijk
+  notes: ""
+- key: maps_52
+  value: Přístav lodi Yamato – střed
+  notes: ""
+- key: maps_milbase_04
+  value: Přístav lodi Yamato – střed
+  notes: ""
+- key: maps_11
+  value: Oáza
+  notes: ""
+- key: maps_savanna
+  value: Oáza
+  notes: ""
+- key: maps_48
+  value: Horský potok – most
+  notes: ""
+- key: maps_amigosville_02
+  value: Horský potok – most
+  notes: ""
+- key: maps_45
+  value: Pouštní písky – duny
+  notes: ""
+- key: maps_desert_train_03
+  value: Pouštní písky – duny
+  notes: ""
+- key: maps_35
+  value: Námořní hranice
+  notes: ""
+- key: maps_skit
+  value: Námořní hranice
+  notes: ""
+- key: maps_47
+  value: Slepá kolej – železnice
+  notes: ""
+- key: maps_medvedkovo_03
+  value: Slepá kolej – železnice
+  notes: ""
+- key: maps_4
+  value: Naleziště mědi
+  notes: ""
+- key: maps_karieri
+  value: Naleziště mědi
+  notes: ""
