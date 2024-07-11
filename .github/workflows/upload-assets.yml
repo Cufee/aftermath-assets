@@ -69,7 +69,7 @@ jobs:
         with:
           cmd: 'jq .tag ./assets/metadata.json -r'
       - name: Zip assets
-        run: zip -r /tmp/assets.zip /assets
+        run: zip -r /tmp/assets.zip ./assets
       - name: Upload a new release
         if: steps.commit-changes.outputs.changes_detected == 'true'
         uses: svenstaro/upload-release-action@v2
