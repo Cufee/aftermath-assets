@@ -3,11 +3,12 @@ package main
 import (
 	"bytes"
 	"encoding/json"
+	"os"
+	"sort"
 	"strconv"
 
 	"fmt"
 	"io"
-	"os"
 	"path/filepath"
 	"regexp"
 	"slices"
@@ -19,9 +20,9 @@ import (
 )
 
 type Vehicle struct {
-	ID   string `json:"id"`
-	Key  string `json:"key"`
-	Name string `json:"name"`
+	ID             string                  `json:"id"`
+	Key            string                  `json:"key"`
+	LocalizedNames map[language.Tag]string `json:"names"`
 
 	Tier        int    `json:"tier"`
 	Class       string `json:"class"`
@@ -32,22 +33,63 @@ type Vehicle struct {
 }
 
 type vehiclesParser struct {
-	vehicles map[string]Vehicle
-	lock     *sync.Mutex
+	vehicleNames map[string]map[language.Tag]string
+	vehicles     map[string]Vehicle
+	lock         *sync.Mutex
 }
 
 func newVehiclesParser() *vehiclesParser {
 	return &vehiclesParser{
-		lock:     &sync.Mutex{},
-		vehicles: make(map[string]Vehicle),
+		lock:         &sync.Mutex{},
+		vehicles:     make(map[string]Vehicle),
+		vehicleNames: make(map[string]map[language.Tag]string),
 	}
 }
 
 func (p *vehiclesParser) Items() *vehicleItemsParser {
 	return &vehicleItemsParser{p.vehicles, p.lock}
 }
-func (p *vehiclesParser) Strings(out string) *vehicleStringsParser {
-	return &vehicleStringsParser{out, p.vehicles, p.lock}
+func (p *vehiclesParser) Strings() *vehicleStringsParser {
+	return &vehicleStringsParser{p.vehicleNames, p.vehicles, p.lock}
+}
+func (p *vehiclesParser) Export(filePath string) error {
+	err := os.MkdirAll(filepath.Dir(filePath), os.ModePerm)
+	if err != nil {
+		return errors.Wrap(err, "failed to create path")
+	}
+
+	var keys []string
+	vehicles := make(map[string]Vehicle)
+	for key, vehicle := range p.vehicles {
+		names := p.vehicleNames[key]
+
+		// reduce the size
+		nameEnglish := names[language.English]
+		for tag, name := range names {
+			if name == nameEnglish && tag != language.English {
+				delete(names, tag)
+			}
+		}
+
+		vehicle.LocalizedNames = names
+		vehicles[vehicle.ID] = vehicle
+		keys = append(keys, vehicle.ID)
+	}
+
+	sort.Strings(keys)
+	vehiclesSorted := make(map[string]Vehicle)
+	for _, key := range keys {
+		vehiclesSorted[key] = vehicles[key]
+	}
+
+	f, err := os.Create(filePath)
+	if err != nil {
+		return errors.Wrap(err, "failed to create file")
+	}
+
+	e := json.NewEncoder(f)
+	e.SetIndent("", "  ")
+	return e.Encode(vehiclesSorted)
 }
 
 var vehicleItemsRegex = regexp.MustCompile(".*/XML/item_defs/vehicles/.*list.xml")
@@ -89,9 +131,9 @@ func (item vehicleItem) toVehicle(nation string) Vehicle {
 	}
 
 	return Vehicle{
-		Key:  key,
-		Name: fmt.Sprintf("Secret Tank %d", item.id), // this will be updated from strings later
-		ID:   fmt.Sprint(toGlobalID(nation, item.id)),
+		Key: key,
+		// Name: fmt.Sprintf("Secret Tank %d", item.id), // this will be updated from strings later
+		ID: fmt.Sprint(toGlobalID(nation, item.id)),
 
 		Tier:        item.level,
 		Class:       item.class(),
@@ -136,9 +178,9 @@ func (p *vehicleItemsParser) Parse(path string, r io.Reader) error {
 }
 
 type vehicleStringsParser struct {
-	assetsDir string
-	vehicles  map[string]Vehicle
-	lock      *sync.Mutex
+	vehicleNames map[string]map[language.Tag]string
+	vehicles     map[string]Vehicle
+	lock         *sync.Mutex
 }
 
 func (p *vehicleStringsParser) Exclusive() bool {
@@ -155,11 +197,6 @@ func (p *vehicleStringsParser) Parse(path string, r io.Reader) error {
 		return errors.Wrap(err, "failed to get locale from a filename")
 	}
 
-	err = os.MkdirAll(filepath.Join(p.assetsDir, locale.String()), os.ModePerm)
-	if err != nil {
-		return errors.Wrap(err, "failed to create a subpath in assets directory")
-	}
-
 	data, err := decodeYAML[map[string]string](r)
 	if err != nil {
 		return err
@@ -167,47 +204,19 @@ func (p *vehicleStringsParser) Parse(path string, r io.Reader) error {
 
 	p.lock.Lock()
 	defer p.lock.Unlock()
-	// var vehicles []LocalizationString
+
 	for key, vehicle := range p.vehicles {
-		v := p.vehicles[key]
-		if n, ok := data[vehicle.Key]; ok {
-			v.Name = n
+		names, ok := p.vehicleNames[key]
+		if !ok {
+			names = make(map[language.Tag]string)
 		}
-		p.vehicles[key] = v
-
-		// vehicles = append(vehicles, LocalizationString{
-		// 	Key:   "vehicle_" + v.ID,
-		// 	Value: v.Name,
-		// 	Notes: v.Key,
-		// })
+		localizedName := data[vehicle.Key]
+		if localizedName == "" {
+			localizedName = "Secret Tank " + vehicle.ID
+		}
+		names[locale] = localizedName
+		p.vehicleNames[key] = names
 	}
-
-	// Save data as JSON
-	jf, err := os.Create(filepath.Join(p.assetsDir, locale.String(), "vehicles.json"))
-	if err != nil {
-		return err
-	}
-	defer jf.Close()
-
-	je := json.NewEncoder(jf)
-	je.SetIndent("", "  ")
-	err = je.Encode(p.vehicles)
-	if err != nil {
-		return err
-	}
-
-	// // Save data as yaml
-	// yf, err := os.Create(filepath.Join(p.assetsDir, locale.String(), "vehicles.yaml"))
-	// if err != nil {
-	// 	return err
-	// }
-	// defer yf.Close()
-
-	// ye := yaml.NewEncoder(yf)
-	// err = ye.Encode(vehicles)
-	// if err != nil {
-	// 	return nil
-	// }
 
 	return nil
 }

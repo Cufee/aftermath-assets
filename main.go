@@ -86,13 +86,22 @@ func main() {
 			}
 		}
 		{
-			parser, err := newParser(args.DecryptPath, maps.Strings(args.AssetsPath), vehicles.Strings(args.AssetsPath))
+			parser, err := newParser(args.DecryptPath, maps.Strings(), vehicles.Strings())
 			if err != nil {
 				panic(err)
 			}
 			if err := parser.Parse(); err != nil {
 				panic(err)
 			}
+		}
+
+		err = maps.Export(filepath.Join(args.AssetsPath, "maps.json"))
+		if err != nil {
+			panic(err)
+		}
+		err = vehicles.Export(filepath.Join(args.AssetsPath, "vehicles.json"))
+		if err != nil {
+			panic(err)
 		}
 	}
 }

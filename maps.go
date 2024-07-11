@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 	"path/filepath"
-	"slices"
+	"sort"
 	"strings"
 	"sync"
 
@@ -15,9 +15,11 @@ import (
 )
 
 type Map struct {
-	ID   string `json:"id"`
-	Key  string `json:"key"`
-	Name string `json:"name"`
+	ID              string                  `json:"id"`
+	Key             string                  `json:"key"`
+	GameModes       []int                   `yaml:"availableModes"`
+	SupremacyPoints int                     `yaml:"supremacyPointsThreshold"`
+	LocalizedNames  map[language.Tag]string `json:"names"`
 }
 
 type mapsEntry struct {
@@ -28,28 +30,67 @@ type mapsEntry struct {
 }
 
 type mapParser struct {
-	maps     map[string]mapsEntry
-	mapsLock *sync.Mutex
+	globalLock     *sync.Mutex
+	maps           map[string]mapsEntry
+	localizedNames map[string]map[language.Tag]string
 }
 
-func (p *mapParser) Strings(out string) *mapStringsParser {
-	return &mapStringsParser{p.maps, out}
+func (p *mapParser) Export(filePath string) error {
+	err := os.MkdirAll(filepath.Dir(filePath), os.ModePerm)
+	if err != nil {
+		return errors.Wrap(err, "failed to create path")
+	}
+
+	maps := make(map[string]Map)
+	var keys []string
+	for key, data := range p.maps {
+		m := Map{
+			ID:              fmt.Sprint(data.LocalID),
+			Key:             data.Key,
+			GameModes:       data.GameModes,
+			SupremacyPoints: data.SupremacyPoints,
+			LocalizedNames:  p.localizedNames[key],
+		}
+		maps[m.ID] = m
+		keys = append(keys, m.ID)
+	}
+
+	mapsSorted := make(map[string]Map)
+	sort.Strings(keys)
+	for _, key := range keys {
+		mapsSorted[key] = maps[key]
+	}
+
+	f, err := os.Create(filePath)
+	if err != nil {
+		return errors.Wrap(err, "failed to create file")
+	}
+
+	e := json.NewEncoder(f)
+	e.SetIndent("", "  ")
+	return e.Encode(mapsSorted)
+}
+
+func (p *mapParser) Strings() *mapStringsParser {
+	return &mapStringsParser{p.globalLock, p.maps, p.localizedNames}
 }
 
 func (p *mapParser) Maps() *mapDictParser {
-	return &mapDictParser{p.maps, &sync.Mutex{}}
+	return &mapDictParser{p.maps, p.globalLock}
 }
 
 func newMapParser() *mapParser {
 	return &mapParser{
-		mapsLock: &sync.Mutex{},
-		maps:     map[string]mapsEntry{},
+		globalLock:     &sync.Mutex{},
+		maps:           map[string]mapsEntry{},
+		localizedNames: map[string]map[language.Tag]string{},
 	}
 }
 
 type mapStringsParser struct {
-	maps      map[string]mapsEntry
-	assetsDir string
+	lock           *sync.Mutex
+	maps           map[string]mapsEntry
+	localizedNames map[string]map[language.Tag]string
 }
 
 func (p *mapStringsParser) Exclusive() bool {
@@ -65,17 +106,13 @@ func (p *mapStringsParser) Parse(path string, r io.Reader) error {
 		return errors.Wrap(err, "failed to get locale from a filename")
 	}
 
-	err = os.MkdirAll(filepath.Join(p.assetsDir, locale.String()), os.ModePerm)
-	if err != nil {
-		return errors.Wrap(err, "failed to create a subpath in assets directory")
-	}
-
 	data, err := decodeYAML[map[string]string](r)
 	if err != nil {
 		return err
 	}
 
-	var mapsData []Map
+	p.lock.Lock()
+	defer p.lock.Unlock()
 
 	for key, value := range data {
 		if !strings.HasPrefix(key, "#maps:") {
@@ -86,56 +123,14 @@ func (p *mapStringsParser) Parse(path string, r io.Reader) error {
 			if fmt.Sprintf("#maps:%s:%s", name, data.Key) != key {
 				continue
 			}
-			mapsData = append(mapsData, Map{
-				ID:   fmt.Sprint(data.LocalID),
-				Key:  name,
-				Name: value,
-			})
+			mapNames, ok := p.localizedNames[name]
+			if !ok {
+				mapNames = make(map[language.Tag]string)
+			}
+			mapNames[locale] = value
+			p.localizedNames[name] = mapNames
 		}
 	}
-
-	slices.SortFunc(mapsData, func(a, b Map) int {
-		return strings.Compare(a.ID, b.ID)
-	})
-
-	// Save data as JSON
-	jf, err := os.Create(filepath.Join(p.assetsDir, locale.String(), "maps.json"))
-	if err != nil {
-		return err
-	}
-	defer jf.Close()
-
-	je := json.NewEncoder(jf)
-	je.SetIndent("", "  ")
-	err = je.Encode(mapsData)
-	if err != nil {
-		return err
-	}
-
-	// // Save data as YAML
-	// var yamlData []LocalizationString
-	// for _, data := range mapsData {
-	// 	yamlData = append(yamlData, LocalizationString{
-	// 		Key:   "maps_" + data.ID,
-	// 		Value: data.Name,
-	// 	})
-	// 	yamlData = append(yamlData, LocalizationString{
-	// 		Key:   "maps_" + data.Key,
-	// 		Value: data.Name,
-	// 	})
-	// }
-
-	// yf, err := os.Create(filepath.Join(p.assetsDir, locale.String(), "maps.yaml"))
-	// if err != nil {
-	// 	return err
-	// }
-	// defer yf.Close()
-
-	// ye := yaml.NewEncoder(yf)
-	// err = ye.Encode(yamlData)
-	// if err != nil {
-	// 	return nil
-	// }
 
 	return nil
 }
