@@ -31,11 +31,13 @@ jobs:
         shell: bash
         run: |
           app --download --decrypt --parse --mail --password '${{ secrets.DOWNLOADER_STEAM_PASSWORD }}' --username '${{ secrets.DOWNLOADER_STEAM_USERNAME }}' --mail-host '${{ secrets.EMAIL_HOST }}' --mail-pass '${{ secrets.EMAIL_PASSWORD }}' --mail-user '${{ secrets.EMAIL_USER }}' /static-data/downloaded /assets
+      - name: 'Tar assets'
+        run: tar -cvf assets.tar /assets
       - name: Upload assets
         uses: actions/upload-artifact@v4
         with:
           name: assets
-          path: /assets
+          path: assets.tar
       - name: Save downloader data
         id: save-downloader-data
         uses: actions/cache/save@v4
@@ -51,6 +53,9 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: assets
+          path: /tmp/assets.tar
+      - name: Untar assets
+        run: tar -xvf /tmp/assets.tar ./assets --overwrite
       - name: Move assets
         shell: bash
         run: |
