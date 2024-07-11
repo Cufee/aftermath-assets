@@ -1,6 +1,8 @@
 package main
 
 import (
+	"regexp"
+	"slices"
 	"strings"
 	"time"
 
@@ -45,8 +47,12 @@ func (c emailClient) GetSteamCode(after time.Time) (string, error) {
 		return "", err
 	}
 
+	slices.SortFunc(emails, func(a, b eazye.Email) int {
+		return b.InternalDate.Compare(a.InternalDate)
+	})
+
 	for _, email := range emails {
-		code, ok := findSteamCode(email, "noreply@steampowered.com")
+		code, ok := findSteamCode(string(email.Text), "noreply@steampowered.com")
 		if ok {
 			return code, nil
 		}
@@ -54,27 +60,16 @@ func (c emailClient) GetSteamCode(after time.Time) (string, error) {
 	return "", errors.New("steam login code not found")
 }
 
-func findSteamCode(email eazye.Email, requireAddress string) (string, bool) {
-	if email.From.Address != requireAddress {
-		return "", false
-	}
+var steamCodeRegex = regexp.MustCompile(`(?i)Login\s*Code\s*\n*\s*([A-Z0-9]{5,7})`)
 
-	var validLines []string
-	lines := strings.Split(string(email.Text), "\n")
-	for _, line := range lines {
-		if l := strings.TrimSpace(line); l != "" {
-			validLines = append(validLines, l)
-		}
-	}
+func findSteamCode(text string, requireAddress string) (string, bool) {
+	// if email.From.Address != requireAddress {
+	// 	return "", false
+	// }
 
-	for i, line := range validLines {
-		if i+1 < len(lines) && line == "Login Code" {
-			code := lines[i+1]
-			if code != "" {
-				return code, true
-			}
-			return "", false
-		}
+	matches := steamCodeRegex.FindStringSubmatch(text)
+	if len(matches) > 1 {
+		return strings.TrimSpace(matches[1]), true
 	}
 	return "", false
 }

@@ -25,21 +25,30 @@ func TestEmailClient(t *testing.T) {
 	client, err := newEmailClient(cfg)
 	is.NoErr(err)
 
-	emails, err := client.GetSince(time.Date(2024, 6, 1, 0, 0, 0, 0, time.UTC))
+	code, err := client.GetSteamCode(time.Now().Add(time.Hour * -1))
 	is.NoErr(err)
-
-	is.True(len(emails) > 0)
-
-	addr := os.Getenv("EMAIL_TEST_SENDER")
-
-	var code string
-	for _, email := range emails {
-		c, ok := findSteamCode(email, addr)
-		if ok {
-			code = c
-			break
-		}
-	}
-
 	is.True(code != "")
+	println(code)
+}
+
+func TestFindSteamCode(t *testing.T) {
+	is := is.New(t)
+
+	text := `
+Some random text before
+
+Login Code
+
+T3H86
+
+If this wasn't you
+
+Some random text after
+`
+
+	code, ok := findSteamCode(text, "")
+	is.True(ok)
+	is.True(code != "")
+
+	println(code)
 }

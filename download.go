@@ -14,8 +14,6 @@ import (
 )
 
 func downloadAssetsFromSteam(email *emailClient) error {
-	startTime := time.Now()
-
 	var dargs []string
 	dargs = append(dargs, "-app")
 	dargs = append(dargs, args.AppID)
@@ -47,52 +45,56 @@ func downloadAssetsFromSteam(email *emailClient) error {
 		return err
 	}
 	defer stdoutPipe.Close()
-	stdoutTee := io.TeeReader(stdoutPipe, os.Stdout)
 
 	err = cmd.Start()
 	if err != nil {
 		return errors.Wrap(err, "cmd#Start")
 	}
+	stdoutTee := io.TeeReader(stdoutPipe, os.Stdout)
 
 	if args.SteamAuthCode != "" {
 		// input the auth code if it was provided
-		io.WriteString(stdinPipe, args.SteamAuthCode)
+		go func() {
+			defer stdinPipe.Close()
+			io.WriteString(stdinPipe, args.SteamAuthCode)
+		}()
 	} else if email != nil {
 		// start a new scanner to check if the download started
 		scanner := bufio.NewScanner(stdoutTee)
-
-		ctx, cancel := context.WithTimeout(context.Background(), time.Second*5)
-		defer cancel()
-
 		started := make(chan struct{})
 		go func() {
+			// this scanner will run until the app exits, but that's barely an inconvenience
 			for scanner.Scan() {
 				line := strings.TrimSpace(scanner.Text())
 				if strings.Contains(line, "Got AppInfo for") {
-					log.Println("Downloader started download successfully")
 					started <- struct{}{}
 				}
 			}
 		}()
 
+		ctx, cancel := context.WithTimeout(context.Background(), time.Second*5)
+		defer cancel()
+
 		select {
 		case <-ctx.Done():
-			println("\ndownload failed to start, checking email for auth code in 10 seconds")
-			err = cmd.Process.Kill()
-			if err != nil {
-				return errors.Wrap(err, "failed to kill a running downloader process")
-			}
+			println("\nDownload failed to start, checking email for auth code in 10 seconds")
 
 			time.Sleep(time.Second * 10)
-			code, err := email.GetSteamCode(startTime)
+			code, err := email.GetSteamCode(time.Now().Add(time.Hour * -1))
 			if err != nil {
 				return errors.Wrap(err, "failed to get steam auth code from email")
 			}
-			args.SteamAuthCode = code
-			return downloadAssetsFromSteam(nil)
+
+			go func() {
+				defer stdinPipe.Close()
+				io.WriteString(stdinPipe, code)
+			}()
+
+			break
 
 		case <-started:
-			println("\ndownload started")
+			log.Println("\nDownloader started download successfully")
+			cancel()
 		}
 	}
 
