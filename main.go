@@ -26,13 +26,25 @@ var args struct {
 	DecryptPath string `arg:"--decrypt-path,env:DECRYPT_DIR_PATH" help:"path to a directory where decrypted files will be stored" placeholder:"<decrypted_path>"`
 
 	Parse bool `help:"parse decrypted files into asset strings"`
+
+	EmailEnabled bool `arg:"--mail" help:"enabled parsing steam auth code from email"`
+	emailConfig
 }
 
 func main() {
 	arg.MustParse(&args)
 
 	if args.Download {
-		err := downloadAssetsFromSteam()
+		var client *emailClient
+		if args.EmailEnabled {
+			c, err := newEmailClient(args.emailConfig)
+			if err != nil {
+				panic(err)
+			}
+			client = c
+		}
+
+		err := downloadAssetsFromSteam(client)
 		if err != nil {
 			panic(err)
 		}
