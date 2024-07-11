@@ -52,9 +52,6 @@ func (c emailClient) GetSteamCode(after time.Time) (string, error) {
 	})
 
 	for _, email := range emails {
-		if email.From.Address != "noreply@steampowered.com" {
-			continue
-		}
 		code, ok := findSteamCode(string(email.Text))
 		if ok {
 			return code, nil
