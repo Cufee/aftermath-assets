@@ -63,6 +63,11 @@ jobs:
       - name: Commit assets to the repository
         uses: stefanzweifel/git-auto-commit-action@v5
         id: commit-changes
+      - name: Extract version tag from metadata.json
+        uses: sergeysova/jq-action@v2
+        id: version
+        with:
+          cmd: 'jq .tag ./assets/metadata.json -r'
       - name: Zip assets
         run: zip -r /tmp/assets.zip /assets
       - name: Upload a new release
@@ -72,6 +77,6 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: /tmp/assets.zip
           asset_name: assets.zip
-          tag: ${{ github.ref }}
+          tag: ${{ steps.version.outputs.value }}
           overwrite: true
           body: "Assets - Automated Release"
