@@ -72,9 +72,10 @@ jobs:
         with:
           tagging_message: ${{ steps.version.outputs.value }}
       - name: Zip assets
+        if: steps.commit-changes.outputs.changes_detected == 'true'
         run: zip -r /tmp/assets.zip ./assets
       - name: Upload a new release
-        # if: steps.commit-changes.outputs.changes_detected == 'true'
+        if: steps.commit-changes.outputs.changes_detected == 'true'
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
