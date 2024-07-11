@@ -45,9 +45,6 @@ jobs:
   upload:
     needs: generate
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: /workspace
     steps:
       - uses: actions/checkout@v3
       - name: Download assets
@@ -57,7 +54,7 @@ jobs:
       - name: Move assets
         shell: bash
         run: |
-          mv --force /assets /workspace/assets
+          mv --force /assets $PWD/assets
       - name: Commit assets
         run: |
           git config --global user.name 'Cufee'
