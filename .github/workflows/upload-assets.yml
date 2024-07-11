@@ -60,5 +60,5 @@ jobs:
         run: |
           git config --global user.name 'Cufee'
           git config --global user.email 'cufee@users.noreply.github.com'
-          git commit -am "Assets update"
-          git push || echo "up to date"
+          git commit -am "Assets update" || echo "no changes to commit"
+          git push
