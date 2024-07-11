@@ -1,8 +1,10 @@
 name: Upload game assets to repository
 
 on:
-  registry_package:
-    types: [updated, published]
+  workflow_run:
+    workflows: ["Create and publish Docker images"]
+    types:
+      - completed
   schedule:
     - cron: "0 12 * * *"
   workflow_dispatch:
@@ -57,3 +59,5 @@ jobs:
       - name: Untar assets
         run: tar -xvf /tmp/assets.tar -C ./assets --strip-components=1 --overwrite
       - uses: stefanzweifel/git-auto-commit-action@v5
+        # with:
+        #   tagging_message: 'v1.0.0'
