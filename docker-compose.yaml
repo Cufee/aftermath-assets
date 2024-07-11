@@ -12,7 +12,7 @@ services:
       DOWNLOADER_FILE_LIST: /downloader/filelist.txt
       DECRYPT_DIR_PATH: /static-data/decrypted
     volumes:
-      # - credentials:/downloader/data
+      - credentials:/downloader/data
       - static:/static-data
 
 volumes:
