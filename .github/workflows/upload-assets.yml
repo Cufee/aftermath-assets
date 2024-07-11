@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/cufee/aftermath-assets:latest
+    environment: upload-assets
     env:
       XDG_DATA_HOME: /downloader/data
       DOWNLOADER_CMD_PATH: DepotDownloader
