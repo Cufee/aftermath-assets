@@ -53,7 +53,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: assets
-          path: /tmp/assets.tar
+          path: /tmp
       - name: Untar assets
         run: tar -xvf /tmp/assets.tar ./assets --overwrite
       - name: Move assets
