@@ -7,6 +7,7 @@ on:
       - completed
   schedule:
     - cron: "0 12 * * *"
+    - cron: "0 10 * * *"
   workflow_dispatch:
 
 jobs:
@@ -33,7 +34,7 @@ jobs:
         shell: bash
         run: |
           app --download --decrypt --parse --mail --password '${{ secrets.DOWNLOADER_STEAM_PASSWORD }}' --username '${{ secrets.DOWNLOADER_STEAM_USERNAME }}' --mail-host '${{ secrets.EMAIL_HOST }}' --mail-pass '${{ secrets.EMAIL_PASSWORD }}' --mail-user '${{ secrets.EMAIL_USER }}' /static-data/downloaded /assets
-      - name: 'Tar assets'
+      - name: "Tar assets"
         run: tar -cvf assets.tar /assets
       - name: Upload assets
         uses: actions/upload-artifact@v4
@@ -64,7 +65,7 @@ jobs:
         uses: sergeysova/jq-action@v2
         id: version
         with:
-          cmd: 'jq .tag ./assets/metadata.json -r'
+          cmd: "jq .tag ./assets/metadata.json -r"
       - name: Commit assets to the repository
         uses: stefanzweifel/git-auto-commit-action@v5
         id: commit-changes
