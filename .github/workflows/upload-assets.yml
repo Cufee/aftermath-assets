@@ -11,7 +11,7 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/${{ github.repository }}:latest
+      image: ghcr.io/cufee/aftermath-assets:latest
     env:
       XDG_DATA_HOME: /downloader/data
       DOWNLOADER_CMD_PATH: DepotDownloader
