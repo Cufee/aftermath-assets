@@ -1,8 +1,8 @@
-name: Upload game assets to repository
+name: Upload Assets
 
 on:
   workflow_run:
-    workflows: ["Create and publish Docker images"]
+    workflows: ["Docker Image"]
     types:
       - completed
   schedule:
