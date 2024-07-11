@@ -1,0 +1,1571 @@
+{
+  "1": {
+    "id": "1",
+    "key": "17_karelia_ka/17_karelia_ka.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "روكفيلد",
+      "cs": "Rockfield",
+      "de": "Steinfeld",
+      "en": "Rockfield",
+      "es": "Rockfield",
+      "fi": "Rockfield",
+      "fr": "Rockfield",
+      "hi": "रॉकफ़ील्ड",
+      "it": "Rockfield",
+      "ja": "ロックフィールド",
+      "ko": "록필드",
+      "pl": "Kamieniec",
+      "pt": "Rockfield",
+      "ru": "Балтийский щит",
+      "th": "ทุ่งหิน",
+      "tr": "Rockfield",
+      "uk": "Балтійський щит",
+      "vi": "\"Rockfield\"",
+      "zh-Hans": "石之域",
+      "zh-Hant": "石之原"
+    }
+  },
+  "10": {
+    "id": "10",
+    "key": "21_mountain_mnt/21_mountain_mnt.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "الذهب الأسود",
+      "cs": "Ropné pole",
+      "de": "Schwarzes Gold",
+      "en": "Black Goldville",
+      "es": "Villa del oro negro",
+      "fi": "Black Goldville",
+      "fr": "Goldville noire",
+      "hi": "ब्लैक गोल्डविल",
+      "it": "Oro Nero",
+      "ja": "黒き黄金の村",
+      "ko": "블랙 골드빌",
+      "pl": "Czarne złoto",
+      "pt": "Ouro Negro",
+      "ru": "Золотая долина",
+      "th": "เมืองทองดำ",
+      "tr": "Kara Altınköy",
+      "uk": "Золота долина",
+      "vi": "\"Thung Lũng Vàng Đen\"",
+      "zh-Hans": "黑色矿脉",
+      "zh-Hant": "黑色淘金鎮"
+    }
+  },
+  "11": {
+    "id": "11",
+    "key": "09_savanna_sv/09_savanna_sv.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "واحة النخيل",
+      "cs": "Oáza",
+      "de": "Oasenpalmen",
+      "en": "Oasis Palms",
+      "es": "Oasis de palmeras",
+      "fi": "Oasis Palms",
+      "fr": "Palmiers de l'oasis",
+      "hi": "ओआसिस पाम्स",
+      "it": "Oasi di Palme",
+      "ja": "オアシスの椰子",
+      "ko": "오아시스",
+      "pl": "Oaza",
+      "pt": "Palmeiras do Oásis",
+      "ru": "Горящие пески",
+      "th": "ปาล์มโอเอซิส",
+      "tr": "Vaha Palmiyeleri",
+      "uk": "Палаючі піски",
+      "vi": "\"Ốc Đảo\"",
+      "zh-Hans": "砂丘",
+      "zh-Hant": "葉之綠洲"
+    }
+  },
+  "12": {
+    "id": "12",
+    "key": "11_plant_pn/11_plant_pn.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "مصنع الأشباح",
+      "cs": "Továrna duchů",
+      "de": "Geisterfabrik",
+      "en": "Ghost Factory",
+      "es": "Fábrica fantasma",
+      "fi": "Ghost Factory",
+      "fr": "Usine fantôme",
+      "hi": "घोस्ट फ़ैक्टरी",
+      "it": "Fabbrica spettrale",
+      "ja": "廃工場",
+      "ko": "폐공장",
+      "pl": "Fabryka duchów",
+      "pt": "Fábrica Fantasma",
+      "ru": "Промзона",
+      "th": "โรงงานร้าง",
+      "tr": "Hayalet Fabrika",
+      "uk": "Промзона",
+      "vi": "\"Ghost Factory\"",
+      "zh-Hans": "幽灵工厂",
+      "zh-Hant": "幽靈工廠"
+    }
+  },
+  "13": {
+    "id": "13",
+    "key": "08_idle_id/08_idle_id.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "يوكون",
+      "cs": "Yukon",
+      "de": "Yukon",
+      "en": "Yukon",
+      "es": "Yukón",
+      "fi": "Yukon",
+      "fr": "Yukon",
+      "hi": "युकॉन",
+      "it": "Yukon",
+      "ja": "ユーコン",
+      "ko": "유콘",
+      "pl": "Jukon",
+      "pt": "Yukon",
+      "ru": "Юкон",
+      "th": "ยูคอน",
+      "tr": "Yukon",
+      "uk": "Юкон",
+      "vi": "\"Yukon\"",
+      "zh-Hans": "育空",
+      "zh-Hant": "育空"
+    }
+  },
+  "14": {
+    "id": "14",
+    "key": "16_holland_hl/16_holland_hl.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "سدّ الطاحونة",
+      "cs": "Molendijk",
+      "de": "Molendijk",
+      "en": "Molendijk",
+      "es": "Molendijk",
+      "fi": "Molendijk",
+      "fr": "Molendijk",
+      "hi": "Molendijk",
+      "it": "Molendijk",
+      "ja": "モレンダイク",
+      "ko": "Molendijk",
+      "pl": "Molendijk",
+      "pt": "Molendijk",
+      "ru": "Молендейк",
+      "th": "เมืองกังหันลม",
+      "tr": "Molendijk",
+      "uk": "Молендейк",
+      "vi": "Molendijk",
+      "zh-Hans": "水坝",
+      "zh-Hant": "米爾丹"
+    }
+  },
+  "15": {
+    "id": "15",
+    "key": "14_port_pt/14_port_pt.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "خليج الميناء",
+      "cs": "Přístavní zátoka",
+      "de": "Hafenbucht",
+      "en": "Port Bay",
+      "es": "Bahía del puerto",
+      "fi": "Port Bay",
+      "fr": "Baie du port",
+      "hi": "पोर्ट बे",
+      "it": "Baia di Porto",
+      "ja": "港湾",
+      "ko": "포트 베이",
+      "pl": "Przystań",
+      "pt": "Baía do Porto",
+      "ru": "Порт",
+      "th": "ท่าเรือติดอ่าว",
+      "tr": "Liman Koyu",
+      "uk": "Порт",
+      "vi": "\"Vịnh Quân Cảng\"",
+      "zh-Hans": "港湾",
+      "zh-Hant": "港灣"
+    }
+  },
+  "19": {
+    "id": "19",
+    "key": "12_malinovka_ma/12_malinovka_ma.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "شتاء مالينوفكا",
+      "cs": "Zimní Malinovka",
+      "de": "Malinowka im Winter",
+      "en": "Winter Malinovka",
+      "es": "Malinovka en invierno",
+      "fi": "Winter Malinovka",
+      "fr": "Malinovka en hiver",
+      "hi": "विंटर मैलिनोवका",
+      "it": "Malinovka d'inverno",
+      "ja": "冬のマリノフカ",
+      "ko": "혹한의 말리노프카",
+      "pl": "Malinowka zimą",
+      "pt": "Malinovka Gelada",
+      "ru": "Зимняя Малиновка",
+      "th": "มาลินอฟกาฤดูหนาว",
+      "tr": "Kışın Malinovka",
+      "uk": "Зимова Малинівка",
+      "vi": "\"Malinovka Mùa Đông\"",
+      "zh-Hans": "冬季的马利诺夫卡",
+      "zh-Hant": "冬季馬利諾夫卡"
+    }
+  },
+  "2": {
+    "id": "2",
+    "key": "02_desert_train_dt/02_desert_train_dt.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "رمال الصحراء",
+      "cs": "Pouštní písky",
+      "de": "Wüstenstaub",
+      "en": "Desert Sands",
+      "es": "Arenas del desierto",
+      "fi": "Desert Sands",
+      "fr": "Sables du désert",
+      "hi": "डेज़र्ट सैंड्स",
+      "it": "Sabbie del Deserto",
+      "ja": "砂漠の砂",
+      "ko": "모래사막",
+      "pl": "Pustynne piaski",
+      "pt": "Areias do Deserto",
+      "ru": "Эль-Аламейн",
+      "th": "ทะเลทราย",
+      "tr": "Çöl Kumları",
+      "uk": "Ель-Аламейн",
+      "vi": "\"Sa Mạc Cát\"",
+      "zh-Hans": "沙漠",
+      "zh-Hant": "沙漠之洲"
+    }
+  },
+  "20": {
+    "id": "20",
+    "key": "13_pliego_pl/13_pliego_pl.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "القلعة",
+      "cs": "Kastilie",
+      "de": "Kastilien",
+      "en": "Castilla",
+      "es": "Castilla",
+      "fi": "Castilla",
+      "fr": "Castille",
+      "hi": "कैस्टिला",
+      "it": "Castiglia",
+      "ja": "カスティーリャ",
+      "ko": "카스티야",
+      "pl": "Kastylia",
+      "pt": "Castilla",
+      "ru": "Кастилья",
+      "th": "คาสติล",
+      "tr": "Kastilya",
+      "uk": "Кастилія",
+      "vi": "\"Castilla\"",
+      "zh-Hans": "卡斯蒂利亚",
+      "zh-Hant": "卡斯提亞"
+    }
+  },
+  "21": {
+    "id": "21",
+    "key": "18_canal_cn/18_canal_cn.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "القناة",
+      "cs": "Průplav",
+      "de": "Kanal",
+      "en": "Canal",
+      "es": "Canal",
+      "fi": "Canal",
+      "fr": "Canal",
+      "hi": "कैनाल",
+      "it": "Canale",
+      "ja": "運河",
+      "ko": "수로",
+      "pl": "Kanał",
+      "pt": "Canal",
+      "ru": "Канал",
+      "th": "คลอง",
+      "tr": "Kanal",
+      "uk": "Канал",
+      "vi": "\"Kênh Đào\"",
+      "zh-Hans": "运河",
+      "zh-Hant": "運河"
+    }
+  },
+  "23": {
+    "id": "23",
+    "key": "22_italy_it/22_italy_it.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "حقول الكروم",
+      "cs": "Vinice",
+      "de": "Weinberge",
+      "en": "Vineyards",
+      "es": "Viñedos",
+      "fi": "Vineyards",
+      "fr": "Vignobles",
+      "hi": "अंगूर के बाग़",
+      "it": "Vigneti",
+      "ja": "ヴィニヤード",
+      "ko": "포도밭",
+      "pl": "Winnice",
+      "pt": "Videiras",
+      "ru": "Виноградники",
+      "th": "ไร่องุ่น",
+      "tr": "Üzüm Bağları",
+      "uk": "Виноградники",
+      "vi": "\"Vườn Nho\"",
+      "zh-Hans": "葡萄庄园",
+      "zh-Hant": "葡萄園"
+    }
+  },
+  "25": {
+    "id": "25",
+    "key": "24_milibase_mlb/24_milibase_mlb.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "ميناء ياماتو",
+      "cs": "Přístav lodi Yamato",
+      "de": "Yamato-Hafen",
+      "en": "Yamato Harbor",
+      "es": "Puerto Yamato",
+      "fi": "Yamato Harbor",
+      "fr": "Port du Yamato",
+      "hi": "यामाटो हार्बर",
+      "it": "Porto Yamato",
+      "ja": "大和港",
+      "ko": "군함 정박지",
+      "pl": "Port Yamato",
+      "pt": "Porto do Yamato",
+      "ru": "Восточная гавань",
+      "th": "ท่าเรือยามาโต้",
+      "tr": "Yamato Limanı",
+      "uk": "Східна гавань",
+      "vi": "\"Cảng Yamato\"",
+      "zh-Hans": "东人港",
+      "zh-Hant": "東方港"
+    }
+  },
+  "26": {
+    "id": "26",
+    "key": "15_lagoon_ln/15_lagoon_ln.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": null
+  },
+  "27": {
+    "id": "27",
+    "key": "25_canyon_ca/25_canyon_ca.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "الوادي",
+      "cs": "Kaňon",
+      "de": "Schlucht",
+      "en": "Canyon",
+      "es": "Cañón",
+      "fi": "Canyon",
+      "fr": "Canyon",
+      "hi": "कैनियन",
+      "it": "Canyon",
+      "ja": "渓谷",
+      "ko": "협곡",
+      "pl": "Kanion",
+      "pt": "Desfiladeiro",
+      "ru": "Каньон",
+      "th": "หุบผา",
+      "tr": "Kanyon",
+      "uk": "Каньйон",
+      "vi": "\"Hẻm Núi\"",
+      "zh-Hans": "峡谷",
+      "zh-Hant": "大峽谷"
+    }
+  },
+  "3": {
+    "id": "3",
+    "key": "03_erlenberg_er/03_erlenberg_er.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "ميدلبورغ",
+      "cs": "Middleburg",
+      "de": "Mittelburg",
+      "en": "Middleburg",
+      "es": "Middleburg",
+      "fi": "Middleburg",
+      "fr": "Middleburg",
+      "hi": "मिडलबर्ग",
+      "it": "Middleburg",
+      "ja": "ミデルブルフ",
+      "ko": "미들버그",
+      "pl": "Middleburg",
+      "pt": "Middleburg",
+      "ru": "Миддлбург",
+      "th": "กลางเมือง",
+      "tr": "Middleburg",
+      "uk": "Міддлбург",
+      "vi": "\"Middleburg\"",
+      "zh-Hans": "米德尔博格",
+      "zh-Hant": "米德爾堡"
+    }
+  },
+  "30": {
+    "id": "30",
+    "key": "28_rock_rc/28_rock_rc.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "الأهرام القديمة",
+      "cs": "Starobylé pyramidy",
+      "de": "Antike Pyramiden",
+      "en": "Mayan Ruins",
+      "es": "Ruinas Mayas",
+      "fi": "Mayan Ruins",
+      "fr": "Pyramides antiques",
+      "hi": "मायान रुइंस",
+      "it": "Antiche Piramidi",
+      "ja": "マヤ遺跡",
+      "ko": "고대 피라미드",
+      "pl": "Starożytne piramidy",
+      "pt": "Pirâmides Antigas",
+      "ru": "Древние пирамиды",
+      "th": "ปิรามิดโบราณ",
+      "tr": "Kadim Piramitler",
+      "uk": "Стародавні піраміди",
+      "vi": "\"Kim Tự Tháp Cổ Đại\"",
+      "zh-Hans": "古老的金字塔",
+      "zh-Hant": "遠古金字塔"
+    }
+  },
+  "31": {
+    "id": "31",
+    "key": "30_grossberg_sh/30_grossberg_sh.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "سلسلة اللؤلؤة",
+      "cs": "Perla dynastie",
+      "de": "Perle der Dynastie",
+      "en": "Dynasty's Pearl",
+      "es": "Perla de la Dinastía",
+      "fi": "Dynasty's Pearl",
+      "fr": "Perle de la Dynastie",
+      "hi": "वंश का मोती",
+      "it": "Perla della Dinastia",
+      "ja": "王朝の真珠",
+      "ko": "왕가의 진주",
+      "pl": "Perła Dynastii",
+      "pt": "Dinastia da Pérola",
+      "ru": "Жемчужный город",
+      "th": "ไข่มุกแห่งราชวงศ์",
+      "tr": "Hanedanın İncisi",
+      "uk": "Перлинне місто",
+      "vi": "\"Hòn Ngọc Đế Chế\"",
+      "zh-Hans": "王朝的珍珠",
+      "zh-Hant": "王朝明珠"
+    }
+  },
+  "35": {
+    "id": "35",
+    "key": "29_skit_sk/29_skit_sk.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "الحدود البحرية",
+      "cs": "Námořní hranice",
+      "de": "Marinefront",
+      "en": "Naval Frontier",
+      "es": "Frontera naval",
+      "fi": "Naval Frontier",
+      "fr": "Frontière maritime",
+      "hi": "नेवल फ़्रन्टियर",
+      "it": "Frontiera Navale",
+      "ja": "沿岸要塞",
+      "ko": "해군 경계 지역",
+      "pl": "Morskie rubieże",
+      "pt": "Fronteira Naval",
+      "ru": "Морской рубеж",
+      "th": "เขตแดนทางทะเล",
+      "tr": "Deniz Sınırı",
+      "uk": "Морський рубіж",
+      "vi": "\"Biên Giới Biển\"",
+      "zh-Hans": "海军前沿",
+      "zh-Hant": "海軍前沿"
+    }
+  },
+  "38": {
+    "id": "38",
+    "key": "31_lumber_lm/31_lumber_lm.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "ألبينشتاد",
+      "cs": "Alpenstadt",
+      "de": "Alpenstadt",
+      "en": "Alpenstadt",
+      "es": "Alpenstadt",
+      "fi": "Alpenstadt",
+      "fr": "Alpenstadt",
+      "hi": "ऐल्पेनस्टैट",
+      "it": "Alpenstadt",
+      "ja": "アルペンシュタット",
+      "ko": "알펜스타드",
+      "pl": "Alpenstadt",
+      "pt": "Alpenstadt",
+      "ru": "Альпенштадт",
+      "th": "อัลเพนสตาดท์",
+      "tr": "Alpenstadt",
+      "uk": "Альпенштадт",
+      "vi": "\"Alpenstadt\"",
+      "zh-Hans": "阿尔潘斯丹特",
+      "zh-Hant": "阿爾彭史塔特"
+    }
+  },
+  "39": {
+    "id": "39",
+    "key": "32_faust_fa_night/32_faust_fa_night.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "فاوست",
+      "cs": "Faust",
+      "de": "Faust",
+      "en": "Faust",
+      "es": "Fausto",
+      "fi": "Faust",
+      "fr": "Faust",
+      "hi": "फ़ॉस्ट",
+      "it": "Faust",
+      "ja": "ファウスト",
+      "ko": "파우스트",
+      "pl": "Faust",
+      "pt": "Faust",
+      "ru": "Фауст",
+      "th": "กำปั้น",
+      "tr": "Faust",
+      "uk": "Фауст",
+      "vi": "\"Faust\"",
+      "zh-Hans": "浮士德",
+      "zh-Hant": "浮士德"
+    }
+  },
+  "4": {
+    "id": "4",
+    "key": "23_karieri_kr/23_karieri_kr.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "كوبرفيلد",
+      "cs": "Naleziště mědi",
+      "de": "Kupferfeld",
+      "en": "Copperfield",
+      "es": "Campo de cobre",
+      "fi": "Copperfield",
+      "fr": "Carrière",
+      "hi": "कॉपरफ़ील्ड",
+      "it": "Miniera di Rame",
+      "ja": "カッパーフィールド",
+      "ko": "카퍼필드",
+      "pl": "Miedziane Pole",
+      "pt": "Campo de Cobre",
+      "ru": "Карьеры",
+      "th": "ทุ่งทองแดง",
+      "tr": "Bakırova",
+      "uk": "Кар'єри",
+      "vi": "\"Mỏ Đồng\"",
+      "zh-Hans": "砂石厂",
+      "zh-Hant": "銅礦區"
+    }
+  },
+  "40": {
+    "id": "40",
+    "key": "34_forgecity_fc/34_forgecity_fc.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "المرفأ الجديد",
+      "cs": "New Bay",
+      "de": "New Bay",
+      "en": "New Bay",
+      "es": "Nueva Bahía",
+      "fi": "New Bay",
+      "fr": "New Bay",
+      "hi": "न्यू बे",
+      "it": "New Bay",
+      "ja": "ニューベイ",
+      "ko": "뉴 베이",
+      "pl": "Nowa Przystań",
+      "pt": "Nova Baía",
+      "ru": "Нью-Бэй",
+      "th": "อ่าวใหม่",
+      "tr": "New Bay",
+      "uk": "Нью-Бей",
+      "vi": "\"New Bay\"",
+      "zh-Hans": "新湾",
+      "zh-Hant": "新灣"
+    }
+  },
+  "42": {
+    "id": "42",
+    "key": "33_neptune_nt/33_neptune_nt.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "نورماندي",
+      "cs": "Normandie",
+      "de": "Normandie",
+      "en": "Normandy",
+      "es": "Normandía",
+      "fi": "Normandy",
+      "fr": "Normandie",
+      "hi": "नॉरमेंडी",
+      "it": "Normandia",
+      "ja": "ノルマンディー",
+      "ko": "노르망디",
+      "pl": "Normandia",
+      "pt": "Normandia",
+      "ru": "Нормандия",
+      "th": "นอร์มังดี",
+      "tr": "Normandiya",
+      "uk": "Нормандія",
+      "vi": "\"Normandy\"",
+      "zh-Hans": "诺曼底",
+      "zh-Hant": "諾曼第"
+    }
+  },
+  "43": {
+    "id": "43",
+    "key": "35_rift_rt/35_rift_rt.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "هيلاس",
+      "cs": "Helada",
+      "de": "Hellas",
+      "en": "Hellas",
+      "es": "Hélade",
+      "fi": "Hellas",
+      "fr": "Hellas",
+      "hi": "हेलास",
+      "it": "Hellas",
+      "ja": "ヘラス",
+      "ko": "헬라스",
+      "pl": "Hellada",
+      "pt": "Hélade",
+      "ru": "Эллада",
+      "th": "กรีกโบราณ",
+      "tr": "Helen",
+      "uk": "Еллада",
+      "vi": "\"Hy Lạp\"",
+      "zh-Hans": "赫拉斯",
+      "zh-Hant": "古希臘"
+    }
+  },
+  "44": {
+    "id": "44",
+    "key": "02_desert_train_dt/02_desert_train_dt.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "رمال الصحراء - البلدة",
+      "cs": "Pouštní písky – město",
+      "de": "Wüstenstaub – Stadt",
+      "en": "Desert Sands - Town",
+      "es": "Arenas del desierto: Ciudad",
+      "fi": "Desert Sands - Kaupunki",
+      "fr": "Sables du désert - Ville",
+      "hi": "डेज़र्ट सैंड्स - टाउन",
+      "it": "Sabbie del Deserto - Città",
+      "ja": "砂漠の砂 - 町",
+      "ko": "모래사막 - 마을",
+      "pl": "Pustynne piaski – Miasto",
+      "pt": "Areias do Deserto - Cidade",
+      "ru": "Эль-Аламейн. Город",
+      "th": "ทะเลทราย - เมือง",
+      "tr": "Çöl Kumları - Şehir",
+      "uk": "Ель-Аламейн. Місто",
+      "vi": "\"Sa Mạc Cát\" - Thị trấn",
+      "zh-Hans": "沙漠 — 小镇",
+      "zh-Hant": "沙漠之洲 - 城鎮"
+    }
+  },
+  "45": {
+    "id": "45",
+    "key": "02_desert_train_dt/02_desert_train_dt.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "رمال الصحراء - الكثبان",
+      "cs": "Pouštní písky – duny",
+      "de": "Wüstenstaub – Dünen",
+      "en": "Desert Sands - Dunes",
+      "es": "Arenas del desierto: Dunas",
+      "fi": "Desert Sands - Dyynit",
+      "fr": "Sables du désert - Dunes",
+      "hi": "डेज़र्ट सैंड्स - ड्यून्स",
+      "it": "Sabbie del Deserto - Dune",
+      "ja": "砂漠の砂 - 砂丘",
+      "ko": "모래사막 - 사구",
+      "pl": "Pustynne piaski – Wydmy",
+      "pt": "Areias do Deserto - Dunas",
+      "ru": "Эль-Аламейн. Пустыня",
+      "th": "ทะเลทราย - สันทราย",
+      "tr": "Çöl Kumları - Kum Tepeleri",
+      "uk": "Ель-Аламейн. Пустеля",
+      "vi": "\"Sa Mạc Cát\" - Cồn cát",
+      "zh-Hans": "沙漠 — 沙丘",
+      "zh-Hant": "沙漠之洲 - 沙丘"
+    }
+  },
+  "46": {
+    "id": "46",
+    "key": "04_medvedkovo_md/04_medvedkovo_md.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "ديد ريل - الوادي",
+      "cs": "Slepá kolej – údolí",
+      "de": "Abstellgleis – Tal",
+      "en": "Dead Rail - Valley",
+      "es": "Vía muerta: Valle",
+      "fi": "Dead Rail - Laakso",
+      "fr": "Rails mortels - Vallée",
+      "hi": "डेड रेल - वैली",
+      "it": "Binario Morto - Valle",
+      "ja": "廃線 - 渓谷",
+      "ko": "끊긴 철로 - 골짜기",
+      "pl": "Martwy tor – Dolina",
+      "pt": "Trilho Fantasma - Vale",
+      "ru": "Эшелон. Поле",
+      "th": "รางรถไฟมรณะ - หุบเขา",
+      "tr": "Ölü Ray - Vadi",
+      "uk": "Ешелон. Поле",
+      "vi": "\"Đường Ray Chết\" - Thung lũng",
+      "zh-Hans": "死亡之环 — 山谷",
+      "zh-Hant": "死亡鐵道 - 山谷"
+    }
+  },
+  "47": {
+    "id": "47",
+    "key": "04_medvedkovo_md/04_medvedkovo_md.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "ديد ريل - السكك الحديدية",
+      "cs": "Slepá kolej – železnice",
+      "de": "Abstellgleis – Eisenbahn",
+      "en": "Dead Rail - Railroad",
+      "es": "Vía muerta: Ferrocarril",
+      "fi": "Dead Rail - Rautatie",
+      "fr": "Rails mortel - Voie ferrée",
+      "hi": "डेड रेल - रेलरोड",
+      "it": "Binario Morto - Ferrovia",
+      "ja": "廃線 - 線路",
+      "ko": "끊긴 철로 - 철로",
+      "pl": "Martwy tor – Torowisko",
+      "pt": "Trilho Fantasma - Ferrovia",
+      "ru": "Эшелон. Станция",
+      "th": "รางรถไฟมรณะ - รางรถไฟ",
+      "tr": "Ölü Ray - Demiryolu",
+      "uk": "Ешелон. Станція",
+      "vi": "\"Đường Ray Chết\" - Đường sắt",
+      "zh-Hans": "死亡之环 — 铁路",
+      "zh-Hant": "死亡鐵道 - 鐵道"
+    }
+  },
+  "48": {
+    "id": "48",
+    "key": "05_amigosville_am/05_amigosville_am.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "فولز كريك - الجسر",
+      "cs": "Horský potok – most",
+      "de": "Sturzbach – Brücke",
+      "en": "Falls Creek - Bridge",
+      "es": "Cascada del arroyo: Puente",
+      "fi": "Falls Creek - Silta",
+      "fr": "Crique automnale - Pont",
+      "hi": "फ़ॉल क्रीक - ब्रिज",
+      "it": "Riva del Fiume - Ponte",
+      "ja": "フォールズクリーク - 橋",
+      "ko": "폭포 계곡 - 다리",
+      "pl": "Nadrzecze – Most",
+      "pt": "Enseada da Cachoeira - Ponte",
+      "ru": "Протока. Мост",
+      "th": "ธารน้ำตก - สะพาน",
+      "tr": "Şelale Deresi - Köprü",
+      "uk": "Протока. Міст",
+      "vi": "\"Lạch Nước\" - Cầu",
+      "zh-Hans": "河岸 — 大桥",
+      "zh-Hant": "陷落之溪 - 橋梁"
+    }
+  },
+  "49": {
+    "id": "49",
+    "key": "05_amigosville_am/05_amigosville_am.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "فولز كريك - المصنع",
+      "cs": "Horský potok – továrna",
+      "de": "Sturzbach – Fabrik",
+      "en": "Falls Creek - Factory",
+      "es": "Cascada del arroyo: Fábrica",
+      "fi": "Falls Creek - Tehdas",
+      "fr": "Crique automnale - Usine",
+      "hi": "फ़ॉल क्रीक - फ़ैक्टरी",
+      "it": "Riva del Fiume - Fabbrica",
+      "ja": "フォールズクリーク - 工場",
+      "ko": "폭포 계곡 - 공장",
+      "pl": "Nadrzecze – Fabryka",
+      "pt": "Enseada da Cachoeira - Fábrica",
+      "ru": "Протока. Завод",
+      "th": "ธารน้ำตก - โรงงาน",
+      "tr": "Şelale Deresi - Fabrika",
+      "uk": "Протока. Завод",
+      "vi": "\"Lạch Nước\" - Nhà máy",
+      "zh-Hans": "河岸 — 工厂",
+      "zh-Hant": "陷落之溪 - 工廠"
+    }
+  },
+  "5": {
+    "id": "5",
+    "key": "05_amigosville_am/05_amigosville_am.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "فولز كريك",
+      "cs": "Horský potok",
+      "de": "Sturzbach",
+      "en": "Falls Creek",
+      "es": "Cascada del arroyo",
+      "fi": "Falls Creek",
+      "fr": "Crique automnale",
+      "hi": "फ़ॉल्स क्रीक",
+      "it": "Riva del Fiume",
+      "ja": "フォールズクリーク",
+      "ko": "폭포 계곡",
+      "pl": "Nadrzecze",
+      "pt": "Enseada da Cachoeira",
+      "ru": "Протока",
+      "th": "ธารน้ำตก",
+      "tr": "Şelale Deresi",
+      "uk": "Протока",
+      "vi": "\"Lạch Nước\"",
+      "zh-Hans": "河岸",
+      "zh-Hant": "陷落之溪"
+    }
+  },
+  "50": {
+    "id": "50",
+    "key": "24_milibase_mlb/24_milibase_mlb.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "ميناء ياماتو - السفينة الحربية",
+      "cs": "Přístav lodi Yamato – bitevní loď",
+      "de": "Yamato-Hafen – Schlachtschiff",
+      "en": "Yamato Harbor - Battleship",
+      "es": "Puerto Yamato: Acorazado",
+      "fi": "Yamato Harbor - Taistelulaiva",
+      "fr": "Port du Yamato - Cuirassé",
+      "hi": "यामाटो हार्बर - बैल्टशिप",
+      "it": "Porto Yamato - Corazzata",
+      "ja": "大和港 - 戦艦",
+      "ko": "군함 정박지 - 군함",
+      "pl": "Zatoka Yamato – Pancernik",
+      "pt": "Porto do Yamato - Encouraçado",
+      "ru": "Восточная гавань. Ямато",
+      "th": "ท่าเรือยามาโต้ - เรือประจัญบาน",
+      "tr": "Yamato Limanı - Zırhlı",
+      "uk": "Східна гавань. Ямато",
+      "vi": "\"Cảng Yamato\" - Chiến hạm",
+      "zh-Hans": "东人港 — 战舰",
+      "zh-Hant": "東方港 - 戰艦"
+    }
+  },
+  "51": {
+    "id": "51",
+    "key": "24_milibase_mlb/24_milibase_mlb.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "ميناء ياماتو - التلال",
+      "cs": "Přístav lodi Yamato – hory",
+      "de": "Yamato-Hafen – Hügel",
+      "en": "Yamato Harbor - Hills",
+      "es": "Puerto Yamato: Colinas",
+      "fi": "Yamato Harbor - Kukkulat",
+      "fr": "Port du Yamato - Collines",
+      "hi": "यामाटो हार्बर - हिल्स",
+      "it": "Porto Yamato -  Colline",
+      "ja": "大和港 - 丘",
+      "ko": "군함 정박지 - 언덕",
+      "pl": "Zatoka Yamato – Wzgórza",
+      "pt": "Porto do Yamato - Montanhas",
+      "ru": "Восточная гавань. Поле",
+      "th": "ท่าเรือยามาโต้ - เนินเขา",
+      "tr": "Yamato Limanı - Tepeler",
+      "uk": "Східна гавань. Поле",
+      "vi": "\"Cảng Yamato\" - Đồi",
+      "zh-Hans": "东人港 — 山丘",
+      "zh-Hant": "東方港 - 丘陵"
+    }
+  },
+  "52": {
+    "id": "52",
+    "key": "24_milibase_mlb/24_milibase_mlb.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "ميناء ياماتو - المركز",
+      "cs": "Přístav lodi Yamato – střed",
+      "de": "Yamato-Hafen – Zentrum",
+      "en": "Yamato Harbor - Center",
+      "es": "Puerto Yamato: Centro",
+      "fi": "Yamato Harbor - Keskusta",
+      "fr": "Port du Yamato - Centre",
+      "hi": "यामाटो हार्बर - सेंटर",
+      "it": "Porto Yamato - Centro",
+      "ja": "大和港 - 中央部",
+      "ko": "군함 정박지 - 중앙",
+      "pl": "Zatoka Yamato – Centrum",
+      "pt": "Porto do Yamato - Centro",
+      "ru": "Восточная гавань. Центр",
+      "th": "ท่าเรือยามาโต้ - ศูนย์กลาง",
+      "tr": "Yamato Limanı - Merkez",
+      "uk": "Східна гавань. Центр",
+      "vi": "\"Cảng Yamato\" - Trung tâm",
+      "zh-Hans": "东人港 — 中心",
+      "zh-Hant": "東方港 - 中央"
+    }
+  },
+  "53": {
+    "id": "53",
+    "key": "24_milibase_mlb/24_milibase_mlb.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "ميناء ياماتو - الرصيف",
+      "cs": "Přístav lodi Yamato – dok",
+      "de": "Yamato-Hafen – Dock",
+      "en": "Yamato Harbor - Dock",
+      "es": "Puerto Yamato: Muelle",
+      "fi": "Yamato Harbor - Telakka",
+      "fr": "Port du Yamato - Quai",
+      "hi": "यामाटो हार्बर - डॉक",
+      "it": "Porto Yamato - Banchina",
+      "ja": "大和港 - 波止場",
+      "ko": "군함 정박지 - 부두",
+      "pl": "Zatoka Yamato – Doki",
+      "pt": "Porto do Yamato - Doca",
+      "ru": "Восточная гавань. Док",
+      "th": "ท่าเรือยามาโต้ - อู่ต่อเรือ",
+      "tr": "Yamato Limanı - Rıhtım",
+      "uk": "Східна гавань. Док",
+      "vi": "\"Cảng Yamato\" - Cảng",
+      "zh-Hans": "东人港 — 船坞",
+      "zh-Hant": "東方港 - 港區"
+    }
+  },
+  "54": {
+    "id": "54",
+    "key": "03_erlenberg_er/03_erlenberg_er.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "ميدلبورغ - البلدة",
+      "cs": "Middleburg – město",
+      "de": "Middleburg – Stadt",
+      "en": "Middleburg - Town",
+      "es": "Middleburg: Pueblo",
+      "fi": "Middleburg - Kaupunki",
+      "fr": "Middleburg - Ville",
+      "hi": "मिडलबर्ग - टाउन",
+      "it": "Middleburg - Città",
+      "ja": "ミデルブルフ - 町",
+      "ko": "미들버그 - 마을",
+      "pl": "Middleburg – Miasto",
+      "pt": "Middleburg - Cidade",
+      "ru": "Миддлбург. Город",
+      "th": "กลางเมือง - ตัวเมือง",
+      "tr": "Middleburg - Şehir",
+      "uk": "Міддлбург. Місто",
+      "vi": "\"Middleburg\" - Thị trấn",
+      "zh-Hans": "米德尔堡 — 小镇",
+      "zh-Hant": "米德爾堡 - 城鎮"
+    }
+  },
+  "55": {
+    "id": "55",
+    "key": "03_erlenberg_er/03_erlenberg_er.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "ميدلبورغ - التل",
+      "cs": "Middleburg – kopec",
+      "de": "Middleburg – Hügel",
+      "en": "Middleburg - Hill",
+      "es": "Middleburg: Colina",
+      "fi": "Middleburg - Kukkula",
+      "fr": "Middleburg - Colline",
+      "hi": "मिडलबर्ग - हिल",
+      "it": "Middleburg - Collina",
+      "ja": "ミデルブルフ - 丘",
+      "ko": "미들버그 - 언덕",
+      "pl": "Middleburg – Wzgórze",
+      "pt": "Middleburg - Colina",
+      "ru": "Миддлбург. Гора",
+      "th": "กลางเมือง - เนิน",
+      "tr": "Middleburg - Tepe",
+      "uk": "Міддлбург. Гора",
+      "vi": "\"Middleburg\" - Đồi",
+      "zh-Hans": "米德尔堡 — 山丘",
+      "zh-Hant": "米德爾堡 - 丘陵"
+    }
+  },
+  "56": {
+    "id": "56",
+    "key": "18_canal_cn/18_canal_cn.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "القناة - المصنع",
+      "cs": "Průplav – továrna",
+      "de": "Kanal – Fabrik",
+      "en": "Canal - Factory",
+      "es": "Canal: Fábrica",
+      "fi": "Canal - Tehdas",
+      "fr": "Canal - Usine",
+      "hi": "कैनाल - फ़ैक्टरी",
+      "it": "Canale - Fabbrica",
+      "ja": "運河 - 工場",
+      "ko": "수로 - 공장",
+      "pl": "Kanał – Fabryka",
+      "pt": "Canal - Fábrica",
+      "ru": "Канал. Завод",
+      "th": "คลอง - โรงงาน",
+      "tr": "Kanal - Fabrika",
+      "uk": "Канал. Завод",
+      "vi": "\"Kênh Đào\" - Nhà máy",
+      "zh-Hans": "运河 — 工厂",
+      "zh-Hant": "運河 - 工廠"
+    }
+  },
+  "57": {
+    "id": "57",
+    "key": "31_lumber_lm/31_lumber_lm.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "ألبينشتاد - البلدة",
+      "cs": "Alpenstadt – město",
+      "de": "Alpenstadt – Stadt",
+      "en": "Alpenstadt - Town",
+      "es": "Alpenstadt: Pueblo",
+      "fi": "Alpenstadt - Kaupunki",
+      "fr": "Alpenstadt - Ville",
+      "hi": "ऐल्पेनस्टैट - टाउन",
+      "it": "Alpenstadt - Città",
+      "ja": "アルペンシュタット - 町",
+      "ko": "알펜스타드 - 마을",
+      "pl": "Alpenstadt – Miasto",
+      "pt": "Alpenstadt - Cidade",
+      "ru": "Альпенштадт. Город",
+      "th": "อัลเพนสตาดท์ - ตัวเมือง",
+      "tr": "Alpenstadt - Şehir",
+      "uk": "Альпенштадт. Місто",
+      "vi": "\"Alpenstadt\" - Thị trấn",
+      "zh-Hans": "阿尔潘斯丹特 — 小镇",
+      "zh-Hant": "阿爾彭史塔特 - 城鎮"
+    }
+  },
+  "58": {
+    "id": "58",
+    "key": "33_neptune_nt/33_neptune_nt.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "نورماندي - التلال",
+      "cs": "Normandie – kopce",
+      "de": "Normandie – Hügel",
+      "en": "Normandy - Hills",
+      "es": "Normandía: Colinas",
+      "fi": "Normandy - Kukkulat",
+      "fr": "Normandie - Collines",
+      "hi": "नॉरमेंडी - हिल्स",
+      "it": "Normandia - Colline",
+      "ja": "ノルマンディー - 丘",
+      "ko": "노르망디 - 언덕",
+      "pl": "Normandia – Wzgórza",
+      "pt": "Normandia - Colinas",
+      "ru": "Нормандия. Холмы",
+      "th": "นอร์มังดี - เนิน",
+      "tr": "Normandiya - Tepeler",
+      "uk": "Нормандія. Пагорби",
+      "vi": "\"Normandy\" - Đồi",
+      "zh-Hans": "诺曼底 — 山丘",
+      "zh-Hant": "諾曼第 - 丘陵"
+    }
+  },
+  "59": {
+    "id": "59",
+    "key": "33_neptune_nt/33_neptune_nt.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "نورماندي - الساحل",
+      "cs": "Normandie – pobřeží",
+      "de": "Normandie – Strand",
+      "en": "Normandy - Beach",
+      "es": "Normandía: Playa",
+      "fi": "Normandy - Ranta",
+      "fr": "Normandie - Plage",
+      "hi": "नॉरमेंडी - बीच",
+      "it": "Normandia - Spiaggia",
+      "ja": "ノルマンディー - 浜辺",
+      "ko": "노르망디 - 해변",
+      "pl": "Normandia – Plaża",
+      "pt": "Normandia - Praia",
+      "ru": "Нормандия. Побережье",
+      "th": "นอร์มังดี - ชายหาด",
+      "tr": "Normandiya - Sahil",
+      "uk": "Нормандія. Узбережжя",
+      "vi": "\"Normandy\" - Bờ biển",
+      "zh-Hans": "诺曼底 — 海滩",
+      "zh-Hant": "諾曼第 - 海岸"
+    }
+  },
+  "6": {
+    "id": "6",
+    "key": "06_rudniki_rd/06_rudniki_rd.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 0,
+    "names": {
+      "ar": "المناجم",
+      "cs": "Doly",
+      "de": "Minen",
+      "en": "Mines",
+      "es": "Minas",
+      "fi": "Mines",
+      "fr": "Mines",
+      "hi": "माइंस",
+      "it": "Miniere",
+      "ja": "鉱山",
+      "ko": "광산",
+      "pl": "Kopalnie",
+      "pt": "Minas",
+      "ru": "Рудники",
+      "th": "เหมือง",
+      "tr": "Madenler",
+      "uk": "Копальні",
+      "vi": "\"Khu Mỏ\"",
+      "zh-Hans": "矿山",
+      "zh-Hant": "礦山"
+    }
+  },
+  "60": {
+    "id": "60",
+    "key": "06_rudniki_rd/06_rudniki_rd.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 0,
+    "names": {
+      "ar": "المناجم - التل",
+      "cs": "Doly – kopec",
+      "de": "Minen – Hügel",
+      "en": "Mines - Hill",
+      "es": "Minas: Colina",
+      "fi": "Mines - Kukkula",
+      "fr": "Mines - Colline",
+      "hi": "माइंस - हिल",
+      "it": "Miniere - Collina",
+      "ja": "鉱山 - 丘",
+      "ko": "광산 - 언덕",
+      "pl": "Kopalnie – Wzgórze",
+      "pt": "Minas - Colina",
+      "ru": "Рудники. Гора",
+      "th": "เหมือง - เนิน",
+      "tr": "Madenler - Tepe",
+      "uk": "Копальні. Гора",
+      "vi": "\"Khu Mỏ\" - Đồi",
+      "zh-Hans": "矿山 — 山丘",
+      "zh-Hant": "礦山 - 丘陵"
+    }
+  },
+  "61": {
+    "id": "61",
+    "key": "06_rudniki_rd/06_rudniki_rd.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 0,
+    "names": {
+      "ar": "المناجم - القرية",
+      "cs": "Doly – vesnice",
+      "de": "Minen – Dorf",
+      "en": "Mines - Village",
+      "es": "Minas: Aldea",
+      "fi": "Mines - Kylä",
+      "fr": "Mines - Village",
+      "hi": "माइंस - विलेज",
+      "it": "Miniere - Villaggio",
+      "ja": "鉱山 - 村",
+      "ko": "광산 - 마을",
+      "pl": "Kopalnie – Wioska",
+      "pt": "Minas - Vila",
+      "ru": "Рудники. Деревня",
+      "th": "เหมือง - หมู่บ้าน",
+      "tr": "Madenler - Köy",
+      "uk": "Копальні. Село",
+      "vi": "\"Khu Mỏ\" - Làng",
+      "zh-Hans": "矿山 — 村庄",
+      "zh-Hant": "礦山 - 村莊"
+    }
+  },
+  "62": {
+    "id": "62",
+    "key": "06_rudniki_rd/06_rudniki_rd.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 0,
+    "names": {
+      "ar": "المناجم - المركز",
+      "cs": "Doly – centrum",
+      "de": "Minen – Zentrum",
+      "en": "Mines - Center",
+      "es": "Minas: Centro",
+      "fi": "Mines - Keskusta",
+      "fr": "Mines - Centre",
+      "hi": "माइंस - सेंटर",
+      "it": "Miniere - Centro",
+      "ja": "鉱山 - 中央部",
+      "ko": "광산 - 중앙",
+      "pl": "Kopalnie – Centrum",
+      "pt": "Minas - Centro",
+      "ru": "Рудники. Центр",
+      "th": "เหมือง - ใจกลาง",
+      "tr": "Madenler - Merkez",
+      "uk": "Копальні. Центр",
+      "vi": "\"Khu Mỏ\" - Trung tâm",
+      "zh-Hans": "矿山 — 中心",
+      "zh-Hant": "礦山 - 中央"
+    }
+  },
+  "7": {
+    "id": "7",
+    "key": "04_medvedkovo_md/04_medvedkovo_md.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "ديد ريل",
+      "cs": "Slepá kolej",
+      "de": "Abstellgleis",
+      "en": "Dead Rail",
+      "es": "Vía muerta",
+      "fi": "Dead Rail",
+      "fr": "Rails mortels",
+      "hi": "डेड रेल",
+      "it": "Binario Morto",
+      "ja": "廃線",
+      "ko": "끊긴 철로",
+      "pl": "Martwy tor",
+      "pt": "Trilho Fantasma",
+      "ru": "Эшелон",
+      "th": "รางรถไฟมรณะ",
+      "tr": "Ölü Ray",
+      "uk": "Ешелон",
+      "vi": "\"Đường Ray Chết\"",
+      "zh-Hans": "死亡之环",
+      "zh-Hant": "死亡鐵道"
+    }
+  },
+  "70": {
+    "id": "70",
+    "key": "40_moon_mn/40_moon_mn.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "بحر السكينة",
+      "cs": "Moře klidu",
+      "de": "Meer der Ruhe",
+      "en": "Sea of Tranquility",
+      "es": "Mar de la Tranquilidad",
+      "fi": "Sea of Tranquility",
+      "fr": "Mer de la Tranquillité",
+      "hi": "शांति का सागर",
+      "it": "Mare della tranquillità",
+      "ja": "平穏の海",
+      "ko": "고요의 바다",
+      "pl": "Morze Spokoju",
+      "pt": "Mar da Tranquilidade",
+      "ru": "Море Спокойствия",
+      "th": "ทะเลแห่งความสงบ",
+      "tr": "Sessizlik Denizi",
+      "uk": "Море Спокою",
+      "vi": "\"Nguyệt Hải\"",
+      "zh-Hans": "宁静之海",
+      "zh-Hant": "寧靜之海"
+    }
+  },
+  "71": {
+    "id": "71",
+    "key": "26_holmeisk_hk/26_holmeisk_hk.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "الأرض القاحلة",
+      "cs": "Pustina",
+      "de": "Ödland",
+      "en": "Wasteland",
+      "es": "Tierras baldías",
+      "fi": "Wasteland",
+      "fr": "Terrain vague",
+      "hi": "वेस्टलैंड",
+      "it": "Landa Desolata",
+      "ja": "廃墟",
+      "ko": "황무지",
+      "pl": "Kataklizm",
+      "pt": "Terra de Ninguém",
+      "ru": "Пустошь",
+      "th": "แดนร้าง",
+      "tr": "Çorak",
+      "uk": "Пустище",
+      "vi": "\"Hoang Mạc\"",
+      "zh-Hans": "不毛之地",
+      "zh-Hant": "西部荒野"
+    }
+  },
+  "72": {
+    "id": "72",
+    "key": "41_iceworld_ic/41_iceworld_ic.sc2",
+    "GameModes": [
+      0
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "الصقيع الأبدي",
+      "cs": "Věčný mráz",
+      "de": "Immerfrost",
+      "en": "Everfrost",
+      "es": "Hielo perpetuo",
+      "fi": "Everfrost",
+      "fr": "Permagivre",
+      "hi": "एवरफ़्रॉस्ट",
+      "it": "Ghiacciaio perenne",
+      "ja": "解けない霜",
+      "ko": "만년 서리",
+      "pl": "Wieczna zmarzlina",
+      "pt": "Geada Eterna",
+      "ru": "Эверфрост",
+      "th": "ทุ่งน้ำแข็ง",
+      "tr": "Buzkesen",
+      "uk": "Еверфрост",
+      "vi": "\"Mãi Băng\"",
+      "zh-Hans": "永冻",
+      "zh-Hant": "永凍冰原"
+    }
+  },
+  "8": {
+    "id": "8",
+    "key": "07_fort_ft/07_fort_ft.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "قلعة البؤس",
+      "cs": "Pevnost beznaděje",
+      "de": "Festung der Verzweiflung",
+      "en": "Fort Despair",
+      "es": "Fuerte Desesperación",
+      "fi": "Fort Despair",
+      "fr": "Fort Désespoir",
+      "hi": "फ़ोर्ट डेस्पेयर",
+      "it": "Forte Pauroso",
+      "ja": "ディスペア砦",
+      "ko": "절망의 요새",
+      "pl": "Fort Rozpacz",
+      "pt": "Forte do Desespero",
+      "ru": "Форт",
+      "th": "ป้อมสิ้นหวัง",
+      "tr": "Umutsuzluk Hisarı",
+      "uk": "Форт",
+      "vi": "\"Pháo Đài\"",
+      "zh-Hans": "绝望堡垒",
+      "zh-Hant": "絕望之壘"
+    }
+  },
+  "9": {
+    "id": "9",
+    "key": "19_himmelsdorf_hm/19_himmelsdorf_hm.sc2",
+    "GameModes": [
+      0,
+      1
+    ],
+    "SupremacyPoints": 800,
+    "names": {
+      "ar": "هيميلسدورف",
+      "cs": "Himmelsdorf",
+      "de": "Himmelsdorf",
+      "en": "Himmelsdorf",
+      "es": "Himmelsdorf",
+      "fi": "Himmelsdorf",
+      "fr": "Himmelsdorf",
+      "hi": "हिमेल्सडोर्फ़",
+      "it": "Himmelsdorf",
+      "ja": "ヒメルズドルフ",
+      "ko": "힘멜스도르프",
+      "pl": "Himmelsdorf",
+      "pt": "Himmelsdorf",
+      "ru": "Химмельсдорф",
+      "th": "ฮิมเมลสดอร์ฟ",
+      "tr": "Himmelsdorf",
+      "uk": "Хіммельсдорф",
+      "vi": "\"Himmelsdorf\"",
+      "zh-Hans": "锡默尔斯多夫",
+      "zh-Hant": "希墨爾斯多夫"
+    }
+  }
+}
