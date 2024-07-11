@@ -63,13 +63,15 @@ jobs:
       - name: Commit assets to the repository
         uses: stefanzweifel/git-auto-commit-action@v5
         id: commit-changes
+      - name: Zip assets
+        run: zip -r /tmp/assets.zip /assets
       - name: Upload a new release
         if: steps.commit-changes.outputs.changes_detected == 'true'
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: /tmp/assets.tar
-          asset_name: assets
+          file: /tmp/assets.zip
+          asset_name: assets.zip
           tag: ${{ github.ref }}
           overwrite: true
           body: "Assets - Automated Release"

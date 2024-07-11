@@ -72,12 +72,13 @@ func main() {
 		// Init parsing functions
 		maps := newMapParser()
 		vehicles := newVehiclesParser()
+		version := newVersionParser()
 
 		// Due to how the parsing code is written, we will need to loop over the files twice
 		// first loop parses yaml/xml files to extract identifier
 		// second loop will parse strings yaml files to create localized dicts
 		{
-			parser, err := newParser(args.DecryptPath, maps.Maps(), vehicles.Items())
+			parser, err := newParser(args.DecryptPath, maps.Maps(), vehicles.Items(), version)
 			if err != nil {
 				panic(err)
 			}
@@ -100,6 +101,10 @@ func main() {
 			panic(err)
 		}
 		err = vehicles.Export(filepath.Join(args.AssetsPath, "vehicles.json"))
+		if err != nil {
+			panic(err)
+		}
+		err = version.Export(filepath.Join(args.AssetsPath, "metadata.json"))
 		if err != nil {
 			panic(err)
 		}
