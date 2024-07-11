@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+
 	"io"
 	"os"
 	"path/filepath"
@@ -10,17 +11,11 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/cufee/aftermath-assets/types"
+
 	"github.com/pkg/errors"
 	"golang.org/x/text/language"
 )
-
-type Map struct {
-	ID              string                  `json:"id"`
-	Key             string                  `json:"key"`
-	GameModes       []int                   `yaml:"availableModes"`
-	SupremacyPoints int                     `yaml:"supremacyPointsThreshold"`
-	LocalizedNames  map[language.Tag]string `json:"names"`
-}
 
 type mapsEntry struct {
 	LocalID         int    `yaml:"id"`
@@ -41,10 +36,10 @@ func (p *mapParser) Export(filePath string) error {
 		return errors.Wrap(err, "failed to create path")
 	}
 
-	maps := make(map[string]Map)
+	maps := make(map[string]types.Map)
 	var keys []string
 	for key, data := range p.maps {
-		m := Map{
+		m := types.Map{
 			ID:              fmt.Sprint(data.LocalID),
 			Key:             data.Key,
 			GameModes:       data.GameModes,
@@ -55,7 +50,7 @@ func (p *mapParser) Export(filePath string) error {
 		keys = append(keys, m.ID)
 	}
 
-	mapsSorted := make(map[string]Map)
+	mapsSorted := make(map[string]types.Map)
 	sort.Strings(keys)
 	for _, key := range keys {
 		mapsSorted[key] = maps[key]

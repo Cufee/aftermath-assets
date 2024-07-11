@@ -15,33 +15,21 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/cufee/aftermath-assets/types"
 	"github.com/pkg/errors"
 	"golang.org/x/text/language"
 )
 
-type Vehicle struct {
-	ID             string                  `json:"id"`
-	Key            string                  `json:"key"`
-	LocalizedNames map[language.Tag]string `json:"names"`
-
-	Tier        int    `json:"tier"`
-	Class       string `json:"class"`
-	Nation      string `json:"nation"`
-	Premium     bool   `json:"premium"`
-	SuperTest   bool   `json:"superTest"`
-	Collectible bool   `json:"collectible"`
-}
-
 type vehiclesParser struct {
 	vehicleNames map[string]map[language.Tag]string
-	vehicles     map[string]Vehicle
+	vehicles     map[string]types.Vehicle
 	lock         *sync.Mutex
 }
 
 func newVehiclesParser() *vehiclesParser {
 	return &vehiclesParser{
 		lock:         &sync.Mutex{},
-		vehicles:     make(map[string]Vehicle),
+		vehicles:     make(map[string]types.Vehicle),
 		vehicleNames: make(map[string]map[language.Tag]string),
 	}
 }
@@ -59,7 +47,7 @@ func (p *vehiclesParser) Export(filePath string) error {
 	}
 
 	var keys []string
-	vehicles := make(map[string]Vehicle)
+	vehicles := make(map[string]types.Vehicle)
 	for key, vehicle := range p.vehicles {
 		names := p.vehicleNames[key]
 
@@ -77,7 +65,7 @@ func (p *vehiclesParser) Export(filePath string) error {
 	}
 
 	sort.Strings(keys)
-	vehiclesSorted := make(map[string]Vehicle)
+	vehiclesSorted := make(map[string]types.Vehicle)
 	for _, key := range keys {
 		vehiclesSorted[key] = vehicles[key]
 	}
@@ -95,7 +83,7 @@ func (p *vehiclesParser) Export(filePath string) error {
 var vehicleItemsRegex = regexp.MustCompile(".*/XML/item_defs/vehicles/.*list.xml")
 
 type vehicleItemsParser struct {
-	vehicles map[string]Vehicle
+	vehicles map[string]types.Vehicle
 	lock     *sync.Mutex
 }
 
@@ -124,13 +112,13 @@ func (item vehicleItem) class() string {
 	return "unknown"
 }
 
-func (item vehicleItem) toVehicle(nation string) Vehicle {
+func (item vehicleItem) toVehicle(nation string) types.Vehicle {
 	key := item.Name
 	if item.NameShort != "" {
 		key = item.NameShort
 	}
 
-	return Vehicle{
+	return types.Vehicle{
 		Key: key,
 		// Name: fmt.Sprintf("Secret Tank %d", item.id), // this will be updated from strings later
 		ID: fmt.Sprint(toGlobalID(nation, item.id)),
@@ -179,7 +167,7 @@ func (p *vehicleItemsParser) Parse(path string, r io.Reader) error {
 
 type vehicleStringsParser struct {
 	vehicleNames map[string]map[language.Tag]string
-	vehicles     map[string]Vehicle
+	vehicles     map[string]types.Vehicle
 	lock         *sync.Mutex
 }
 
