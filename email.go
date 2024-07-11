@@ -52,7 +52,10 @@ func (c emailClient) GetSteamCode(after time.Time) (string, error) {
 	})
 
 	for _, email := range emails {
-		code, ok := findSteamCode(string(email.Text), "noreply@steampowered.com")
+		if email.From.Address != "noreply@steampowered.com" {
+			continue
+		}
+		code, ok := findSteamCode(string(email.Text))
 		if ok {
 			return code, nil
 		}
@@ -62,11 +65,7 @@ func (c emailClient) GetSteamCode(after time.Time) (string, error) {
 
 var steamCodeRegex = regexp.MustCompile(`(?i)Login\s*Code\s*\n*\s*([A-Z0-9]{5,7})`)
 
-func findSteamCode(text string, requireAddress string) (string, bool) {
-	// if email.From.Address != requireAddress {
-	// 	return "", false
-	// }
-
+func findSteamCode(text string) (string, bool) {
 	matches := steamCodeRegex.FindStringSubmatch(text)
 	if len(matches) > 1 {
 		return strings.TrimSpace(matches[1]), true
