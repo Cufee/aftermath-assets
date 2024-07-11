@@ -1,0 +1,52 @@
+name: Upload game assets to repository
+
+on:
+  registry_package:
+    types: [published]
+  schedule:
+    - cron: "0 12 * * *"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/cufee/${{ github.repository }}:latest
+    env:
+      XDG_DATA_HOME: /downloader/data
+      DOWNLOADER_CMD_PATH: DepotDownloader
+      DOWNLOADER_FILE_LIST: /downloader/filelist.txt
+      DECRYPT_DIR_PATH: /static-data/decrypted
+      EMAIL_HOST: ${{ secrets.EMAIL_HOST }}
+      EMAIL_USER: ${{ secrets.EMAIL_USER }}
+      EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+    steps:
+      - name: Generate assets
+        shell: bash
+        run: |
+          app --download --decrypt --parse --mail --password '${{ secrets.DOWNLOADER_STEAM_PASSWORD }}' --username '${{ secrets.DOWNLOADER_STEAM_USERNAME }}' /static-data/downloaded /assets
+      - name: Upload assets
+        uses: actions/upload-artifact@v4
+        with:
+          name: assets
+          path: /assets
+  upload:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: /workspace
+    steps:
+      - uses: actions/checkout@v3
+      - name: Download assets
+        uses: actions/download-artifact@v4
+        with:
+          name: assets
+      - name: Move assets
+        shell: bash
+        run: |
+          mv --force /assets /workspace/assets
+      - name: Commit assets
+        run: |
+          git config --global user.name 'Cufee'
+          git config --global user.email 'cufee@users.noreply.github.com'
+          git commit -am "Assets update"
+          git push
