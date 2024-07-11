@@ -25,7 +25,7 @@ func downloadAssetsFromSteam(email *emailClient) error {
 	dargs = append(dargs, args.SteamUsername)
 	dargs = append(dargs, "-password")
 	dargs = append(dargs, args.SteamPassword)
-	// dargs = append(dargs, "-remember-password")
+	dargs = append(dargs, "-remember-password")
 	if args.DownloaderFileList != "" {
 		dargs = append(dargs, "-filelist")
 		dargs = append(dargs, args.DownloaderFileList)
