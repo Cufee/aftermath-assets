@@ -56,9 +56,4 @@ jobs:
           path: /tmp
       - name: Untar assets
         run: tar -xvf /tmp/assets.tar -C ./assets --strip-components=1 --overwrite
-      - name: Commit assets
-        run: |
-          git config --global user.name 'Cufee'
-          git config --global user.email 'cufee@users.noreply.github.com'
-          git commit -am "Assets update" || echo "no changes to commit"
-          git push
+      - uses: stefanzweifel/git-auto-commit-action@v5
