@@ -55,7 +55,7 @@ jobs:
           name: assets
           path: /tmp
       - name: Untar assets
-        run: tar -xvf /tmp/assets.tar ./assets --overwrite
+        run: tar -xvf /tmp/assets.tar -C ./assets --strip-components=1 --overwrite
       - name: Move assets
         shell: bash
         run: |
