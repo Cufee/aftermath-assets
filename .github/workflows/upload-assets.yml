@@ -60,18 +60,20 @@ jobs:
           path: /tmp
       - name: Untar assets
         run: tar -xvf /tmp/assets.tar -C ./assets --strip-components=1 --overwrite
-      - name: Commit assets to the repository
-        uses: stefanzweifel/git-auto-commit-action@v5
-        id: commit-changes
       - name: Extract version tag from metadata.json
         uses: sergeysova/jq-action@v2
         id: version
         with:
           cmd: 'jq .tag ./assets/metadata.json -r'
+      - name: Commit assets to the repository
+        uses: stefanzweifel/git-auto-commit-action@v5
+        id: commit-changes
+        with:
+          tagging_message: ${{ steps.version.outputs.value }}
       - name: Zip assets
         run: zip -r /tmp/assets.zip ./assets
       - name: Upload a new release
-        if: steps.commit-changes.outputs.changes_detected == 'true'
+        # if: steps.commit-changes.outputs.changes_detected == 'true'
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
