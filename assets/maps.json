@@ -2,11 +2,11 @@
   "1": {
     "id": "1",
     "key": "17_karelia_ka/17_karelia_ka.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "روكفيلد",
       "cs": "Rockfield",
@@ -33,11 +33,11 @@
   "10": {
     "id": "10",
     "key": "21_mountain_mnt/21_mountain_mnt.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "الذهب الأسود",
       "cs": "Ropné pole",
@@ -64,11 +64,11 @@
   "11": {
     "id": "11",
     "key": "09_savanna_sv/09_savanna_sv.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "واحة النخيل",
       "cs": "Oáza",
@@ -95,11 +95,11 @@
   "12": {
     "id": "12",
     "key": "11_plant_pn/11_plant_pn.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "مصنع الأشباح",
       "cs": "Továrna duchů",
@@ -126,11 +126,11 @@
   "13": {
     "id": "13",
     "key": "08_idle_id/08_idle_id.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "يوكون",
       "cs": "Yukon",
@@ -157,11 +157,11 @@
   "14": {
     "id": "14",
     "key": "16_holland_hl/16_holland_hl.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "سدّ الطاحونة",
       "cs": "Molendijk",
@@ -188,11 +188,11 @@
   "15": {
     "id": "15",
     "key": "14_port_pt/14_port_pt.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "خليج الميناء",
       "cs": "Přístavní zátoka",
@@ -219,11 +219,11 @@
   "19": {
     "id": "19",
     "key": "12_malinovka_ma/12_malinovka_ma.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "شتاء مالينوفكا",
       "cs": "Zimní Malinovka",
@@ -250,11 +250,11 @@
   "2": {
     "id": "2",
     "key": "02_desert_train_dt/02_desert_train_dt.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "رمال الصحراء",
       "cs": "Pouštní písky",
@@ -281,11 +281,11 @@
   "20": {
     "id": "20",
     "key": "13_pliego_pl/13_pliego_pl.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "القلعة",
       "cs": "Kastilie",
@@ -312,11 +312,11 @@
   "21": {
     "id": "21",
     "key": "18_canal_cn/18_canal_cn.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "القناة",
       "cs": "Průplav",
@@ -343,11 +343,11 @@
   "23": {
     "id": "23",
     "key": "22_italy_it/22_italy_it.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "حقول الكروم",
       "cs": "Vinice",
@@ -374,11 +374,11 @@
   "25": {
     "id": "25",
     "key": "24_milibase_mlb/24_milibase_mlb.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "ميناء ياماتو",
       "cs": "Přístav lodi Yamato",
@@ -405,21 +405,21 @@
   "26": {
     "id": "26",
     "key": "15_lagoon_ln/15_lagoon_ln.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": null
   },
   "27": {
     "id": "27",
     "key": "25_canyon_ca/25_canyon_ca.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "الوادي",
       "cs": "Kaňon",
@@ -446,11 +446,11 @@
   "3": {
     "id": "3",
     "key": "03_erlenberg_er/03_erlenberg_er.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "ميدلبورغ",
       "cs": "Middleburg",
@@ -477,11 +477,11 @@
   "30": {
     "id": "30",
     "key": "28_rock_rc/28_rock_rc.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "الأهرام القديمة",
       "cs": "Starobylé pyramidy",
@@ -508,11 +508,11 @@
   "31": {
     "id": "31",
     "key": "30_grossberg_sh/30_grossberg_sh.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "سلسلة اللؤلؤة",
       "cs": "Perla dynastie",
@@ -539,11 +539,11 @@
   "35": {
     "id": "35",
     "key": "29_skit_sk/29_skit_sk.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "الحدود البحرية",
       "cs": "Námořní hranice",
@@ -570,11 +570,11 @@
   "38": {
     "id": "38",
     "key": "31_lumber_lm/31_lumber_lm.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "ألبينشتاد",
       "cs": "Alpenstadt",
@@ -601,11 +601,11 @@
   "39": {
     "id": "39",
     "key": "32_faust_fa_night/32_faust_fa_night.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "فاوست",
       "cs": "Faust",
@@ -632,11 +632,11 @@
   "4": {
     "id": "4",
     "key": "23_karieri_kr/23_karieri_kr.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "كوبرفيلد",
       "cs": "Naleziště mědi",
@@ -663,11 +663,11 @@
   "40": {
     "id": "40",
     "key": "34_forgecity_fc/34_forgecity_fc.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "المرفأ الجديد",
       "cs": "New Bay",
@@ -694,11 +694,11 @@
   "42": {
     "id": "42",
     "key": "33_neptune_nt/33_neptune_nt.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "نورماندي",
       "cs": "Normandie",
@@ -725,11 +725,11 @@
   "43": {
     "id": "43",
     "key": "35_rift_rt/35_rift_rt.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "هيلاس",
       "cs": "Helada",
@@ -756,10 +756,10 @@
   "44": {
     "id": "44",
     "key": "02_desert_train_dt/02_desert_train_dt.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "رمال الصحراء - البلدة",
       "cs": "Pouštní písky – město",
@@ -786,10 +786,10 @@
   "45": {
     "id": "45",
     "key": "02_desert_train_dt/02_desert_train_dt.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "رمال الصحراء - الكثبان",
       "cs": "Pouštní písky – duny",
@@ -816,10 +816,10 @@
   "46": {
     "id": "46",
     "key": "04_medvedkovo_md/04_medvedkovo_md.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "ديد ريل - الوادي",
       "cs": "Slepá kolej – údolí",
@@ -846,10 +846,10 @@
   "47": {
     "id": "47",
     "key": "04_medvedkovo_md/04_medvedkovo_md.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "ديد ريل - السكك الحديدية",
       "cs": "Slepá kolej – železnice",
@@ -876,10 +876,10 @@
   "48": {
     "id": "48",
     "key": "05_amigosville_am/05_amigosville_am.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "فولز كريك - الجسر",
       "cs": "Horský potok – most",
@@ -906,10 +906,10 @@
   "49": {
     "id": "49",
     "key": "05_amigosville_am/05_amigosville_am.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "فولز كريك - المصنع",
       "cs": "Horský potok – továrna",
@@ -936,11 +936,11 @@
   "5": {
     "id": "5",
     "key": "05_amigosville_am/05_amigosville_am.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "فولز كريك",
       "cs": "Horský potok",
@@ -967,10 +967,10 @@
   "50": {
     "id": "50",
     "key": "24_milibase_mlb/24_milibase_mlb.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "ميناء ياماتو - السفينة الحربية",
       "cs": "Přístav lodi Yamato – bitevní loď",
@@ -997,10 +997,10 @@
   "51": {
     "id": "51",
     "key": "24_milibase_mlb/24_milibase_mlb.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "ميناء ياماتو - التلال",
       "cs": "Přístav lodi Yamato – hory",
@@ -1027,10 +1027,10 @@
   "52": {
     "id": "52",
     "key": "24_milibase_mlb/24_milibase_mlb.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "ميناء ياماتو - المركز",
       "cs": "Přístav lodi Yamato – střed",
@@ -1057,10 +1057,10 @@
   "53": {
     "id": "53",
     "key": "24_milibase_mlb/24_milibase_mlb.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "ميناء ياماتو - الرصيف",
       "cs": "Přístav lodi Yamato – dok",
@@ -1087,10 +1087,10 @@
   "54": {
     "id": "54",
     "key": "03_erlenberg_er/03_erlenberg_er.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "ميدلبورغ - البلدة",
       "cs": "Middleburg – město",
@@ -1117,10 +1117,10 @@
   "55": {
     "id": "55",
     "key": "03_erlenberg_er/03_erlenberg_er.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "ميدلبورغ - التل",
       "cs": "Middleburg – kopec",
@@ -1147,10 +1147,10 @@
   "56": {
     "id": "56",
     "key": "18_canal_cn/18_canal_cn.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "القناة - المصنع",
       "cs": "Průplav – továrna",
@@ -1177,10 +1177,10 @@
   "57": {
     "id": "57",
     "key": "31_lumber_lm/31_lumber_lm.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "ألبينشتاد - البلدة",
       "cs": "Alpenstadt – město",
@@ -1207,10 +1207,10 @@
   "58": {
     "id": "58",
     "key": "33_neptune_nt/33_neptune_nt.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "نورماندي - التلال",
       "cs": "Normandie – kopce",
@@ -1237,10 +1237,10 @@
   "59": {
     "id": "59",
     "key": "33_neptune_nt/33_neptune_nt.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "نورماندي - الساحل",
       "cs": "Normandie – pobřeží",
@@ -1267,10 +1267,10 @@
   "6": {
     "id": "6",
     "key": "06_rudniki_rd/06_rudniki_rd.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 0,
+    "supremacyPointsThreshold": 0,
     "names": {
       "ar": "المناجم",
       "cs": "Doly",
@@ -1297,10 +1297,10 @@
   "60": {
     "id": "60",
     "key": "06_rudniki_rd/06_rudniki_rd.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 0,
+    "supremacyPointsThreshold": 0,
     "names": {
       "ar": "المناجم - التل",
       "cs": "Doly – kopec",
@@ -1327,10 +1327,10 @@
   "61": {
     "id": "61",
     "key": "06_rudniki_rd/06_rudniki_rd.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 0,
+    "supremacyPointsThreshold": 0,
     "names": {
       "ar": "المناجم - القرية",
       "cs": "Doly – vesnice",
@@ -1357,10 +1357,10 @@
   "62": {
     "id": "62",
     "key": "06_rudniki_rd/06_rudniki_rd.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 0,
+    "supremacyPointsThreshold": 0,
     "names": {
       "ar": "المناجم - المركز",
       "cs": "Doly – centrum",
@@ -1387,11 +1387,11 @@
   "7": {
     "id": "7",
     "key": "04_medvedkovo_md/04_medvedkovo_md.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "ديد ريل",
       "cs": "Slepá kolej",
@@ -1418,10 +1418,10 @@
   "70": {
     "id": "70",
     "key": "40_moon_mn/40_moon_mn.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "بحر السكينة",
       "cs": "Moře klidu",
@@ -1448,11 +1448,11 @@
   "71": {
     "id": "71",
     "key": "26_holmeisk_hk/26_holmeisk_hk.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "الأرض القاحلة",
       "cs": "Pustina",
@@ -1479,10 +1479,10 @@
   "72": {
     "id": "72",
     "key": "41_iceworld_ic/41_iceworld_ic.sc2",
-    "GameModes": [
+    "availableModes": [
       0
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "الصقيع الأبدي",
       "cs": "Věčný mráz",
@@ -1509,11 +1509,11 @@
   "8": {
     "id": "8",
     "key": "07_fort_ft/07_fort_ft.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "قلعة البؤس",
       "cs": "Pevnost beznaděje",
@@ -1540,11 +1540,11 @@
   "9": {
     "id": "9",
     "key": "19_himmelsdorf_hm/19_himmelsdorf_hm.sc2",
-    "GameModes": [
+    "availableModes": [
       0,
       1
     ],
-    "SupremacyPoints": 800,
+    "supremacyPointsThreshold": 800,
     "names": {
       "ar": "هيميلسدورف",
       "cs": "Himmelsdorf",
