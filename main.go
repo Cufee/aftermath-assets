@@ -71,14 +71,15 @@ func main() {
 
 		// Init parsing functions
 		maps := newMapParser()
-		vehicles := newVehiclesParser()
 		version := newVersionParser()
+		vehicles := newVehiclesParser()
+		battleTypes := newBattleTypeParser()
 
 		// Due to how the parsing code is written, we will need to loop over the files twice
 		// first loop parses yaml/xml files to extract identifier
 		// second loop will parse strings yaml files to create localized dicts
 		{
-			parser, err := newParser(args.DecryptPath, maps.Maps(), vehicles.Items(), version)
+			parser, err := newParser(args.DecryptPath, maps.Maps(), vehicles.Items(), battleTypes, version)
 			if err != nil {
 				panic(err)
 			}
@@ -105,6 +106,10 @@ func main() {
 			panic(err)
 		}
 		err = version.Export(filepath.Join(args.AssetsPath, "metadata.json"))
+		if err != nil {
+			panic(err)
+		}
+		err = battleTypes.Export(filepath.Join(args.AssetsPath, "game_modes.json"))
 		if err != nil {
 			panic(err)
 		}
