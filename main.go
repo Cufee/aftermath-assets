@@ -27,6 +27,8 @@ var args struct {
 
 	Parse bool `help:"parse decrypted files into asset strings"`
 
+	WargamingAppID string `arg:"--app-od,env:WARGAMING_APP_ID" help:"wargaming application id for api requests" placeholder:"<key>"`
+
 	EmailEnabled bool `arg:"--mail" help:"enabled parsing steam auth code from email"`
 	emailConfig
 }
@@ -64,7 +66,12 @@ func main() {
 	}
 
 	if args.Parse {
-		err := os.MkdirAll(args.DecryptPath, os.ModeDir)
+		glossary, err := NewCDNClient(args.WargamingAppID).Vehicles("en", "ru", "pl", "de", "fr", "es", "zh-cn", "zh-tw", "tr", "cs", "th", "vi", "ko")
+		if err != nil {
+			panic(err)
+		}
+
+		err = os.MkdirAll(args.DecryptPath, os.ModeDir)
 		if err != nil {
 			panic(err)
 		}
@@ -72,7 +79,7 @@ func main() {
 		// Init parsing functions
 		maps := newMapParser()
 		version := newVersionParser()
-		vehicles := newVehiclesParser()
+		vehicles := newVehiclesParser(glossary)
 		battleTypes := newBattleTypeParser()
 
 		// Due to how the parsing code is written, we will need to loop over the files twice

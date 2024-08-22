@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"os"
+	"reflect"
 	"sort"
 	"strconv"
 
@@ -24,10 +25,12 @@ type vehiclesParser struct {
 	vehicleNames map[string]map[language.Tag]string
 	vehicles     map[string]types.Vehicle
 	lock         *sync.Mutex
+	glossary     map[string]map[language.Tag]vehicleRecord
 }
 
-func newVehiclesParser() *vehiclesParser {
+func newVehiclesParser(glossary map[string]map[language.Tag]vehicleRecord) *vehiclesParser {
 	return &vehiclesParser{
+		glossary:     glossary,
 		lock:         &sync.Mutex{},
 		vehicles:     make(map[string]types.Vehicle),
 		vehicleNames: make(map[string]map[language.Tag]string),
@@ -35,7 +38,7 @@ func newVehiclesParser() *vehiclesParser {
 }
 
 func (p *vehiclesParser) Items() *vehicleItemsParser {
-	return &vehicleItemsParser{p.vehicles, p.lock}
+	return &vehicleItemsParser{p.glossary, p.vehicles, p.lock}
 }
 func (p *vehiclesParser) Strings() *vehicleStringsParser {
 	return &vehicleStringsParser{p.vehicleNames, p.vehicles, p.lock}
@@ -77,12 +80,18 @@ func (p *vehiclesParser) Export(filePath string) error {
 
 	e := json.NewEncoder(f)
 	e.SetIndent("", "  ")
-	return e.Encode(vehiclesSorted)
+	err = e.Encode(vehiclesSorted)
+	if err != nil {
+		return err
+	}
+
+	return nil
 }
 
 var vehicleItemsRegex = regexp.MustCompile(".*/XML/item_defs/vehicles/.*list.xml")
 
 type vehicleItemsParser struct {
+	glossary map[string]map[language.Tag]vehicleRecord
 	vehicles map[string]types.Vehicle
 	lock     *sync.Mutex
 }
@@ -112,20 +121,26 @@ func (item vehicleItem) class() string {
 	return "unknown"
 }
 
-func (item vehicleItem) toVehicle(nation string) types.Vehicle {
+func (item vehicleItem) toVehicle(id, nation string, glossary map[language.Tag]vehicleRecord) types.Vehicle {
 	key := item.Name
 	if item.NameShort != "" {
 		key = item.NameShort
 	}
 
-	return types.Vehicle{
-		Key: key,
-		// Name: fmt.Sprintf("Secret Tank %d", item.id), // this will be updated from strings later
-		ID: fmt.Sprint(toGlobalID(nation, item.id)),
+	names := make(map[language.Tag]string)
+	for t, v := range glossary {
+		names[t] = v.Name
+	}
 
-		Tier:        item.level,
-		Class:       item.class(),
+	return types.Vehicle{
+		Key:            key,
+		ID:             id,
+		LocalizedNames: names,
+
+		Tier:        firstOf(item.level, glossary[language.English].Tier),
+		Class:       firstOf(item.class(), glossary[language.English].Type),
 		Nation:      nation,
+		Premium:     glossary[language.English].Premium,
 		SuperTest:   slices.Contains(item.environments, "supertest") && !slices.Contains(item.environments, "production"),
 		Collectible: slices.Contains(item.tags, "collectible"),
 	}
@@ -158,7 +173,8 @@ func (p *vehicleItemsParser) Parse(path string, r io.Reader) error {
 		item.tags = strings.Split(item.Tags, " ")
 		item.environments = strings.Split(item.Environments, " ")
 
-		vehicle := item.toVehicle(nation)
+		id := fmt.Sprint(toGlobalID(nation, item.id))
+		vehicle := item.toVehicle(id, nation, p.glossary[id])
 		p.vehicles[vehicle.ID] = vehicle
 	}
 
@@ -194,17 +210,25 @@ func (p *vehicleStringsParser) Parse(path string, r io.Reader) error {
 	defer p.lock.Unlock()
 
 	for key, vehicle := range p.vehicles {
-		names, ok := p.vehicleNames[key]
-		if !ok {
+		names := firstOf(p.vehicleNames[key], p.vehicles[vehicle.ID].LocalizedNames)
+		if names == nil {
 			names = make(map[language.Tag]string)
 		}
-		localizedName := data[vehicle.Key]
-		if localizedName == "" {
-			localizedName = "Secret Tank " + vehicle.ID
+		if localized, ok := data[vehicle.Key]; ok {
+			names[locale] = localized
 		}
-		names[locale] = localizedName
 		p.vehicleNames[key] = names
 	}
 
 	return nil
+}
+
+func firstOf[T any](values ...T) T {
+	for _, v := range values {
+		if !reflect.ValueOf(v).IsZero() {
+			return v
+		}
+	}
+	var v T
+	return v
 }
