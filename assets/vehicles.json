@@ -30,12 +30,13 @@
     "id": "10017",
     "key": "#usa_vehicles:Sherman_Jumbo_short",
     "names": {
-      "en": "M4A3E2"
+      "en": "M4A3E2",
+      "zh-CN": "M4A3E2 Sherman Jumbo"
     },
     "tier": 6,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -89,7 +90,7 @@
     "tier": 5,
     "class": "heavyTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -97,12 +98,13 @@
     "id": "10113",
     "key": "#european_vehicles:It20_Car_Comb_45t_short",
     "names": {
-      "en": "Carro 45t"
+      "en": "Carro 45t",
+      "zh-CN": "Carro da Combattimento 45t"
     },
     "tier": 10,
     "class": "mediumTank",
     "nation": "european",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -183,7 +185,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -191,7 +193,8 @@
     "id": "10369",
     "key": "#european_vehicles:It21_Controcarro3_Minotauro_short",
     "names": {
-      "en": "Minotauro"
+      "en": "Minotauro",
+      "zh-CN": "Controcarro 3 Minotauro"
     },
     "tier": 10,
     "class": "AT-SPG",
@@ -204,7 +207,8 @@
     "id": "1041",
     "key": "#germany_vehicles:StuGIII_short",
     "names": {
-      "en": "StuG III G"
+      "en": "StuG III G",
+      "zh-CN": "StuG III Ausf. G"
     },
     "tier": 5,
     "class": "AT-SPG",
@@ -231,7 +235,8 @@
     "id": "10513",
     "key": "#germany_vehicles:VK4502A_short",
     "names": {
-      "en": "VK 45.02 A"
+      "en": "VK 45.02 A",
+      "zh-CN": "VK 45.02 (P) Ausf. A"
     },
     "tier": 8,
     "class": "heavyTank",
@@ -249,7 +254,7 @@
     "tier": 5,
     "class": "AT-SPG",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -283,9 +288,7 @@
   "10609": {
     "id": "10609",
     "key": "#other_vehicles:Oth36_Indien_Panzer_S1_short",
-    "names": {
-      "en": "Secret Tank 10609"
-    },
+    "names": {},
     "tier": 7,
     "class": "mediumTank",
     "nation": "other",
@@ -297,7 +300,8 @@
     "id": "10625",
     "key": "#european_vehicles:It19_Controcarro_1MK2_Ciclope_short",
     "names": {
-      "en": "CC 1 Mk. 2"
+      "en": "CC 1 Mk. 2",
+      "zh-CN": "Controcarro 1 Mk. 2"
     },
     "tier": 9,
     "class": "AT-SPG",
@@ -362,9 +366,7 @@
   "10801": {
     "id": "10801",
     "key": "#china_vehicles:Ch34_WZ-131G_FT_BP_short",
-    "names": {
-      "en": "Secret Tank 10801"
-    },
+    "names": {},
     "tier": 6,
     "class": "AT-SPG",
     "nation": "china",
@@ -376,7 +378,8 @@
     "id": "10817",
     "key": "#france_vehicles:AMX_AC_Mle1946_short",
     "names": {
-      "en": "AMX AC 46"
+      "en": "AMX AC 46",
+      "zh-CN": "AMX AC mle. 46"
     },
     "tier": 7,
     "class": "AT-SPG",
@@ -388,9 +391,7 @@
   "10865": {
     "id": "10865",
     "key": "#other_vehicles:Oth37_T26_E4_SuperPershing_S1_short",
-    "names": {
-      "en": "Secret Tank 10865"
-    },
+    "names": {},
     "tier": 8,
     "class": "mediumTank",
     "nation": "other",
@@ -402,7 +403,8 @@
     "id": "10881",
     "key": "#european_vehicles:It18_Semovente_mod_64_short",
     "names": {
-      "en": "SMV CC-64"
+      "en": "SMV CC-64",
+      "zh-CN": "Semovente Controcarro mod. 1964"
     },
     "tier": 8,
     "class": "AT-SPG",
@@ -442,7 +444,8 @@
     "id": "11025",
     "key": "#germany_vehicles:Sturer_Emil_short",
     "names": {
-      "en": "St. Emil"
+      "en": "St. Emil",
+      "zh-CN": "Sturer Emil"
     },
     "tier": 7,
     "class": "AT-SPG",
@@ -494,7 +497,8 @@
     "id": "11073",
     "key": "#france_vehicles:AMX50_Foch_short",
     "names": {
-      "en": "Foch"
+      "en": "Foch",
+      "zh-CN": "AMX 50 Foch"
     },
     "tier": 9,
     "class": "AT-SPG",
@@ -506,9 +510,7 @@
   "11121": {
     "id": "11121",
     "key": "#other_vehicles:Oth38_50TP_Tyszkiewicza_S1_short",
-    "names": {
-      "en": "Secret Tank 11121"
-    },
+    "names": {},
     "tier": 9,
     "class": "heavyTank",
     "nation": "other",
@@ -520,7 +522,8 @@
     "id": "11137",
     "key": "#european_vehicles:It17_Semovente_mod_56_short",
     "names": {
-      "en": "SMV CC-56"
+      "en": "SMV CC-56",
+      "zh-CN": "Semovente Controcarro mod. 1956"
     },
     "tier": 7,
     "class": "AT-SPG",
@@ -533,7 +536,8 @@
     "id": "1121",
     "key": "#japan_vehicles:Chi_Ri_short",
     "names": {
-      "en": "Chi-Ri"
+      "en": "Chi-Ri",
+      "zh-CN": "Type 5 Chi-Ri"
     },
     "tier": 7,
     "class": "mediumTank",
@@ -552,7 +556,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -560,12 +564,13 @@
     "id": "11281",
     "key": "#germany_vehicles:G_KpfPz_70_short",
     "names": {
-      "en": "Kpz 70"
+      "en": "Kpz 70",
+      "zh-CN": "Kampfpanzer 70"
     },
     "tier": 9,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -573,7 +578,8 @@
     "id": "11297",
     "key": "#usa_vehicles:T28_Prototype_short",
     "names": {
-      "en": "T28 Prot."
+      "en": "T28 Prot.",
+      "zh-CN": "T28 Prototype"
     },
     "tier": 8,
     "class": "AT-SPG",
@@ -586,12 +592,13 @@
     "id": "113",
     "key": "#other_vehicles:Oth08_WH_Vindicator_short",
     "names": {
-      "en": "Vindicator UM"
+      "en": "Vindicator UM",
+      "zh-CN": "Vindicator Ultramarines"
     },
     "tier": 7,
     "class": "AT-SPG",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -612,12 +619,13 @@
     "id": "1137",
     "key": "#other_vehicles:Oth09_WH_Predator_short",
     "names": {
-      "en": "Predator UM"
+      "en": "Predator UM",
+      "zh-CN": "Predator Ultramarines"
     },
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -638,7 +646,8 @@
     "id": "11393",
     "key": "#european_vehicles:It16_Bassoto_short",
     "names": {
-      "en": "Bassotto"
+      "en": "Bassotto",
+      "zh-CN": "Semovente M43 Bassotto"
     },
     "tier": 6,
     "class": "AT-SPG",
@@ -678,7 +687,8 @@
     "id": "11537",
     "key": "#germany_vehicles:JagdPantherII_short",
     "names": {
-      "en": "JPanther II"
+      "en": "JPanther II",
+      "zh-CN": "Jagdpanther II"
     },
     "tier": 8,
     "class": "AT-SPG",
@@ -691,7 +701,8 @@
     "id": "11553",
     "key": "#usa_vehicles:M18_Hellcat_short",
     "names": {
-      "en": "Hellcat"
+      "en": "Hellcat",
+      "zh-CN": "M18 Hellcat"
     },
     "tier": 6,
     "class": "AT-SPG",
@@ -789,7 +800,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -829,7 +840,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "european",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -851,7 +862,8 @@
     "id": "12049",
     "key": "#germany_vehicles:JagdPz_E100_short",
     "names": {
-      "en": "Jg.Pz. E 100"
+      "en": "Jg.Pz. E 100",
+      "zh-CN": "Jagdpanzer E 100"
     },
     "tier": 10,
     "class": "AT-SPG",
@@ -869,7 +881,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -890,7 +902,8 @@
     "id": "12097",
     "key": "#france_vehicles:AMX_AC_Mle1948_short",
     "names": {
-      "en": "AMX AC 48"
+      "en": "AMX AC 48",
+      "zh-CN": "AMX AC mle. 48"
     },
     "tier": 8,
     "class": "AT-SPG",
@@ -921,7 +934,7 @@
     "tier": 10,
     "class": "heavyTank",
     "nation": "european",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -929,7 +942,8 @@
     "id": "12305",
     "key": "#germany_vehicles:E50_Ausf_M_short",
     "names": {
-      "en": "E 50 M"
+      "en": "E 50 M",
+      "zh-CN": "E 50 Ausf. M"
     },
     "tier": 10,
     "class": "mediumTank",
@@ -947,7 +961,7 @@
     "tier": 4,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -973,7 +987,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "european",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -987,7 +1001,7 @@
     "tier": 9,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -1073,7 +1087,8 @@
     "id": "1297",
     "key": "#germany_vehicles:PzV_short",
     "names": {
-      "en": "Panther"
+      "en": "Panther",
+      "zh-CN": "Panther I"
     },
     "tier": 7,
     "class": "mediumTank",
@@ -1086,12 +1101,13 @@
     "id": "13073",
     "key": "#germany_vehicles:Pz_II_AusfG_short",
     "names": {
-      "en": "Pz. II G"
+      "en": "Pz. II G",
+      "zh-CN": "Pz.Kpfw. II Ausf. G"
     },
     "tier": 3,
     "class": "lightTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -1125,7 +1141,8 @@
     "id": "1313",
     "key": "#usa_vehicles:M4A3E8_Sherman_short",
     "names": {
-      "en": "M4A3E8"
+      "en": "M4A3E8",
+      "zh-CN": "M4A3E8 Sherman"
     },
     "tier": 6,
     "class": "mediumTank",
@@ -1164,12 +1181,13 @@
     "id": "13329",
     "key": "#germany_vehicles:DW_II_short",
     "names": {
-      "en": "D.W. 2"
+      "en": "D.W. 2",
+      "zh-CN": "Durchbruchswagen 2"
     },
     "tier": 4,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -1177,12 +1195,13 @@
     "id": "13345",
     "key": "#usa_vehicles:T26_E4_SuperPershing_short",
     "names": {
-      "en": "T26E4"
+      "en": "T26E4",
+      "zh-CN": "T26E4 SuperPershing"
     },
     "tier": 8,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -1205,7 +1224,8 @@
     "names": {
       "en": "Obj. 268",
       "pl": "Ob. 268",
-      "ru": "Об. 268"
+      "ru": "Об. 268",
+      "zh-CN": "Object 268"
     },
     "tier": 10,
     "class": "AT-SPG",
@@ -1223,7 +1243,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -1257,7 +1277,8 @@
     "id": "1377",
     "key": "#japan_vehicles:Chi_Nu_short",
     "names": {
-      "en": "Chi-Nu"
+      "en": "Chi-Nu",
+      "zh-CN": "Type 3 Chi-Nu"
     },
     "tier": 5,
     "class": "mediumTank",
@@ -1284,7 +1305,8 @@
     "id": "13841",
     "key": "#germany_vehicles:Indien_Panzer_short",
     "names": {
-      "en": "Indien-Pz."
+      "en": "Indien-Pz.",
+      "zh-CN": "Indien-Panzer"
     },
     "tier": 8,
     "class": "mediumTank",
@@ -1310,7 +1332,8 @@
     "id": "13889",
     "key": "#france_vehicles:AMX_50Fosh_155_short",
     "names": {
-      "en": "Foch 155"
+      "en": "Foch 155",
+      "zh-CN": "AMX 50 Foch (155)"
     },
     "tier": 10,
     "class": "AT-SPG",
@@ -1328,7 +1351,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -1362,7 +1385,8 @@
     "id": "14097",
     "key": "#germany_vehicles:VK3002DB_V1_short",
     "names": {
-      "en": "VK 30.01 D"
+      "en": "VK 30.01 D",
+      "zh-CN": "VK 30.01 (D)"
     },
     "tier": 6,
     "class": "mediumTank",
@@ -1430,7 +1454,8 @@
     "names": {
       "en": "Obj. 263",
       "pl": "Ob. 263",
-      "ru": "Об. 263"
+      "ru": "Об. 263",
+      "zh-CN": "Object 263"
     },
     "tier": 10,
     "class": "AT-SPG",
@@ -1526,7 +1551,8 @@
     "id": "14865",
     "key": "#germany_vehicles:Pro_Ag_A_short",
     "names": {
-      "en": "Leopard PT A"
+      "en": "Leopard PT A",
+      "zh-CN": "Leopard Prototyp A"
     },
     "tier": 9,
     "class": "mediumTank",
@@ -1539,7 +1565,8 @@
     "id": "14881",
     "key": "#usa_vehicles:T57_58_short",
     "names": {
-      "en": "T57 Heavy"
+      "en": "T57 Heavy",
+      "zh-CN": "T57 Heavy Tank"
     },
     "tier": 10,
     "class": "heavyTank",
@@ -1584,7 +1611,7 @@
     "tier": 6,
     "class": "lightTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -1611,7 +1638,7 @@
     "tier": 4,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -1632,12 +1659,13 @@
     "id": "15441",
     "key": "#gb_vehicles:GB87_Chieftain_T95_turret_short",
     "names": {
-      "en": "Chieftain"
+      "en": "Chieftain",
+      "zh-CN": "Chieftain/T95"
     },
     "tier": 8,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -1671,7 +1699,8 @@
     "id": "1553",
     "key": "#germany_vehicles:JagdPzIV_short",
     "names": {
-      "en": "Jg.Pz. IV"
+      "en": "Jg.Pz. IV",
+      "zh-CN": "Jagdpanzer IV"
     },
     "tier": 6,
     "class": "AT-SPG",
@@ -1686,12 +1715,13 @@
     "names": {
       "en": "Obj. 907",
       "pl": "Ob. 907",
-      "ru": "Об. 907"
+      "ru": "Об. 907",
+      "zh-CN": "Object 907"
     },
     "tier": 10,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -1730,16 +1760,14 @@
     "tier": 10,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
   "15729": {
     "id": "15729",
     "key": "#other_vehicles:Oth51_FD_24_short",
-    "names": {
-      "en": "Secret Tank 15729"
-    },
+    "names": {},
     "tier": 8,
     "class": "mediumTank",
     "nation": "other",
@@ -1777,12 +1805,13 @@
     "id": "15889",
     "key": "#germany_vehicles:VK3002M_short",
     "names": {
-      "en": "VK 30.02 M"
+      "en": "VK 30.02 M",
+      "zh-CN": "VK 30.02 (M)"
     },
     "tier": 6,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -1795,7 +1824,7 @@
     "tier": 10,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -1803,7 +1832,8 @@
     "id": "15937",
     "key": "#france_vehicles:RenaultR35_short",
     "names": {
-      "en": "R35"
+      "en": "R35",
+      "zh-CN": "Renault R35"
     },
     "tier": 1,
     "class": "mediumTank",
@@ -1821,7 +1851,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -1847,7 +1877,7 @@
     "tier": 2,
     "class": "lightTank",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -1860,7 +1890,7 @@
     "tier": 5,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -1873,7 +1903,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -1881,12 +1911,13 @@
     "id": "16193",
     "key": "#france_vehicles:F73_M4A1_Revalorise_short",
     "names": {
-      "en": "M4A1 Rev."
+      "en": "M4A1 Rev.",
+      "zh-CN": "M4A1 Revalorisé"
     },
     "tier": 8,
     "class": "mediumTank",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -1934,7 +1965,8 @@
     "id": "1633",
     "key": "#japan_vehicles:Chi_He_short",
     "names": {
-      "en": "Chi-He"
+      "en": "Chi-He",
+      "zh-CN": "Type 1 Chi-He"
     },
     "tier": 4,
     "class": "mediumTank",
@@ -1947,7 +1979,8 @@
     "id": "16401",
     "key": "#germany_vehicles:Waffentrager_IV_short",
     "names": {
-      "en": "WT auf Pz. IV"
+      "en": "WT auf Pz. IV",
+      "zh-CN": "Waffenträger auf Pz. IV"
     },
     "tier": 9,
     "class": "AT-SPG",
@@ -1965,7 +1998,7 @@
     "tier": 7,
     "class": "lightTank",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -1992,7 +2025,7 @@
     "tier": 7,
     "class": "AT-SPG",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -2012,9 +2045,7 @@
   "16513": {
     "id": "16513",
     "key": "#european_vehicles:Cz20_ShPTK_TVP_100_short",
-    "names": {
-      "en": "Secret Tank 16513"
-    },
+    "names": {},
     "tier": 8,
     "class": "AT-SPG",
     "nation": "european",
@@ -2053,7 +2084,8 @@
     "id": "16657",
     "key": "#germany_vehicles:RhB_Waffentrager_short",
     "names": {
-      "en": "Rhm.-B. WT"
+      "en": "Rhm.-B. WT",
+      "zh-CN": "Rhm.-Borsig Waffenträger"
     },
     "tier": 8,
     "class": "AT-SPG",
@@ -2079,12 +2111,13 @@
     "id": "16705",
     "key": "#france_vehicles:F74_AMX_M4_1949_short",
     "names": {
-      "en": "AMX M4 49"
+      "en": "AMX M4 49",
+      "zh-CN": "AMX M4 mle. 49"
     },
     "tier": 8,
     "class": "heavyTank",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -2120,7 +2153,8 @@
     "names": {
       "en": "Obj. 140",
       "pl": "Ob. 140",
-      "ru": "Об. 140"
+      "ru": "Об. 140",
+      "zh-CN": "Object 140"
     },
     "tier": 10,
     "class": "mediumTank",
@@ -2133,7 +2167,8 @@
     "id": "17",
     "key": "#germany_vehicles:PzIV_short",
     "names": {
-      "en": "Pz. IV G"
+      "en": "Pz. IV G",
+      "zh-CN": "Pz.Kpfw. IV Ausf. G"
     },
     "tier": 5,
     "class": "mediumTank",
@@ -2172,12 +2207,13 @@
     "id": "17169",
     "key": "#germany_vehicles:Pz_IV_AusfA_short",
     "names": {
-      "en": "Pz. IV A"
+      "en": "Pz. IV A",
+      "zh-CN": "Pz.Kpfw. IV Ausf. A"
     },
     "tier": 3,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -2185,12 +2221,12 @@
     "id": "17217",
     "key": "#france_vehicles:ARL_44BP_short",
     "names": {
-      "en": "Secret Tank 17217"
+      "en": "Eraser BP44"
     },
     "tier": 6,
     "class": "heavyTank",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -2198,7 +2234,8 @@
     "id": "17233",
     "key": "#uk_vehicles:GB81_FV4004_short",
     "names": {
-      "en": "Conway"
+      "en": "Conway",
+      "zh-CN": "FV4004 Conway"
     },
     "tier": 9,
     "class": "AT-SPG",
@@ -2224,7 +2261,8 @@
     "id": "17425",
     "key": "#germany_vehicles:Pz_IV_AusfD_short",
     "names": {
-      "en": "Pz. IV D"
+      "en": "Pz. IV D",
+      "zh-CN": "Pz.Kpfw. IV Ausf. D"
     },
     "tier": 4,
     "class": "mediumTank",
@@ -2237,12 +2275,12 @@
     "id": "17473",
     "key": "#france_vehicles:F69_AMX_13D_short",
     "names": {
-      "en": "Secret Tank 17473"
+      "en": "AMX Defender"
     },
     "tier": 8,
     "class": "lightTank",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -2281,7 +2319,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -2294,7 +2332,7 @@
     "tier": 10,
     "class": "AT-SPG",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -2315,7 +2353,8 @@
     "id": "17953",
     "key": "#usa_vehicles:M41_Bulldog_short",
     "names": {
-      "en": "M41 Bulldog"
+      "en": "M41 Bulldog",
+      "zh-CN": "M41 Walker Bulldog"
     },
     "tier": 7,
     "class": "lightTank",
@@ -2333,7 +2372,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -2410,7 +2449,8 @@
     "id": "1825",
     "key": "#usa_vehicles:M2_lt_short",
     "names": {
-      "en": "M2 Light"
+      "en": "M2 Light",
+      "zh-CN": "M2 Light Tank"
     },
     "tier": 1,
     "class": "lightTank",
@@ -2491,12 +2531,13 @@
     "names": {
       "en": "Lorraine Fearless",
       "fr": "Lorraine Intrépide",
-      "ru": "Lorraine Бесстрашный"
+      "ru": "Lorraine Бесстрашный",
+      "zh-CN": "Lorraine 40 t Fearless"
     },
     "tier": 8,
     "class": "mediumTank",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -2509,7 +2550,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -2517,7 +2558,8 @@
     "id": "1857",
     "key": "#france_vehicles:F75_Char_de_25t_short",
     "names": {
-      "en": "B-C 25 t AP"
+      "en": "B-C 25 t AP",
+      "zh-CN": "Bat.-Châtillon 25 t AP"
     },
     "tier": 9,
     "class": "lightTank",
@@ -2536,7 +2578,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -2557,12 +2599,13 @@
     "id": "18753",
     "key": "#france_vehicles:F89_Canon_dassaut_105_short",
     "names": {
-      "en": "AMX CDA 105"
+      "en": "AMX CDA 105",
+      "zh-CN": "AMX Canon d'assaut 105"
     },
     "tier": 8,
     "class": "AT-SPG",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -2570,12 +2613,13 @@
     "id": "18769",
     "key": "#uk_vehicles:GB93_Caernarvon_AX_short",
     "names": {
-      "en": "Action X"
+      "en": "Action X",
+      "zh-CN": "Caernarvon Action X"
     },
     "tier": 8,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -2583,7 +2627,8 @@
     "id": "1889",
     "key": "#japan_vehicles:Chi_To_short",
     "names": {
-      "en": "Chi-To"
+      "en": "Chi-To",
+      "zh-CN": "Type 4 Chi-To"
     },
     "tier": 6,
     "class": "mediumTank",
@@ -2602,7 +2647,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -2610,7 +2655,8 @@
     "id": "18961",
     "key": "#germany_vehicles:G113_SP_I_C_short",
     "names": {
-      "en": "SP I C"
+      "en": "SP I C",
+      "zh-CN": "Spähpanzer SP I C"
     },
     "tier": 7,
     "class": "lightTank",
@@ -2628,7 +2674,7 @@
     "tier": 10,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -2641,7 +2687,7 @@
     "tier": 6,
     "class": "lightTank",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -2654,7 +2700,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -2667,7 +2713,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -2720,7 +2766,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -2734,7 +2780,7 @@
     "tier": 6,
     "class": "AT-SPG",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -2747,7 +2793,7 @@
     "tier": 10,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -2774,7 +2820,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -2787,7 +2833,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -2808,7 +2854,8 @@
     "id": "19537",
     "key": "#uk_vehicles:GB_Vickers_Light_105_short",
     "names": {
-      "en": "Vickers Light"
+      "en": "Vickers Light",
+      "zh-CN": "Vickers Light 105"
     },
     "tier": 10,
     "class": "lightTank",
@@ -2822,12 +2869,13 @@
     "key": "#ussr_vehicles:R140_M4A2_Loza_short",
     "names": {
       "en": "Loza's Sherman",
-      "ru": "Шерман Лозы"
+      "ru": "Шерман Лозы",
+      "zh-CN": "Loza's M4-A2 Sherman"
     },
     "tier": 6,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -2840,7 +2888,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -2853,7 +2901,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -2874,7 +2922,8 @@
     "id": "19793",
     "key": "#uk_vehicles:GB_Vickers_Cruiser_short",
     "names": {
-      "en": "Vickers CR"
+      "en": "Vickers CR",
+      "zh-CN": "Vickers Cruiser"
     },
     "tier": 9,
     "class": "lightTank",
@@ -2893,7 +2942,7 @@
     "tier": 10,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -2906,7 +2955,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -2966,7 +3015,8 @@
     "id": "20257",
     "key": "#usa_vehicles:A116_XM551_short",
     "names": {
-      "en": "Sheridan"
+      "en": "Sheridan",
+      "zh-CN": "XM551 Sheridan"
     },
     "tier": 10,
     "class": "lightTank",
@@ -2993,12 +3043,12 @@
     "id": "20305",
     "key": "#uk_vehicles:GB94_Centurion_Mk5-1_RAAC_short",
     "names": {
-      "en": "Secret Tank 20305"
+      "en": "Centurion Mk. 5/1 RAAC"
     },
     "tier": 8,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3007,12 +3057,13 @@
     "key": "#ussr_vehicles:R134_Object_252U_short",
     "names": {
       "en": "Obj. 252U",
-      "ru": "Об. 252У"
+      "ru": "Об. 252У",
+      "zh-CN": "Object 252U"
     },
     "tier": 8,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3052,7 +3103,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3078,7 +3129,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -3086,7 +3137,8 @@
     "id": "2065",
     "key": "#germany_vehicles:PzII_short",
     "names": {
-      "en": "Pz. II"
+      "en": "Pz. II",
+      "zh-CN": "Pz.Kpfw. II"
     },
     "tier": 1,
     "class": "lightTank",
@@ -3105,7 +3157,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3126,12 +3178,13 @@
     "id": "20769",
     "key": "#usa_vehicles:A111_T25_Pilot_short",
     "names": {
-      "en": "T25 Pilot 1"
+      "en": "T25 Pilot 1",
+      "zh-CN": "T25 Pilot Number 1"
     },
     "tier": 8,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3166,7 +3219,8 @@
     "id": "2097",
     "key": "#china_vehicles:Ch12_111_1_2_3_short",
     "names": {
-      "en": "WZ-111 1-4"
+      "en": "WZ-111 1-4",
+      "zh-CN": "WZ-111 model 1-4"
     },
     "tier": 9,
     "class": "heavyTank",
@@ -3185,7 +3239,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3198,7 +3252,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -3206,12 +3260,12 @@
     "id": "21025",
     "key": "#usa_vehicles:A121_T26E3_short",
     "names": {
-      "en": "Secret Tank 21025"
+      "en": "T26E3 Eagle 7"
     },
     "tier": 7,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -3238,7 +3292,7 @@
     "tier": 6,
     "class": "AT-SPG",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3252,7 +3306,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3265,7 +3319,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3279,7 +3333,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3305,7 +3359,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3313,7 +3367,8 @@
     "id": "2145",
     "key": "#japan_vehicles:Chi_Ha_short",
     "names": {
-      "en": "Chi-Ha"
+      "en": "Chi-Ha",
+      "zh-CN": "Type 97 Chi-Ha"
     },
     "tier": 3,
     "class": "mediumTank",
@@ -3332,7 +3387,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3345,7 +3400,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3371,7 +3426,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3380,12 +3435,13 @@
     "key": "#other_vehicles:WZ-135G_FT_short",
     "names": {
       "en": "WZ Blaze",
-      "ru": "WZ Пылающий"
+      "ru": "WZ Пылающий",
+      "zh-CN": "WZ 135G FT Blaze"
     },
     "tier": 7,
     "class": "AT-SPG",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -3399,7 +3455,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -3425,7 +3481,7 @@
     "tier": 10,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3434,12 +3490,13 @@
     "key": "#usa_vehicles:A116_XM551_Exp_short",
     "names": {
       "en": "Sheridan Missile",
-      "ru": "Sheridan Ракетный"
+      "ru": "Sheridan Ракетный",
+      "zh-CN": "XM551 Sheridan Missile"
     },
     "tier": 10,
     "class": "lightTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3452,7 +3509,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3480,7 +3537,7 @@
     "tier": 6,
     "class": "lightTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3493,7 +3550,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3515,12 +3572,13 @@
     "key": "#ussr_vehicles:R110_Object_260_short",
     "names": {
       "en": "Obj. 260",
-      "ru": "Об. 260"
+      "ru": "Об. 260",
+      "zh-CN": "Object 260"
     },
     "tier": 10,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3546,7 +3604,7 @@
     "tier": 9,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3573,7 +3631,7 @@
     "tier": 8,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -3581,12 +3639,13 @@
     "id": "22545",
     "key": "#germany_vehicles:G112_JagdPanzer_105_short",
     "names": {
-      "en": "Kanonenjagdpanzer"
+      "en": "Kanonenjagdpanzer",
+      "zh-CN": "Kanonenjagdpanzer 105"
     },
     "tier": 8,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3599,7 +3658,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -3626,7 +3685,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3640,7 +3699,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3680,7 +3739,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -3707,7 +3766,7 @@
     "tier": 7,
     "class": "lightTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3741,7 +3800,8 @@
     "id": "2321",
     "key": "#germany_vehicles:VK3601H_short",
     "names": {
-      "en": "VK 36.01 H"
+      "en": "VK 36.01 H",
+      "zh-CN": "VK 36.01 (H)"
     },
     "tier": 6,
     "class": "heavyTank",
@@ -3768,12 +3828,13 @@
     "id": "23313",
     "key": "#germany_vehicles:G144_Kpz_50t_short",
     "names": {
-      "en": "Kpz 50 t"
+      "en": "Kpz 50 t",
+      "zh-CN": "Kampfpanzer 50 t"
     },
     "tier": 10,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3807,7 +3868,8 @@
     "id": "2353",
     "key": "#china_vehicles:Ch07_Vickers_MkE_Type_BT26_short",
     "names": {
-      "en": "VAE Type B"
+      "en": "VAE Type B",
+      "zh-CN": "Vickers Mk. E Type B"
     },
     "tier": 1,
     "class": "lightTank",
@@ -3826,7 +3888,7 @@
     "tier": 2,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3840,7 +3902,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3879,7 +3941,7 @@
     "tier": 3,
     "class": "AT-SPG",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3901,12 +3963,13 @@
     "id": "23825",
     "key": "#germany_vehicles:G109_Steyr_WT_short",
     "names": {
-      "en": "Steyr WT"
+      "en": "Steyr WT",
+      "zh-CN": "Krupp-Steyr Waffenträger"
     },
     "tier": 7,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3914,12 +3977,12 @@
     "id": "23841",
     "key": "#usa_vehicles:A130_Super_Hellcat_short",
     "names": {
-      "en": "Secret Tank 23841"
+      "en": "Super Hellcat"
     },
     "tier": 7,
     "class": "AT-SPG",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3927,12 +3990,13 @@
     "id": "2385",
     "key": "#gb_vehicles:GB06_Vickers_Medium_Mk_III_short",
     "names": {
-      "en": "Medium III"
+      "en": "Medium III",
+      "zh-CN": "Vickers Medium Mk. III"
     },
     "tier": 3,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3953,12 +4017,13 @@
     "id": "2401",
     "key": "#japan_vehicles:Ke_Ni_short",
     "names": {
-      "en": "Ke-Ni"
+      "en": "Ke-Ni",
+      "zh-CN": "Type 98 Ke-Ni"
     },
     "tier": 3,
     "class": "lightTank",
     "nation": "japan",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3985,7 +4050,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -3998,7 +4063,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4038,7 +4103,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4047,12 +4112,13 @@
     "key": "#ussr_vehicles:R149_Object_268_4_short",
     "names": {
       "en": "Object 268/4",
-      "ru": "Объект 268/4"
+      "ru": "Объект 268/4",
+      "zh-CN": "Object 268 Version 4"
     },
     "tier": 10,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4065,7 +4131,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4078,7 +4144,7 @@
     "tier": 10,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4104,7 +4170,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -4118,7 +4184,7 @@
     "tier": 9,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4131,7 +4197,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4145,7 +4211,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -4153,12 +4219,12 @@
     "id": "25361",
     "key": "#germany_vehicles:Waffentrager_IV_CL_short",
     "names": {
-      "en": "Secret Tank 25361"
+      "en": "Waffenträger Ritter"
     },
     "tier": 9,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4171,16 +4237,14 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
   "25601": {
     "id": "25601",
     "key": "#ussr_vehicles:R175_IS_2E_short",
-    "names": {
-      "en": "Secret Tank 25601"
-    },
+    "names": {},
     "tier": 7,
     "class": "heavyTank",
     "nation": "ussr",
@@ -4211,7 +4275,7 @@
     "tier": 8,
     "class": "lightTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -4224,7 +4288,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4246,12 +4310,13 @@
     "id": "2577",
     "key": "#germany_vehicles:VK3001H_short",
     "names": {
-      "en": "VK 30.01 H"
+      "en": "VK 30.01 H",
+      "zh-CN": "VK 30.01 (H)"
     },
     "tier": 5,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4292,7 +4357,7 @@
     "tier": 6,
     "class": "lightTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4318,7 +4383,7 @@
     "tier": 6,
     "class": "lightTank",
     "nation": "china",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4359,7 +4424,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4407,12 +4472,12 @@
     "id": "26401",
     "key": "#usa_vehicles:M36_BP_short",
     "names": {
-      "en": "Secret Tank 26401"
+      "en": "Enforcer"
     },
     "tier": 6,
     "class": "AT-SPG",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4460,12 +4525,13 @@
     "id": "26657",
     "key": "#usa_vehicles:A140_ASTRON_REX_105_short",
     "names": {
-      "en": "ASTRON Rex"
+      "en": "ASTRON Rex",
+      "zh-CN": "ASTRON Rex 105 mm"
     },
     "tier": 8,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -4518,7 +4584,7 @@
     "tier": 6,
     "class": "lightTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4559,7 +4625,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4704,7 +4770,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -4743,7 +4809,7 @@
     "tier": 4,
     "class": "mediumTank",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4803,12 +4869,13 @@
     "id": "2913",
     "key": "#japan_vehicles:Ke_Ho_short",
     "names": {
-      "en": "Ke-Ho"
+      "en": "Ke-Ho",
+      "zh-CN": "Type 5 Ke-Ho"
     },
     "tier": 4,
     "class": "lightTank",
     "nation": "japan",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4829,12 +4896,13 @@
     "id": "2945",
     "key": "#european_vehicles:It13_Progetto_M35_mod_46_short",
     "names": {
-      "en": "Progetto 46"
+      "en": "Progetto 46",
+      "zh-CN": "Progetto M35 mod. 46"
     },
     "tier": 8,
     "class": "mediumTank",
     "nation": "european",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -4848,7 +4916,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4874,7 +4942,7 @@
     "tier": 4,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4926,7 +4994,7 @@
     "tier": 9,
     "class": "heavyTank",
     "nation": "european",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4952,7 +5020,7 @@
     "tier": 5,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -4974,12 +5042,13 @@
     "id": "3345",
     "key": "#germany_vehicles:Pz38t_short",
     "names": {
-      "en": "Pz. 38 (t)"
+      "en": "Pz. 38 (t)",
+      "zh-CN": "Pz.Kpfw. 38 (t)"
     },
     "tier": 3,
     "class": "lightTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -4987,7 +5056,8 @@
     "id": "3361",
     "key": "#usa_vehicles:T1_hvy_short",
     "names": {
-      "en": "T1 Heavy"
+      "en": "T1 Heavy",
+      "zh-CN": "T1 Heavy Tank"
     },
     "tier": 5,
     "class": "heavyTank",
@@ -5000,12 +5070,13 @@
     "id": "337",
     "key": "#gb_vehicles:GB05_Vickers_Medium_Mk_II_short",
     "names": {
-      "en": "Medium II"
+      "en": "Medium II",
+      "zh-CN": "Vickers Medium Mk. II"
     },
     "tier": 2,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5079,12 +5150,13 @@
     "id": "3601",
     "key": "#germany_vehicles:PanzerJager_I_short",
     "names": {
-      "en": "Pz.Jäg. I"
+      "en": "Pz.Jäg. I",
+      "zh-CN": "Panzerjäger I"
     },
     "tier": 2,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5105,7 +5177,8 @@
     "id": "3649",
     "key": "#france_vehicles:Bat_Chatillon25t_short",
     "names": {
-      "en": "B-C 25 t"
+      "en": "B-C 25 t",
+      "zh-CN": "Bat.-Châtillon 25 t"
     },
     "tier": 10,
     "class": "lightTank",
@@ -5136,7 +5209,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5157,7 +5230,8 @@
     "id": "385",
     "key": "#european_vehicles:It08_Progetto_M40_mod65_short",
     "names": {
-      "en": "Progetto 65"
+      "en": "Progetto 65",
+      "zh-CN": "Progetto M40 mod. 65"
     },
     "tier": 10,
     "class": "mediumTank",
@@ -5170,7 +5244,8 @@
     "id": "3857",
     "key": "#germany_vehicles:JagdPanther_short",
     "names": {
-      "en": "JPanther"
+      "en": "JPanther",
+      "zh-CN": "Jagdpanther"
     },
     "tier": 7,
     "class": "AT-SPG",
@@ -5235,7 +5310,8 @@
     "id": "3937",
     "key": "#japan_vehicles:J20_Ho_Ri_type3_short",
     "names": {
-      "en": "Ho-Ri"
+      "en": "Ho-Ri",
+      "zh-CN": "Ho-Ri Type III"
     },
     "tier": 10,
     "class": "AT-SPG",
@@ -5253,7 +5329,7 @@
     "tier": 9,
     "class": "mediumTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5274,7 +5350,8 @@
     "id": "4113",
     "key": "#germany_vehicles:VK3002DB_short",
     "names": {
-      "en": "VK 30.02 D"
+      "en": "VK 30.02 D",
+      "zh-CN": "VK 30.02 (D)"
     },
     "tier": 7,
     "class": "mediumTank",
@@ -5300,7 +5377,8 @@
     "id": "4193",
     "key": "#japan_vehicles:J21_Ho_Ri_short",
     "names": {
-      "en": "Ho-Ri T.II"
+      "en": "Ho-Ri T.II",
+      "zh-CN": "Ho-Ri Type II"
     },
     "tier": 9,
     "class": "AT-SPG",
@@ -5353,7 +5431,8 @@
     "id": "4369",
     "key": "#germany_vehicles:PzIII_short",
     "names": {
-      "en": "Pz. III"
+      "en": "Pz. III",
+      "zh-CN": "Pz.Kpfw. III"
     },
     "tier": 3,
     "class": "mediumTank",
@@ -5379,7 +5458,8 @@
     "id": "4401",
     "key": "#china_vehicles:Ch08_Type97_Chi_Ha_short",
     "names": {
-      "en": "Chi-Ha"
+      "en": "Chi-Ha",
+      "zh-CN": "Type 2597 Chi-Ha"
     },
     "tier": 3,
     "class": "mediumTank",
@@ -5397,7 +5477,7 @@
     "tier": 10,
     "class": "heavyTank",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5423,7 +5503,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "japan",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5436,7 +5516,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -5502,7 +5582,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "japan",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5516,7 +5596,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5529,7 +5609,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "european",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5537,12 +5617,13 @@
     "id": "4881",
     "key": "#germany_vehicles:PzIII_A_short",
     "names": {
-      "en": "Pz. III A"
+      "en": "Pz. III A",
+      "zh-CN": "Pz.Kpfw. III Ausf. A"
     },
     "tier": 3,
     "class": "lightTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5550,12 +5631,13 @@
     "id": "4897",
     "key": "#usa_vehicles:M2_med_short",
     "names": {
-      "en": "M2 Medium"
+      "en": "M2 Medium",
+      "zh-CN": "M2 Medium Tank"
     },
     "tier": 3,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5568,7 +5650,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "china",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5607,7 +5689,7 @@
     "tier": 4,
     "class": "lightTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5615,7 +5697,8 @@
     "id": "4961",
     "key": "#japan_vehicles:J22_Ho_Ri_type96_short",
     "names": {
-      "en": "Ho-Ri T.I"
+      "en": "Ho-Ri T.I",
+      "zh-CN": "Ho-Ri Type I"
     },
     "tier": 8,
     "class": "AT-SPG",
@@ -5634,7 +5717,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5642,12 +5725,13 @@
     "id": "4993",
     "key": "#european_vehicles:It10_P43_BD_short",
     "names": {
-      "en": "P.43/06 ann."
+      "en": "P.43/06 ann.",
+      "zh-CN": "P.43/06 anniversario"
     },
     "tier": 6,
     "class": "mediumTank",
     "nation": "european",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5656,12 +5740,13 @@
     "key": "#ussr_vehicles:KV-220_test_short",
     "names": {
       "en": "KV-220 T",
-      "ru": "КВ-220 Т"
+      "ru": "КВ-220 Т",
+      "zh-CN": "KV-220 Beta-Test"
     },
     "tier": 5,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5675,7 +5760,7 @@
     "tier": 2,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5716,7 +5801,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -5724,12 +5809,13 @@
     "id": "51473",
     "key": "#germany_vehicles:PzV_PzIV_short",
     "names": {
-      "en": "Pz. V/IV"
+      "en": "Pz. V/IV",
+      "zh-CN": "Pz.Kpfw. V/IV"
     },
     "tier": 5,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -5737,12 +5823,13 @@
     "id": "51489",
     "key": "#usa_vehicles:T2_lt_short",
     "names": {
-      "en": "T2 Light"
+      "en": "T2 Light",
+      "zh-CN": "T2 Light Tank"
     },
     "tier": 2,
     "class": "lightTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5782,7 +5869,7 @@
     "tier": 5,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -5790,12 +5877,13 @@
     "id": "51729",
     "key": "#germany_vehicles:PzII_J_short",
     "names": {
-      "en": "Pz. II J"
+      "en": "Pz. II J",
+      "zh-CN": "Pz.Kpfw. II Ausf. J"
     },
     "tier": 3,
     "class": "lightTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5808,7 +5896,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -5817,12 +5905,13 @@
     "key": "#japan_vehicles:Ke_Ni_B_short",
     "names": {
       "en": "Ke-Ni Otsu",
-      "ja": "Ke-Ni B"
+      "ja": "Ke-Ni B",
+      "zh-CN": "Type 98 Ke-Ni Otsu"
     },
     "tier": 3,
     "class": "lightTank",
     "nation": "japan",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -5843,12 +5932,13 @@
     "id": "51985",
     "key": "#germany_vehicles:S35_captured_short",
     "names": {
-      "en": "Pz. S35"
+      "en": "Pz. S35",
+      "zh-CN": "Pz.Kpfw. S35 739 (f)"
     },
     "tier": 3,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5856,12 +5946,13 @@
     "id": "5201",
     "key": "#gb_vehicles:GB03_Cruiser_Mk_I_short",
     "names": {
-      "en": "Cruiser I"
+      "en": "Cruiser I",
+      "zh-CN": "Cruiser Mk. I"
     },
     "tier": 2,
     "class": "lightTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5874,7 +5965,7 @@
     "tier": 4,
     "class": "AT-SPG",
     "nation": "japan",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5901,7 +5992,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5909,12 +6000,13 @@
     "id": "52241",
     "key": "#germany_vehicles:B-1bis_captured_short",
     "names": {
-      "en": "Pz. B2"
+      "en": "Pz. B2",
+      "zh-CN": "Pz.Kpfw. B2 740 (f)"
     },
     "tier": 4,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5922,12 +6014,13 @@
     "id": "52257",
     "key": "#usa_vehicles:M4A2E4_short",
     "names": {
-      "en": "M4A2E4"
+      "en": "M4A2E4",
+      "zh-CN": "M4A2E4 Sherman"
     },
     "tier": 5,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5941,7 +6034,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5955,7 +6048,7 @@
     "tier": 4,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5968,7 +6061,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "european",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5976,12 +6069,13 @@
     "id": "52497",
     "key": "#germany_vehicles:H39_captured_short",
     "names": {
-      "en": "Pz. 38H"
+      "en": "Pz. 38H",
+      "zh-CN": "Pz.Kpfw. 38H 735 (f)"
     },
     "tier": 2,
     "class": "lightTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -5994,7 +6088,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6021,7 +6115,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6029,12 +6123,13 @@
     "id": "52769",
     "key": "#usa_vehicles:M22_Locust_short",
     "names": {
-      "en": "Locust"
+      "en": "Locust",
+      "zh-CN": "M22 Locust"
     },
     "tier": 3,
     "class": "lightTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6061,7 +6156,7 @@
     "tier": 4,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6074,7 +6169,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6088,7 +6183,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6102,7 +6197,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6115,7 +6210,7 @@
     "tier": 2,
     "class": "lightTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6123,12 +6218,13 @@
     "id": "53585",
     "key": "#gb_vehicles:GB68_Matilda_Black_Prince_short",
     "names": {
-      "en": "Matilda BP"
+      "en": "Matilda BP",
+      "zh-CN": "Matilda Black Prince"
     },
     "tier": 5,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6142,7 +6238,7 @@
     "tier": 5,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6169,7 +6265,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6177,7 +6273,8 @@
     "id": "5393",
     "key": "#germany_vehicles:VK1602_short",
     "names": {
-      "en": "Leopard"
+      "en": "Leopard",
+      "zh-CN": "VK 16.02 Leopard"
     },
     "tier": 5,
     "class": "lightTank",
@@ -6208,7 +6305,7 @@
     "tier": 7,
     "class": "AT-SPG",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6235,7 +6332,7 @@
     "tier": 3,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6248,7 +6345,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6261,7 +6358,7 @@
     "tier": 5,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6269,12 +6366,13 @@
     "id": "5441",
     "key": "#france_vehicles:F71_AMX_30_prototype_short",
     "names": {
-      "en": "AMX 30 1er prot."
+      "en": "AMX 30 1er prot.",
+      "zh-CN": "AMX 30 1er prototype"
     },
     "tier": 9,
     "class": "mediumTank",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6301,7 +6399,7 @@
     "tier": 2,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6314,7 +6412,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6354,7 +6452,7 @@
     "tier": 6,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6367,7 +6465,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6375,12 +6473,13 @@
     "id": "54865",
     "key": "#gb_vehicles:GB76_Mk_VIC_short",
     "names": {
-      "en": "Light VIC"
+      "en": "Light VIC",
+      "zh-CN": "Light Mk. VIC"
     },
     "tier": 2,
     "class": "lightTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6393,7 +6492,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6414,12 +6513,13 @@
     "id": "55057",
     "key": "#germany_vehicles:PzIV_Hydro_short",
     "names": {
-      "en": "Pz. IV hydr."
+      "en": "Pz. IV hydr.",
+      "zh-CN": "Pz.Kpfw. IV hydrostat."
     },
     "tier": 5,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6427,12 +6527,13 @@
     "id": "55073",
     "key": "#usa_vehicles:T7_Combat_Car_short",
     "names": {
-      "en": "T7 Car"
+      "en": "T7 Car",
+      "zh-CN": "T7 Combat Car"
     },
     "tier": 2,
     "class": "lightTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6446,7 +6547,7 @@
     "tier": 7,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6454,12 +6555,13 @@
     "id": "55313",
     "key": "#germany_vehicles:JagdTiger_SdKfz_185_short",
     "names": {
-      "en": "JgTig.8,8 cm"
+      "en": "JgTig.8,8 cm",
+      "zh-CN": "8,8 cm Pak 43 Jagdtiger"
     },
     "tier": 8,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6472,7 +6574,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6480,12 +6582,13 @@
     "id": "56097",
     "key": "#usa_vehicles:A104_M4A3E8A_short",
     "names": {
-      "en": "Fury"
+      "en": "Fury",
+      "zh-CN": "M4A3E8 Fury"
     },
     "tier": 6,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6499,7 +6602,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6507,12 +6610,13 @@
     "id": "56609",
     "key": "#usa_vehicles:A102_T28_concept_short",
     "names": {
-      "en": "T28 HTC"
+      "en": "T28 HTC",
+      "zh-CN": "T28 Concept"
     },
     "tier": 7,
     "class": "AT-SPG",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6520,12 +6624,13 @@
     "id": "5665",
     "key": "#usa_vehicles:T2_med_short",
     "names": {
-      "en": "T2 Medium"
+      "en": "T2 Medium",
+      "zh-CN": "T2 Medium Tank"
     },
     "tier": 2,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6538,7 +6643,7 @@
     "tier": 10,
     "class": "mediumTank",
     "nation": "china",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6551,7 +6656,7 @@
     "tier": 6,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6559,7 +6664,8 @@
     "id": "5713",
     "key": "#gb_vehicles:GB24_Centurion_Mk3_short",
     "names": {
-      "en": "Centurion 7/1"
+      "en": "Centurion 7/1",
+      "zh-CN": "Centurion Mk. 7/1"
     },
     "tier": 9,
     "class": "mediumTank",
@@ -6585,12 +6691,13 @@
     "id": "57361",
     "key": "#germany_vehicles:PzIV_schmalturm_short",
     "names": {
-      "en": "Pz. IV S."
+      "en": "Pz. IV S.",
+      "zh-CN": "Pz.Kpfw. IV Schmalturm"
     },
     "tier": 6,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6603,7 +6710,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6629,7 +6736,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6651,6 +6758,7 @@
     "key": "#germany_vehicles:VK7201_short",
     "names": {
       "en": "VK 72.01 K",
+      "zh-CN": "VK 72.01 (K)",
       "zh-Hans": "VK 72.01 (K)"
     },
     "tier": 10,
@@ -6665,12 +6773,13 @@
     "key": "#ussr_vehicles:R113_Object_730_short",
     "names": {
       "en": "IS-5",
-      "ru": "ИС-5"
+      "ru": "ИС-5",
+      "zh-CN": "IS-5 (Object 730)"
     },
     "tier": 8,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6698,7 +6807,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6706,7 +6815,8 @@
     "id": "5921",
     "key": "#usa_vehicles:Pershing_short",
     "names": {
-      "en": "Pershing"
+      "en": "Pershing",
+      "zh-CN": "M26 Pershing"
     },
     "tier": 8,
     "class": "mediumTank",
@@ -6738,7 +6848,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "china",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6765,7 +6875,7 @@
     "tier": 7,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6773,12 +6883,13 @@
     "id": "59665",
     "key": "#germany_vehicles:G100_Gtraktor_Krupp_short",
     "names": {
-      "en": "Großtraktor"
+      "en": "Großtraktor",
+      "zh-CN": "Großtraktor - Krupp"
     },
     "tier": 3,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6786,7 +6897,8 @@
     "id": "5969",
     "key": "#gb_vehicles:GB23_Centurion_short",
     "names": {
-      "en": "Centurion I"
+      "en": "Centurion I",
+      "zh-CN": "Centurion Mk. I"
     },
     "tier": 8,
     "class": "mediumTank",
@@ -6814,12 +6926,13 @@
     "names": {
       "de": "T-54 Mod. 1",
       "en": "T-54 mod. 1",
-      "ru": "Т-54 обр. 1"
+      "ru": "Т-54 обр. 1",
+      "zh-CN": "T-54 first prototype"
     },
     "tier": 8,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6832,7 +6945,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6846,7 +6959,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6854,7 +6967,8 @@
     "id": "6017",
     "key": "#european_vehicles:Cz07_TVP_46_short",
     "names": {
-      "en": "TVP VTU"
+      "en": "TVP VTU",
+      "zh-CN": "TVP VTU Koncept"
     },
     "tier": 8,
     "class": "mediumTank",
@@ -6867,12 +6981,13 @@
     "id": "60177",
     "key": "#germany_vehicles:G106_PzKpfwPanther_AusfF_short",
     "names": {
-      "en": "Panther 8,8"
+      "en": "Panther 8,8",
+      "zh-CN": "Panther mit 8,8 cm L/71"
     },
     "tier": 8,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -6886,7 +7001,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6909,12 +7024,13 @@
     "names": {
       "de": "BT-7 Art.",
       "en": "BT-7 art.",
-      "ru": "БТ-7 арт."
+      "ru": "БТ-7 арт.",
+      "zh-CN": "BT-7 artillery"
     },
     "tier": 3,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6936,12 +7052,13 @@
     "id": "6161",
     "key": "#germany_vehicles:PzII_Luchs_short",
     "names": {
-      "en": "Luchs"
+      "en": "Luchs",
+      "zh-CN": "Pz.Kpfw. II Luchs"
     },
     "tier": 4,
     "class": "lightTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6954,7 +7071,7 @@
     "tier": 2,
     "class": "AT-SPG",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -6967,7 +7084,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "china",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7015,12 +7132,13 @@
     "id": "625",
     "key": "#other_vehicles:Strv_74A2_short",
     "names": {
-      "en": "Strv 74A2"
+      "en": "Strv 74A2",
+      "zh-CN": "Stridsvagn 74A2"
     },
     "tier": 6,
     "class": "mediumTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -7033,7 +7151,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7041,7 +7159,8 @@
     "id": "6273",
     "key": "#european_vehicles:Cz05_T34-100_short",
     "names": {
-      "en": "T-34/100"
+      "en": "T-34/100",
+      "zh-CN": "Konštrukta T-34/100"
     },
     "tier": 7,
     "class": "mediumTank",
@@ -7059,7 +7178,7 @@
     "tier": 8,
     "class": "lightTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7072,7 +7191,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -7085,7 +7204,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7093,12 +7212,13 @@
     "id": "63553",
     "key": "#france_vehicles:F68_AMX_Chasseur_de_char_46_short",
     "names": {
-      "en": "AMX CDC"
+      "en": "AMX CDC",
+      "zh-CN": "AMX Chasseur de chars"
     },
     "tier": 8,
     "class": "mediumTank",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -7106,12 +7226,12 @@
     "id": "63585",
     "key": "#japan_vehicles:PzVI_GuP_short",
     "names": {
-      "en": "Secret Tank 63585"
+      "en": "Tiger Kuromorimine SP"
     },
     "tier": 6,
     "class": "heavyTank",
     "nation": "japan",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7125,7 +7245,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7133,12 +7253,13 @@
     "id": "63841",
     "key": "#japan_vehicles:Pz_IV_AusfH_short",
     "names": {
-      "en": "Pz. IV Ankou SP"
+      "en": "Pz. IV Ankou SP",
+      "zh-CN": "Panzer IV Ankou Special"
     },
     "tier": 5,
     "class": "mediumTank",
     "nation": "japan",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7151,7 +7272,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7165,7 +7286,7 @@
     "tier": 3,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7179,7 +7300,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7192,7 +7313,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7213,7 +7334,8 @@
     "id": "641",
     "key": "#european_vehicles:It12_Prototipo_Standard_B_short",
     "names": {
-      "en": "Standard B"
+      "en": "Standard B",
+      "zh-CN": "Prototipo Standard B"
     },
     "tier": 9,
     "class": "mediumTank",
@@ -7226,12 +7348,13 @@
     "id": "6417",
     "key": "#germany_vehicles:PzIII_IV_short",
     "names": {
-      "en": "Pz. III/IV"
+      "en": "Pz. III/IV",
+      "zh-CN": "Pz.Kpfw. III/IV"
     },
     "tier": 5,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7245,7 +7368,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -7253,12 +7376,13 @@
     "id": "64273",
     "key": "#germany_vehicles:JagdTiger_SdKfz_185_Snowstorm_short",
     "names": {
-      "en": "JgTig.8,8 cm (2015)"
+      "en": "JgTig.8,8 cm (2015)",
+      "zh-CN": "Snowstorm Jagdtiger 8.8"
     },
     "tier": 8,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -7271,7 +7395,7 @@
     "tier": 3,
     "class": "AT-SPG",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7284,7 +7408,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -7310,7 +7434,7 @@
     "tier": 7,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -7324,7 +7448,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "china",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -7338,7 +7462,7 @@
     "tier": 5,
     "class": "AT-SPG",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -7365,7 +7489,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -7391,7 +7515,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -7404,7 +7528,7 @@
     "tier": 4,
     "class": "lightTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7412,12 +7536,13 @@
     "id": "64849",
     "key": "#gb_vehicles:Sentinel_AC1_short",
     "names": {
-      "en": "AC 1 Sentinel"
+      "en": "AC 1 Sentinel",
+      "zh-CN": "Sentinel AC I"
     },
     "tier": 4,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7549,7 +7674,7 @@
     "tier": 7,
     "class": "lightTank",
     "nation": "china",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -7570,12 +7695,13 @@
     "id": "65377",
     "key": "#japan_vehicles:Chi_Nu_Kai_short",
     "names": {
-      "en": "Chi-Nu Kai"
+      "en": "Chi-Nu Kai",
+      "zh-CN": "Type 3 Chi-Nu Kai Shinobi"
     },
     "tier": 5,
     "class": "mediumTank",
     "nation": "japan",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -7602,7 +7728,7 @@
     "tier": 3,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7611,12 +7737,13 @@
     "key": "#usa_vehicles:T49_Rocket_short",
     "names": {
       "en": "T49 A",
-      "ru": "T49 П"
+      "ru": "T49 П",
+      "zh-CN": "T49 ATM"
     },
     "tier": 7,
     "class": "lightTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -7668,7 +7795,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "european",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -7703,7 +7830,8 @@
     "id": "6945",
     "key": "#usa_vehicles:M10_Wolverine_short",
     "names": {
-      "en": "Wolverine"
+      "en": "Wolverine",
+      "zh-CN": "M10 Wolverine"
     },
     "tier": 5,
     "class": "AT-SPG",
@@ -7725,7 +7853,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "china",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -7733,7 +7861,8 @@
     "id": "6977",
     "key": "#france_vehicles:AMX_M4_1945_short",
     "names": {
-      "en": "AMX M4 45"
+      "en": "AMX M4 45",
+      "zh-CN": "AMX M4 mle. 45"
     },
     "tier": 7,
     "class": "heavyTank",
@@ -7746,7 +7875,8 @@
     "id": "6993",
     "key": "#gb_vehicles:GB69_Cruiser_Mk_II_short",
     "names": {
-      "en": "Cruiser II"
+      "en": "Cruiser II",
+      "zh-CN": "Cruiser Mk. II"
     },
     "tier": 1,
     "class": "lightTank",
@@ -7764,7 +7894,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "japan",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7777,7 +7907,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7785,12 +7915,12 @@
     "id": "7041",
     "key": "#european_vehicles:S07_Strv74BP_short",
     "names": {
-      "en": "Secret Tank 7041"
+      "en": "Turbo"
     },
     "tier": 6,
     "class": "mediumTank",
     "nation": "european",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7812,7 +7942,8 @@
     "id": "7185",
     "key": "#germany_vehicles:VK3001P_short",
     "names": {
-      "en": "VK 30.01 P"
+      "en": "VK 30.01 P",
+      "zh-CN": "VK 30.01 (P)"
     },
     "tier": 6,
     "class": "mediumTank",
@@ -7825,7 +7956,8 @@
     "id": "7201",
     "key": "#usa_vehicles:M36_Slagger_short",
     "names": {
-      "en": "Jackson"
+      "en": "Jackson",
+      "zh-CN": "M36 Jackson"
     },
     "tier": 6,
     "class": "AT-SPG",
@@ -7843,7 +7975,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "china",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7883,7 +8015,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -7918,7 +8050,8 @@
     "id": "7441",
     "key": "#germany_vehicles:VK4502P_short",
     "names": {
-      "en": "VK 45.02 B"
+      "en": "VK 45.02 B",
+      "zh-CN": "VK 45.02 (P) Ausf. B"
     },
     "tier": 9,
     "class": "heavyTank",
@@ -7944,7 +8077,8 @@
     "id": "7505",
     "key": "#gb_vehicles:GB59_Cruiser_Mk_IV_short",
     "names": {
-      "en": "Cruiser IV"
+      "en": "Cruiser IV",
+      "zh-CN": "Cruiser Mk. IV"
     },
     "tier": 3,
     "class": "mediumTank",
@@ -7976,7 +8110,7 @@
     "tier": 5,
     "class": "AT-SPG",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8029,7 +8163,7 @@
     "tier": 4,
     "class": "AT-SPG",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8050,12 +8184,13 @@
     "id": "7745",
     "key": "#france_vehicles:RenaultFT_AC_short",
     "names": {
-      "en": "FT AC"
+      "en": "FT AC",
+      "zh-CN": "Renault FT AC"
     },
     "tier": 2,
     "class": "AT-SPG",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8063,7 +8198,8 @@
     "id": "7761",
     "key": "#gb_vehicles:GB58_Cruiser_Mk_III_short",
     "names": {
-      "en": "Cruiser III"
+      "en": "Cruiser III",
+      "zh-CN": "Cruiser Mk. III"
     },
     "tier": 2,
     "class": "mediumTank",
@@ -8082,7 +8218,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8103,7 +8239,8 @@
     "id": "785",
     "key": "#germany_vehicles:Pz35t_short",
     "names": {
-      "en": "Pz. 35 (t)"
+      "en": "Pz. 35 (t)",
+      "zh-CN": "Pz.Kpfw. 35 (t)"
     },
     "tier": 2,
     "class": "lightTank",
@@ -8161,7 +8298,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -8187,7 +8324,7 @@
     "tier": 3,
     "class": "AT-SPG",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8201,7 +8338,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8241,7 +8378,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "china",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8251,7 +8388,8 @@
     "names": {
       "en": "Obj. 704",
       "pl": "Ob. 704",
-      "ru": "Об. 704"
+      "ru": "Об. 704",
+      "zh-CN": "Object 704"
     },
     "tier": 9,
     "class": "AT-SPG",
@@ -8264,12 +8402,13 @@
     "id": "8209",
     "key": "#germany_vehicles:Pz38_NA_short",
     "names": {
-      "en": "Pz. 38 nA"
+      "en": "Pz. 38 nA",
+      "zh-CN": "Pz.Kpfw. 38 (t) n.A."
     },
     "tier": 4,
     "class": "lightTank",
     "nation": "germany",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8303,12 +8442,13 @@
     "id": "8257",
     "key": "#france_vehicles:RenaultUE57_short",
     "names": {
-      "en": "UE 57"
+      "en": "UE 57",
+      "zh-CN": "Renault UE 57"
     },
     "tier": 3,
     "class": "AT-SPG",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8316,12 +8456,13 @@
     "id": "8273",
     "key": "#gb_vehicles:GB39_Universal_CarrierQF2_short",
     "names": {
-      "en": "UC 2-pdr"
+      "en": "UC 2-pdr",
+      "zh-CN": "Universal Carrier 2-pdr"
     },
     "tier": 2,
     "class": "AT-SPG",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8334,7 +8475,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8381,12 +8522,13 @@
     "id": "8497",
     "key": "#china_vehicles:Ch41_WZ_111_5A_short",
     "names": {
-      "en": "WZ-111 5A"
+      "en": "WZ-111 5A",
+      "zh-CN": "WZ-111 model 5A"
     },
     "tier": 10,
     "class": "heavyTank",
     "nation": "china",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8400,7 +8542,7 @@
     "tier": 10,
     "class": "mediumTank",
     "nation": "france",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8426,7 +8568,7 @@
     "tier": 6,
     "class": "lightTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8439,7 +8581,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "european",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8447,7 +8589,8 @@
     "id": "865",
     "key": "#japan_vehicles:Ha_Go_short",
     "names": {
-      "en": "Ha-Go"
+      "en": "Ha-Go",
+      "zh-CN": "Type 95 Ha-Go"
     },
     "tier": 1,
     "class": "lightTank",
@@ -8473,12 +8616,12 @@
     "id": "8753",
     "key": "#china_vehicles:Ch42_M41D_short",
     "names": {
-      "en": "Secret Tank 8753"
+      "en": "M41D"
     },
     "tier": 7,
     "class": "lightTank",
     "nation": "china",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -8504,7 +8647,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -8517,7 +8660,7 @@
     "tier": 5,
     "class": "lightTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8525,12 +8668,12 @@
     "id": "8833",
     "key": "#european_vehicles:Cz08_T-25BP_short",
     "names": {
-      "en": "Secret Tank 8833"
+      "en": "Spark"
     },
     "tier": 6,
     "class": "mediumTank",
     "nation": "european",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8544,7 +8687,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8584,7 +8727,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "china",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8610,7 +8753,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8623,7 +8766,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "european",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -8637,7 +8780,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -8671,7 +8814,8 @@
     "id": "9297",
     "key": "#gb_vehicles:GB48_FV215b_183_short",
     "names": {
-      "en": "FV215b 183"
+      "en": "FV215b 183",
+      "zh-CN": "FV215b (183)"
     },
     "tier": 10,
     "class": "AT-SPG",
@@ -8689,7 +8833,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8703,7 +8847,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "european",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8743,7 +8887,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "china",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
@@ -8769,7 +8913,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "european",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8790,7 +8934,8 @@
     "id": "9761",
     "key": "#usa_vehicles:M24_Chaffee_short",
     "names": {
-      "en": "Chaffee"
+      "en": "Chaffee",
+      "zh-CN": "M24 Chaffee"
     },
     "tier": 6,
     "class": "lightTank",
@@ -8816,7 +8961,8 @@
     "id": "9793",
     "key": "#france_vehicles:Somua_Sau_40_short",
     "names": {
-      "en": "SAu 40"
+      "en": "SAu 40",
+      "zh-CN": "Somua SAu 40"
     },
     "tier": 4,
     "class": "AT-SPG",
@@ -8829,12 +8975,13 @@
     "id": "9809",
     "key": "#gb_vehicles:GB40_Gun_Carrier_Churchill_short",
     "names": {
-      "en": "Churchill GC"
+      "en": "Churchill GC",
+      "zh-CN": "Churchill Gun Carrier"
     },
     "tier": 6,
     "class": "AT-SPG",
     "nation": "uk",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8847,7 +8994,7 @@
     "tier": 6,
     "class": "lightTank",
     "nation": "other",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
@@ -8860,7 +9007,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "european",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": false
   },
