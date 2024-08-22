@@ -13,16 +13,10 @@ require (
 )
 
 require (
-	github.com/fatih/color v1.17.0 // indirect
-	github.com/goccy/go-yaml v1.12.0 // indirect
-	github.com/mattn/go-colorable v0.1.13 // indirect
-	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mxk/go-imap v0.0.0-20150429134902-531c36c3f12d // indirect
 	github.com/paulrosania/go-charset v0.0.0-20190326053356-55c9d7a5834c // indirect
 	github.com/sloonz/go-qprintable v0.0.0-20210417175225-715103f9e6eb // indirect
 	golang.org/x/net v0.27.0 // indirect
-	golang.org/x/sys v0.24.0 // indirect
-	golang.org/x/xerrors v0.0.0-20240716161551-93cc26a95ae9 // indirect
 )
 
 require (
