@@ -27,7 +27,7 @@ var args struct {
 
 	Parse bool `help:"parse decrypted files into asset strings"`
 
-	WargamingAppID string `arg:"--app-od,env:WARGAMING_APP_ID" help:"wargaming application id for api requests" placeholder:"<key>"`
+	WargamingAppID string `arg:"--app-id,env:WARGAMING_APP_ID" help:"wargaming application id for api requests" placeholder:"<key>"`
 
 	EmailEnabled bool `arg:"--mail" help:"enabled parsing steam auth code from email"`
 	emailConfig

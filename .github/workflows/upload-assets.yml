@@ -24,16 +24,10 @@ jobs:
       DOWNLOADER_DEPOT_ID: 444202
       DOWNLOADER_APP_ID: 444200
     steps:
-      - name: Download downloader data
-        id: download-downloader-data
-        uses: actions/cache@v4
-        with:
-          path: /downloader/data
-          key: downloader-data
       - name: Generate assets
         shell: bash
         run: |
-          app --download --decrypt --parse --mail --password '${{ secrets.DOWNLOADER_STEAM_PASSWORD }}' --username '${{ secrets.DOWNLOADER_STEAM_USERNAME }}' --mail-host '${{ secrets.EMAIL_HOST }}' --mail-pass '${{ secrets.EMAIL_PASSWORD }}' --mail-user '${{ secrets.EMAIL_USER }}' /static-data/downloaded /assets
+          app --download --decrypt --parse --mail --app-id '${{ secrets.WARGAMING_APP_ID }}' --password '${{ secrets.DOWNLOADER_STEAM_PASSWORD }}' --username '${{ secrets.DOWNLOADER_STEAM_USERNAME }}' --mail-host '${{ secrets.EMAIL_HOST }}' --mail-pass '${{ secrets.EMAIL_PASSWORD }}' --mail-user '${{ secrets.EMAIL_USER }}' /static-data/downloaded /assets
       - name: "Tar assets"
         run: tar -cvf assets.tar /assets
       - name: Upload assets
@@ -41,12 +35,6 @@ jobs:
         with:
           name: assets
           path: assets.tar
-      - name: Save downloader data
-        id: save-downloader-data
-        uses: actions/cache/save@v4
-        with:
-          path: /downloader/data
-          key: downloader-data
   upload:
     needs: generate
     runs-on: ubuntu-latest
