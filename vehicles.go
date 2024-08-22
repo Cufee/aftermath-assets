@@ -133,9 +133,8 @@ func (item vehicleItem) toVehicle(id, nation string, glossary map[language.Tag]v
 	}
 
 	return types.Vehicle{
-		Key:            key,
-		ID:             id,
-		LocalizedNames: names,
+		Key: key,
+		ID:  id,
 
 		Tier:        firstOf(item.level, glossary[language.English].Tier),
 		Class:       firstOf(item.class(), glossary[language.English].Type),
@@ -190,8 +189,11 @@ type vehicleStringsParser struct {
 func (p *vehicleStringsParser) Exclusive() bool {
 	return true
 }
+
+var jsonStringsRegex = regexp.MustCompile(".*/Strings/.*.json")
+
 func (p *vehicleStringsParser) Match(path string) bool {
-	return stringsRegex.MatchString(path)
+	return jsonStringsRegex.MatchString(path)
 }
 
 func (p *vehicleStringsParser) Parse(path string, r io.Reader) error {
@@ -201,7 +203,7 @@ func (p *vehicleStringsParser) Parse(path string, r io.Reader) error {
 		return errors.Wrap(err, "failed to get locale from a filename")
 	}
 
-	data, err := decodeYAML[map[string]string](r)
+	data, err := decodeJSON[map[string]string](r)
 	if err != nil {
 		return err
 	}
@@ -210,7 +212,7 @@ func (p *vehicleStringsParser) Parse(path string, r io.Reader) error {
 	defer p.lock.Unlock()
 
 	for key, vehicle := range p.vehicles {
-		names := firstOf(p.vehicleNames[key], p.vehicles[vehicle.ID].LocalizedNames)
+		names := p.vehicleNames[key]
 		if names == nil {
 			names = make(map[language.Tag]string)
 		}

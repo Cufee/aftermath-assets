@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"io"
 
 	"github.com/clbanning/mxj"
@@ -11,6 +12,11 @@ import (
 func decodeYAML[T any](r io.Reader) (T, error) {
 	var decoded T
 	return decoded, yaml.NewDecoder(r).Decode(&decoded)
+}
+
+func decodeJSON[T any](r io.Reader) (T, error) {
+	var decoded T
+	return decoded, json.NewDecoder(r).Decode(&decoded)
 }
 
 func decodeXML[T any](r io.Reader) (T, error) {

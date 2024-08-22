@@ -36,6 +36,8 @@ var args struct {
 func main() {
 	arg.MustParse(&args)
 
+	cdn := NewCDNClient(args.WargamingAppID)
+
 	if args.Download {
 		var client *emailClient
 		if args.EmailEnabled {
@@ -63,10 +65,15 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
+
+		err = mergeMissingStrings(cdn, args.DecryptPath)
+		if err != nil {
+			panic(err)
+		}
 	}
 
 	if args.Parse {
-		glossary, err := NewCDNClient(args.WargamingAppID).Vehicles("en", "ru", "pl", "de", "fr", "es", "zh-cn", "zh-tw", "tr", "cs", "th", "vi", "ko")
+		glossary, err := cdn.Vehicles(cdnLanguages...)
 		if err != nil {
 			panic(err)
 		}

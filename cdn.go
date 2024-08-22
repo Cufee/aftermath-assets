@@ -12,6 +12,8 @@ import (
 	"golang.org/x/text/language"
 )
 
+var cdnLanguages = []string{"en", "ru", "pl", "de", "fr", "es", "zh-cn", "zh-tw", "tr", "cs", "th", "vi", "ko"}
+
 type wargamingCDNClient struct {
 	applicationID string
 }
@@ -74,16 +76,20 @@ func (c *wargamingCDNClient) Vehicles(locales ...string) (map[string]map[languag
 			}
 
 			glossaryLock.Lock()
+			defer glossaryLock.Unlock()
 			for _, v := range response.Data {
 				vehicle, ok := glossary[fmt.Sprint(v.ID)]
 				if !ok {
 					vehicle = make(map[language.Tag]vehicleRecord)
 				}
-				t, _ := language.Parse(locale)
+				t, err := language.Parse(locale)
+				if err != nil {
+					errorCh <- err
+					return
+				}
 				vehicle[t] = v
 				glossary[fmt.Sprint(v.ID)] = vehicle
 			}
-			glossaryLock.Unlock()
 		}(l)
 	}
 
@@ -102,4 +108,75 @@ func (c *wargamingCDNClient) Vehicles(locales ...string) (map[string]map[languag
 	}
 
 	return glossary, nil
+}
+
+func (c *wargamingCDNClient) MissingStrings(locales ...string) (map[language.Tag]map[string]string, error) {
+	if len(locales) == 0 {
+		locales = append(locales, "en")
+	}
+
+	var strings = make(map[language.Tag]map[string]string)
+
+	var lock sync.Mutex
+	var wg sync.WaitGroup
+	errorCh := make(chan error)
+
+	ctx, cancel := context.WithTimeout(context.Background(), time.Second*15)
+	defer cancel()
+
+	for _, l := range locales {
+		wg.Add(1)
+		go func(locale string) {
+			defer wg.Done()
+			req, err := http.NewRequest("GET", fmt.Sprintf("https://stufficons.wgcdn.co/localizations/%v.yaml", locale), nil)
+			if err != nil {
+				errorCh <- err
+				return
+			}
+
+			res, err := http.DefaultClient.Do(req.WithContext(ctx))
+			if err != nil {
+				errorCh <- err
+				return
+			}
+			defer res.Body.Close()
+
+			if res.StatusCode != 200 {
+				println("failed to get missing localization strings for "+locale, res.Status)
+				return
+			}
+
+			data, err := decodeYAML[map[string]string](res.Body)
+			if err != nil {
+				errorCh <- err
+				return
+			}
+
+			lock.Lock()
+			defer lock.Unlock()
+			t, err := language.Parse(locale)
+			if err != nil {
+				errorCh <- err
+				return
+			}
+
+			strings[t] = data
+		}(l)
+	}
+
+	wgDone := make(chan struct{})
+	go func() {
+		wg.Wait()
+		close(wgDone)
+	}()
+
+	select {
+	case <-wgDone:
+		close(errorCh)
+		break
+	case err := <-errorCh:
+		return nil, err
+	}
+
+	return strings, nil
 }

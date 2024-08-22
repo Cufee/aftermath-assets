@@ -2,15 +2,19 @@ package main
 
 import (
 	"bufio"
+	"bytes"
 	"context"
+	"encoding/json"
 	"io"
 	"log"
 	"os"
 	"os/exec"
+	"path/filepath"
 	"strings"
 	"time"
 
 	"github.com/pkg/errors"
+	"golang.org/x/text/language"
 )
 
 func downloadAssetsFromSteam(email *emailClient) error {
@@ -102,5 +106,58 @@ func downloadAssetsFromSteam(email *emailClient) error {
 	if err != nil {
 		return err
 	}
+	return nil
+}
+
+func mergeMissingStrings(client *wargamingCDNClient, dir string) error {
+	stringFiles, err := os.ReadDir(filepath.Join(dir, "Strings"))
+	if err != nil {
+		return err
+	}
+
+	missingStrings, err := client.MissingStrings("en", "ru", "pl", "de", "fr", "es", "tr", "cs", "th", "vi", "ko")
+	if err != nil {
+		return err
+	}
+
+	for _, file := range stringFiles {
+		if file.IsDir() || !strings.HasSuffix(file.Name(), ".yaml") {
+			continue
+		}
+
+		fileName := strings.TrimSuffix(file.Name(), ".yaml")
+		tag, err := language.Parse(fileName)
+		if err != nil {
+			return err
+		}
+
+		stringsFile, err := os.ReadFile(filepath.Join(dir, "Strings", file.Name()))
+		if err != nil {
+			return err
+		}
+
+		current, err := decodeYAML[map[string]any](bytes.NewBuffer(stringsFile))
+		if err != nil {
+			return err
+		}
+
+		for key, value := range missingStrings[tag] {
+			if _, ok := current[key]; ok {
+				continue
+			}
+			current[key] = value
+		}
+
+		buf, err := json.Marshal(current)
+		if err != nil {
+			return err
+		}
+
+		err = os.WriteFile(filepath.Join(dir, "Strings", fileName+".json"), buf, os.ModePerm)
+		if err != nil {
+			return err
+		}
+	}
+
 	return nil
 }
