@@ -4,3 +4,6 @@
 .gitignore
 .dockerignore
 README.md
+
+assets
+docker-compose.yaml
