@@ -2,7 +2,6 @@ package main
 
 import (
 	"regexp"
-	"slices"
 	"strings"
 	"time"
 
@@ -46,10 +45,6 @@ func (c emailClient) GetSteamCode(after time.Time) (string, error) {
 	if err != nil {
 		return "", err
 	}
-
-	slices.SortFunc(emails, func(a, b eazye.Email) int {
-		return b.InternalDate.Compare(a.InternalDate)
-	})
 
 	for _, email := range emails {
 		code, ok := findSteamCode(string(email.Text))
