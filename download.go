@@ -82,7 +82,7 @@ func downloadAssetsFromSteam(email *emailClient) error {
 		select {
 		case <-ctx.Done():
 			delay := time.Second * 30
-			log.Printf("Download failed to start, checking email for auth code in %.0f seconds\n", delay.Seconds())
+			log.Printf("\nDownload failed to start, checking email for auth code in %.0f seconds\n", delay.Seconds())
 			time.Sleep(delay)
 
 			code, err := email.GetSteamCode(time.Now().Add(time.Minute * -1))
@@ -98,7 +98,7 @@ func downloadAssetsFromSteam(email *emailClient) error {
 			break
 
 		case <-started:
-			log.Println("Downloader started download successfully")
+			log.Println("\nDownloader started download successfully")
 			cancel()
 		}
 	}
