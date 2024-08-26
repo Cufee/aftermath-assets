@@ -81,10 +81,11 @@ func downloadAssetsFromSteam(email *emailClient) error {
 
 		select {
 		case <-ctx.Done():
-			println("\nDownload failed to start, checking email for auth code in 10 seconds")
+			delay := time.Second * 30
+			log.Printf("Download failed to start, checking email for auth code in %.0f seconds\n", delay.Seconds())
+			time.Sleep(delay)
 
-			time.Sleep(time.Second * 10)
-			code, err := email.GetSteamCode(time.Now().Add(time.Hour * -1))
+			code, err := email.GetSteamCode(time.Now().Add(time.Minute * -1))
 			if err != nil {
 				return errors.Wrap(err, "failed to get steam auth code from email")
 			}
@@ -97,7 +98,7 @@ func downloadAssetsFromSteam(email *emailClient) error {
 			break
 
 		case <-started:
-			log.Println("\nDownloader started download successfully")
+			log.Println("Downloader started download successfully")
 			cancel()
 		}
 	}
