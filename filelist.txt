@@ -1,0 +1,6 @@
+regex:Data/XML/item_defs/vehicles/.*list.xml.dvpl
+regex:Data/Strings/.*.yaml.dvpl
+
+Data/XML/item_defs/achievements.yaml.dvpl
+Data/version.txt.dvpl
+Data/maps.yaml.dvpl

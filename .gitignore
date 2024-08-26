@@ -1,0 +1,7 @@
+tmp
+.git
+.task
+.vscode
+**/.DS_Store
+
+.env
