@@ -241,6 +241,28 @@
     "zh-Hans": "真实战场",
     "zh-Hant": "擬真戰鬥"
   },
+  "game_mode_tenvsten": {
+    "ar": "10 ضد 10",
+    "cs": "10 proti 10",
+    "de": "10 gegen 10",
+    "en": "10 vs 10",
+    "es": "10 contra 10",
+    "fi": "10v10",
+    "fr": "10 contre 10",
+    "hi": "10 बनाम 10",
+    "it": "10 contro 10",
+    "ja": "10 vs 10",
+    "ko": "10 대 10",
+    "pl": "10 na 10",
+    "pt": "10 X 10",
+    "ru": "10 на 10",
+    "th": "10 ต่อ 10",
+    "tr": "10'a 10",
+    "uk": "10 на 10",
+    "vi": "10 vs 10",
+    "zh-Hans": "10v10",
+    "zh-Hant": "10v10"
+  },
   "game_mode_vampiric": {
     "ar": "Burning Games",
     "cs": "Burning Games",
