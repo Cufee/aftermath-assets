@@ -57,8 +57,6 @@ jobs:
       - name: Commit assets to the repository
         uses: stefanzweifel/git-auto-commit-action@v5
         id: commit-changes
-        with:
-          tagging_message: ${{ steps.version.outputs.value }}
       - name: Zip assets
         if: steps.commit-changes.outputs.changes_detected == 'true'
         run: zip -r /tmp/assets.zip ./assets
