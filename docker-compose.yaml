@@ -21,7 +21,19 @@ services:
     container_name: aftermath-upload-assets
     env_file:
       - .env
-    command: --mail --download --decrypt --parse /static-data/downloaded /assets
+    command: |
+      --download \
+      --decrypt \
+      --parse \
+      --app-id '${WARGAMING_APP_ID}' \
+      --username '${STEAM_USERNAME}' \
+      --password '${STEAM_PASSWORD}' \
+      --mail \
+      --mail-host '${EMAIL_HOST}' \
+      --mail-user '${EMAIL_USER}' \
+      --mail-pass '${EMAIL_PASSWORD}' \
+      /static-data/downloaded \
+      /assets
     volumes:
       - credentials:/downloader/data
       - static:/static-data
