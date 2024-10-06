@@ -1,16 +1,40 @@
 services:
-  local:
+  ofelia:
+    image: mcuadros/ofelia:latest
+    command: daemon --docker
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    labels:
+      ofelia.enabled: true
+      # Attempt #1 - typical WG update time
+      ofelia.job-run.upload-assets-1.schedule: 0 10 * * *
+      ofelia.job-run.upload-assets-1.container: aftermath-upload-assets
+      # Attemt #2 - in case WG delayed an update
+      ofelia.job-run.upload-assets-2.schedule: 0 12 * * *
+      ofelia.job-run.upload-assets-2.container: aftermath-upload-assets
+
+  upload:
+    image: ghcr.io/cufee/aftermath-assets:latest
     build:
       context: .
       dockerfile: Dockerfile
+    container_name: aftermath-upload-assets
     env_file:
-      - ".env"
-    command: "--download --decrypt --parse --mail /static-data/downloaded /static-data/assets"
-    environment:
-      XDG_DATA_HOME: /downloader/data
-      DOWNLOADER_CMD_PATH: DepotDownloader
-      DOWNLOADER_FILE_LIST: /downloader/filelist.txt
-      DECRYPT_DIR_PATH: /static-data/decrypted
+      - .env
+    command: |
+      app \
+        --download \
+        --decrypt \
+        --parse \
+        --app-id '${WARGAMING_APP_ID}' \
+        --username '${STEAM_USERNAME}' \
+        --password '${STEAM_PASSWORD}' \
+        --mail \
+        --mail-host '${EMAIL_HOST}' \
+        --mail-user '${EMAIL_USER}' \
+        --mail-pass '${EMAIL_PASSWORD}' \
+        /static-data/downloaded \
+        /assets
     volumes:
       - credentials:/downloader/data
       - static:/static-data
