@@ -2355,6 +2355,19 @@
     "superTest": false,
     "collectible": true
   },
+  "17777": {
+    "id": "17777",
+    "key": "#other_vehicles:Oth71_Titan_Strife_short",
+    "names": {
+      "en": "Titan Strife"
+    },
+    "tier": 8,
+    "class": "heavyTank",
+    "nation": "other",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
+  },
   "17793": {
     "id": "17793",
     "key": "#european_vehicles:It115_Rinoceronte_short",
@@ -4909,6 +4922,19 @@
     "premium": false,
     "superTest": false,
     "collectible": false
+  },
+  "28689": {
+    "id": "28689",
+    "key": "#germany_vehicles:G125_Spz_57_Rh_short",
+    "names": {
+      "en": "Rhm. Pzw."
+    },
+    "tier": 10,
+    "class": "lightTank",
+    "nation": "germany",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
   },
   "28705": {
     "id": "28705",
