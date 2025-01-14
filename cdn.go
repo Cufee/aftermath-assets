@@ -45,7 +45,7 @@ func (c *wargamingCDNClient) Vehicles(locales ...string) (map[string]map[languag
 	var glossaryLock sync.Mutex
 	errorCh := make(chan error)
 
-	ctx, cancel := context.WithTimeout(context.Background(), time.Second*15)
+	ctx, cancel := context.WithTimeout(context.Background(), time.Second*45)
 	defer cancel()
 
 	for _, l := range locales {
