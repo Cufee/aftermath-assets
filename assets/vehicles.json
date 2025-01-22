@@ -2701,6 +2701,19 @@
     "superTest": false,
     "collectible": true
   },
+  "18801": {
+    "id": "18801",
+    "key": "#other_vehicles:Oth75_Braniaq_DM5_short",
+    "names": {
+      "en": "mau5Tank"
+    },
+    "tier": 9,
+    "class": "mediumTank",
+    "nation": "other",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
+  },
   "1889": {
     "id": "1889",
     "key": "#japan_vehicles:Chi_To_short",
@@ -2793,6 +2806,19 @@
     "superTest": false,
     "collectible": false
   },
+  "19057": {
+    "id": "19057",
+    "key": "#other_vehicles:Oth76_Destiny_short",
+    "names": {
+      "en": "Destiny"
+    },
+    "tier": 9,
+    "class": "heavyTank",
+    "nation": "other",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
+  },
   "19201": {
     "id": "19201",
     "key": "#ussr_vehicles:T-26",
@@ -2870,6 +2896,19 @@
     "class": "heavyTank",
     "nation": "uk",
     "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
+  "19313": {
+    "id": "19313",
+    "key": "#other_vehicles:Oth77_Prowler_short",
+    "names": {
+      "en": "Prowler"
+    },
+    "tier": 8,
+    "class": "heavyTank",
+    "nation": "other",
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3658,6 +3697,19 @@
     "superTest": false,
     "collectible": true
   },
+  "22081": {
+    "id": "22081",
+    "key": "#france_vehicles:F127_ELC_AMX_901_Proto_short",
+    "names": {
+      "en": "ELC AMX-901"
+    },
+    "tier": 8,
+    "class": "lightTank",
+    "nation": "france",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
+  },
   "22097": {
     "id": "22097",
     "key": "#uk_vehicles:GB_Churchill_MkVIII_short",
@@ -3708,6 +3760,19 @@
     "class": "heavyTank",
     "nation": "usa",
     "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
+  "22337": {
+    "id": "22337",
+    "key": "#france_vehicles:F140_Sentinelle_short",
+    "names": {
+      "en": "Sentinelle"
+    },
+    "tier": 8,
+    "class": "heavyTank",
+    "nation": "france",
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4221,7 +4286,7 @@
     "id": "24401",
     "key": "#uk_vehicles:GB114_Vickers_MBT_Mk3_short",
     "names": {
-      "en": "Vickers MBT Mk. 3"
+      "en": "Vickers MBT"
     },
     "tier": 8,
     "class": "mediumTank",
@@ -4274,7 +4339,7 @@
     "id": "24657",
     "key": "#uk_vehicles:GB108_A46_short",
     "names": {
-      "en": "A46"
+      "en": "A46 Different"
     },
     "tier": 7,
     "class": "lightTank",
@@ -4884,6 +4949,19 @@
     "superTest": false,
     "collectible": true
   },
+  "28433": {
+    "id": "28433",
+    "key": "#germany_vehicles:G126_HWK_12_short",
+    "names": {
+      "en": "HWK 12"
+    },
+    "tier": 9,
+    "class": "lightTank",
+    "nation": "germany",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
   "28449": {
     "id": "28449",
     "key": "#usa_vehicles:A136_T42_short",
@@ -4934,7 +5012,7 @@
     "nation": "germany",
     "premium": false,
     "superTest": false,
-    "collectible": true
+    "collectible": false
   },
   "28705": {
     "id": "28705",
@@ -4979,7 +5057,7 @@
     "id": "28945",
     "key": "#germany_vehicles:G98_Waffentrager_E100_short",
     "names": {
-      "en": "WT auf E 100"
+      "en": "Waffen F1.0"
     },
     "tier": 10,
     "class": "AT-SPG",
