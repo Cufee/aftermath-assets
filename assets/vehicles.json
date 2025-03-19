@@ -5105,6 +5105,19 @@
     "superTest": false,
     "collectible": true
   },
+  "29201": {
+    "id": "29201",
+    "key": "#germany_vehicles:G167_Tiger_Maus_short",
+    "names": {
+      "en": "Tiger-Maus"
+    },
+    "tier": 9,
+    "class": "heavyTank",
+    "nation": "germany",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
+  },
   "29217": {
     "id": "29217",
     "key": "#usa_vehicles:A150_MBT_B_short",
@@ -8364,6 +8377,19 @@
     "premium": false,
     "superTest": false,
     "collectible": false
+  },
+  "7777": {
+    "id": "7777",
+    "key": "#japan_vehicles:J36_Type_63_HT_short",
+    "names": {
+      "en": "Type 63"
+    },
+    "tier": 8,
+    "class": "heavyTank",
+    "nation": "japan",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
   },
   "7793": {
     "id": "7793",
