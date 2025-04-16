@@ -43,28 +43,6 @@
     "zh-Hans": "大首领",
     "zh-Hant": "一代梟雄"
   },
-  "game_mode_encounterbattle": {
-    "ar": "المواجهة",
-    "cs": "Střetnutí",
-    "de": "Begegnung",
-    "en": "Encounter",
-    "es": "Encuentro",
-    "fi": "Kohtaaminen",
-    "fr": "Impromptue",
-    "hi": "एनकाउंटर",
-    "it": "Predominio",
-    "ja": "遭遇戦",
-    "ko": "조우전",
-    "pl": "Spotkanie",
-    "pt": "Encontro",
-    "ru": "Встречный",
-    "th": "การเผชิญหน้า",
-    "tr": "Karşılaşma",
-    "uk": "Зустрічний",
-    "vi": "Đôi công",
-    "zh-Hans": "遭遇战",
-    "zh-Hant": "遭遇戰"
-  },
   "game_mode_gravitizing": {
     "ar": "Gravitizing",
     "cs": "Gravitační vzkříšení",

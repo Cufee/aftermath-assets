@@ -5144,6 +5144,19 @@
     "superTest": false,
     "collectible": false
   },
+  "29473": {
+    "id": "29473",
+    "key": "#usa_vehicles:A175_ATAC_short",
+    "names": {
+      "en": "ATAC"
+    },
+    "tier": 9,
+    "class": "lightTank",
+    "nation": "usa",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
+  },
   "3073": {
     "id": "3073",
     "key": "#ussr_vehicles:T-46",
@@ -8507,6 +8520,19 @@
     "class": "AT-SPG",
     "nation": "uk",
     "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
+  "8033": {
+    "id": "8033",
+    "key": "#japan_vehicles:J20_Type_2605_short",
+    "names": {
+      "en": "Type 5 Heavy"
+    },
+    "tier": 10,
+    "class": "heavyTank",
+    "nation": "japan",
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
