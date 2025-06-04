@@ -602,7 +602,7 @@
     "names": {
       "en": "Type 58"
     },
-    "tier": 6,
+    "tier": 7,
     "class": "mediumTank",
     "nation": "china",
     "premium": false,
@@ -1397,6 +1397,19 @@
     "premium": false,
     "superTest": false,
     "collectible": false
+  },
+  "14129": {
+    "id": "14129",
+    "key": "#china_vehicles:Ch57_BZT_70_short",
+    "names": {
+      "en": "BZT-70"
+    },
+    "tier": 10,
+    "class": "heavyTank",
+    "nation": "china",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
   },
   "14145": {
     "id": "14145",
@@ -4663,7 +4676,7 @@
     "names": {
       "en": "Tiger I"
     },
-    "tier": 6,
+    "tier": 7,
     "class": "heavyTank",
     "nation": "germany",
     "premium": false,
@@ -4703,7 +4716,7 @@
       "en": "T-34-85",
       "ru": "Т-34-85"
     },
-    "tier": 6,
+    "tier": 7,
     "class": "mediumTank",
     "nation": "ussr",
     "premium": false,
@@ -5072,7 +5085,7 @@
     "names": {
       "en": "Sherman Easy 8"
     },
-    "tier": 6,
+    "tier": 7,
     "class": "mediumTank",
     "nation": "usa",
     "premium": false,
