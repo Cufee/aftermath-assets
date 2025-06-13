@@ -61,68 +61,6 @@
       "zh-Hant": "黑色淘金鎮"
     }
   },
-  "11": {
-    "id": "11",
-    "key": "09_savanna_sv/09_savanna_sv.sc2",
-    "availableModes": [
-      0,
-      1
-    ],
-    "supremacyPointsThreshold": 800,
-    "names": {
-      "ar": "واحة النخيل",
-      "cs": "Oáza",
-      "de": "Oasenpalmen",
-      "en": "Oasis Palms",
-      "es": "Oasis de palmeras",
-      "fi": "Oasis Palms",
-      "fr": "Palmiers de l'oasis",
-      "hi": "ओआसिस पाम्स",
-      "it": "Oasi di Palme",
-      "ja": "オアシスの椰子",
-      "ko": "오아시스",
-      "pl": "Oaza",
-      "pt": "Palmeiras do Oásis",
-      "ru": "Горящие пески",
-      "th": "ปาล์มโอเอซิส",
-      "tr": "Vaha Palmiyeleri",
-      "uk": "Палаючі піски",
-      "vi": "\"Ốc Đảo\"",
-      "zh-Hans": "砂丘",
-      "zh-Hant": "葉之綠洲"
-    }
-  },
-  "12": {
-    "id": "12",
-    "key": "11_plant_pn/11_plant_pn.sc2",
-    "availableModes": [
-      0,
-      1
-    ],
-    "supremacyPointsThreshold": 800,
-    "names": {
-      "ar": "مصنع الأشباح",
-      "cs": "Továrna duchů",
-      "de": "Geisterfabrik",
-      "en": "Ghost Factory",
-      "es": "Fábrica fantasma",
-      "fi": "Ghost Factory",
-      "fr": "Usine fantôme",
-      "hi": "घोस्ट फ़ैक्टरी",
-      "it": "Fabbrica spettrale",
-      "ja": "廃工場",
-      "ko": "폐공장",
-      "pl": "Fabryka duchów",
-      "pt": "Fábrica Fantasma",
-      "ru": "Промзона",
-      "th": "โรงงานร้าง",
-      "tr": "Hayalet Fabrika",
-      "uk": "Промзона",
-      "vi": "\"Ghost Factory\"",
-      "zh-Hans": "幽灵工厂",
-      "zh-Hant": "幽靈工廠"
-    }
-  },
   "13": {
     "id": "13",
     "key": "08_idle_id/08_idle_id.sc2",
@@ -152,37 +90,6 @@
       "vi": "\"Yukon\"",
       "zh-Hans": "育空",
       "zh-Hant": "育空"
-    }
-  },
-  "14": {
-    "id": "14",
-    "key": "16_holland_hl/16_holland_hl.sc2",
-    "availableModes": [
-      0,
-      1
-    ],
-    "supremacyPointsThreshold": 800,
-    "names": {
-      "ar": "سدّ الطاحونة",
-      "cs": "Molendijk",
-      "de": "Molendijk",
-      "en": "Molendijk",
-      "es": "Molendijk",
-      "fi": "Molendijk",
-      "fr": "Molendijk",
-      "hi": "Molendijk",
-      "it": "Molendijk",
-      "ja": "モレンダイク",
-      "ko": "Molendijk",
-      "pl": "Molendijk",
-      "pt": "Molendijk",
-      "ru": "Молендейк",
-      "th": "เมืองกังหันลม",
-      "tr": "Molendijk",
-      "uk": "Молендейк",
-      "vi": "Molendijk",
-      "zh-Hans": "水坝",
-      "zh-Hant": "米爾丹"
     }
   },
   "15": {
@@ -505,37 +412,6 @@
     "supremacyPointsThreshold": 800,
     "names": null
   },
-  "27": {
-    "id": "27",
-    "key": "25_canyon_ca/25_canyon_ca.sc2",
-    "availableModes": [
-      0,
-      1
-    ],
-    "supremacyPointsThreshold": 800,
-    "names": {
-      "ar": "الوادي",
-      "cs": "Kaňon",
-      "de": "Schlucht",
-      "en": "Canyon",
-      "es": "Cañón",
-      "fi": "Canyon",
-      "fr": "Canyon",
-      "hi": "कैनियन",
-      "it": "Canyon",
-      "ja": "渓谷",
-      "ko": "협곡",
-      "pl": "Kanion",
-      "pt": "Desfiladeiro",
-      "ru": "Каньон",
-      "th": "หุบผา",
-      "tr": "Kanyon",
-      "uk": "Каньйон",
-      "vi": "\"Hẻm Núi\"",
-      "zh-Hans": "峡谷",
-      "zh-Hant": "大峽谷"
-    }
-  },
   "3": {
     "id": "3",
     "key": "03_erlenberg_er/03_erlenberg_er.sc2",
@@ -565,37 +441,6 @@
       "vi": "\"Middleburg\"",
       "zh-Hans": "米德尔博格",
       "zh-Hant": "米德爾堡"
-    }
-  },
-  "30": {
-    "id": "30",
-    "key": "28_rock_rc/28_rock_rc.sc2",
-    "availableModes": [
-      0,
-      1
-    ],
-    "supremacyPointsThreshold": 800,
-    "names": {
-      "ar": "الأهرام القديمة",
-      "cs": "Starobylé pyramidy",
-      "de": "Antike Pyramiden",
-      "en": "Mayan Ruins",
-      "es": "Ruinas Mayas",
-      "fi": "Mayan Ruins",
-      "fr": "Pyramides antiques",
-      "hi": "मायान रुइंस",
-      "it": "Antiche Piramidi",
-      "ja": "マヤ遺跡",
-      "ko": "고대 피라미드",
-      "pl": "Starożytne piramidy",
-      "pt": "Pirâmides Antigas",
-      "ru": "Древние пирамиды",
-      "th": "ปิรามิดโบราณ",
-      "tr": "Kadim Piramitler",
-      "uk": "Стародавні піраміди",
-      "vi": "\"Kim Tự Tháp Cổ Đại\"",
-      "zh-Hans": "古老的金字塔",
-      "zh-Hant": "遠古金字塔"
     }
   },
   "31": {

@@ -3336,6 +3336,19 @@
     "superTest": false,
     "collectible": true
   },
+  "20849": {
+    "id": "20849",
+    "key": "#other_vehicles:Oth84_FVE_Defender_short",
+    "names": {
+      "en": "FVE Defender"
+    },
+    "tier": 9,
+    "class": "mediumTank",
+    "nation": "other",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
+  },
   "2097": {
     "id": "2097",
     "key": "#china_vehicles:Ch12_111_1_2_3_short",
