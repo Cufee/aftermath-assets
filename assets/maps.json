@@ -131,28 +131,7 @@
       1
     ],
     "supremacyPointsThreshold": 800,
-    "names": {
-      "ar": "معبد التيه",
-      "cs": "Ztracený chrám",
-      "de": "Verlorener Tempel",
-      "en": "Lost Temple",
-      "es": "Templo perdido",
-      "fi": "Lost Temple",
-      "fr": "Temple perdu",
-      "hi": "लॉस्ट टेम्पल",
-      "it": "Tempio Perduto",
-      "ja": "失われた寺院",
-      "ko": "잃어버린 사원",
-      "pl": "Zaginiona świątynia",
-      "pt": "Templo Perdido",
-      "ru": "Затерянный храм",
-      "th": "วิหารร้าง",
-      "tr": "Kayıp Tapınak",
-      "uk": "Загублений храм",
-      "vi": "\"Ngôi Đền Mất Tích\"",
-      "zh-Hans": "失落的神庙",
-      "zh-Hant": "失落的神廟"
-    }
+    "names": null
   },
   "17": {
     "id": "17",
