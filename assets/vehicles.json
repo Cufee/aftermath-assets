@@ -5196,6 +5196,19 @@
     "superTest": false,
     "collectible": false
   },
+  "29457": {
+    "id": "29457",
+    "key": "#germany_vehicles:G190_VK_1602_Quby_short",
+    "names": {
+      "en": "VK 19.02“闪送宝”"
+    },
+    "tier": 8,
+    "class": "lightTank",
+    "nation": "germany",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
+  },
   "29473": {
     "id": "29473",
     "key": "#usa_vehicles:A175_ATAC_short",
