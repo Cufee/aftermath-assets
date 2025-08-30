@@ -2554,6 +2554,19 @@
     "superTest": false,
     "collectible": true
   },
+  "18305": {
+    "id": "18305",
+    "key": "#european_vehicles:Pl33_SDP_Wz_40_short",
+    "names": {
+      "en": "SDP 40 Zadymka"
+    },
+    "tier": 5,
+    "class": "AT-SPG",
+    "nation": "european",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
   "1841": {
     "id": "1841",
     "key": "#china_vehicles:Ch18_WZ-120",
@@ -2648,6 +2661,19 @@
     "superTest": false,
     "collectible": true
   },
+  "18561": {
+    "id": "18561",
+    "key": "#european_vehicles:Pl32_SDP_Wz_44_short",
+    "names": {
+      "en": "SDP 44 Burza"
+    },
+    "tier": 6,
+    "class": "AT-SPG",
+    "nation": "european",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
   "1857": {
     "id": "1857",
     "key": "#france_vehicles:F75_Char_de_25t_short",
@@ -2726,6 +2752,19 @@
     "premium": false,
     "superTest": false,
     "collectible": true
+  },
+  "18817": {
+    "id": "18817",
+    "key": "#european_vehicles:Pl31_SDP_Wz_57D_short",
+    "names": {
+      "en": "SDP 57 Gowika"
+    },
+    "tier": 7,
+    "class": "AT-SPG",
+    "nation": "european",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
   },
   "1889": {
     "id": "1889",
@@ -2832,6 +2871,19 @@
     "superTest": false,
     "collectible": true
   },
+  "19073": {
+    "id": "19073",
+    "key": "#european_vehicles:Pl30_SDP_Wz58T_short",
+    "names": {
+      "en": "SDP 58 Kilana"
+    },
+    "tier": 8,
+    "class": "AT-SPG",
+    "nation": "european",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
   "19201": {
     "id": "19201",
     "key": "#ussr_vehicles:T-26",
@@ -2925,6 +2977,19 @@
     "superTest": false,
     "collectible": true
   },
+  "19329": {
+    "id": "19329",
+    "key": "#european_vehicles:Pl28_SDP_Wz_60_short",
+    "names": {
+      "en": "SDP 60 Gonkiewicza"
+    },
+    "tier": 9,
+    "class": "AT-SPG",
+    "nation": "european",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
   "19457": {
     "id": "19457",
     "key": "#ussr_vehicles:T-26",
@@ -2987,6 +3052,32 @@
     "tier": 10,
     "class": "lightTank",
     "nation": "uk",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
+  "19569": {
+    "id": "19569",
+    "key": "#other_vehicles:Oth78_AC_17_P_Sterope_short",
+    "names": {
+      "en": "AC-17P Sterope"
+    },
+    "tier": 9,
+    "class": "heavyTank",
+    "nation": "other",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
+  },
+  "19585": {
+    "id": "19585",
+    "key": "#european_vehicles:Pl29_NC_Wz_70T_short",
+    "names": {
+      "en": "NC 70 Błyskawica"
+    },
+    "tier": 10,
+    "class": "AT-SPG",
+    "nation": "european",
     "premium": false,
     "superTest": false,
     "collectible": false
@@ -3057,6 +3148,19 @@
     "superTest": false,
     "collectible": false
   },
+  "19841": {
+    "id": "19841",
+    "key": "#european_vehicles:Pl27_SDP_Wz_66T_short",
+    "names": {
+      "en": "SDP wz 66 Grom"
+    },
+    "tier": 8,
+    "class": "AT-SPG",
+    "nation": "european",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
+  },
   "19969": {
     "id": "19969",
     "key": "#ussr_vehicles:R120_T22SR_short",
@@ -3122,6 +3226,19 @@
     "premium": false,
     "superTest": false,
     "collectible": false
+  },
+  "20097": {
+    "id": "20097",
+    "key": "#european_vehicles:It35_Felice_short",
+    "names": {
+      "en": "Felice"
+    },
+    "tier": 10,
+    "class": "heavyTank",
+    "nation": "european",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
   },
   "20241": {
     "id": "20241",
@@ -4879,6 +4996,20 @@
     "class": "heavyTank",
     "nation": "usa",
     "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
+  "27393": {
+    "id": "27393",
+    "key": "#ussr_vehicles:R217_Object_Kust_short",
+    "names": {
+      "en": "Obj. Kust",
+      "ru": "Об. «Куст»"
+    },
+    "tier": 8,
+    "class": "AT-SPG",
+    "nation": "ussr",
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
