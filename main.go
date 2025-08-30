@@ -19,7 +19,6 @@ var args struct {
 	DepotID            string `arg:"--depot,env:DOWNLOADER_DEPOT_ID" help:"steam depot if to download" placeholder:"<depot_id>"`
 	SteamUsername      string `arg:"--username,env:DOWNLOADER_STEAM_USERNAME" help:"steam account username" placeholder:"<username>"`
 	SteamPassword      string `arg:"--password,env:DOWNLOADER_STEAM_PASSWORD" help:"steam account password" placeholder:"<password>"`
-	SteamAuthCode      string `arg:"--auth-code,env:DOWNLOADER_STEAM_AUTH_CODE" help:"steam one time auth code" placeholder:"<code>"`
 	DownloaderFileList string `arg:"--file-list,env:DOWNLOADER_FILE_LIST" help:"path to filelist.txt" placeholder:"<path>"`
 
 	Decrypt     bool   `help:"decrypt downloaded files"`

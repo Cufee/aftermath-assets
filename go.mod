@@ -4,6 +4,7 @@ go 1.22.3
 
 require (
 	github.com/clbanning/mxj v1.8.4
+	github.com/creack/pty v1.1.24
 	github.com/joho/godotenv v1.5.1
 	github.com/jprobinson/eazye v0.0.0-20200316195029-00167c745a93
 	github.com/matryer/is v1.4.1

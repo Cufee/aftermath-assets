@@ -10,6 +10,8 @@ import (
 	"github.com/pkg/errors"
 )
 
+var ErrCodeNotFound = errors.New("steam login code not found")
+
 type emailConfig struct {
 	Host     string `arg:"--mail-host,env:EMAIL_HOST" help:"email host for retrieving auth keys" placeholder:"<host>"`
 	Password string `arg:"--mail-pass,env:EMAIL_PASSWORD" help:"email username" placeholder:"<password>"`
@@ -57,7 +59,7 @@ func (c emailClient) GetSteamCode(after time.Time) (string, error) {
 			return code, nil
 		}
 	}
-	return "", errors.New("steam login code not found")
+	return "", ErrCodeNotFound
 }
 
 var steamCodeRegex = regexp.MustCompile(`(?i)Login\s*Code\s*\n*\s*([A-Z0-9]{5,7})`)

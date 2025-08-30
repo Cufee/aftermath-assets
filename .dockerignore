@@ -1,6 +1,6 @@
 **/*.env*
 .github
-.Dockerfile
+Dockerfile
 .gitignore
 .dockerignore
 README.md

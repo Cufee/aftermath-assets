@@ -1,7 +1,6 @@
 package main
 
 import (
-	"bufio"
 	"bytes"
 	"context"
 	"encoding/json"
@@ -13,6 +12,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/creack/pty"
 	"github.com/pkg/errors"
 	"golang.org/x/text/language"
 )
@@ -36,71 +36,95 @@ func downloadAssetsFromSteam(email *emailClient) error {
 	dargs = append(dargs, args.DumpPath)
 
 	cmd := exec.Command(args.DownloaderPath, dargs...)
-	cmd.Stderr = os.Stderr
+	cmd.WaitDelay = time.Minute * 15
 
-	stdinPipe, err := cmd.StdinPipe()
-	if err != nil {
-		return err
-	}
-	defer stdinPipe.Close()
+	startedAt := time.Now().Add(time.Second * -1)
 
-	stdoutPipe, err := cmd.StdoutPipe()
-	if err != nil {
-		return err
-	}
-	defer stdoutPipe.Close()
-
-	err = cmd.Start()
+	ptmx, err := pty.Start(cmd)
 	if err != nil {
 		return errors.Wrap(err, "cmd#Start")
 	}
-	stdoutTee := io.TeeReader(stdoutPipe, os.Stdout)
+	defer ptmx.Close()
 
-	if args.SteamAuthCode != "" {
-		// input the auth code if it was provided
-		go func() {
-			defer stdinPipe.Close()
-			io.WriteString(stdinPipe, args.SteamAuthCode)
-		}()
-	} else if email != nil {
-		// start a new scanner to check if the download started
-		scanner := bufio.NewScanner(stdoutTee)
-		started := make(chan struct{})
-		go func() {
-			// this scanner will run until the app exits, but that's barely an inconvenience
-			for scanner.Scan() {
-				line := strings.TrimSpace(scanner.Text())
-				if strings.Contains(line, "Got AppInfo for") {
-					started <- struct{}{}
+	input := func(text string) {
+		_, err := ptmx.Write([]byte(text + "\n"))
+		if err != nil {
+			log.Print("error writing to pty", "error", err)
+		}
+	}
+
+	steamGuardRequired := make(chan struct{})
+	downloadStarted := make(chan struct{})
+	defer func() {
+		close(steamGuardRequired)
+		close(downloadStarted)
+	}()
+
+	var outputBuffer bytes.Buffer
+	combinedWriter := io.MultiWriter(&outputBuffer, os.Stderr)
+	go func() {
+		_, err := io.Copy(combinedWriter, ptmx)
+		if err != nil {
+			log.Print("io.Copy from ptmx finished", err)
+		}
+	}()
+
+	ticker := time.NewTicker(time.Millisecond * 200)
+	defer ticker.Stop()
+
+	go func() {
+		for range ticker.C {
+			fullOut := outputBuffer.String()
+			if strings.Contains(fullOut, "STEAM GUARD! Please enter the auth code sent to the email") {
+				select {
+				case steamGuardRequired <- struct{}{}:
+					println() // insert a newline
+				default:
 				}
 			}
-		}()
+			if strings.Contains(fullOut, "Got AppInfo for") {
+				select {
+				case downloadStarted <- struct{}{}:
+				default:
+				}
+			}
+		}
+	}()
 
-		ctx, cancel := context.WithTimeout(context.Background(), time.Second*5)
-		defer cancel()
+	startCtx, cancelStart := context.WithTimeout(context.Background(), time.Minute)
+	defer cancelStart()
 
-		select {
-		case <-ctx.Done():
-			delay := time.Second * 30
-			log.Printf("\nDownload failed to start, checking email for auth code in %.0f seconds\n", delay.Seconds())
-			time.Sleep(delay)
+	select {
+	case <-steamGuardRequired:
+		ticker := time.NewTicker(time.Second * 5)
+		defer ticker.Stop()
 
-			code, err := email.GetSteamCode(time.Now().Add(time.Minute * -1))
+		var counter int
+		for range ticker.C {
+			counter++
+			if counter > 10 {
+				return errors.New("failed to find a steam guard code")
+			}
+
+			log.Print("Checking email for Steam Guard code", counter)
+			code, err := email.GetSteamCode(startedAt)
+			if errors.Is(err, ErrCodeNotFound) {
+				continue
+			}
 			if err != nil {
 				return errors.Wrap(err, "failed to get steam auth code from email")
 			}
 
-			go func() {
-				defer stdinPipe.Close()
-				io.WriteString(stdinPipe, code)
-			}()
-
+			log.Print("Entering Steam Guard code from email")
+			input(code)
 			break
-
-		case <-started:
-			log.Println("\nDownloader started download successfully")
-			cancel()
 		}
+
+	case <-downloadStarted:
+		log.Print("Download started")
+
+	case <-startCtx.Done():
+		log.Print("Failed to start a download, timeout")
 	}
 
 	err = cmd.Wait()
