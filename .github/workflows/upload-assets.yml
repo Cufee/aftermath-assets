@@ -16,6 +16,12 @@ jobs:
     container:
       image: ghcr.io/cufee/aftermath-assets:latest
     environment: upload-assets
+    env:
+      XDG_DATA_HOME: /downloader/data
+      DOWNLOADER_FILE_LIST: /downloader/filelist.txt
+      DECRYPT_DIR_PATH: /static-data/decrypted
+      DOWNLOADER_DEPOT_ID: 444202
+      DOWNLOADER_APP_ID: 444200
     steps:
       - name: Generate assets
         shell: bash
