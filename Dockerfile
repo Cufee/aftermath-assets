@@ -1,14 +1,20 @@
 # Download depot downloader
 FROM alpine:3.19 AS downloader
 
-ARG DEPOT_DOWNLOADER_VERSION="3.4.0"
+# Use "latest" or a specific version like "3.4.0"
+ARG DEPOT_DOWNLOADER_VERSION="latest"
 ARG DEPOT_DOWNLOADER_PLATFORM="linux-x64"
 
-ENV DEPOT_DOWNLOADER_SLUG="DepotDownloader_${DEPOT_DOWNLOADER_VERSION}"
 ENV DEPOT_DOWNLOADER_ARCHIVE="DepotDownloader-${DEPOT_DOWNLOADER_PLATFORM}.zip"
 
 RUN apk add --no-cache wget unzip ca-certificates && \
-    wget https://github.com/SteamRE/DepotDownloader/releases/download/${DEPOT_DOWNLOADER_SLUG}/${DEPOT_DOWNLOADER_ARCHIVE} -O /tmp/depot.zip && \
+    if [ "${DEPOT_DOWNLOADER_VERSION}" = "latest" ]; then \
+        DOWNLOAD_URL="https://github.com/SteamRE/DepotDownloader/releases/latest/download/${DEPOT_DOWNLOADER_ARCHIVE}"; \
+    else \
+        DEPOT_DOWNLOADER_SLUG="DepotDownloader_${DEPOT_DOWNLOADER_VERSION}"; \
+        DOWNLOAD_URL="https://github.com/SteamRE/DepotDownloader/releases/download/${DEPOT_DOWNLOADER_SLUG}/${DEPOT_DOWNLOADER_ARCHIVE}"; \
+    fi && \
+    wget "${DOWNLOAD_URL}" -O /tmp/depot.zip && \
     mkdir /out && \
     unzip /tmp/depot.zip -d /out && \
     rm /tmp/depot.zip

@@ -96,13 +96,13 @@ func downloadAssetsFromSteam(email *emailClient) error {
 
 	select {
 	case <-steamGuardRequired:
-		ticker := time.NewTicker(time.Second * 5)
+		ticker := time.NewTicker(time.Second * 15)
 		defer ticker.Stop()
 
 		var counter int
 		for range ticker.C {
 			counter++
-			if counter > 10 {
+			if counter > 3 {
 				return errors.New("failed to find a steam guard code")
 			}
 
