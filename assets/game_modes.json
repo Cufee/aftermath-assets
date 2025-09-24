@@ -262,5 +262,27 @@
     "vi": "Burning Games",
     "zh-Hans": "Burning Games",
     "zh-Hant": "Burning Games"
+  },
+  "game_mode_zombie_mode": {
+    "ar": "الجبهة المصابة",
+    "cs": "Nakažená fronta",
+    "de": "Infizierte Front",
+    "en": "Infected Front",
+    "es": "Frente infectado",
+    "fi": "TARTUNTARINTAMA",
+    "fr": "Front infecté",
+    "hi": "इन्फ़ेक्टेड फ़्रंट",
+    "it": "Fronte Infetto",
+    "ja": "感染戦線",
+    "ko": "감염된 전선",
+    "pl": "Skażony front",
+    "pt": "Front Infectado",
+    "ru": "Чумной фронт",
+    "th": "สนามรบติดเชื้อ",
+    "tr": "Salgın Cephesi",
+    "uk": "Заражений фронт",
+    "vi": "Infected Front",
+    "zh-Hans": "感染前线",
+    "zh-Hant": "感染前線"
   }
 }

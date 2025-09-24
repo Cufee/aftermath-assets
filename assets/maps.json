@@ -1,64 +1,64 @@
 {
-  "1": {
-    "id": "1",
-    "key": "17_karelia_ka/17_karelia_ka.sc2",
+  "11": {
+    "id": "11",
+    "key": "09_savanna_sv/09_savanna_sv.sc2",
     "availableModes": [
       0,
       1
     ],
     "supremacyPointsThreshold": 800,
     "names": {
-      "ar": "روكفيلد",
-      "cs": "Rockfield",
-      "de": "Steinfeld",
-      "en": "Rockfield",
-      "es": "Rockfield",
-      "fi": "Rockfield",
-      "fr": "Rockfield",
-      "hi": "रॉकफ़ील्ड",
-      "it": "Rockfield",
-      "ja": "ロックフィールド",
-      "ko": "록필드",
-      "pl": "Kamieniec",
-      "pt": "Rockfield",
-      "ru": "Балтийский щит",
-      "th": "ทุ่งหิน",
-      "tr": "Rockfield",
-      "uk": "Балтійський щит",
-      "vi": "\"Rockfield\"",
-      "zh-Hans": "石之域",
-      "zh-Hant": "石之原"
+      "ar": "واحة النخيل",
+      "cs": "Oáza",
+      "de": "Oasenpalmen",
+      "en": "Oasis Palms",
+      "es": "Oasis de palmeras",
+      "fi": "Oasis Palms",
+      "fr": "Palmiers de l'oasis",
+      "hi": "ओआसिस पाम्स",
+      "it": "Oasi di Palme",
+      "ja": "オアシスの椰子",
+      "ko": "오아시스",
+      "pl": "Oaza",
+      "pt": "Palmeiras do Oásis",
+      "ru": "Горящие пески",
+      "th": "ปาล์มโอเอซิส",
+      "tr": "Vaha Palmiyeleri",
+      "uk": "Палаючі піски",
+      "vi": "\"Ốc Đảo\"",
+      "zh-Hans": "砂丘",
+      "zh-Hant": "葉之綠洲"
     }
   },
-  "10": {
-    "id": "10",
-    "key": "21_mountain_mnt/21_mountain_mnt.sc2",
+  "12": {
+    "id": "12",
+    "key": "11_plant_pn/11_plant_pn.sc2",
     "availableModes": [
       0,
       1
     ],
     "supremacyPointsThreshold": 800,
     "names": {
-      "ar": "الذهب الأسود",
-      "cs": "Ropné pole",
-      "de": "Schwarzes Gold",
-      "en": "Black Goldville",
-      "es": "Villa del oro negro",
-      "fi": "Black Goldville",
-      "fr": "Goldville noire",
-      "hi": "ब्लैक गोल्डविल",
-      "it": "Oro Nero",
-      "ja": "黒き黄金の村",
-      "ko": "블랙 골드빌",
-      "pl": "Czarne złoto",
-      "pt": "Ouro Negro",
-      "ru": "Золотая долина",
-      "th": "เมืองทองดำ",
-      "tr": "Kara Altınköy",
-      "uk": "Золота долина",
-      "vi": "\"Thung Lũng Vàng Đen\"",
-      "zh-Hans": "黑色矿脉",
-      "zh-Hant": "黑色淘金鎮"
+      "ar": "مصنع الأشباح",
+      "cs": "Továrna duchů",
+      "de": "Geisterfabrik",
+      "en": "Ghost Factory",
+      "es": "Fábrica fantasma",
+      "fi": "Ghost Factory",
+      "fr": "Usine fantôme",
+      "hi": "घोस्ट फ़ैक्टरी",
+      "it": "Fabbrica spettrale",
+      "ja": "廃工場",
+      "ko": "폐공장",
+      "pl": "Fabryka duchów",
+      "pt": "Fábrica Fantasma",
+      "ru": "Промзона",
+      "th": "โรงงานร้าง",
+      "tr": "Hayalet Fabrika",
+      "uk": "Промзона",
+      "vi": "\"Ghost Factory\"",
+      "zh-Hans": "幽灵工厂",
+      "zh-Hant": "幽靈工廠"
     }
   },
   "13": {
@@ -90,6 +90,37 @@
       "vi": "\"Yukon\"",
       "zh-Hans": "育空",
       "zh-Hant": "育空"
+    }
+  },
+  "14": {
+    "id": "14",
+    "key": "16_holland_hl/16_holland_hl.sc2",
+    "availableModes": [
+      0,
+      1
+    ],
+    "supremacyPointsThreshold": 800,
+    "names": {
+      "ar": "سدّ الطاحونة",
+      "cs": "Molendijk",
+      "de": "Molendijk",
+      "en": "Molendijk",
+      "es": "Molendijk",
+      "fi": "Molendijk",
+      "fr": "Molendijk",
+      "hi": "Molendijk",
+      "it": "Molendijk",
+      "ja": "モレンダイク",
+      "ko": "Molendijk",
+      "pl": "Molendijk",
+      "pt": "Molendijk",
+      "ru": "Молендейк",
+      "th": "เมืองกังหันลม",
+      "tr": "Molendijk",
+      "uk": "Молендейк",
+      "vi": "Molendijk",
+      "zh-Hans": "水坝",
+      "zh-Hant": "米爾丹"
     }
   },
   "15": {
@@ -350,6 +381,37 @@
       "zh-Hant": "米德爾堡"
     }
   },
+  "30": {
+    "id": "30",
+    "key": "28_rock_rc/28_rock_rc.sc2",
+    "availableModes": [
+      0,
+      1
+    ],
+    "supremacyPointsThreshold": 800,
+    "names": {
+      "ar": "الأهرام القديمة",
+      "cs": "Starobylé pyramidy",
+      "de": "Antike Pyramiden",
+      "en": "Mayan Ruins",
+      "es": "Ruinas Mayas",
+      "fi": "Mayan Ruins",
+      "fr": "Pyramides antiques",
+      "hi": "मायान रुइंस",
+      "it": "Antiche Piramidi",
+      "ja": "マヤ遺跡",
+      "ko": "고대 피라미드",
+      "pl": "Starożytne piramidy",
+      "pt": "Pirâmides Antigas",
+      "ru": "Древние пирамиды",
+      "th": "ปิรามิดโบราณ",
+      "tr": "Kadim Piramitler",
+      "uk": "Стародавні піраміди",
+      "vi": "\"Kim Tự Tháp Cổ Đại\"",
+      "zh-Hans": "古老的金字塔",
+      "zh-Hant": "遠古金字塔"
+    }
+  },
   "31": {
     "id": "31",
     "key": "30_grossberg_sh/30_grossberg_sh.sc2",
@@ -381,97 +443,35 @@
       "zh-Hant": "王朝明珠"
     }
   },
-  "35": {
-    "id": "35",
-    "key": "29_skit_sk/29_skit_sk.sc2",
-    "availableModes": [
-      0,
-      1
-    ],
-    "supremacyPointsThreshold": 800,
-    "names": {
-      "ar": "الحدود البحرية",
-      "cs": "Námořní hranice",
-      "de": "Marinefront",
-      "en": "Naval Frontier",
-      "es": "Frontera naval",
-      "fi": "Naval Frontier",
-      "fr": "Frontière maritime",
-      "hi": "नेवल फ़्रन्टियर",
-      "it": "Frontiera Navale",
-      "ja": "沿岸要塞",
-      "ko": "해군 경계 지역",
-      "pl": "Morskie rubieże",
-      "pt": "Fronteira Naval",
-      "ru": "Морской рубеж",
-      "th": "เขตแดนทางทะเล",
-      "tr": "Deniz Sınırı",
-      "uk": "Морський рубіж",
-      "vi": "\"Biên Giới Biển\"",
-      "zh-Hans": "海军前沿",
-      "zh-Hant": "海軍前沿"
-    }
-  },
   "38": {
     "id": "38",
-    "key": "31_lumber_lm/31_lumber_lm.sc2",
+    "key": "31_lumber_lm_night/31_lumber_lm_night.sc2",
     "availableModes": [
       0,
       1
     ],
     "supremacyPointsThreshold": 800,
     "names": {
-      "ar": "ألبينشتاد",
-      "cs": "Alpenstadt",
-      "de": "Alpenstadt",
-      "en": "Alpenstadt",
-      "es": "Alpenstadt",
-      "fi": "Alpenstadt",
-      "fr": "Alpenstadt",
-      "hi": "ऐल्पेनस्टैट",
-      "it": "Alpenstadt",
-      "ja": "アルペンシュタット",
-      "ko": "알펜스타드",
-      "pl": "Alpenstadt",
-      "pt": "Alpenstadt",
-      "ru": "Альпенштадт",
-      "th": "อัลเพนสตาดท์",
-      "tr": "Alpenstadt",
-      "uk": "Альпенштадт",
-      "vi": "\"Alpenstadt\"",
-      "zh-Hans": "阿尔潘斯丹特",
-      "zh-Hant": "阿爾彭史塔特"
-    }
-  },
-  "39": {
-    "id": "39",
-    "key": "32_faust_fa_night/32_faust_fa_night.sc2",
-    "availableModes": [
-      0,
-      1
-    ],
-    "supremacyPointsThreshold": 800,
-    "names": {
-      "ar": "فاوست",
-      "cs": "Faust",
-      "de": "Faust",
-      "en": "Faust",
-      "es": "Fausto",
-      "fi": "Faust",
-      "fr": "Faust",
-      "hi": "फ़ॉस्ट",
-      "it": "Faust",
-      "ja": "ファウスト",
-      "ko": "파우스트",
-      "pl": "Faust",
-      "pt": "Faust",
-      "ru": "Фауст",
-      "th": "กำปั้น",
-      "tr": "Faust",
-      "uk": "Фауст",
-      "vi": "\"Faust\"",
-      "zh-Hans": "浮士德",
-      "zh-Hant": "浮士德"
+      "ar": "هورورستاد",
+      "cs": "Horrorstadt",
+      "de": "Horrorstadt",
+      "en": "Horrorstadt",
+      "es": "Horrorstadt",
+      "fi": "Horrorstadt",
+      "fr": "Horrorstadt",
+      "hi": "हॉररस्टैट",
+      "it": "Horrorstadt",
+      "ja": "ホラーシュタット",
+      "ko": "호러스타드",
+      "pl": "Horrorstadt",
+      "pt": "Horrorstadt",
+      "ru": "Хоррорштадт",
+      "th": "เมืองหลอน",
+      "tr": "Korkuşehir",
+      "uk": "Хоррорштадт",
+      "vi": "\"Horrorstadt\"",
+      "zh-Hans": "恐怖城",
+      "zh-Hant": "恐怖城市"
     }
   },
   "4": {
@@ -565,37 +565,6 @@
       "vi": "\"Normandy\"",
       "zh-Hans": "诺曼底",
       "zh-Hant": "諾曼第"
-    }
-  },
-  "43": {
-    "id": "43",
-    "key": "35_rift_rt/35_rift_rt.sc2",
-    "availableModes": [
-      0,
-      1
-    ],
-    "supremacyPointsThreshold": 800,
-    "names": {
-      "ar": "هيلاس",
-      "cs": "Helada",
-      "de": "Hellas",
-      "en": "Hellas",
-      "es": "Hélade",
-      "fi": "Hellas",
-      "fr": "Hellas",
-      "hi": "हेलास",
-      "it": "Hellas",
-      "ja": "ヘラス",
-      "ko": "헬라스",
-      "pl": "Hellada",
-      "pt": "Hélade",
-      "ru": "Эллада",
-      "th": "กรีกโบราณ",
-      "tr": "Helen",
-      "uk": "Еллада",
-      "vi": "\"Hy Lạp\"",
-      "zh-Hans": "赫拉斯",
-      "zh-Hant": "古希臘"
     }
   },
   "44": {
@@ -1021,32 +990,32 @@
   },
   "57": {
     "id": "57",
-    "key": "31_lumber_lm/31_lumber_lm.sc2",
+    "key": "31_lumber_lm_night/31_lumber_lm_night.sc2",
     "availableModes": [
       0
     ],
     "supremacyPointsThreshold": 800,
     "names": {
-      "ar": "ألبينشتاد - البلدة",
-      "cs": "Alpenstadt – město",
-      "de": "Alpenstadt – Stadt",
-      "en": "Alpenstadt - Town",
-      "es": "Alpenstadt: Pueblo",
-      "fi": "Alpenstadt - Kaupunki",
-      "fr": "Alpenstadt - Ville",
-      "hi": "ऐल्पेनस्टैट - टाउन",
-      "it": "Alpenstadt - Città",
-      "ja": "アルペンシュタット - 町",
-      "ko": "알펜스타드 - 마을",
-      "pl": "Alpenstadt – Miasto",
-      "pt": "Alpenstadt - Cidade",
-      "ru": "Альпенштадт. Город",
-      "th": "อัลเพนสตาดท์ - ตัวเมือง",
-      "tr": "Alpenstadt - Şehir",
-      "uk": "Альпенштадт. Місто",
-      "vi": "\"Alpenstadt\" - Thị trấn",
-      "zh-Hans": "阿尔潘斯丹特 — 小镇",
-      "zh-Hant": "阿爾彭史塔特 - 城鎮"
+      "ar": "Horrorstadt - Town",
+      "cs": "Horrorstadt - Town",
+      "de": "Horrorstadt - Town",
+      "en": "Horrorstadt - Town",
+      "es": "Horrorstadt - Town",
+      "fi": "Horrorstadt - Town",
+      "fr": "Horrorstadt - Town",
+      "hi": "Horrorstadt - Town",
+      "it": "Horrorstadt - Town",
+      "ja": "Horrorstadt - Town",
+      "ko": "Horrorstadt - Town",
+      "pl": "Horrorstadt - Town",
+      "pt": "Horrorstadt - Town",
+      "ru": "Horrorstadt - Town",
+      "th": "Horrorstadt - Town",
+      "tr": "Horrorstadt - Town",
+      "uk": "Horrorstadt - Town",
+      "vi": "Horrorstadt - Town",
+      "zh-Hans": "Horrorstadt - Town",
+      "zh-Hant": "Horrorstadt - Town"
     }
   },
   "58": {
@@ -1260,97 +1229,6 @@
       "zh-Hant": "死亡鐵道"
     }
   },
-  "70": {
-    "id": "70",
-    "key": "40_moon_mn/40_moon_mn.sc2",
-    "availableModes": [
-      0
-    ],
-    "supremacyPointsThreshold": 800,
-    "names": {
-      "ar": "بحر السكينة",
-      "cs": "Moře klidu",
-      "de": "Meer der Ruhe",
-      "en": "Sea of Tranquility",
-      "es": "Mar de la Tranquilidad",
-      "fi": "Sea of Tranquility",
-      "fr": "Mer de la Tranquillité",
-      "hi": "शांति का सागर",
-      "it": "Mare della tranquillità",
-      "ja": "平穏の海",
-      "ko": "고요의 바다",
-      "pl": "Morze Spokoju",
-      "pt": "Mar da Tranquilidade",
-      "ru": "Море Спокойствия",
-      "th": "ทะเลแห่งความสงบ",
-      "tr": "Sessizlik Denizi",
-      "uk": "Море Спокою",
-      "vi": "\"Nguyệt Hải\"",
-      "zh-Hans": "宁静之海",
-      "zh-Hant": "寧靜之海"
-    }
-  },
-  "71": {
-    "id": "71",
-    "key": "26_holmeisk_hk/26_holmeisk_hk.sc2",
-    "availableModes": [
-      0,
-      1
-    ],
-    "supremacyPointsThreshold": 800,
-    "names": {
-      "ar": "الأرض القاحلة",
-      "cs": "Pustina",
-      "de": "Ödland",
-      "en": "Wasteland",
-      "es": "Tierras baldías",
-      "fi": "Wasteland",
-      "fr": "Terrain vague",
-      "hi": "वेस्टलैंड",
-      "it": "Landa Desolata",
-      "ja": "廃墟",
-      "ko": "황무지",
-      "pl": "Kataklizm",
-      "pt": "Terra de Ninguém",
-      "ru": "Пустошь",
-      "th": "แดนร้าง",
-      "tr": "Çorak",
-      "uk": "Пустище",
-      "vi": "\"Hoang Mạc\"",
-      "zh-Hans": "不毛之地",
-      "zh-Hant": "西部荒野"
-    }
-  },
-  "72": {
-    "id": "72",
-    "key": "41_iceworld_ic/41_iceworld_ic.sc2",
-    "availableModes": [
-      0
-    ],
-    "supremacyPointsThreshold": 800,
-    "names": {
-      "ar": "الصقيع الأبدي",
-      "cs": "Věčný mráz",
-      "de": "Immerfrost",
-      "en": "Everfrost",
-      "es": "Hielo perpetuo",
-      "fi": "Everfrost",
-      "fr": "Permagivre",
-      "hi": "एवरफ़्रॉस्ट",
-      "it": "Ghiacciaio perenne",
-      "ja": "解けない霜",
-      "ko": "만년 서리",
-      "pl": "Wieczna zmarzlina",
-      "pt": "Geada Eterna",
-      "ru": "Эверфрост",
-      "th": "ทุ่งน้ำแข็ง",
-      "tr": "Buzkesen",
-      "uk": "Еверфрост",
-      "vi": "\"Mãi Băng\"",
-      "zh-Hans": "永冻",
-      "zh-Hant": "永凍冰原"
-    }
-  },
   "8": {
     "id": "8",
     "key": "07_fort_ft/07_fort_ft.sc2",
@@ -1380,37 +1258,6 @@
       "vi": "\"Pháo Đài\"",
       "zh-Hans": "绝望堡垒",
       "zh-Hant": "絕望之壘"
-    }
-  },
-  "9": {
-    "id": "9",
-    "key": "19_himmelsdorf_hm/19_himmelsdorf_hm.sc2",
-    "availableModes": [
-      0,
-      1
-    ],
-    "supremacyPointsThreshold": 800,
-    "names": {
-      "ar": "هيميلسدورف",
-      "cs": "Himmelsdorf",
-      "de": "Himmelsdorf",
-      "en": "Himmelsdorf",
-      "es": "Himmelsdorf",
-      "fi": "Himmelsdorf",
-      "fr": "Himmelsdorf",
-      "hi": "हिमेल्सडोर्फ़",
-      "it": "Himmelsdorf",
-      "ja": "ヒメルズドルフ",
-      "ko": "힘멜스도르프",
-      "pl": "Himmelsdorf",
-      "pt": "Himmelsdorf",
-      "ru": "Химмельсдорф",
-      "th": "ฮิมเมลสดอร์ฟ",
-      "tr": "Himmelsdorf",
-      "uk": "Хіммельсдорф",
-      "vi": "\"Himmelsdorf\"",
-      "zh-Hans": "锡默尔斯多夫",
-      "zh-Hant": "希墨爾斯多夫"
     }
   }
 }

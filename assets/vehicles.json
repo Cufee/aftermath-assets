@@ -1466,6 +1466,19 @@
     "superTest": false,
     "collectible": false
   },
+  "14385": {
+    "id": "14385",
+    "key": "#china_vehicles:Ch40_WZ120G_FT_short",
+    "names": {
+      "en": "WZ-120G FT"
+    },
+    "tier": 9,
+    "class": "AT-SPG",
+    "nation": "china",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
+  },
   "14449": {
     "id": "14449",
     "key": "#other_vehicles:Oth47_AMX_13_90_S3_short",
@@ -3148,6 +3161,19 @@
     "superTest": false,
     "collectible": false
   },
+  "19825": {
+    "id": "19825",
+    "key": "#other_vehicles:Oth79_AC_17_Alcyone_short",
+    "names": {
+      "en": "AC-07 Atlas"
+    },
+    "tier": 10,
+    "class": "heavyTank",
+    "nation": "other",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
+  },
   "19841": {
     "id": "19841",
     "key": "#european_vehicles:Pl27_SDP_Wz_66T_short",
@@ -3373,6 +3399,19 @@
     "superTest": false,
     "collectible": false
   },
+  "20593": {
+    "id": "20593",
+    "key": "#other_vehicles:Oth82_AC_14_Pleione_short",
+    "names": {
+      "en": "AC-14 Pleione"
+    },
+    "tier": 8,
+    "class": "heavyTank",
+    "nation": "other",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
+  },
   "2065": {
     "id": "2065",
     "key": "#germany_vehicles:PzII_short",
@@ -3543,6 +3582,19 @@
     "class": "AT-SPG",
     "nation": "uk",
     "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
+  "21105": {
+    "id": "21105",
+    "key": "#other_vehicles:Oth83_AC_13_Merope_short",
+    "names": {
+      "en": "AC-04V Merope"
+    },
+    "tier": 7,
+    "class": "heavyTank",
+    "nation": "other",
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4570,6 +4622,19 @@
     "superTest": false,
     "collectible": true
   },
+  "25169": {
+    "id": "25169",
+    "key": "#uk_vehicles:GB141_GSOR_the_TANK_short",
+    "names": {
+      "en": "GSOR the TANK"
+    },
+    "tier": 10,
+    "class": "heavyTank",
+    "nation": "uk",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
+  },
   "25345": {
     "id": "25345",
     "key": "#ussr_vehicles:R180_Object_274A_short",
@@ -5349,6 +5414,19 @@
     "tier": 9,
     "class": "lightTank",
     "nation": "usa",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
+  },
+  "29713": {
+    "id": "29713",
+    "key": "#germany_vehicles:G168_KJpz_T_III_short",
+    "names": {
+      "en": "KJPZ TIII Jäger"
+    },
+    "tier": 9,
+    "class": "AT-SPG",
+    "nation": "germany",
     "premium": false,
     "superTest": false,
     "collectible": true
