@@ -1628,6 +1628,19 @@
     "superTest": false,
     "collectible": true
   },
+  "15217": {
+    "id": "15217",
+    "key": "#other_vehicles:Oth65_PzVIllM_Tigeom_short",
+    "names": {
+      "en": "AC Forger"
+    },
+    "tier": 6,
+    "class": "heavyTank",
+    "nation": "other",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
   "15233": {
     "id": "15233",
     "key": "#european_vehicles:Pl22_CS_59_short",
@@ -3073,7 +3086,7 @@
     "id": "19569",
     "key": "#other_vehicles:Oth78_AC_17_P_Sterope_short",
     "names": {
-      "en": "AC-17P Sterope"
+      "en": "AC Sterope"
     },
     "tier": 9,
     "class": "heavyTank",
@@ -3678,6 +3691,19 @@
     "superTest": false,
     "collectible": true
   },
+  "21361": {
+    "id": "21361",
+    "key": "#other_vehicles:Oth86_Survivalist_short",
+    "names": {
+      "en": "Herdbreaker"
+    },
+    "tier": 9,
+    "class": "mediumTank",
+    "nation": "other",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
+  },
   "2145": {
     "id": "2145",
     "key": "#japan_vehicles:Chi_Ha_short",
@@ -3770,6 +3796,20 @@
     "premium": false,
     "superTest": false,
     "collectible": false
+  },
+  "21617": {
+    "id": "21617",
+    "key": "#other_vehicles:Oth85_Ghoul_short",
+    "names": {
+      "en": "Biter",
+      "ru": "Кусака"
+    },
+    "tier": 8,
+    "class": "mediumTank",
+    "nation": "other",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
   },
   "21761": {
     "id": "21761",
