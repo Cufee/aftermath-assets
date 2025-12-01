@@ -35,7 +35,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -89,7 +89,7 @@
     "tier": 5,
     "class": "heavyTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -102,7 +102,7 @@
     "tier": 10,
     "class": "mediumTank",
     "nation": "european",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -183,7 +183,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -249,7 +249,7 @@
     "tier": 5,
     "class": "AT-SPG",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -553,7 +553,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -563,10 +563,10 @@
     "names": {
       "en": "Kpz 70"
     },
-    "tier": 9,
+    "tier": 10,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -592,7 +592,7 @@
     "tier": 7,
     "class": "AT-SPG",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -618,7 +618,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -790,7 +790,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -830,7 +830,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "european",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -870,7 +870,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -922,7 +922,7 @@
     "tier": 10,
     "class": "heavyTank",
     "nation": "european",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -948,7 +948,7 @@
     "tier": 4,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -974,7 +974,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "european",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -988,7 +988,7 @@
     "tier": 9,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -1092,7 +1092,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -1135,6 +1135,19 @@
     "superTest": false,
     "collectible": false
   },
+  "13169": {
+    "id": "13169",
+    "key": "#other_vehicles:Oth61_Pz_VM_Set_short",
+    "names": {
+      "en": "AC Wedge"
+    },
+    "tier": 4,
+    "class": "heavyTank",
+    "nation": "other",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
   "13185": {
     "id": "13185",
     "key": "#european_vehicles:Cz17_Vz_55_short",
@@ -1170,7 +1183,7 @@
     "tier": 4,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -1183,7 +1196,20 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
+  "13425": {
+    "id": "13425",
+    "key": "#other_vehicles:Oth62_Pz_VlD_Set_short",
+    "names": {
+      "en": "AC Highlander"
+    },
+    "tier": 5,
+    "class": "heavyTank",
+    "nation": "other",
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -1224,7 +1250,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -1240,6 +1266,19 @@
     "premium": false,
     "superTest": false,
     "collectible": true
+  },
+  "13681": {
+    "id": "13681",
+    "key": "#other_vehicles:Oth63_Pz_VllF_Set_short",
+    "names": {
+      "en": "AC Ocelote"
+    },
+    "tier": 6,
+    "class": "heavyTank",
+    "nation": "other",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
   },
   "13697": {
     "id": "13697",
@@ -1342,9 +1381,22 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
+  },
+  "13937": {
+    "id": "13937",
+    "key": "#other_vehicles:Oth64_Pz_VlllK_Set_short",
+    "names": {
+      "en": "AC Rebelde"
+    },
+    "tier": 7,
+    "class": "heavyTank",
+    "nation": "other",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
   },
   "13953": {
     "id": "13953",
@@ -1624,7 +1676,7 @@
     "tier": 6,
     "class": "lightTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -1664,7 +1716,7 @@
     "tier": 4,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -1690,7 +1742,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -1744,7 +1796,7 @@
     "tier": 10,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -1783,7 +1835,7 @@
     "tier": 10,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -1835,7 +1887,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -1848,7 +1900,7 @@
     "tier": 10,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -1874,7 +1926,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -1913,7 +1965,7 @@
     "tier": 2,
     "class": "lightTank",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -1926,7 +1978,7 @@
     "tier": 5,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -1939,7 +1991,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -1952,7 +2004,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -2031,7 +2083,7 @@
     "tier": 7,
     "class": "lightTank",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -2058,7 +2110,7 @@
     "tier": 7,
     "class": "AT-SPG",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -2150,7 +2202,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -2243,7 +2295,7 @@
     "tier": 3,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -2257,7 +2309,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -2324,7 +2376,7 @@
     "tier": 8,
     "class": "lightTank",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -2377,7 +2429,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -2390,7 +2442,7 @@
     "tier": 10,
     "class": "AT-SPG",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -2442,7 +2494,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -2657,7 +2709,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -2670,7 +2722,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -2723,7 +2775,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -2749,7 +2801,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -2762,7 +2814,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -2815,7 +2867,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -2841,7 +2893,7 @@
     "tier": 10,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -2854,7 +2906,7 @@
     "tier": 6,
     "class": "lightTank",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -2867,7 +2919,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -2880,7 +2932,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -2959,7 +3011,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -2973,7 +3025,7 @@
     "tier": 6,
     "class": "AT-SPG",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -2986,7 +3038,7 @@
     "tier": 10,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3039,7 +3091,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -3052,7 +3104,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -3118,7 +3170,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -3131,7 +3183,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3144,7 +3196,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3178,14 +3230,14 @@
     "id": "19825",
     "key": "#other_vehicles:Oth79_AC_17_Alcyone_short",
     "names": {
-      "en": "AC-07 Atlas"
+      "en": "AC Atlas"
     },
     "tier": 10,
     "class": "heavyTank",
     "nation": "other",
     "premium": false,
     "superTest": false,
-    "collectible": true
+    "collectible": false
   },
   "19841": {
     "id": "19841",
@@ -3210,7 +3262,7 @@
     "tier": 10,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3223,7 +3275,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3262,6 +3314,19 @@
     "tier": 8,
     "class": "lightTank",
     "nation": "uk",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
+  "20081": {
+    "id": "20081",
+    "key": "#other_vehicles:Oth80_AC_16_Celeno_short",
+    "names": {
+      "en": "AC Celeno"
+    },
+    "tier": 9,
+    "class": "heavyTank",
+    "nation": "other",
     "premium": false,
     "superTest": false,
     "collectible": false
@@ -3328,9 +3393,22 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
+  },
+  "20337": {
+    "id": "20337",
+    "key": "#other_vehicles:Oth81_AC_15_Taygete_short",
+    "names": {
+      "en": "AC Taygete"
+    },
+    "tier": 8,
+    "class": "heavyTank",
+    "nation": "other",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
   },
   "20481": {
     "id": "20481",
@@ -3342,7 +3420,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3382,7 +3460,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3408,7 +3486,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -3416,7 +3494,7 @@
     "id": "20593",
     "key": "#other_vehicles:Oth82_AC_14_Pleione_short",
     "names": {
-      "en": "AC-14 Pleione"
+      "en": "AC Pleione"
     },
     "tier": 8,
     "class": "heavyTank",
@@ -3448,7 +3526,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3474,7 +3552,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3541,7 +3619,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3554,7 +3632,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -3567,7 +3645,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -3594,7 +3672,7 @@
     "tier": 6,
     "class": "AT-SPG",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3602,7 +3680,7 @@
     "id": "21105",
     "key": "#other_vehicles:Oth83_AC_13_Merope_short",
     "names": {
-      "en": "AC-04V Merope"
+      "en": "AC-07V Merope"
     },
     "tier": 7,
     "class": "heavyTank",
@@ -3621,7 +3699,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3634,7 +3712,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3648,7 +3726,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3687,7 +3765,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3727,7 +3805,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3740,7 +3818,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3779,7 +3857,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3793,7 +3871,7 @@
     "tier": 7,
     "class": "AT-SPG",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -3821,7 +3899,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -3847,7 +3925,7 @@
     "tier": 10,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3861,7 +3939,7 @@
     "tier": 10,
     "class": "lightTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3887,7 +3965,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3915,7 +3993,7 @@
     "tier": 6,
     "class": "lightTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3928,7 +4006,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3968,7 +4046,7 @@
     "tier": 10,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -3994,7 +4072,7 @@
     "tier": 9,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4034,7 +4112,7 @@
     "tier": 8,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -4047,7 +4125,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4060,7 +4138,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -4077,6 +4155,20 @@
     "superTest": false,
     "collectible": false
   },
+  "22641": {
+    "id": "22641",
+    "key": "#other_vehicles:Oth93_Convoyer_short",
+    "names": {
+      "en": "Convoyer",
+      "ru": "Конвоир"
+    },
+    "tier": 8,
+    "class": "heavyTank",
+    "nation": "other",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
+  },
   "22785": {
     "id": "22785",
     "key": "#ussr_vehicles:T34_85BP_short",
@@ -4087,7 +4179,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4101,7 +4193,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4141,7 +4233,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -4168,7 +4260,7 @@
     "tier": 7,
     "class": "lightTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4234,7 +4326,7 @@
     "tier": 10,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4287,7 +4379,7 @@
     "tier": 2,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4301,7 +4393,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4340,7 +4432,7 @@
     "tier": 3,
     "class": "AT-SPG",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4367,7 +4459,7 @@
     "tier": 7,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4380,7 +4472,7 @@
     "tier": 7,
     "class": "AT-SPG",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4393,7 +4485,7 @@
     "tier": 3,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4419,7 +4511,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "japan",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4446,7 +4538,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4459,7 +4551,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4513,7 +4605,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4540,7 +4632,7 @@
     "tier": 10,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4553,7 +4645,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4566,7 +4658,7 @@
     "tier": 10,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4605,7 +4697,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -4632,7 +4724,7 @@
     "tier": 9,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4645,7 +4737,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4685,7 +4777,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -4698,7 +4790,7 @@
     "tier": 9,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4711,7 +4803,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4752,7 +4844,7 @@
     "tier": 8,
     "class": "lightTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -4765,7 +4857,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4792,7 +4884,7 @@
     "tier": 5,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4833,7 +4925,7 @@
     "tier": 6,
     "class": "lightTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4859,7 +4951,7 @@
     "tier": 6,
     "class": "lightTank",
     "nation": "china",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4900,7 +4992,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -4953,7 +5045,7 @@
     "tier": 6,
     "class": "AT-SPG",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -5006,7 +5098,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -5059,7 +5151,7 @@
     "tier": 6,
     "class": "lightTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -5100,7 +5192,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -5272,7 +5364,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -5324,7 +5416,7 @@
     "tier": 4,
     "class": "mediumTank",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -5389,7 +5481,7 @@
     "tier": 4,
     "class": "lightTank",
     "nation": "japan",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -5428,7 +5520,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "european",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -5481,7 +5573,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -5507,7 +5599,7 @@
     "tier": 4,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -5559,7 +5651,7 @@
     "tier": 9,
     "class": "heavyTank",
     "nation": "european",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -5585,7 +5677,7 @@
     "tier": 5,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -5612,7 +5704,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -5638,7 +5730,7 @@
     "tier": 2,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -5717,7 +5809,7 @@
     "tier": 2,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -5769,7 +5861,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -5886,7 +5978,7 @@
     "tier": 9,
     "class": "mediumTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6030,7 +6122,7 @@
     "tier": 10,
     "class": "heavyTank",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6056,7 +6148,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "japan",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6069,7 +6161,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -6135,7 +6227,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "japan",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6149,7 +6241,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6162,7 +6254,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "european",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6175,7 +6267,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6188,7 +6280,7 @@
     "tier": 3,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6201,7 +6293,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "china",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6240,7 +6332,7 @@
     "tier": 4,
     "class": "lightTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6267,7 +6359,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6280,7 +6372,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "european",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6294,7 +6386,7 @@
     "tier": 5,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6308,7 +6400,7 @@
     "tier": 2,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6349,7 +6441,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -6362,7 +6454,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -6375,7 +6467,7 @@
     "tier": 2,
     "class": "lightTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6415,7 +6507,7 @@
     "tier": 5,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -6428,7 +6520,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6441,7 +6533,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -6455,7 +6547,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "japan",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -6481,7 +6573,7 @@
     "tier": 3,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6494,7 +6586,7 @@
     "tier": 2,
     "class": "lightTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6507,7 +6599,7 @@
     "tier": 4,
     "class": "AT-SPG",
     "nation": "japan",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6534,7 +6626,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6547,7 +6639,7 @@
     "tier": 4,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6560,7 +6652,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6574,7 +6666,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6588,7 +6680,7 @@
     "tier": 4,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6601,7 +6693,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "european",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6614,7 +6706,7 @@
     "tier": 2,
     "class": "lightTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6627,7 +6719,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -6654,7 +6746,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6667,7 +6759,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6694,7 +6786,7 @@
     "tier": 4,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6707,7 +6799,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -6721,7 +6813,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -6735,7 +6827,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6748,7 +6840,7 @@
     "tier": 2,
     "class": "lightTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6761,7 +6853,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -6775,7 +6867,7 @@
     "tier": 5,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -6802,7 +6894,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -6841,7 +6933,7 @@
     "tier": 7,
     "class": "AT-SPG",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6868,7 +6960,7 @@
     "tier": 3,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6881,7 +6973,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -6894,7 +6986,7 @@
     "tier": 5,
     "class": "heavyTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -6907,7 +6999,7 @@
     "tier": 9,
     "class": "mediumTank",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6934,7 +7026,7 @@
     "tier": 2,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -6947,7 +7039,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -6987,7 +7079,7 @@
     "tier": 6,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7000,7 +7092,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7013,7 +7105,7 @@
     "tier": 2,
     "class": "lightTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7026,7 +7118,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7052,7 +7144,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7065,7 +7157,7 @@
     "tier": 2,
     "class": "lightTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7079,7 +7171,7 @@
     "tier": 7,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7092,7 +7184,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7105,7 +7197,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7118,7 +7210,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7132,7 +7224,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7145,7 +7237,7 @@
     "tier": 7,
     "class": "AT-SPG",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7158,7 +7250,7 @@
     "tier": 2,
     "class": "mediumTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7171,7 +7263,7 @@
     "tier": 10,
     "class": "mediumTank",
     "nation": "china",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7184,7 +7276,7 @@
     "tier": 6,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7223,7 +7315,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7236,7 +7328,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7262,7 +7354,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7303,7 +7395,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7331,7 +7423,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7371,7 +7463,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "china",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7398,7 +7490,7 @@
     "tier": 7,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7411,7 +7503,7 @@
     "tier": 3,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7452,7 +7544,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7465,7 +7557,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7479,7 +7571,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7505,7 +7597,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7519,7 +7611,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7547,7 +7639,7 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7574,7 +7666,7 @@
     "tier": 4,
     "class": "lightTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7587,7 +7679,7 @@
     "tier": 2,
     "class": "AT-SPG",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7600,7 +7692,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "china",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7653,7 +7745,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7666,7 +7758,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7692,7 +7784,7 @@
     "tier": 8,
     "class": "lightTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7705,7 +7797,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7718,7 +7810,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7731,7 +7823,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7744,7 +7836,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "japan",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7758,7 +7850,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7771,7 +7863,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "japan",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7784,7 +7876,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7798,7 +7890,7 @@
     "tier": 3,
     "class": "AT-SPG",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7812,7 +7904,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7825,7 +7917,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7864,7 +7956,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7878,7 +7970,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7891,7 +7983,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7904,7 +7996,7 @@
     "tier": 3,
     "class": "AT-SPG",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7917,7 +8009,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7943,7 +8035,7 @@
     "tier": 7,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7957,7 +8049,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "china",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7971,7 +8063,7 @@
     "tier": 5,
     "class": "AT-SPG",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -7998,7 +8090,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -8024,7 +8116,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -8037,7 +8129,7 @@
     "tier": 4,
     "class": "lightTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -8050,7 +8142,7 @@
     "tier": 4,
     "class": "mediumTank",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -8182,7 +8274,7 @@
     "tier": 7,
     "class": "lightTank",
     "nation": "china",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -8208,7 +8300,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "japan",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -8235,7 +8327,7 @@
     "tier": 3,
     "class": "AT-SPG",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -8249,7 +8341,7 @@
     "tier": 7,
     "class": "lightTank",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -8301,7 +8393,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "european",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -8358,7 +8450,7 @@
     "tier": 8,
     "class": "AT-SPG",
     "nation": "china",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -8397,7 +8489,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "japan",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -8410,7 +8502,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -8423,7 +8515,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "european",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -8476,7 +8568,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "china",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -8516,7 +8608,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -8609,7 +8701,7 @@
     "tier": 5,
     "class": "AT-SPG",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -8662,7 +8754,7 @@
     "tier": 4,
     "class": "AT-SPG",
     "nation": "usa",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -8688,7 +8780,7 @@
     "tier": 2,
     "class": "AT-SPG",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -8728,7 +8820,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -8807,7 +8899,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -8833,7 +8925,7 @@
     "tier": 3,
     "class": "AT-SPG",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -8860,7 +8952,7 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -8900,7 +8992,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "china",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -8928,7 +9020,7 @@
     "tier": 4,
     "class": "lightTank",
     "nation": "germany",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -8967,7 +9059,7 @@
     "tier": 3,
     "class": "AT-SPG",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -8980,7 +9072,7 @@
     "tier": 2,
     "class": "AT-SPG",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -9006,7 +9098,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -9058,7 +9150,7 @@
     "tier": 10,
     "class": "heavyTank",
     "nation": "china",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -9072,7 +9164,7 @@
     "tier": 10,
     "class": "mediumTank",
     "nation": "france",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -9098,7 +9190,7 @@
     "tier": 6,
     "class": "lightTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -9111,7 +9203,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "european",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -9150,7 +9242,7 @@
     "tier": 7,
     "class": "lightTank",
     "nation": "china",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -9176,7 +9268,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -9189,7 +9281,7 @@
     "tier": 5,
     "class": "lightTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -9202,7 +9294,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "european",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -9216,7 +9308,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -9256,7 +9348,7 @@
     "tier": 6,
     "class": "mediumTank",
     "nation": "china",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -9282,7 +9374,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -9295,7 +9387,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "european",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -9309,7 +9401,7 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "ussr",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -9361,7 +9453,7 @@
     "tier": 6,
     "class": "heavyTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -9375,7 +9467,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "european",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -9415,7 +9507,7 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "china",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
@@ -9441,7 +9533,7 @@
     "tier": 7,
     "class": "mediumTank",
     "nation": "european",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -9506,7 +9598,7 @@
     "tier": 6,
     "class": "AT-SPG",
     "nation": "uk",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -9519,7 +9611,7 @@
     "tier": 6,
     "class": "lightTank",
     "nation": "other",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -9532,7 +9624,7 @@
     "tier": 7,
     "class": "heavyTank",
     "nation": "european",
-    "premium": true,
+    "premium": false,
     "superTest": false,
     "collectible": false
   },
