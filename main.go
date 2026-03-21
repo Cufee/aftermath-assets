@@ -72,12 +72,7 @@ func main() {
 	}
 
 	if args.Parse {
-		glossary, err := cdn.Vehicles(cdnLanguages...)
-		if err != nil {
-			panic(err)
-		}
-
-		err = os.MkdirAll(args.DecryptPath, os.ModeDir)
+		err := os.MkdirAll(args.DecryptPath, os.ModeDir)
 		if err != nil {
 			panic(err)
 		}
@@ -85,7 +80,7 @@ func main() {
 		// Init parsing functions
 		maps := newMapParser()
 		version := newVersionParser()
-		vehicles := newVehiclesParser(glossary)
+		vehicles := newVehiclesParser()
 		battleTypes := newBattleTypeParser()
 
 		// Due to how the parsing code is written, we will need to loop over the files twice

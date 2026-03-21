@@ -25,12 +25,10 @@ type vehiclesParser struct {
 	vehicleNames map[string]map[language.Tag]string
 	vehicles     map[string]types.Vehicle
 	lock         *sync.Mutex
-	glossary     map[string]map[language.Tag]vehicleRecord
 }
 
-func newVehiclesParser(glossary map[string]map[language.Tag]vehicleRecord) *vehiclesParser {
+func newVehiclesParser() *vehiclesParser {
 	return &vehiclesParser{
-		glossary:     glossary,
 		lock:         &sync.Mutex{},
 		vehicles:     make(map[string]types.Vehicle),
 		vehicleNames: make(map[string]map[language.Tag]string),
@@ -38,7 +36,7 @@ func newVehiclesParser(glossary map[string]map[language.Tag]vehicleRecord) *vehi
 }
 
 func (p *vehiclesParser) Items() *vehicleItemsParser {
-	return &vehicleItemsParser{p.glossary, p.vehicles, p.lock}
+	return &vehicleItemsParser{vehicles: p.vehicles, lock: p.lock}
 }
 func (p *vehiclesParser) Strings() *vehicleStringsParser {
 	return &vehicleStringsParser{p.vehicleNames, p.vehicles, p.lock}
@@ -137,7 +135,6 @@ func parseGoldPriceVehicles(raw []byte) map[string]bool {
 var vehicleItemsRegex = regexp.MustCompile(".*/XML/item_defs/vehicles/.*list.xml")
 
 type vehicleItemsParser struct {
-	glossary map[string]map[language.Tag]vehicleRecord
 	vehicles map[string]types.Vehicle
 	lock     *sync.Mutex
 }
@@ -168,15 +165,10 @@ func (item vehicleItem) class() string {
 	return "unknown"
 }
 
-func (item vehicleItem) toVehicle(id, nation string, glossary map[language.Tag]vehicleRecord) types.Vehicle {
+func (item vehicleItem) toVehicle(id, nation string) types.Vehicle {
 	key := item.Name
 	if item.NameShort != "" {
 		key = item.NameShort
-	}
-
-	names := make(map[language.Tag]string)
-	for t, v := range glossary {
-		names[t] = v.Name
 	}
 
 	return types.Vehicle{
@@ -226,7 +218,7 @@ func (p *vehicleItemsParser) Parse(path string, r io.Reader) error {
 		item.premium = premiumVehicles[name]
 
 		id := fmt.Sprint(toGlobalID(nation, item.id))
-		vehicle := item.toVehicle(id, nation, p.glossary[id])
+		vehicle := item.toVehicle(id, nation)
 		p.vehicles[vehicle.ID] = vehicle
 	}
 
