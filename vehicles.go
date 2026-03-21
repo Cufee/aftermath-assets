@@ -3,8 +3,8 @@ package main
 import (
 	"bytes"
 	"encoding/json"
+	"encoding/xml"
 	"os"
-	"reflect"
 	"sort"
 	"strconv"
 
@@ -88,6 +88,52 @@ func (p *vehiclesParser) Export(filePath string) error {
 	return nil
 }
 
+// parseGoldPriceVehicles parses raw XML to find vehicles whose <price> contains
+// a <gold/> sub-element. These are premium/collectible vehicles.
+func parseGoldPriceVehicles(raw []byte) map[string]bool {
+	result := make(map[string]bool)
+	decoder := xml.NewDecoder(bytes.NewReader(raw))
+
+	var currentVehicle string
+	var inPrice bool
+	var depth int // depth inside <root>
+
+	for {
+		tok, err := decoder.Token()
+		if err != nil {
+			break
+		}
+		switch t := tok.(type) {
+		case xml.StartElement:
+			if t.Name.Local == "root" {
+				continue
+			}
+			if depth == 0 {
+				// direct child of <root> = vehicle name
+				currentVehicle = t.Name.Local
+				depth = 1
+			} else if depth == 1 && t.Name.Local == "price" {
+				inPrice = true
+			} else if inPrice && t.Name.Local == "gold" {
+				result[currentVehicle] = true
+			}
+		case xml.EndElement:
+			if t.Name.Local == "root" {
+				continue
+			}
+			if t.Name.Local == currentVehicle {
+				currentVehicle = ""
+				depth = 0
+				inPrice = false
+			} else if t.Name.Local == "price" {
+				inPrice = false
+			}
+		}
+	}
+
+	return result
+}
+
 var vehicleItemsRegex = regexp.MustCompile(".*/XML/item_defs/vehicles/.*list.xml")
 
 type vehicleItemsParser struct {
@@ -108,6 +154,7 @@ type vehicleItem struct {
 	level        int
 	tags         []string
 	environments []string
+	premium      bool
 }
 
 var vehicleClasses = []string{"AT-SPG", "lightTank", "mediumTank", "heavyTank"}
@@ -136,10 +183,10 @@ func (item vehicleItem) toVehicle(id, nation string, glossary map[language.Tag]v
 		Key: key,
 		ID:  id,
 
-		Tier:        firstOf(item.level, glossary[language.English].Tier),
-		Class:       firstOf(item.class(), glossary[language.English].Type),
+		Tier:        item.level,
+		Class:       item.class(),
 		Nation:      nation,
-		Premium:     glossary[language.English].Premium,
+		Premium:     item.premium,
 		SuperTest:   slices.Contains(item.environments, "supertest") && !slices.Contains(item.environments, "production"),
 		Collectible: slices.Contains(item.tags, "collectible"),
 	}
@@ -163,14 +210,20 @@ func (p *vehicleItemsParser) Parse(path string, r io.Reader) error {
 		return errors.New("invalid nation " + nation)
 	}
 
+	// Parse raw XML to determine which vehicles have gold prices (premium indicator).
+	// The mxj library strips the <gold/> sub-element from <price>, so we use
+	// encoding/xml to detect it from the raw bytes.
+	premiumVehicles := parseGoldPriceVehicles(raw)
+
 	p.lock.Lock()
 	defer p.lock.Unlock()
 
-	for _, item := range data {
+	for name, item := range data {
 		item.id, _ = strconv.Atoi(item.ID)
 		item.level, _ = strconv.Atoi(item.Level)
 		item.tags = strings.Split(item.Tags, " ")
 		item.environments = strings.Split(item.Environments, " ")
+		item.premium = premiumVehicles[name]
 
 		id := fmt.Sprint(toGlobalID(nation, item.id))
 		vehicle := item.toVehicle(id, nation, p.glossary[id])
@@ -225,12 +278,3 @@ func (p *vehicleStringsParser) Parse(path string, r io.Reader) error {
 	return nil
 }
 
-func firstOf[T any](values ...T) T {
-	for _, v := range values {
-		if !reflect.ValueOf(v).IsZero() {
-			return v
-		}
-	}
-	var v T
-	return v
-}

@@ -23,11 +23,8 @@ func NewCDNClient(applicationID string) *wargamingCDNClient {
 }
 
 type vehicleRecord struct {
-	Premium bool   `json:"is_premium"`
-	Tier    int    `json:"tier"`
-	Type    string `json:"type"`
-	Name    string `json:"name"`
-	ID      int    `json:"tank_id"`
+	Name string `json:"name"`
+	ID   int    `json:"tank_id"`
 }
 
 func (c *wargamingCDNClient) Vehicles(locales ...string) (map[string]map[language.Tag]vehicleRecord, error) {
@@ -53,7 +50,7 @@ func (c *wargamingCDNClient) Vehicles(locales ...string) (map[string]map[languag
 		go func(locale string) {
 			defer wg.Done()
 
-			req, err := http.NewRequest("GET", "https://api.wotblitz.eu/wotb/encyclopedia/vehicles/?fields=name%2Cis_premium%2Ctier%2Ctank_id%2Ctype&application_id="+c.applicationID, nil)
+			req, err := http.NewRequest("GET", "https://api.wotblitz.eu/wotb/encyclopedia/vehicles/?fields=name%2Ctank_id&application_id="+c.applicationID, nil)
 			if err != nil {
 				errorCh <- err
 				return
