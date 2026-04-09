@@ -2426,7 +2426,7 @@
     "names": {
       "en": "Somua SM"
     },
-    "tier": 8,
+    "tier": 9,
     "class": "heavyTank",
     "nation": "france",
     "premium": true,
@@ -3709,7 +3709,7 @@
     "names": {
       "en": "VK 168.01 (P)"
     },
-    "tier": 8,
+    "tier": 9,
     "class": "heavyTank",
     "nation": "germany",
     "premium": true,
@@ -4249,6 +4249,19 @@
     "superTest": false,
     "collectible": false
   },
+  "22849": {
+    "id": "22849",
+    "key": "#france_vehicles:F131_Brennos_short",
+    "names": {
+      "en": "Brennos"
+    },
+    "tier": 8,
+    "class": "heavyTank",
+    "nation": "france",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
   "22865": {
     "id": "22865",
     "key": "#uk_vehicles:GB111_Charlemagne_short",
@@ -4654,7 +4667,7 @@
     "names": {
       "en": "Vickers MBT"
     },
-    "tier": 8,
+    "tier": 9,
     "class": "mediumTank",
     "nation": "uk",
     "premium": true,
@@ -5599,6 +5612,19 @@
     "class": "AT-SPG",
     "nation": "germany",
     "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
+  "29985": {
+    "id": "29985",
+    "key": "#usa_vehicles:A178_SPHT_short",
+    "names": {
+      "en": "SPHT"
+    },
+    "tier": 10,
+    "class": "heavyTank",
+    "nation": "usa",
+    "premium": false,
     "superTest": false,
     "collectible": true
   },
@@ -7531,7 +7557,7 @@
       "en": "59-Patton",
       "zh-Hans": "59-巴顿"
     },
-    "tier": 8,
+    "tier": 9,
     "class": "mediumTank",
     "nation": "china",
     "premium": true,
@@ -7760,7 +7786,7 @@
     "names": {
       "en": "T-34-3"
     },
-    "tier": 8,
+    "tier": 9,
     "class": "mediumTank",
     "nation": "china",
     "premium": true,
@@ -9435,6 +9461,19 @@
     "premium": false,
     "superTest": false,
     "collectible": false
+  },
+  "9057": {
+    "id": "9057",
+    "key": "#japan_vehicles:J39_Type_5_Exp_short",
+    "names": {
+      "en": "Type 5 H Zetsu"
+    },
+    "tier": 10,
+    "class": "heavyTank",
+    "nation": "japan",
+    "premium": false,
+    "superTest": false,
+    "collectible": true
   },
   "9073": {
     "id": "9073",

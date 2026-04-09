@@ -241,6 +241,28 @@
     "zh-Hans": "10v10",
     "zh-Hant": "10v10"
   },
+  "game_mode_total_game_mode": {
+    "ar": "الهيمنة المطلقة",
+    "cs": "Totální dominance",
+    "de": "Absolute Herrschaft",
+    "en": "Total Domination",
+    "es": "Dominio total",
+    "fi": "Täysdominointi",
+    "fr": "Domination totale",
+    "hi": "टोटल डोमिनेशन",
+    "it": "Dominio Totale",
+    "ja": "トータル・ドミネーション",
+    "ko": "완전 지배",
+    "pl": "Absolutna dominacja",
+    "pt": "Dominação Total",
+    "ru": "Тотальный контроль",
+    "th": "ครองอำนาจเบ็ดเสร็จ",
+    "tr": "Mutlak Hâkimiyet",
+    "uk": "Тотальне панування",
+    "vi": "Total Domination",
+    "zh-Hans": "全面统治",
+    "zh-Hant": "全面制霸"
+  },
   "game_mode_vampiric": {
     "ar": "Burning Games",
     "cs": "Burning Games",
