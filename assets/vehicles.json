@@ -173,6 +173,19 @@
     "superTest": false,
     "collectible": false
   },
+  "10337": {
+    "id": "10337",
+    "key": "#japan_vehicles:J49_Kame_short",
+    "names": {
+      "en": "Kame"
+    },
+    "tier": 9,
+    "class": "mediumTank",
+    "nation": "japan",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
   "10353": {
     "id": "10353",
     "key": "#other_vehicles:Oth34_PanzerMummy_short",
@@ -4062,6 +4075,19 @@
     "superTest": false,
     "collectible": true
   },
+  "22145": {
+    "id": "22145",
+    "key": "#european_vehicles:S38_Bofors_Triton_short",
+    "names": {
+      "en": "Bofors Triton"
+    },
+    "tier": 8,
+    "class": "mediumTank",
+    "nation": "european",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
   "22273": {
     "id": "22273",
     "key": "#ussr_vehicles:R110_Object_260_short",
@@ -4141,6 +4167,19 @@
     "superTest": false,
     "collectible": true
   },
+  "22401": {
+    "id": "22401",
+    "key": "#european_vehicles:S37_Ambassador_short",
+    "names": {
+      "en": "Ambassador"
+    },
+    "tier": 9,
+    "class": "mediumTank",
+    "nation": "european",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
   "22529": {
     "id": "22529",
     "key": "#ussr_vehicles:R158_LT_432_short",
@@ -4204,6 +4243,19 @@
     "tier": 8,
     "class": "heavyTank",
     "nation": "other",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
+  "22657": {
+    "id": "22657",
+    "key": "#european_vehicles:It34_Toro_short",
+    "names": {
+      "en": "Toro"
+    },
+    "tier": 9,
+    "class": "heavyTank",
+    "nation": "european",
     "premium": true,
     "superTest": false,
     "collectible": true
@@ -4275,6 +4327,19 @@
     "superTest": false,
     "collectible": false
   },
+  "22913": {
+    "id": "22913",
+    "key": "#european_vehicles:It38_Donnola_short",
+    "names": {
+      "en": "Donnola"
+    },
+    "tier": 9,
+    "class": "lightTank",
+    "nation": "european",
+    "premium": true,
+    "superTest": false,
+    "collectible": false
+  },
   "23041": {
     "id": "23041",
     "key": "#ussr_vehicles:R154_T-34E-43_short",
@@ -4329,6 +4394,19 @@
     "superTest": false,
     "collectible": false
   },
+  "23105": {
+    "id": "23105",
+    "key": "#france_vehicles:F142_M47_Chevalier_short",
+    "names": {
+      "en": "M47 Chevalier"
+    },
+    "tier": 10,
+    "class": "mediumTank",
+    "nation": "france",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
   "23121": {
     "id": "23121",
     "key": "#uk_vehicles:GB106_Cobra_short",
@@ -4338,6 +4416,19 @@
     "tier": 9,
     "class": "mediumTank",
     "nation": "uk",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
+  "23169": {
+    "id": "23169",
+    "key": "#european_vehicles:Pl120_Wz61_Ussar_short",
+    "names": {
+      "en": "Husarz"
+    },
+    "tier": 9,
+    "class": "heavyTank",
+    "nation": "european",
     "premium": true,
     "superTest": false,
     "collectible": true
@@ -4762,6 +4853,19 @@
     "tier": 8,
     "class": "mediumTank",
     "nation": "uk",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
+  "24945": {
+    "id": "24945",
+    "key": "#other_vehicles:Oth98_AMX_50_100_Titan_short",
+    "names": {
+      "en": "AMX 50 100 Titan"
+    },
+    "tier": 8,
+    "class": "heavyTank",
+    "nation": "other",
     "premium": true,
     "superTest": false,
     "collectible": true
@@ -5624,7 +5728,7 @@
     "tier": 10,
     "class": "heavyTank",
     "nation": "usa",
-    "premium": false,
+    "premium": true,
     "superTest": false,
     "collectible": true
   },
