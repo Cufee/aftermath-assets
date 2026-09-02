@@ -79,6 +79,19 @@
     "superTest": false,
     "collectible": false
   },
+  "10081": {
+    "id": "10081",
+    "key": "#japan_vehicles:J24_Mi_To_130_tons_short",
+    "names": {
+      "en": "O-I"
+    },
+    "tier": 6,
+    "class": "heavyTank",
+    "nation": "japan",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
   "10097": {
     "id": "10097",
     "key": "#other_vehicles:Oth35_PanzerMejai_short",
@@ -1745,6 +1758,19 @@
     "premium": false,
     "superTest": false,
     "collectible": false
+  },
+  "15409": {
+    "id": "15409",
+    "key": "#china_vehicles:Ch66_121_2_Ziqiang_short",
+    "names": {
+      "en": "ZQ-90"
+    },
+    "tier": 8,
+    "class": "mediumTank",
+    "nation": "china",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
   },
   "15441": {
     "id": "15441",
@@ -4499,6 +4525,19 @@
     "superTest": false,
     "collectible": true
   },
+  "23425": {
+    "id": "23425",
+    "key": "#european_vehicles:Cz44_Zmije_short",
+    "names": {
+      "en": "Zmije"
+    },
+    "tier": 10,
+    "class": "AT-SPG",
+    "nation": "european",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
   "2353": {
     "id": "2353",
     "key": "#china_vehicles:Ch07_Vickers_MkE_Type_BT26_short",
@@ -4712,6 +4751,19 @@
     "superTest": false,
     "collectible": true
   },
+  "24177": {
+    "id": "24177",
+    "key": "#other_vehicles:Oth95_MTU_defender_short",
+    "names": {
+      "en": "LEY-1 Defender"
+    },
+    "tier": 8,
+    "class": "lightTank",
+    "nation": "other",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
   "24321": {
     "id": "24321",
     "key": "#ussr_vehicles:R132_T100LT_short",
@@ -4818,6 +4870,19 @@
     "superTest": false,
     "collectible": true
   },
+  "24689": {
+    "id": "24689",
+    "key": "#other_vehicles:Oth97_CNO_Consul_short",
+    "names": {
+      "en": "星际猎人"
+    },
+    "tier": 9,
+    "class": "AT-SPG",
+    "nation": "other",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
   "24849": {
     "id": "24849",
     "key": "#germany_vehicles:JagdPzIV_AusfBP_short",
@@ -4861,7 +4926,7 @@
     "id": "24945",
     "key": "#other_vehicles:Oth98_AMX_50_100_Titan_short",
     "names": {
-      "en": "AMX 50 100 Titan"
+      "en": "Titan AMX"
     },
     "tier": 8,
     "class": "heavyTank",
@@ -5097,6 +5162,19 @@
     "premium": false,
     "superTest": false,
     "collectible": false
+  },
+  "25937": {
+    "id": "25937",
+    "key": "#uk_vehicles:GB86_Mark_I_Male_short",
+    "names": {
+      "en": "Mark I Male"
+    },
+    "tier": 1,
+    "class": "heavyTank",
+    "nation": "uk",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
   },
   "2609": {
     "id": "2609",
@@ -5485,6 +5563,20 @@
     "superTest": false,
     "collectible": true
   },
+  "28417": {
+    "id": "28417",
+    "key": "#ussr_vehicles:R121_KV4_KTT_short",
+    "names": {
+      "en": "KV-4 KTTS",
+      "ru": "КВ-4 КТТС"
+    },
+    "tier": 8,
+    "class": "AT-SPG",
+    "nation": "ussr",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
   "28433": {
     "id": "28433",
     "key": "#germany_vehicles:G126_HWK_12_short",
@@ -5536,6 +5628,20 @@
     "premium": false,
     "superTest": false,
     "collectible": false
+  },
+  "28673": {
+    "id": "28673",
+    "key": "#ussr_vehicles:R81_IS8_CL_short",
+    "names": {
+      "en": "IS-8 Taurus",
+      "ru": "ИС-8 Taurus"
+    },
+    "tier": 9,
+    "class": "heavyTank",
+    "nation": "ussr",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
   },
   "28689": {
     "id": "28689",
@@ -9460,6 +9566,19 @@
     "superTest": false,
     "collectible": false
   },
+  "8801": {
+    "id": "8801",
+    "key": "#japan_vehicles:J23_Mi_To_short",
+    "names": {
+      "en": "O-I Experimental"
+    },
+    "tier": 5,
+    "class": "heavyTank",
+    "nation": "japan",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
   "881": {
     "id": "881",
     "key": "#other_vehicles:Sega_Edelweiss_short",
@@ -9577,7 +9696,7 @@
     "nation": "japan",
     "premium": false,
     "superTest": false,
-    "collectible": true
+    "collectible": false
   },
   "9073": {
     "id": "9073",
@@ -9654,6 +9773,19 @@
     "tier": 10,
     "class": "AT-SPG",
     "nation": "uk",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
+  "9313": {
+    "id": "9313",
+    "key": "#japan_vehicles:J40_Type_4_short",
+    "names": {
+      "en": "Type 4 Heavy"
+    },
+    "tier": 9,
+    "class": "heavyTank",
+    "nation": "japan",
     "premium": false,
     "superTest": false,
     "collectible": false
@@ -9738,6 +9870,19 @@
     "superTest": false,
     "collectible": false
   },
+  "9569": {
+    "id": "9569",
+    "key": "#japan_vehicles:J28_O_I_100_short",
+    "names": {
+      "en": "O-Ni"
+    },
+    "tier": 7,
+    "class": "heavyTank",
+    "nation": "japan",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
+  },
   "9601": {
     "id": "9601",
     "key": "#european_vehicles:Pl119_CS_52_LIS_short",
@@ -9815,6 +9960,19 @@
     "premium": true,
     "superTest": false,
     "collectible": true
+  },
+  "9825": {
+    "id": "9825",
+    "key": "#japan_vehicles:J41_O_I_120_short",
+    "names": {
+      "en": "O-Ho"
+    },
+    "tier": 8,
+    "class": "heavyTank",
+    "nation": "japan",
+    "premium": false,
+    "superTest": false,
+    "collectible": false
   },
   "9841": {
     "id": "9841",

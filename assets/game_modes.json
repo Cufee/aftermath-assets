@@ -131,6 +131,28 @@
     "zh-Hans": "突击战",
     "zh-Hant": "衝突戰"
   },
+  "game_mode_pure_equalizer": {
+    "ar": "التكافؤ",
+    "cs": "Vyrovnané síly",
+    "de": "Ausgleicher",
+    "en": "Equalizer",
+    "es": "Ecualizador",
+    "fi": "Tasapainottaja",
+    "fr": "À égalité",
+    "hi": "इक्वलाइज़र",
+    "it": "Uguaglianza",
+    "ja": "イコールグラウンド",
+    "ko": "이퀄라이저",
+    "pl": "Niwelator",
+    "pt": "Equalizador",
+    "ru": "Уравнитель",
+    "th": "ศึกเสมอภาค",
+    "tr": "Eşitleyici",
+    "uk": "Вирівнювач",
+    "vi": "Equalizer",
+    "zh-Hans": "混级对决",
+    "zh-Hant": "混階對決"
+  },
   "game_mode_rating": {
     "ar": "معركة تصنيف",
     "cs": "Hodnocená bitva",
