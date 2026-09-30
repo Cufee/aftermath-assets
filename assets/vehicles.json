@@ -3918,8 +3918,7 @@
     "id": "21617",
     "key": "#other_vehicles:Oth85_Ghoul_short",
     "names": {
-      "en": "Biter",
-      "ru": "Кусака"
+      "en": "Biter"
     },
     "tier": 8,
     "class": "mediumTank",
@@ -5300,8 +5299,7 @@
     "id": "26625",
     "key": "#ussr_vehicles:T34_85TUR_short",
     "names": {
-      "en": "T-34-85 Breakthrough",
-      "ru": "Т-34-85 Прорывной"
+      "en": "T-34-85 Breakthrough"
     },
     "tier": 7,
     "class": "mediumTank",
