@@ -626,7 +626,14 @@
     "id": "11313",
     "key": "#china_vehicles:Type_58TUR_short",
     "names": {
-      "en": "Type 58 50-08"
+      "cs": "Type 58 50-08",
+      "de": "Type 58 50-08",
+      "fr": "Type 58 50-08",
+      "ko": "Type 58 50-08",
+      "pl": "Type 58 50-08",
+      "th": "Type 58 50-08",
+      "tr": "Type 58 50-08",
+      "vi": "Type 58 50-08"
     },
     "tier": 7,
     "class": "mediumTank",
@@ -3626,7 +3633,14 @@
     "id": "20849",
     "key": "#other_vehicles:Oth84_FVE_Defender_short",
     "names": {
-      "en": "FVE Defender"
+      "cs": "FVE Defender",
+      "de": "FVE Defender",
+      "fr": "FVE Defender",
+      "ko": "FVE Defender",
+      "pl": "FVE Defender",
+      "th": "FVE Defender",
+      "tr": "FVE Defender",
+      "vi": "FVE Defender"
     },
     "tier": 9,
     "class": "mediumTank",
@@ -3918,8 +3932,14 @@
     "id": "21617",
     "key": "#other_vehicles:Oth85_Ghoul_short",
     "names": {
-      "en": "Biter",
-      "ru": "Кусака"
+      "cs": "Biter",
+      "de": "Biter",
+      "fr": "Biter",
+      "ko": "Biter",
+      "pl": "Biter",
+      "th": "Biter",
+      "tr": "Biter",
+      "vi": "Biter"
     },
     "tier": 8,
     "class": "mediumTank",
@@ -4158,7 +4178,14 @@
     "id": "22337",
     "key": "#france_vehicles:F140_Sentinelle_short",
     "names": {
-      "en": "Sentinelle"
+      "cs": "Sentinelle",
+      "de": "Sentinelle",
+      "fr": "Sentinelle",
+      "ko": "Sentinelle",
+      "pl": "Sentinelle",
+      "th": "Sentinelle",
+      "tr": "Sentinelle",
+      "vi": "Sentinelle"
     },
     "tier": 8,
     "class": "heavyTank",
@@ -5261,7 +5288,14 @@
     "id": "26385",
     "key": "#germany_vehicles:PzVI_AusfTUR_short",
     "names": {
-      "en": "Tiger Frontline"
+      "cs": "Tiger Frontline",
+      "de": "Tiger Frontline",
+      "fr": "Tiger Frontline",
+      "ko": "Tiger Frontline",
+      "pl": "Tiger Frontline",
+      "th": "Tiger Frontline",
+      "tr": "Tiger Frontline",
+      "vi": "Tiger Frontline"
     },
     "tier": 7,
     "class": "heavyTank",
@@ -5300,8 +5334,14 @@
     "id": "26625",
     "key": "#ussr_vehicles:T34_85TUR_short",
     "names": {
-      "en": "T-34-85 Breakthrough",
-      "ru": "Т-34-85 Прорывной"
+      "cs": "T-34-85 Breakthrough",
+      "de": "T-34-85 Breakthrough",
+      "fr": "T-34-85 Breakthrough",
+      "ko": "T-34-85 Breakthrough",
+      "pl": "T-34-85 Breakthrough",
+      "th": "T-34-85 Breakthrough",
+      "tr": "T-34-85 Breakthrough",
+      "vi": "T-34-85 Breakthrough"
     },
     "tier": 7,
     "class": "mediumTank",
