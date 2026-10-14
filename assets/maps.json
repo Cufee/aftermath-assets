@@ -1419,7 +1419,8 @@
     "id": "70",
     "key": "40_moon_mn/40_moon_mn.sc2",
     "availableModes": [
-      0
+      0,
+      1
     ],
     "supremacyPointsThreshold": 800,
     "names": {
@@ -1480,7 +1481,8 @@
     "id": "72",
     "key": "41_iceworld_ic/41_iceworld_ic.sc2",
     "availableModes": [
-      0
+      0,
+      1
     ],
     "supremacyPointsThreshold": 800,
     "names": {

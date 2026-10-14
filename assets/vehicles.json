@@ -4592,6 +4592,19 @@
     "superTest": false,
     "collectible": false
   },
+  "23617": {
+    "id": "23617",
+    "key": "#france_vehicles:F134_Lorraine_120_Alby_short",
+    "names": {
+      "en": "Lorraine 120 Alby"
+    },
+    "tier": 9,
+    "class": "AT-SPG",
+    "nation": "france",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
   "23633": {
     "id": "23633",
     "key": "#uk_vehicles:GB116_Harry_Hopkins_short",
@@ -4813,6 +4826,20 @@
     "tier": 9,
     "class": "mediumTank",
     "nation": "uk",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
+  "24433": {
+    "id": "24433",
+    "key": "#other_vehicles:Oth96_Morbid_short",
+    "names": {
+      "en": "Morbid",
+      "ru": "Морбид"
+    },
+    "tier": 7,
+    "class": "mediumTank",
+    "nation": "other",
     "premium": true,
     "superTest": false,
     "collectible": true
@@ -5880,6 +5907,19 @@
     "tier": 3,
     "class": "lightTank",
     "nation": "ussr",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
+  "30753": {
+    "id": "30753",
+    "key": "#usa_vehicles:A168_XM_57_short",
+    "names": {
+      "en": "XM57"
+    },
+    "tier": 9,
+    "class": "AT-SPG",
+    "nation": "usa",
     "premium": true,
     "superTest": false,
     "collectible": true
