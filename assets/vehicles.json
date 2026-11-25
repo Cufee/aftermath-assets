@@ -4364,7 +4364,7 @@
     "nation": "european",
     "premium": true,
     "superTest": false,
-    "collectible": false
+    "collectible": true
   },
   "23041": {
     "id": "23041",
@@ -4614,6 +4614,19 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "uk",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
+  "23681": {
+    "id": "23681",
+    "key": "#european_vehicles:Cz30_TBT_short",
+    "names": {
+      "en": "TBT"
+    },
+    "tier": 9,
+    "class": "heavyTank",
+    "nation": "european",
     "premium": true,
     "superTest": false,
     "collectible": true
@@ -5015,6 +5028,19 @@
     "superTest": false,
     "collectible": true
   },
+  "25201": {
+    "id": "25201",
+    "key": "#other_vehicles:Oth99_Relic_short",
+    "names": {
+      "en": "Relic D3"
+    },
+    "tier": 9,
+    "class": "AT-SPG",
+    "nation": "other",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
   "25345": {
     "id": "25345",
     "key": "#ussr_vehicles:R180_Object_274A_short",
@@ -5253,6 +5279,19 @@
     "tier": 5,
     "class": "mediumTank",
     "nation": "usa",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
+  },
+  "26193": {
+    "id": "26193",
+    "key": "#uk_vehicles:GB144_Cutter_short",
+    "names": {
+      "en": "Cutter"
+    },
+    "tier": 8,
+    "class": "lightTank",
+    "nation": "uk",
     "premium": true,
     "superTest": false,
     "collectible": true
@@ -5936,6 +5975,19 @@
     "premium": false,
     "superTest": false,
     "collectible": false
+  },
+  "31009": {
+    "id": "31009",
+    "key": "#usa_vehicles:A201_Jezevec_short",
+    "names": {
+      "en": "Jezevec"
+    },
+    "tier": 8,
+    "class": "mediumTank",
+    "nation": "usa",
+    "premium": true,
+    "superTest": false,
+    "collectible": true
   },
   "3105": {
     "id": "3105",
